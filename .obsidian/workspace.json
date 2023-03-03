@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "03ce29c06955ff56",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6dbabfdd630ef8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f5ad3f968090998",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. 技术/MySQL/MySQL 高级特性篇.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f509b0057c7c9633",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. 技术/Redis/Redis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7e2d5ce59deae01b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd95792b763266cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6ac967d84779815",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "43bb4e85c5531d5f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "分析器",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4dfc3766edcb9286",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 255.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "ada52ccfb4d337aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "efe844038fde1494",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "494ff1a46733045e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. 技术/Redis/Redis.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "81e943d412734f55",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. 技术/Redis/Redis.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "68e1dcb2dd98008b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "27fd2014c923ef8b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. 技术/Redis/Redis.md"
+              }
+            }
+          },
+          {
+            "id": "8a51b22ea396c1cc",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2f892508940829cf",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+    }
+  },
+  "active": "f509b0057c7c9633",
+  "lastOpenFiles": [
+    "2. 技术/MySQL/MySQL 高级特性篇.md",
+    "2. 技术/Redis/Redis.md",
+    "2. 技术/Redis",
+    "2. 技术/Spring 全家桶/Spring Security.md",
+    "人脸通行次数卡片.md",
+    "^Compact行格式.md",
+    "1. 工作/维护/员工数据治理/运营数据周报模版.md",
+    "^ceab2d.md",
+    "MySQL事物篇.assets/image-20220714134945012.png.md",
+    "MySQL日志与备份篇.assets/image-20220718145534856.png.md",
+    "MySQL日志与备份篇.assets/image-20220718143716620.png.md",
+    "MySQL日志与备份篇.assets/image-20220718142549168.png.md",
+    "MySQL事物篇.assets/image-20220710205015302.png.md"
+  ]
+}

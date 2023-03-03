@@ -1,0 +1,14 @@
+{
+  "editor:set-heading-1": [],
+  "editor:delete-paragraph": [],
+  "table-editor-obsidian:insert-row": [],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ]
+}

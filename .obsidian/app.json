@@ -1,0 +1,12 @@
+{
+  "spellcheck": true,
+  "livePreview": true,
+  "vimMode": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "技术",
+  "rightToLeft": false,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "strictLineBreaks": false,
+  "readableLineLength": true
+}
