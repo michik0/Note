@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7f5ad3f968090998",
+            "id": "6bd4ad52a27f0915",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. 技术/MySQL/MySQL 高级特性篇.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f509b0057c7c9633",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. 技术/Redis/Redis.md",
+                "file": "Redis/Redis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "分析器",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. 技术/Redis/Redis.md",
+                "file": "Redis/Redis.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. 技术/Redis/Redis.md",
+                "file": "Redis/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. 技术/Redis/Redis.md"
+                "file": "Redis/Redis.md"
               }
             }
           },
@@ -164,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 368.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -179,15 +166,37 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "f509b0057c7c9633",
+  "active": "6bd4ad52a27f0915",
   "lastOpenFiles": [
-    "2. 技术/MySQL/MySQL 高级特性篇.md",
-    "2. 技术/Redis/Redis.md",
-    "2. 技术/Redis",
-    "2. 技术/Spring 全家桶/Spring Security.md",
+    "Spring 全家桶/Spring Security.md",
+    "轮子/Swagger/集成Swagger.md",
+    "轮子/Redis/自定义RestTemplate.md",
+    "轮子/Mybatis/Mybatis-Generator.md",
+    "轮子/其他/计算Java对象占用的内存大小.md",
+    "MySQL/MySQL 高级特性篇.md",
+    "Redis/Redis.md",
+    "轮子/其他",
+    "轮子/Redis",
+    "轮子/Swagger",
+    "轮子/Mybatis",
+    "轮子",
+    "Spring 全家桶",
+    "MySQL",
+    "Redis",
+    "【工作】/维护/员工数据治理/运营数据周报模版.md",
+    "未命名.canvas",
+    "【工作】/维护/App/未激活人员APP账号处理.md",
+    "【技术】/轮子/Redis/自定义RestTemplate.md",
+    "【技术】/轮子/Mybatis/Mybatis-Generator.md",
+    "【技术】/轮子/Swagger/集成Swagger.md",
+    "【技术】/Redis/Redis.md",
+    "【技术】/轮子/Swagger",
+    "【技术】/轮子/Redis",
+    "【技术】/Spring 全家桶/Spring Security.md",
+    "1. 工作/日报/2023-02-07.md",
+    "【技术】/MySQL/MySQL 高级特性篇.md",
     "人脸通行次数卡片.md",
     "^Compact行格式.md",
-    "1. 工作/维护/员工数据治理/运营数据周报模版.md",
     "^ceab2d.md",
     "MySQL事物篇.assets/image-20220714134945012.png.md",
     "MySQL日志与备份篇.assets/image-20220718145534856.png.md",

@@ -2,7 +2,7 @@
   "spellcheck": true,
   "livePreview": true,
   "vimMode": true,
-  "promptDelete": false,
+  "promptDelete": true,
   "attachmentFolderPath": "技术",
   "rightToLeft": false,
   "showLineNumber": false,

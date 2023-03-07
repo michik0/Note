@@ -1,10 +1,10 @@
 {
-  "accentColor": "#7ac2b4",
-  "theme": "moonstone",
+  "accentColor": "",
+  "theme": "system",
   "textFontFamily": "Apple Braille",
   "interfaceFontFamily": "Apple Braille",
   "monospaceFontFamily": "Apple Braille",
   "baseFontSize": 16,
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "Things",
   "baseFontSizeAction": false
 }
