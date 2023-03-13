@@ -24,7 +24,7 @@
 
 ![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230228093515.png)
 
-# 2. Redis持久化
+# 2 Redis持久化
 
 ## 2.1 RDB（Redis Database）
 
@@ -358,7 +358,7 @@ AOF持久化方式记录每次对服务器写的操作，当服务器重启的�
 
 禁用aof持久化模式下，我们仍然可以使用命令bgrewriteaof生成aof文件。
 
-# 3. Redis 事务
+# 3 Redis 事务
 
 ## 3.1 什么是事务？
 
@@ -398,7 +398,7 @@ Redis使用Watch来提供乐观锁定，类似于CAS(Check-and-Set)，**Redis在
 
 ![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230228212820.png)
 
-# 4. Redis 管道
+# 4 Redis 管道
 
 ## 4.1 为什么需要管道？
 
@@ -444,7 +444,7 @@ Redis是一种基于客户端-服务端模型以及请求/响应协议的TCP服�
 - pipeline缓冲的指令只是会依次执行，不保证原子性，如果执行中指令发生异常，将会继续执行后续的指令
 - 使用pipeline组装的命令个数不能太多，不然数据量过大客户端阻塞的时间可能过久，同时服务端此时也被迫回复一个队列答复，占用很多内存
 
-# 5. Redis 发布订阅
+# 5 Redis 发布订阅
 
 ## 5.1 什么是发布订阅
 
@@ -461,7 +461,7 @@ Redis是一种基于客户端-服务端模型以及请求/响应协议的TCP服�
 
 以上的缺点导致Redis的Pub/Sub模式就像个小玩具，在生产环境中几乎无用武之地，为此Redis5.0版本新增了Stream数据结构，不但支持多播，还支持数据持久化，相比Pub/Sub更加的强大。
 
-# 6. Redis 复制（Replica）
+# 6 Redis 复制（Replica）
 
 ## 6.1 定义
 
@@ -546,7 +546,7 @@ Redis复制即为主从复制，Master以写为主， Slave以读为主
 
 - 当Master挂掉时，不会在Slave节点中自动重新选一个Master。
 
-# 7. Redis 哨兵（Sentinel）
+# 7 Redis 哨兵（Sentinel）
 
 ## 7.1 什么是哨兵？
 
@@ -637,13 +637,13 @@ ODOWN需要一定数量的sentinel，==多个哨兵达成一致意见==才能认
 
 ### 7.5.3 步骤三：选举出领导者哨兵
 
-当主节点被判断客观下线以后，各个哨兵节点会进行协商，通过RAFT算法选举出一个领导者哨兵节点(兵王) 并由该领导者节点，也即被选举出的兵王进行failover (故障迁移)
+当主节点被判断客观下线以后，各个哨兵节点会进行协商，通过[[面试题#说一下Raft算法？|RAFT算法]]选举出一个领导者哨兵节点(兵王) 并由该领导者节点，也即被选举出的兵王进行failover (故障迁移)
 
 ![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230301141910.png)
 
 Raft 算法
 
-监视该主节点的所有哨兵都有可能被选为领导者，选举使用的算法是Raft算法; Raft算法的基本思路是==先到先得==：即在一轮选举中，哨兵A向B发送成为领导者的申请，如果B没有同意过其他哨兵，则会同意A成为领导者。
+监视该主节点的所有哨兵都有可能被选为领导者，选举使用的算法是[[面试题#说一下Raft算法？|RAFT算法]]; Raft算法的基本思路是==先到先得==：即在一轮选举中，哨兵A向B发送成为领导者的申请，如果B没有同意过其他哨兵，则会同意A成为领导者。
 
 ![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230301142543.png)
 
@@ -675,7 +675,7 @@ Raft 算法
 - 如果哨兵节点部署在Docker等容器里面，尤其要注意端口的正确映射。
 - 哨兵集群+主从复制，并不能保证数据零丢失，所以我们需要集群。
 
-# 8. Redis 集群（cluster）
+# 8 Redis 集群（cluster）
 
 ## 8.1 什么是集群
 
@@ -839,7 +839,7 @@ Redis集群**不保证强一致性**，这意味着在特定的条件下， Redi
 
 略（参考脑图）
 
-# 9. SpringBoot集成Redis
+# 9 SpringBoot集成Redis
 
 ## 9.1 集成Jedis
 
@@ -1114,7 +1114,7 @@ spring.redis.cluster.nodes=192.168.111.175:6381,192.168.111.175:6382,192.168.111
 
 # 【 高阶篇】
 
-# 10. Redis单线程 VS 多线程
+# 10 Redis单线程 VS 多线程
 
 ## 10.1 Redis是单线程吗？
 
@@ -1259,7 +1259,7 @@ IO多路复用是一种同步的IO模型，实现一个线程监视多个[[#^c19
 
 ![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230303220856.png)
 
-# 11. BigKey
+# 11 BigKey
 
 ## 11.1 MoreKey案例
 
@@ -1398,7 +1398,7 @@ redis-cli -h 127.0.0.1 -p 6379 -a 12345678 --bigkeys
 - BigKey你做过调优吗?惰性释放lazyfree了解过吗?
 - Morekey问题，生产上redis数据库有1000W记录，你如何遍历?key * 可以吗?
 
-# 12. 缓存双写一致性之更新策略探讨
+# 12 缓存双写一致性之更新策略探讨
 
 ![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230304002148.png)
 
@@ -1693,7 +1693,7 @@ Long mySQLUpdateOrder(String order) throws InterruptedException {
 
 ![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230304103035.png)
 
-# 13. Redis与MySQL数据双写一致性工程落地案例（Canal）
+# 13 Redis与MySQL数据双写一致性工程落地案例（Canal）
 
 ## 13.1 简介
 
@@ -2109,7 +2109,7 @@ import java.util.concurrent.TimeUnit;
 }
 ```
 
-# 14. Bitmap / Hyperloglog / GEO 实战
+# 14 Bitmap / Hyperloglog / GEO 实战
 
 
 ## 14.1 Hyperloglog
@@ -2378,7 +2378,9 @@ public class GeoService
 **实战：**
 结合[[#^533ed8|布隆过滤器]]
 
-# 15. 布隆过滤器
+# 15 布隆过滤器
+
+^9edeb7
 
 **常用场景**
 
@@ -2557,7 +2559,7 @@ public class CheckUtils {
 	有，是很可能有
 	无，是肯定无，100%无
 
-# 16. 缓存预热+缓存雪崩+缓存击穿+缓存穿透
+# 16 缓存预热+缓存雪崩+缓存击穿+缓存穿透
 
 ## 16.1 缓存预热
 
@@ -2968,7 +2970,7 @@ public class JHSTaskService
 
 ![](https://raw.githubusercontent.com/michik0/notes-image/master/20230306233115.png)
 
-# 17. 手写Redis分布式锁
+# 17 手写Redis分布式锁
 
 **锁的种类**
 
@@ -3559,7 +3561,7 @@ public class RedisDistributedLock implements Lock
 ```
 
 
-### 17.2.7 完整的分布式锁（六）
+### 17.2.7 不完整的分布式锁（六）
 
 >在 `分布式锁（五）` 中，我们将原本的分布式锁改为了Hash数据类型存储，但是我们重新思考一个问题，假如业务在锁时效期间还未处理完，怎么办？
 
@@ -3679,7 +3681,7 @@ public class RedisDistributedLock implements Lock
             }
         },(this.expireTime * 1000)/3);
     }
-	// ↑↑↑↑↑↑↑↑↑↑↑↑↑↑开启监听线程，如事务未处理完完成，延长锁的时间↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+	// ↑↑↑↑↑↑↑↑↑↑↑↑↑↑开启监听线程，如事务未处理完完成，延长锁的时间↓↓↓↓↓↓↓↓↓↓↓↓
 
     //以下的方法分布式锁暂时用不到
     @Override
@@ -3695,6 +3697,625 @@ public class RedisDistributedLock implements Lock
     }
 }
 ```
+
+# 18 Redlock算法和底层源码分析
+
+## 18.1 为什么需要Redlock红锁？
+
+>在 `分布式锁（六）` 中，看似都很完美，但是如果在master上锁，但是在
+
+![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230308104847.png)
+
+1. 线程 1 首先获取锁成功，将键值对写入 redis 的 master 节点在 redis 将该键值对同步到 slave 节点之前，master 发生了故障。
+2. redis 触发故障转移，其中一个 slave 升级为新的 master，此时新上位的master并不包含线程1写入的键值对，因此线程 2 尝试获取锁也可以成功拿到锁。
+3. 此时相当于有两个线程获取到了锁，可能会导致各种预期之外的情况发生，例如最常见的脏数据。
+
+我们加的是排它独占锁，同一时间只能有一个建redis锁成功并持有锁，严禁出现2个以上的请求线程拿到锁。
+
+## 18.2 什么是Redlock？
+
+^7fc5f4
+
+锁变量由多个实例维护，即使有实例发生了故障，锁变量仍然是存在的，客户端还是可以完成锁操作。
+
+Redlock算法是实现高可靠分布式锁的一种有效解决方案，可以在实际开发中使用。
+
+假设我们有N个Redis主节点，例如 N = 5这些节点是完全独立的，我们不使用复制或任何其他隐式协调系统，为了取到锁客户端执行以下操作：
+![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230308111215.png)
+
+该方案为了解决数据不一致的问题，直接舍弃了异步复制只使用 master 节点，同时由于舍弃了 slave，为了保证可用性，引入了 N 个节点，官方建议是 5。
+
+>客户端只有在满足下面的这两个条件时，才能认为是加锁成功。
+>【条件1】客户端从超过半数（大于等于N/2+1）的Redis实例上成功获取到了锁；
+>【条件2】客户端获取锁的总耗时没有超过锁的有效时间。
+
+## 18.3 Redisson：RedissonLock
+
+基于Redis的Redisson红锁 `RedissonRedLock` 对象实现了[[#^7fc5f4|Redlock]]介绍的加锁算法。该对象也可以用来将多个 `RLock` 对象关联为一个红锁，每个RLock对象实例可以来自于不同的Redisson实例。
+
+```java
+RLock lockl = redissonInstancel.getLock("lock1"); 
+RLock lock2 = redissonInstance2.getLock("lock2"); 
+RLock lock3 = redissonInstance3.getLock("lock3");
+
+RedissonRedLock lock = new RedissonRedLock(lock1, lock2, lock3);
+// 同时加锁：lock1，lock2，lock3
+//红锁在大部分节点上加锁成功就算成功。
+lock.lock();
+// TODO 业务逻辑
+lock.unlock();
+```
+
+大家都知道，如果负责储存某些分布式锁的某些Redis节点宕机以后，而且这些锁正好处于锁住的状态时，这些锁会出现锁死的状态。为了避免这种情况的发生， Redisson内部提供了一个监控锁的看门狗，它的作用是在Redisson实例被关闭前，不断的延长锁的有效期。默认情况下，看门狗的检查锁的超时时间是30秒钟，也可以通过修改`Config.lockWatchdogTimeout`来另行指定。
+
+另外Redisson还通过加锁的方法提供了`leaseTime`的参数来指定加锁的时间。超过这个时间后锁便自动解开了。
+
+```java
+RedissonRedLock lock = new RedissonRedLock(lock1, lock2,lock3);
+//给lock1, lock2, lock3加锁，如果没有手动解开的话，10秒钟后将会自动解开
+lock.lock(10, TimeUnit.SECONDS);
+
+//为加锁等待100秒时间，并在加锁成功10秒钟后自动解开
+boolean res = lock.tryLock(100，10, TimeUnit.SECONDS);
+// TODO 业务逻辑
+lock.unlock();
+```
+
+**实战**
+
+```xml
+<!--redisson-->
+<dependency>
+    <groupId>org.redisson</groupId>
+    <artifactId>redisson</artifactId>
+    <version>3.13.4</version>
+</dependency>
+```
+
+```java
+@Configuration
+public class RedisConfig
+{
+    @Bean
+    public RedisTemplate<String, Object> redisTemplate(LettuceConnectionFactory lettuceConnectionFactory)
+    {
+        RedisTemplate<String,Object> redisTemplate = new RedisTemplate<>();
+        redisTemplate.setConnectionFactory(lettuceConnectionFactory);
+        //设置key序列化方式string
+        redisTemplate.setKeySerializer(new StringRedisSerializer());
+        //设置value的序列化方式json
+        redisTemplate.setValueSerializer(new GenericJackson2JsonRedisSerializer());
+
+        redisTemplate.setHashKeySerializer(new StringRedisSerializer());
+        redisTemplate.setHashValueSerializer(new GenericJackson2JsonRedisSerializer());
+
+        redisTemplate.afterPropertiesSet();
+
+        return redisTemplate;
+    }
+
+    //单Redis节点模式
+    @Bean
+    public Redisson redisson()
+    {
+        Config config = new Config();
+        config.useSingleServer().setAddress("redis://192.168.111.175:6379").setDatabase(0).setPassword("111111");
+        return (Redisson) Redisson.create(config);
+    }
+}
+```
+
+```java
+@RestController
+@Api(tags = "redis分布式锁测试")
+public class InventoryController
+{
+    @Autowired
+    private InventoryService inventoryService;
+
+    @ApiOperation("扣减库存，一次卖一个")
+    @GetMapping(value = "/inventory/sale")
+    public String sale()
+    {
+        return inventoryService.sale();
+    }
+
+    @ApiOperation("扣减库存saleByRedisson，一次卖一个")
+    @GetMapping(value = "/inventory/saleByRedisson")
+    public String saleByRedisson()
+    {
+        return inventoryService.saleByRedisson();
+    }
+}
+```
+
+```java
+@Service
+@Slf4j
+public class InventoryService
+{
+    @Autowired
+    private StringRedisTemplate stringRedisTemplate;
+    @Value("${server.port}")
+    private String port;
+    @Autowired
+    private DistributedLockFactory distributedLockFactory;
+
+    @Autowired
+    private Redisson redisson;
+    public String saleByRedisson()
+    {
+        String retMessage = "";
+        String key = "zzyyRedisLock";
+        RLock redissonLock = redisson.getLock(key);
+        redissonLock.lock();
+        try
+        {
+            //1 查询库存信息
+            String result = stringRedisTemplate.opsForValue().get("inventory001");
+            //2 判断库存是否足够
+            Integer inventoryNumber = result == null ? 0 : Integer.parseInt(result);
+            //3 扣减库存
+            if(inventoryNumber > 0) {
+                stringRedisTemplate.opsForValue().set("inventory001",String.valueOf(--inventoryNumber));
+                retMessage = "成功卖出一个商品，库存剩余: "+inventoryNumber;
+                System.out.println(retMessage);
+            }else{
+                retMessage = "商品卖完了，o(╥﹏╥)o";
+            }
+        }finally {
+            if(redissonLock.isLocked() && redissonLock.isHeldByCurrentThread())
+            {
+                redissonLock.unlock();
+            }
+        }
+        return retMessage+"\t"+"服务端口号："+port;
+    }
+}
+```
+
+## 18.4 红锁原理
+
+![未命名绘图.drawio.png](https://raw.githubusercontent.com/michik0/notes-image/master/%E6%9C%AA%E5%91%BD%E5%90%8D%E7%BB%98%E5%9B%BE.drawio.png)
+
+## 18.5 多重锁
+
+>可惜的是RedissonLock不再推荐使用，建议使用的是多重锁
+
+基于Redis 的分布式 `Multilock` 对象允许将Lock对象分组并将它们作为单个锁处理。每个RLock 对象可能属于不同的Redisson实例。
+
+`MultiLock` 如果获取崩溃的 Redisson 实例 `Multilock` 可能会永远挂在获取状态。为了避免这种情况，Redisson会维护锁看门狗，它会在锁持有者Redisson实例处于活动状态时延长锁到期时间。默认情况下，锁定看门狗超时为30秒，可以通过Config.lockWatchdogTimeout设置进行更改。
+
+`leaseTime` 可以定义获取锁期间的参数。在指定的时间间隔后，锁定的锁将自动释放，
+
+`MultiLock` 对象的行为符合Java Lock规范， 这意味着只有锁所有者线程才能解锁它
+否则 `IllegalMonitorStateException` 会被抛出。否则考虑使用 `RSemaphore` 对象。
+
+**代码示例**
+
+```java
+RLock lock1 = redisson1.getLock("lock1");
+RLock lock2 = redisson2.getLock("lock2");
+RLock lock3 = redisson3.getLock("lock3");
+RLock multiLock = anyRedisson.getMultiLock(lock1, lock2, lock3); 
+// traditional lock method
+multilock.lock();
+
+// or acquire lock and automatically unlock it after 10 seconds multilock.
+lock(10, TimeUnit.SECONDS);
+
+// or wait for lock aquisition up to 100 seconds
+// and automatically unlock it after 10 seconds
+boolean res = multilock.trylock(100, 10, TimeUnit.SECONDS); 
+if (res){
+	try{
+		// TODO 业务逻辑
+	} finally {
+	multiLock.unlock();
+}
+```
+
+**配置**
+
+```java
+@Configuration
+@EnableConfigurationProperties(RedisProperties.class)
+public class CacheConfiguration {
+
+    @Autowired
+    RedisProperties redisProperties;
+
+    @Bean
+    RedissonClient redissonClient1() {
+        Config config = new Config();
+        String node = redisProperties.getSingle().getAddress1();
+        node = node.startsWith("redis://") ? node : "redis://" + node;
+        SingleServerConfig serverConfig = config.useSingleServer()
+                .setAddress(node)
+                .setTimeout(redisProperties.getPool().getConnTimeout())
+                .setConnectionPoolSize(redisProperties.getPool().getSize())
+                .setConnectionMinimumIdleSize(redisProperties.getPool().getMinIdle());
+        if (StringUtils.isNotBlank(redisProperties.getPassword())) {
+            serverConfig.setPassword(redisProperties.getPassword());
+        }
+        return Redisson.create(config);
+    }
+
+    @Bean
+    RedissonClient redissonClient2() {
+        Config config = new Config();
+        String node = redisProperties.getSingle().getAddress2();
+        node = node.startsWith("redis://") ? node : "redis://" + node;
+        SingleServerConfig serverConfig = config.useSingleServer()
+                .setAddress(node)
+                .setTimeout(redisProperties.getPool().getConnTimeout())
+                .setConnectionPoolSize(redisProperties.getPool().getSize())
+                .setConnectionMinimumIdleSize(redisProperties.getPool().getMinIdle());
+        if (StringUtils.isNotBlank(redisProperties.getPassword())) {
+            serverConfig.setPassword(redisProperties.getPassword());
+        }
+        return Redisson.create(config);
+    }
+
+    @Bean
+    RedissonClient redissonClient3() {
+        Config config = new Config();
+        String node = redisProperties.getSingle().getAddress3();
+        node = node.startsWith("redis://") ? node : "redis://" + node;
+        SingleServerConfig serverConfig = config.useSingleServer()
+                .setAddress(node)
+                .setTimeout(redisProperties.getPool().getConnTimeout())
+                .setConnectionPoolSize(redisProperties.getPool().getSize())
+                .setConnectionMinimumIdleSize(redisProperties.getPool().getMinIdle());
+        if (StringUtils.isNotBlank(redisProperties.getPassword())) {
+            serverConfig.setPassword(redisProperties.getPassword());
+        }
+        return Redisson.create(config);
+    }
+}
+```
+
+```java
+@Data
+@ConfigurationProperties(prefix = "spring.redis", ignoreUnknownFields = false)
+public class RedisProperties {
+
+    private int database;
+
+    /**
+     * 等待节点回复命令的时间。该时间从命令发送成功时开始计时
+     */
+    private int timeout;
+
+    private String password;
+
+    private String mode;
+
+    /**
+     * 池配置
+     */
+    private RedisPoolProperties pool;
+
+    /**
+     * 单机信息配置
+     */
+    private RedisSingleProperties single;
+
+}
+```
+
+```java
+@Data
+public class RedisPoolProperties {
+
+    private int maxIdle;
+
+    private int minIdle;
+
+    private int maxActive;
+
+    private int maxWait;
+
+    private int connTimeout;
+
+    private int soTimeout;
+
+    /**
+     * 池大小
+     */
+    private  int size;
+
+}
+```
+
+```java
+@Data
+public class RedisSingleProperties {
+    private  String address1;
+    private  String address2;
+    private  String address3;
+}
+```
+
+```java
+@Slf4j
+@RestController
+public class MultiLockController {
+
+    public static final String CACHE_KEY_REDLOCK = "ATGUIGU_REDLOCK";
+
+    @Autowired
+    RedissonClient redissonClient1;
+
+    @Autowired
+    RedissonClient redissonClient2;
+
+    @Autowired
+    RedissonClient redissonClient3;
+
+    boolean isLockBoolean;
+
+    @GetMapping(value = "/multiLock")
+    public String getMultiLock() throws InterruptedException
+    {
+        String uuid =  IdUtil.simpleUUID();
+        String uuidValue = uuid+":"+Thread.currentThread().getId();
+
+        RLock lock1 = redissonClient1.getLock(CACHE_KEY_REDLOCK);
+        RLock lock2 = redissonClient2.getLock(CACHE_KEY_REDLOCK);
+        RLock lock3 = redissonClient3.getLock(CACHE_KEY_REDLOCK);
+
+        RedissonMultiLock redLock = new RedissonMultiLock(lock1, lock2, lock3);
+        redLock.lock();
+        try
+        {
+            System.out.println(uuidValue+"\t"+"---come in biz multiLock");
+            try { TimeUnit.SECONDS.sleep(30); } catch (InterruptedException e) { e.printStackTrace(); }
+            System.out.println(uuidValue+"\t"+"---task is over multiLock");
+        } catch (Exception e) {
+            e.printStackTrace();
+            log.error("multiLock exception ",e);
+        } finally {
+            redLock.unlock();
+            log.info("释放分布式锁成功key:{}", CACHE_KEY_REDLOCK);
+        }
+
+        return "multiLock task is over  "+uuidValue;
+    }
+
+}
+```
+
+# 19 Redis的缓存过期淘汰策略
+
+## 19.1 Redis内存满了怎么办？
+
+**Redis默认内存是多少？**
+
+64位的系统下：
+默认不限制Redis内存使用，理论上可以达到操作系统的上限。
+
+32位系统下：
+至多3GB。
+
+>一般推荐Redis设置内存为最大物理内存的3/4
+
+**如何修改Redis内存大小？**
+
+方式一（配置文件）：
+
+`maxmemory 104857600` ：表示Redis内存大小为100M
+
+方式二（命令）：
+
+`config set maxmemory 104857600` ：表示Redis内存大小为100M
+
+**什么命令查看Redis内存？**
+
+- `info memory`
+
+- `config get maxmemory`
+
+**Redis内存满了会怎样？**
+
+![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230308195918.png)
+
+## 19.2 三种不同的删除策略
+
+### 1. 立即删除
+
+Redis不可能时时刻刻遍历所有被设置了生存时间的key，来检测数据是否已经到达过期时间，然后对它进行删除。
+
+立即删除能保证内存中数据的最大新鲜度，因为它保证过期键值会在过期后马上被删除，其所占用的内存也会随之释放。但是立即删除对cpu是最不友好的。因为删除操作会占用cpu的时间，如果刚好碰上了cpu很忙的时候，比如正在做交集或排序等计算的时候，就会给cpu造成额外的压力。
+
+这会产生大量的性能消耗，同时也会影响数据的读取操作。
+
+>立即删除对CPU不友好，用处理器性能换取存储空间（拿时间换空间）
+
+### 2. 惰性删除
+
+数据到达过期时间，不做处理。等下次访问该数据时：
+- 如果未过期，返回数据 。
+- 发现已过期，删除，返回不存在。
+
+如果一个键已经过期，而这个键又仍然保留在redis中，那么只要这个过期键不被删除，它所占用的内存就不会释放。
+
+在使用惰性删除策略时，如果数据库中有非常多的过期键，而这些过期键又恰好没有被访问到的话，那么它们也许永远也不会被删除(除非用户手动执行FLUSHDB)，我们甚至可以将这种情况看作是一种内存泄漏–无用的垃圾数据占用了大量的内存，而服务器却不会自己去释放它们，这对于运行状态非常依赖于内存的Redis服务器来说，肯定不是一个好消息。
+
+>惰性删除对内存是最不友好的。
+
+### 3. 定期删除
+
+定期删除策略是前两种策略的折中。
+
+定期删除策略==每隔一段时间执行一次删除过期键操作==并通过限制删除操作执行时长和频率来减少删除操作对CPU时间的影响。
+
+周期性轮询redis库中的时效性数据，采用随机抽取的策略，利用过期数据占比的方式控制删除频度：
+- 特点1：CPU性能占用设置有峰值，检测频度可自定义设置 
+- 特点2：内存压力不是很大，长期占用内存的冷数据会被持续清理 
+
+定期删除策略的难点是确定删除操作执行的时长和频率：
+- 如果删除操作执行得太频繁或者执行的时间太长，定期删除策略就会退化成立即删除策略，以至于将CPU时间过多地消耗在删除过期键上面。
+- 如果删除操作执行得太少，或者执行的时间太短，定期删除策略又会和惰性删除束略一样，出现浪费内存的情况。因此，如果采用定期删除策略的话，
+
+==服务器必须根据情况，合理地设置删除操作的执行时长和执行频率。==
+
+## 19.3 Redis的缓存淘汰策略
+
+>由于上述的三种删除机制都有缺点，必须要有一个更好的方案
+
+![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230308201319.png)
+
+### 19.3.1 LRU与LFU算法
+
+LRU（Least Recently Used）：最近最少使用页面置换算法，淘汰最长时间未被使用的页面，看页面最后一次被使用到发生调度的时间长短，首先淘汰最长时间未被使用的页面。
+
+LFU（Least Frequently Used）：最近最不常用页面置换算法，淘汰一定时期内被访问次数最少的页，看一定时间段内页面被使用的频率，淘汰一定时期内被访问次数最少的页
+
+**举个例子**
+
+某次时期Time为10分钟，如果每分钟进行一次调页，主存块为3,若所需页面走向为2 1 2 1 2 3 4
+
+假设到页面4时会发生缺页中断
+
+若按LRU算法,应换页面1(1页面最久未被使用)，但按LFU算法应换页面3(十分钟内，页面3只使用了一次)
+
+可见LRU关键是看页面最后一次被使用到发生调度的时间长短，而LFU关键是看一定时间段内页面被使用的频率!
+
+### 19.3.2 Redis7中的8种缓存淘汰策略
+
+1. noeviction（默认）：不会驱逐任何key，表示即使内存达到上限也不进行置换，所有能引起内存增加的命令都会返回error 。
+2. allkeys-lru：对所有key使用LRU算法进行删除，优先删除掉最近最不经常使用的key，用以保存新数据。
+3. volatile-lru：对所有设置了过期时间的key使用LRU算法进行删除。
+4. allkeys-random：对所有key随机删除。
+5. volatile-random：对所有设置了过期时间的key随机删除。
+6. volatile-ttl：删除马上要过期的key。
+7. allkeys-lfu：对所有key使用LFU算法进行删除。
+8. volatile-lfu：对所有设置了过期时间的key使用LFU算法进行删除。
+
+**平时用哪种？**
+
+- 在所有的key都是最近最经常使用，那么就需要选择allkeys-Iru进行置换最近最不经常使用的key，如果你不确定使用哪种策略，那么推荐使用allkeys-Iru。
+- 如果所有的key的访问概率都是差不多的，那么可以选用allkeys-random 策略去置换数据。
+- 如果对数据有足够的了解，能够为key指定hint (通过expire/ttl指定)，那么可以选择volatile-ttl进行置换。
+
+>推荐使用 allkeys-lru
+
+**如何设置**
+
+方式一（命令）：
+
+`config set maxmemory-policy noeviction`
+
+方式二（配置文件）
+
+`maxmemory-policy noeviction`
+
+### 19.3.3 Redis缓存淘汰配置性能建议
+
+- 避免存储 bigkey
+- 开启懒惰淘汰，lazyfree-lazy-eviction=yes
+
+# 20 Redis 经典五大类型源码及底层实现（略）
+
+# 21 Redis为什么快？高性能设计之epoll和IO多路复用深度解析
+
+## 22.1 同步与异步 ｜ 阻塞与非阻塞
+
+### 1. 同步与异步
+
+**同步**
+
+调用者要一直等待调用结果的通知后才能进行后续的执行，现在就要，我可以等，等出结果为止。
+
+**异步**
+
+指被调用方先返回应答让调用者先回去，然后再计算调用结果，计算完最终结果后再通知并返回给调用方。
+异步调用要想获得结果一般通过回调。
+
+>同步、异步的讨论对象是被调用者(服务提供者)，重点在于获得调用结果的消息通知方式上
+
+### 2. 阻塞与非阻塞
+
+**阻塞**
+
+调用方一直在等待而且别的事情什么都不做，当前进/线程会被挂起。
+
+**非阻塞**
+
+调用在发出去后，调用方先去忙别的事情，不会阻塞当前进/线程，而会立即返回
+
+>阻塞、非阻塞的讨论对象是调用者(服务请求者)，重点在于等消息时候的行为，调用者是否能干其它事
+
+### 3. 四种组合方式
+
+- **同步阻塞：** 服务员说快到你了，先别离开我后台看一眼马上通知你。客户在海底捞火锅前台干等着，啥都不干。
+
+- **同步非阻塞：** 服务员说快到你了，先别离开。客户在海底捞火锅前台边刷抖音边等着叫号。
+
+- **异步阻塞：** 服务员说还要再等等，你先去逛逛，一会儿通知你。客户怕过号在海底捞火锅前台拿着排号小票啥都不干，一直等着店员通知。
+
+- **异步非阻塞：** 服务员说还要再等等，你先去逛逛，一会儿通知你。拿着排号小票+刷着抖音，等着店员通知。
+
+## 21.2 为什么要使用IO多路复用？
+
+并发多客户端连接，在多路复用之前最简单和典型的方案：==同步阻塞网络IO模型==
+
+这种模式的特点就是==用一个进程来处理一个网络连接(一个用户请求)==，比如一段典型的示例代码如下，直接调用 recv 函数从一个 socket 上读取数据：
+```
+int main()
+{
+	...
+	//从用户角度来看非常简单，一个recv一用，要接收的数据就到我们手里了。
+	recv(sock, ...) 
+}
+```
+
+>【优点】
+>非常容易让人理解，写起代码来非常的自然，符合人的直线型思维。
+>【缺点】
+>性能差，每个用户请求到来都得占用一个进程来处理，来一个请求就要分配一个进程跟进处理
+
+进程在 Linux 上是一个开销不小的家伙，先不说创建，光是上下文切换一次就得几个微秒。所以为了高效地对海量用户提供服务，必须要让一个进程能同时处理很多个 tcp 连接才行。现在假设一个进程保持了 10000 条连接，那么如何发现哪条连接上有数据可读了、哪条连接可写了？
+
+我们当然可以采用循环遍历的方式来发现 IO 事件，但这种方式太低级了。
+
+我们希望有一种更高效的机制，在很多连接中的某条上有 IO 事件发生的时候直接快速把它找出来。
+
+其实这个事情 Linux 操作系统已经替我们都做好了，它就是我们所熟知的 **IO多路复用机制，这里的复用指的就是对进程的复用**
+
+## 22.2 IO多路复用模型
+
+### 22.2.1 什么是IO多路复用模型？
+
+- I/O：网络I/O。
+- 多路：多个客户端连接(连接就是套接字描述符，即 socket或者channel)，指的是多条TCP连接。
+- 复用：用一个进程来处理多条的连接，使用单进程就能够实现同时处理多个客户端的连接。
+
+>IO多路复用实现了用一个进程来处理大量的用户连接，可以分select->poll->epoll三个阶段来描述。
+
+![](https://raw.githubusercontent.com/michik0/notes-image/master/%E4%B8%8B%E8%BD%BD.gif)
+
+### 22.2.2 Redis单线程如何处理那么多并发客户端连接？Redis为什么单线程？Redis为什么这么快？
+
+Redis利用epoll来实现IO多路复用，==将连接信息和事件放到队列中==，一次放到文件事件==分派器==，事件分派器将事件分发给==事件处理器==。
+
+![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230309093245.png)
+
+Redis 是跑在单线程中的，所有的操作都是按照顺序线性执行的，==但是由于读写操作等待用户输入或输出都是阻塞的，所以 I/O 操作在一般情况下往往不能直接返回==，这会导致某一文件的 I/O 阻塞导致整个进程无法对其它客户提供服务，而 I/O 多路复用就是为了解决这个问题而出现。
+
+所谓 I/O 多路复用机制，就是说通过一种机制，可以监视多个描述符，一旦某个描述符就绪（一般是读就绪或写就绪），能够通知程序进行相应的读写操作。这种机制的使用需要 select 、 poll 、 epoll 来配合。==多个连接共用一个阻塞对象，应用程序只需要在一个阻塞对象上等待，无需阻塞等待所有连接。当某条连接有新的数据可以处理时，操作系统通知应用程序，线程从阻塞状态返回，开始进行业务处理。==
+
+Redis 服务采用 Reactor 的方式来实现文件事件处理器（每一个网络连接其实都对应一个文件描述符） 
+
+Redis基于Reactor模式开发了网络事件处理器，这个处理器被称为**文件事件处理器**。它的组成结构为4部分：
+- 多个套接字
+- IO多路复用程序
+- 文件事件分派器
+- 事件处理器
+
+==因为文件事件分派器队列的消费是单线程的，所以Redis才叫单线程模型。==
+
 
 # 附录
 
@@ -3796,7 +4417,7 @@ class Customer implements Runnable {
         for (int i = 0; i < 5; ++i) {  
             wareHouse.outbound();  
         }  
-    }  
+    }
 }
 ```
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a6dbabfdd630ef8e",
+        "id": "df6d6acb00a8cf2c",
         "type": "tabs",
         "children": [
           {
-            "id": "6bd4ad52a27f0915",
+            "id": "b1dff4b2fa25532e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis/Redis.md",
+                "file": "Seata/Seata.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "right": {
     "id": "ada52ccfb4d337aa",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redis/Redis.md",
+                "file": "Seata/Seata.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redis/Redis.md",
+                "file": "Seata/Seata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redis/Redis.md"
+                "file": "Seata/Seata.md"
               }
             }
           },
@@ -166,15 +165,25 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "6bd4ad52a27f0915",
+  "active": "b1dff4b2fa25532e",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "Seata/Seata.md",
+    "Seata",
+    "未命名 4.canvas",
+    "未命名 3.canvas",
+    "未命名 2.canvas",
+    "面试题/面试题.md",
+    "Redis/Redis.md",
+    "未命名 1.canvas",
+    "Redis/Redis 面试题.md",
+    "面试题",
     "Spring 全家桶/Spring Security.md",
     "轮子/Swagger/集成Swagger.md",
     "轮子/Redis/自定义RestTemplate.md",
     "轮子/Mybatis/Mybatis-Generator.md",
     "轮子/其他/计算Java对象占用的内存大小.md",
     "MySQL/MySQL 高级特性篇.md",
-    "Redis/Redis.md",
     "轮子/其他",
     "轮子/Redis",
     "轮子/Swagger",
@@ -184,14 +193,11 @@
     "MySQL",
     "Redis",
     "【工作】/维护/员工数据治理/运营数据周报模版.md",
-    "未命名.canvas",
     "【工作】/维护/App/未激活人员APP账号处理.md",
     "【技术】/轮子/Redis/自定义RestTemplate.md",
     "【技术】/轮子/Mybatis/Mybatis-Generator.md",
     "【技术】/轮子/Swagger/集成Swagger.md",
     "【技术】/Redis/Redis.md",
-    "【技术】/轮子/Swagger",
-    "【技术】/轮子/Redis",
     "【技术】/Spring 全家桶/Spring Security.md",
     "1. 工作/日报/2023-02-07.md",
     "【技术】/MySQL/MySQL 高级特性篇.md",
@@ -200,8 +206,6 @@
     "^ceab2d.md",
     "MySQL事物篇.assets/image-20220714134945012.png.md",
     "MySQL日志与备份篇.assets/image-20220718145534856.png.md",
-    "MySQL日志与备份篇.assets/image-20220718143716620.png.md",
-    "MySQL日志与备份篇.assets/image-20220718142549168.png.md",
-    "MySQL事物篇.assets/image-20220710205015302.png.md"
+    "MySQL日志与备份篇.assets/image-20220718143716620.png.md"
   ]
 }
