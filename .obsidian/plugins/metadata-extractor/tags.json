@@ -1,0 +1,183 @@
+[
+  {
+    "tag": "todo",
+    "tagCount": 5,
+    "relativePaths": [
+      "8. MQ/RocketMQ.md",
+      "8. MQ/Kafka.md",
+      "14. 分布式文件存储系统/Hadoop.md",
+      "14. 分布式文件存储系统/FastDFS.md",
+      "12. 分布式监控/Zabbix.md"
+    ]
+  },
+  {
+    "tag": "设计模式",
+    "tagCount": 1,
+    "relativePaths": [
+      "7. 面试题/设计模式.md"
+    ]
+  },
+  {
+    "tag": "面试题",
+    "tagCount": 8,
+    "relativePaths": [
+      "7. 面试题/设计模式.md",
+      "7. 面试题/网络编程.md",
+      "7. 面试题/数据结构.md",
+      "7. 面试题/Spring.md",
+      "7. 面试题/Redis.md",
+      "7. 面试题/Java.md",
+      "7. 面试题/MQ消息队列.md",
+      "7. 面试题/Linux.md"
+    ]
+  },
+  {
+    "tag": "网络编程",
+    "tagCount": 1,
+    "relativePaths": [
+      "7. 面试题/网络编程.md"
+    ]
+  },
+  {
+    "tag": "数据结构",
+    "tagCount": 1,
+    "relativePaths": [
+      "7. 面试题/数据结构.md"
+    ]
+  },
+  {
+    "tag": "spring",
+    "tagCount": 1,
+    "relativePaths": [
+      "7. 面试题/Spring.md"
+    ]
+  },
+  {
+    "tag": "redis",
+    "tagCount": 2,
+    "relativePaths": [
+      "7. 面试题/Redis.md",
+      "4. Redis/Redis.md"
+    ]
+  },
+  {
+    "tag": "java",
+    "tagCount": 1,
+    "relativePaths": [
+      "7. 面试题/Java.md"
+    ]
+  },
+  {
+    "tag": "mq",
+    "tagCount": 1,
+    "relativePaths": [
+      "7. 面试题/MQ消息队列.md"
+    ]
+  },
+  {
+    "tag": "消息队列",
+    "tagCount": 1,
+    "relativePaths": [
+      "7. 面试题/MQ消息队列.md"
+    ]
+  },
+  {
+    "tag": "linux",
+    "tagCount": 1,
+    "relativePaths": [
+      "7. 面试题/Linux.md"
+    ]
+  },
+  {
+    "tag": "分布式相关理论",
+    "tagCount": 1,
+    "relativePaths": [
+      "5. 分布式事务/分布式事务.md"
+    ]
+  },
+  {
+    "tag": "分布式事务",
+    "tagCount": 2,
+    "relativePaths": [
+      "5. 分布式事务/分布式事务.md",
+      "5. 分布式事务/Seata.md"
+    ]
+  },
+  {
+    "tag": "2pc",
+    "tagCount": 1,
+    "relativePaths": [
+      "5. 分布式事务/分布式事务.md"
+    ]
+  },
+  {
+    "tag": "3pc",
+    "tagCount": 1,
+    "relativePaths": [
+      "5. 分布式事务/分布式事务.md"
+    ]
+  },
+  {
+    "tag": "ttc",
+    "tagCount": 1,
+    "relativePaths": [
+      "5. 分布式事务/分布式事务.md"
+    ]
+  },
+  {
+    "tag": "saga事务",
+    "tagCount": 1,
+    "relativePaths": [
+      "5. 分布式事务/分布式事务.md"
+    ]
+  },
+  {
+    "tag": "本地事务表",
+    "tagCount": 1,
+    "relativePaths": [
+      "5. 分布式事务/分布式事务.md"
+    ]
+  },
+  {
+    "tag": "mq事务消息",
+    "tagCount": 1,
+    "relativePaths": [
+      "5. 分布式事务/分布式事务.md"
+    ]
+  },
+  {
+    "tag": "最大努力通知",
+    "tagCount": 1,
+    "relativePaths": [
+      "5. 分布式事务/分布式事务.md"
+    ]
+  },
+  {
+    "tag": "springcloud",
+    "tagCount": 1,
+    "relativePaths": [
+      "5. 分布式事务/Seata.md"
+    ]
+  },
+  {
+    "tag": "springcloudalibaba",
+    "tagCount": 1,
+    "relativePaths": [
+      "5. 分布式事务/Seata.md"
+    ]
+  },
+  {
+    "tag": "juc",
+    "tagCount": 1,
+    "relativePaths": [
+      "3. 多线程/JUC.md"
+    ]
+  },
+  {
+    "tag": "高并发",
+    "tagCount": 1,
+    "relativePaths": [
+      "3. 多线程/JUC.md"
+    ]
+  }
+]

@@ -11,5 +11,8 @@
   "highlightr-plugin",
   "obsidian-reminder-plugin",
   "obsidian-outliner",
-  "obsidian-zoom"
+  "obsidian-zoom",
+  "obsidian-pandoc",
+  "obsidian-advanced-uri",
+  "metadata-extractor"
 ]

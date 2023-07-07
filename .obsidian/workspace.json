@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "df6d6acb00a8cf2c",
+        "id": "6db7eef73a705784",
         "type": "tabs",
         "children": [
           {
-            "id": "b1dff4b2fa25532e",
+            "id": "e2145ae90d16e467",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Seata/Seata.md",
+                "file": "6. 轮子/分布式事务.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -48,12 +49,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "@Transaction",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -64,12 +65,21 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "9d47e7d8e9f9129a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 297.5
   },
   "right": {
     "id": "ada52ccfb4d337aa",
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seata/Seata.md",
+                "file": "6. 轮子/分布式事务.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seata/Seata.md",
+                "file": "6. 轮子/分布式事务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +125,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Seata/Seata.md"
+                "file": "6. 轮子/分布式事务.md"
               }
             }
           },
@@ -150,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5,
+    "width": 530.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -165,47 +175,48 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "b1dff4b2fa25532e",
+  "active": "e2145ae90d16e467",
   "lastOpenFiles": [
+    "6. 轮子/EasyExcel.md",
+    "6. 轮子/Mybatis/Mybatis-Generator.md",
+    "6. 轮子/文件分割、合并.md",
+    "15. 前端/前端三剑客/2. CSS.md",
+    "15. 前端/前端三剑客/3. HTML5 和 CSS3 新特性.md",
+    "15. 前端/前端三剑客/1. HTML.md",
+    "12. 分布式监控/Zabbix.md",
+    "15. 前端/前端三剑客/未命名",
+    "15. 前端/前端三剑客",
+    "11. Maven/Maven手动导入依赖包.md",
+    "4. Redis/Redis.md",
+    "6. 轮子/WebSocket/集成WebSocket.md",
+    "8. MQ/RabbitMQ.md",
+    "15. 前端",
+    "7. 面试题/RabbitMQ.md",
+    "7. 面试题/Redis.md",
+    "7. 面试题/Spring.md",
+    "7. 面试题/网络编程.md",
+    "7. 面试题/Linux.md",
+    "7. 面试题/设计模式.md",
+    "7. 面试题/数据结构.md",
+    "7. 面试题/Java.md",
+    "7. 面试题/MQ消息队列.md",
+    "8. MQ/RocketMQ.md",
+    "8. MQ/Kafka.md",
+    "14. 分布式文件存储系统/Hadoop.md",
+    "14. 分布式文件存储系统/FastDFS.md",
+    "7. 面试题/【面经】.md",
+    "14. 分布式文件存储系统",
+    "12. 分布式监控解决方案/未命名",
+    "13. 分布式全流程日志追踪/MDC.md",
+    "13. 分布式全流程日志追踪",
+    "12. 分布式监控",
+    "11. Maven",
+    "未命名 1.canvas",
     "未命名.canvas",
-    "Seata/Seata.md",
-    "Seata",
-    "未命名 4.canvas",
     "未命名 3.canvas",
     "未命名 2.canvas",
-    "面试题/面试题.md",
-    "Redis/Redis.md",
-    "未命名 1.canvas",
-    "Redis/Redis 面试题.md",
-    "面试题",
-    "Spring 全家桶/Spring Security.md",
-    "轮子/Swagger/集成Swagger.md",
-    "轮子/Redis/自定义RestTemplate.md",
-    "轮子/Mybatis/Mybatis-Generator.md",
-    "轮子/其他/计算Java对象占用的内存大小.md",
-    "MySQL/MySQL 高级特性篇.md",
-    "轮子/其他",
-    "轮子/Redis",
-    "轮子/Swagger",
-    "轮子/Mybatis",
-    "轮子",
-    "Spring 全家桶",
-    "MySQL",
-    "Redis",
-    "【工作】/维护/员工数据治理/运营数据周报模版.md",
-    "【工作】/维护/App/未激活人员APP账号处理.md",
-    "【技术】/轮子/Redis/自定义RestTemplate.md",
-    "【技术】/轮子/Mybatis/Mybatis-Generator.md",
-    "【技术】/轮子/Swagger/集成Swagger.md",
-    "【技术】/Redis/Redis.md",
-    "【技术】/Spring 全家桶/Spring Security.md",
-    "1. 工作/日报/2023-02-07.md",
-    "【技术】/MySQL/MySQL 高级特性篇.md",
-    "人脸通行次数卡片.md",
-    "^Compact行格式.md",
-    "^ceab2d.md",
-    "MySQL事物篇.assets/image-20220714134945012.png.md",
-    "MySQL日志与备份篇.assets/image-20220718145534856.png.md",
-    "MySQL日志与备份篇.assets/image-20220718143716620.png.md"
+    "10. 设计模式",
+    "9. RUOYI/注解",
+    "未命名 4.canvas"
   ]
 }

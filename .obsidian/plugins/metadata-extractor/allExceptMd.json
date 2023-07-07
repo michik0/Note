@@ -1,0 +1,141 @@
+{
+  "folders": [
+    {
+      "name": "",
+      "relativePath": "/"
+    },
+    {
+      "name": "1. SQL",
+      "relativePath": "1. SQL"
+    },
+    {
+      "name": "10. 设计模式",
+      "relativePath": "10. 设计模式"
+    },
+    {
+      "name": "11. Maven",
+      "relativePath": "11. Maven"
+    },
+    {
+      "name": "12. 分布式监控",
+      "relativePath": "12. 分布式监控"
+    },
+    {
+      "name": "13. 分布式全流程日志追踪",
+      "relativePath": "13. 分布式全流程日志追踪"
+    },
+    {
+      "name": "14. 分布式文件存储系统",
+      "relativePath": "14. 分布式文件存储系统"
+    },
+    {
+      "name": "15. 前端",
+      "relativePath": "15. 前端"
+    },
+    {
+      "name": "2. Spring",
+      "relativePath": "2. Spring"
+    },
+    {
+      "name": "3. 多线程",
+      "relativePath": "3. 多线程"
+    },
+    {
+      "name": "4. Redis",
+      "relativePath": "4. Redis"
+    },
+    {
+      "name": "5. 分布式事务",
+      "relativePath": "5. 分布式事务"
+    },
+    {
+      "name": "6. 轮子",
+      "relativePath": "6. 轮子"
+    },
+    {
+      "name": "7. 面试题",
+      "relativePath": "7. 面试题"
+    },
+    {
+      "name": "8. MQ",
+      "relativePath": "8. MQ"
+    },
+    {
+      "name": "9. RUOYI",
+      "relativePath": "9. RUOYI"
+    },
+    {
+      "name": "前端三剑客",
+      "relativePath": "15. 前端/前端三剑客"
+    },
+    {
+      "name": "Mybatis",
+      "relativePath": "6. 轮子/Mybatis"
+    },
+    {
+      "name": "Redis",
+      "relativePath": "6. 轮子/Redis"
+    },
+    {
+      "name": "Swagger",
+      "relativePath": "6. 轮子/Swagger"
+    },
+    {
+      "name": "WebSocket",
+      "relativePath": "6. 轮子/WebSocket"
+    },
+    {
+      "name": "其他",
+      "relativePath": "6. 轮子/其他"
+    },
+    {
+      "name": "异常处理类",
+      "relativePath": "9. RUOYI/异常处理类"
+    },
+    {
+      "name": "框架",
+      "relativePath": "9. RUOYI/框架"
+    },
+    {
+      "name": "注解",
+      "relativePath": "9. RUOYI/注解"
+    }
+  ],
+  "nonMdFiles": [
+    {
+      "name": "Bpm-Def20230325150621.zip",
+      "basename": "Bpm-Def20230325150621",
+      "relativePath": "Bpm-Def20230325150621.zip"
+    },
+    {
+      "name": "Form-CustomQuery-20230323151130.zip",
+      "basename": "Form-CustomQuery-20230323151130",
+      "relativePath": "Form-CustomQuery-20230323151130.zip"
+    },
+    {
+      "name": "WebSocketConfig.java",
+      "basename": "WebSocketConfig",
+      "relativePath": "WebSocketConfig.java"
+    },
+    {
+      "name": "WebSocketSchedule.java",
+      "basename": "WebSocketSchedule",
+      "relativePath": "WebSocketSchedule.java"
+    },
+    {
+      "name": "generatorConfig 1.xml",
+      "basename": "generatorConfig 1",
+      "relativePath": "generatorConfig 1.xml"
+    },
+    {
+      "name": "generatorConfig.xml",
+      "basename": "generatorConfig",
+      "relativePath": "generatorConfig.xml"
+    },
+    {
+      "name": "系统自定义业务管理列表_20230323155844.zip",
+      "basename": "系统自定义业务管理列表_20230323155844",
+      "relativePath": "系统自定义业务管理列表_20230323155844.zip"
+    }
+  ]
+}

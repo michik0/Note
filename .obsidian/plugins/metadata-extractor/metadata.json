@@ -1,0 +1,9797 @@
+[
+  {
+    "fileName": "@RequiresPermissions",
+    "relativePath": "9. RUOYI/注解/@RequiresPermissions.md",
+    "headings": [
+      {
+        "heading": "作用",
+        "level": 1
+      },
+      {
+        "heading": "使用",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "@RepeatSubmit",
+    "relativePath": "9. RUOYI/注解/@RepeatSubmit.md",
+    "headings": [
+      {
+        "heading": "作用",
+        "level": 1
+      },
+      {
+        "heading": "@RepeatSubmit",
+        "level": 1
+      },
+      {
+        "heading": "重复提交拦截器（父类）",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "@Log",
+    "relativePath": "9. RUOYI/注解/@Log.md",
+    "headings": [
+      {
+        "heading": "作用",
+        "level": 1
+      },
+      {
+        "heading": "源码解析",
+        "level": 1
+      },
+      {
+        "heading": "步骤解析",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "@DataSource",
+    "relativePath": "9. RUOYI/注解/@DataSource.md",
+    "headings": [
+      {
+        "heading": "作用",
+        "level": 1
+      },
+      {
+        "heading": "SpringBoot切换数据源",
+        "level": 1
+      },
+      {
+        "heading": "步骤",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "Shiro",
+    "relativePath": "9. RUOYI/框架/Shiro.md",
+    "headings": [
+      {
+        "heading": "自定义过滤器",
+        "level": 1
+      },
+      {
+        "heading": "Shiro内置过滤器",
+        "level": 3
+      },
+      {
+        "heading": "配置自定义过滤器步骤",
+        "level": 3
+      },
+      {
+        "heading": "Shiro整合Springboot",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "@ControllerAdvice",
+    "relativePath": "9. RUOYI/异常处理类/@ControllerAdvice.md",
+    "headings": [
+      {
+        "heading": "作用",
+        "level": 1
+      },
+      {
+        "heading": "例子",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "RocketMQ",
+    "relativePath": "8. MQ/RocketMQ.md",
+    "tags": [
+      "todo"
+    ]
+  },
+  {
+    "fileName": "RabbitMQ",
+    "relativePath": "8. MQ/RabbitMQ.md",
+    "headings": [
+      {
+        "heading": "1.MQ引言",
+        "level": 1
+      },
+      {
+        "heading": "1.1 什么是MQ",
+        "level": 2
+      },
+      {
+        "heading": "1.2 MQ有哪些",
+        "level": 2
+      },
+      {
+        "heading": "1.3 不同MQ特点",
+        "level": 2
+      },
+      {
+        "heading": "RabbitMQ 介绍与安装",
+        "level": 1
+      },
+      {
+        "heading": "2.1 RabbitMQ",
+        "level": 2
+      },
+      {
+        "heading": "2.2 安装 RabbitMQ",
+        "level": 2
+      },
+      {
+        "heading": "3. RabbitMQ 配置",
+        "level": 1
+      },
+      {
+        "heading": "3.1RabbitMQ 管理命令行",
+        "level": 2
+      },
+      {
+        "heading": "3.2 web管理界面介绍",
+        "level": 2
+      },
+      {
+        "heading": "3.2.1 overview概览",
+        "level": 3
+      },
+      {
+        "heading": "3.2.2 Admin用户和虚拟主机管理",
+        "level": 3
+      },
+      {
+        "heading": "1. 添加用户",
+        "level": 4
+      },
+      {
+        "heading": "2. 创建虚拟主机",
+        "level": 4
+      },
+      {
+        "heading": "3. 绑定虚拟主机和用户",
+        "level": 4
+      },
+      {
+        "heading": "4.RabbitMQ 编程",
+        "level": 1
+      },
+      {
+        "heading": "4.0 AMQP协议的回顾",
+        "level": 2
+      },
+      {
+        "heading": "4.1 RabbitMQ支持的消息模型",
+        "level": 2
+      },
+      {
+        "heading": "4.2 引入依赖",
+        "level": 2
+      },
+      {
+        "heading": "4.3 RabbitMQ的API参数细节",
+        "level": 2
+      },
+      {
+        "heading": "4.3 第一种模型(直连)",
+        "level": 2
+      },
+      {
+        "heading": "1. 生产者",
+        "level": 3
+      },
+      {
+        "heading": "2. 消费者",
+        "level": 3
+      },
+      {
+        "heading": "工具类",
+        "level": 3
+      },
+      {
+        "heading": "4.4 第二种模型(Work Queue)",
+        "level": 2
+      },
+      {
+        "heading": "1. 生产者",
+        "level": 4
+      },
+      {
+        "heading": "2. 消费者-1",
+        "level": 4
+      },
+      {
+        "heading": "3. 消费者-2",
+        "level": 4
+      },
+      {
+        "heading": "4. 测试结果",
+        "level": 4
+      },
+      {
+        "heading": "5. 消息自动确认机制（能者多劳）",
+        "level": 4
+      },
+      {
+        "heading": "4.5 第三种模型(Fanout)",
+        "level": 2
+      },
+      {
+        "heading": "1. 生产者",
+        "level": 4
+      },
+      {
+        "heading": "2. 开发消费者-1",
+        "level": 4
+      },
+      {
+        "heading": "3. 开发消费者-2",
+        "level": 4
+      },
+      {
+        "heading": "4. 测试结果",
+        "level": 4
+      },
+      {
+        "heading": "4.6 第四种模型(Routing)",
+        "level": 2
+      },
+      {
+        "heading": "4.6.1 Routing 之订阅模型-Direct(直连)",
+        "level": 3
+      },
+      {
+        "heading": "1. 生产者",
+        "level": 4
+      },
+      {
+        "heading": "2. 消费者-1",
+        "level": 4
+      },
+      {
+        "heading": "3.开发消费者-2",
+        "level": 4
+      },
+      {
+        "heading": "4.测试生产者发送Routing Key为error的消息时",
+        "level": 4
+      },
+      {
+        "heading": "5.测试生产者发送Route key为info的消息时",
+        "level": 4
+      },
+      {
+        "heading": "4.6.2 Routing 之订阅模型-Topic",
+        "level": 3
+      },
+      {
+        "heading": "1. 生产者",
+        "level": 4
+      },
+      {
+        "heading": "2. 消费者-1",
+        "level": 4
+      },
+      {
+        "heading": "3. 消费者-2",
+        "level": 4
+      },
+      {
+        "heading": "4.测试结果",
+        "level": 4
+      },
+      {
+        "heading": "5. SpringBoot中使用RabbitMQ",
+        "level": 1
+      },
+      {
+        "heading": "5.0 搭建初始环境",
+        "level": 2
+      },
+      {
+        "heading": "1. 引入依赖",
+        "level": 3
+      },
+      {
+        "heading": "2. 配置配置文件",
+        "level": 4
+      },
+      {
+        "heading": "5.1 第一种：Hello World模型",
+        "level": 2
+      },
+      {
+        "heading": "1. 生产者",
+        "level": 3
+      },
+      {
+        "heading": "2. 消费者",
+        "level": 3
+      },
+      {
+        "heading": "5.2 第二种：Work Queue模型",
+        "level": 2
+      },
+      {
+        "heading": "1. 生产者",
+        "level": 3
+      },
+      {
+        "heading": "2. 消费者",
+        "level": 3
+      },
+      {
+        "heading": "5.3 Fanout 广播模型",
+        "level": 2
+      },
+      {
+        "heading": "1. 生产者",
+        "level": 3
+      },
+      {
+        "heading": "2. 消费者",
+        "level": 3
+      },
+      {
+        "heading": "5.4 Route 路由模型",
+        "level": 2
+      },
+      {
+        "heading": "1. 生产者",
+        "level": 3
+      },
+      {
+        "heading": "2. 消费者",
+        "level": 3
+      },
+      {
+        "heading": "5.5 Topic 订阅模型(动态路由模型)",
+        "level": 2
+      },
+      {
+        "heading": "1. 生产者",
+        "level": 3
+      },
+      {
+        "heading": "2. 消费者",
+        "level": 3
+      },
+      {
+        "heading": "5.6 死信队列",
+        "level": 2
+      },
+      {
+        "heading": "1. 生产者",
+        "level": 3
+      },
+      {
+        "heading": "2. 正常队列消费者",
+        "level": 3
+      },
+      {
+        "heading": "3. 死信队列消费者",
+        "level": 3
+      },
+      {
+        "heading": "4. 测试结果",
+        "level": 3
+      },
+      {
+        "heading": "6. 死信队列",
+        "level": 1
+      },
+      {
+        "heading": "6.1 死信的概念",
+        "level": 2
+      },
+      {
+        "heading": "6.2 死信队列的来源",
+        "level": 2
+      },
+      {
+        "heading": "6.3 死信队列架构",
+        "level": 2
+      },
+      {
+        "heading": "6.4 死信队列实战（什么时候会将消息存入死信队列？）",
+        "level": 2
+      },
+      {
+        "heading": "情况一：消息TTL过期",
+        "level": 3
+      },
+      {
+        "heading": "情况二：队列到达最大长度",
+        "level": 3
+      },
+      {
+        "heading": "情况三：消息被拒绝",
+        "level": 3
+      },
+      {
+        "heading": "7. 延迟队列",
+        "level": 1
+      },
+      {
+        "heading": "7.1 什么是延迟队列",
+        "level": 3
+      },
+      {
+        "heading": "7.2 延迟队列的使用场景",
+        "level": 3
+      },
+      {
+        "heading": "7.3 基于死信实现延迟队列",
+        "level": 2
+      },
+      {
+        "heading": "7.4 延迟队列的缺陷",
+        "level": 2
+      },
+      {
+        "heading": "7.5 RabbitMQ 插件实现延迟队列",
+        "level": 2
+      },
+      {
+        "heading": "1. 安装插件",
+        "level": 3
+      },
+      {
+        "heading": "2. 启用插件",
+        "level": 3
+      },
+      {
+        "heading": "3. 查看插件是否安装成功",
+        "level": 3
+      },
+      {
+        "heading": "7.6 基于插件的延迟队列实现",
+        "level": 2
+      },
+      {
+        "heading": "7.7 总结",
+        "level": 2
+      },
+      {
+        "heading": "8. 发布确认模式",
+        "level": 1
+      },
+      {
+        "heading": "8.1 架构图",
+        "level": 2
+      },
+      {
+        "heading": "8.2 交换机发布确认",
+        "level": 2
+      },
+      {
+        "heading": "配置类",
+        "level": 3
+      },
+      {
+        "heading": "生产者",
+        "level": 3
+      },
+      {
+        "heading": "消费者",
+        "level": 3
+      },
+      {
+        "heading": "交换机接收到消息后回调函数",
+        "level": 3
+      },
+      {
+        "heading": "测试结果",
+        "level": 3
+      },
+      {
+        "heading": "8.3 队列消息确认（回退函数）",
+        "level": 2
+      },
+      {
+        "heading": "开启发送失败退回",
+        "level": 3
+      },
+      {
+        "heading": "8.4 备份交换机",
+        "level": 2
+      },
+      {
+        "heading": "8.4.1 架构图",
+        "level": 3
+      },
+      {
+        "heading": "8.4.2 备份交换机编码",
+        "level": 3
+      },
+      {
+        "heading": "9. RabbitMQ 其他知识点",
+        "level": 1
+      },
+      {
+        "heading": "9.1 幂等性",
+        "level": 2
+      },
+      {
+        "heading": "9.1.1 概念",
+        "level": 3
+      },
+      {
+        "heading": "9.1.2 消息重复消费",
+        "level": 3
+      },
+      {
+        "heading": "9.1.3 解决思路",
+        "level": 3
+      },
+      {
+        "heading": "9.2 优先级队列",
+        "level": 2
+      },
+      {
+        "heading": "9.2.1 定义",
+        "level": 3
+      },
+      {
+        "heading": "9.2.2 编码",
+        "level": 3
+      },
+      {
+        "heading": "9.3 惰性队列",
+        "level": 2
+      },
+      {
+        "heading": "9.3.1 使用场景",
+        "level": 3
+      },
+      {
+        "heading": "9.3.2 两种模式",
+        "level": 3
+      },
+      {
+        "heading": "9.3.3 内存开销对比",
+        "level": 3
+      },
+      {
+        "heading": "10. RabbitMQ 标准集群搭建",
+        "level": 1
+      },
+      {
+        "heading": "11. RabbitMQ 镜像集群搭建",
+        "level": 1
+      },
+      {
+        "heading": "6. MQ的应用场景",
+        "level": 1
+      },
+      {
+        "heading": "6.1 异步处理",
+        "level": 2
+      },
+      {
+        "heading": "6.2 应用解耦",
+        "level": 2
+      },
+      {
+        "heading": "6.3 流量削峰",
+        "level": 2
+      },
+      {
+        "heading": "7. RabbitMQ的集群",
+        "level": 1
+      },
+      {
+        "heading": "7.1 集群架构",
+        "level": 2
+      },
+      {
+        "heading": "7.1.1 普通集群(副本集群)",
+        "level": 3
+      },
+      {
+        "heading": "7.1.2 镜像集群",
+        "level": 3
+      },
+      {
+        "heading": "8. 实战（订单库存交互）",
+        "level": 1
+      },
+      {
+        "heading": "8.1 生产者",
+        "level": 2
+      },
+      {
+        "heading": "8.2 消费者",
+        "level": 2
+      },
+      {
+        "heading": "消费者1（需要10s才能处理完）",
+        "level": 3
+      },
+      {
+        "heading": "消费者2（火速处理完）",
+        "level": 3
+      },
+      {
+        "heading": "消费者3（抛出异常）",
+        "level": 3
+      },
+      {
+        "heading": "8.3 错误处理类",
+        "level": 2
+      },
+      {
+        "heading": "8.4 测试结果",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "#^2f5b47",
+        "relativePath": "8. MQ/RabbitMQ.md",
+        "cleanLink": "RabbitMQ",
+        "displayText": "实战中手动ACK配置"
+      },
+      {
+        "link": "#^af3ce2",
+        "relativePath": "8. MQ/RabbitMQ.md",
+        "cleanLink": "RabbitMQ",
+        "displayText": "为什么使用 RabbitMQ 插件实现延迟队列？"
+      }
+    ]
+  },
+  {
+    "fileName": "Kafka",
+    "relativePath": "8. MQ/Kafka.md",
+    "tags": [
+      "todo"
+    ]
+  },
+  {
+    "fileName": "设计模式",
+    "relativePath": "7. 面试题/设计模式.md",
+    "tags": [
+      "设计模式",
+      "面试题"
+    ],
+    "headings": [
+      {
+        "heading": "1. 说说你熟悉的设计模式有哪些？",
+        "level": 1
+      },
+      {
+        "heading": "2. 抽象工厂和工厂方法模式的区别？",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "策略模式",
+        "relativePath": "10. 设计模式/策略模式.md"
+      },
+      {
+        "link": "单例模式",
+        "relativePath": "10. 设计模式/单例模式.md"
+      },
+      {
+        "link": "工厂模式",
+        "relativePath": "10. 设计模式/工厂模式.md"
+      },
+      {
+        "link": "观察者模式",
+        "relativePath": "10. 设计模式/观察者模式.md"
+      },
+      {
+        "link": "模版模式",
+        "relativePath": "10. 设计模式/模版模式.md"
+      },
+      {
+        "link": "责任链模式",
+        "relativePath": "10. 设计模式/责任链模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "网络编程",
+    "relativePath": "7. 面试题/网络编程.md",
+    "tags": [
+      "网络编程",
+      "面试题"
+    ],
+    "headings": [
+      {
+        "heading": "一共有几种 IO 模型？NIO 和多路复用的区别？",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "数据结构",
+    "relativePath": "7. 面试题/数据结构.md",
+    "tags": [
+      "数据结构",
+      "面试题"
+    ]
+  },
+  {
+    "fileName": "多线程",
+    "relativePath": "7. 面试题/多线程.md",
+    "headings": [
+      {
+        "heading": "1. Fork/Join 框架的理解",
+        "level": 1
+      },
+      {
+        "heading": "2. 说说 CountDownLatch 与 CyclicBarrier 区别",
+        "level": 1
+      },
+      {
+        "heading": "3. 同步和异步有什么区别？",
+        "level": 1
+      },
+      {
+        "heading": "4. synchronized 的实现原理以及锁优化？",
+        "level": 1
+      },
+      {
+        "heading": "5. ThreadLocal 原理，使用注意点，应用场景有哪些？",
+        "level": 1
+      },
+      {
+        "heading": "ThreadLocal 是什么？",
+        "level": 4
+      },
+      {
+        "heading": "ThreadLocal原理",
+        "level": 4
+      },
+      {
+        "heading": "【总结】ThreadLocal 原理是什么？",
+        "level": 4
+      },
+      {
+        "heading": "ThreadLocal 内存泄露问题",
+        "level": 4
+      },
+      {
+        "heading": "6. notify()和 notifyAll()有什么区别？",
+        "level": 1
+      },
+      {
+        "heading": "7. 守护线程是什么？用什么方法实现守护线程",
+        "level": 1
+      },
+      {
+        "heading": "8. 线程池的状态有哪些？获取多线程并发执行结果的方式有哪些？",
+        "level": 1
+      },
+      {
+        "heading": "9. 线程池原理？各个参数的作用？",
+        "level": 1
+      },
+      {
+        "heading": "10. Future 实现阻塞等待获取结果的原理？",
+        "level": 1
+      },
+      {
+        "heading": "10. ReentrantLock 和 Synchronized 的区别？",
+        "level": 1
+      },
+      {
+        "heading": "11. 聊聊 AQS？",
+        "level": 1
+      },
+      {
+        "heading": "12. 乐观锁和悲观锁， 让你来写你怎么实现？",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "JUC#CyclicBarrier 与 CountdownLatch 的区别",
+        "cleanLink": "JUC",
+        "displayText": "参考JUC-CountdownLatch 与 CyclicBarrier 的区别",
+        "relativePath": "3. 多线程/JUC.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "JUC",
+        "link": "多线程#11. 聊聊 AQS？",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "多线程",
+        "displayText": "面试题：聊聊AQS"
+      }
+    ]
+  },
+  {
+    "fileName": "【面经】",
+    "relativePath": "7. 面试题/【面经】.md",
+    "headings": [
+      {
+        "heading": "长亮科技（外包）",
+        "level": 1
+      },
+      {
+        "heading": "1. 创建线程的几种方式？",
+        "level": 2
+      },
+      {
+        "heading": "2. 线程池如何获取线程执行结果？",
+        "level": 2
+      },
+      {
+        "heading": "3. Spring的核心是什么？（IOC和AOP）",
+        "level": 2
+      },
+      {
+        "heading": "4. 什么是缓存雪崩？如何解决？",
+        "level": 2
+      },
+      {
+        "heading": "5. Redis的基本数据类型",
+        "level": 2
+      },
+      {
+        "heading": "String：",
+        "level": 3
+      },
+      {
+        "heading": "List",
+        "level": 3
+      },
+      {
+        "heading": "Set",
+        "level": 3
+      },
+      {
+        "heading": "Hash",
+        "level": 3
+      },
+      {
+        "heading": "Zset",
+        "level": 3
+      },
+      {
+        "heading": "6. Redis 为什么这么快？",
+        "level": 2
+      },
+      {
+        "heading": "7. 索引有哪些类型？",
+        "level": 2
+      },
+      {
+        "heading": "8. Redis有几种保存机制？",
+        "level": 2
+      },
+      {
+        "heading": "9. 什么是CAS？",
+        "level": 2
+      },
+      {
+        "heading": "福州康为网络科技有限公司",
+        "level": 1
+      },
+      {
+        "heading": "1. 常用的主要集合类？",
+        "level": 2
+      },
+      {
+        "heading": "【拓展】List，Set，Map三者的区别？",
+        "level": 2
+      },
+      {
+        "heading": "【拓展】集合底层的数据结构",
+        "level": 2
+      },
+      {
+        "heading": "【拓展】ArrayList 和 Vector 的区别是什么？",
+        "level": 2
+      },
+      {
+        "heading": "【拓展】为什么HashMap中String、Integer这样的包装类适合作为key？",
+        "level": 2
+      },
+      {
+        "heading": "【拓展】Java集合的快速失败机制 “fail-fast”？",
+        "level": 2
+      },
+      {
+        "heading": "2. ConcurrentHashMap 和 HashMap 什么区别？",
+        "level": 2
+      },
+      {
+        "heading": "3. HashMap 一般是用在什么场景？",
+        "level": 2
+      },
+      {
+        "heading": "4. HashMap 扩容",
+        "level": 2
+      },
+      {
+        "heading": "5. JDK7 和 JDK8 中的 HashMap 有什么不同？",
+        "level": 2
+      },
+      {
+        "heading": "6. ConcurrentHashMap 一定是线程安全的吗？",
+        "level": 2
+      },
+      {
+        "heading": "7. 线程的生命周期",
+        "level": 2
+      },
+      {
+        "heading": "8. 创造线程池主要包括哪些参数？",
+        "level": 2
+      },
+      {
+        "heading": "9. 线程池如何工作？",
+        "level": 2
+      },
+      {
+        "heading": "10. Spring AOP 了解吗？",
+        "level": 2
+      },
+      {
+        "heading": "11. Spring实现多数据源切换",
+        "level": 2
+      },
+      {
+        "heading": "12. EXPLAIN 关键字都有哪些？",
+        "level": 2
+      },
+      {
+        "heading": "13. 事务隔离级别",
+        "level": 2
+      },
+      {
+        "heading": "14. MySQL 如何解决可重复读？",
+        "level": 2
+      },
+      {
+        "heading": "15. Mybatis怎么实现批量插入？",
+        "level": 2
+      },
+      {
+        "heading": "17. 为什么需要使用Spring Cloud？和单体应用有什么差别？",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "#10. Spring AOP 了解吗？",
+        "relativePath": "7. 面试题/【面经】.md",
+        "cleanLink": "【面经】",
+        "displayText": "康为面经-AOP"
+      },
+      {
+        "link": "Redis#4. Redis 为什么这么快？",
+        "cleanLink": "Redis",
+        "displayText": "面试题：Redis为什么这么快",
+        "relativePath": "7. 面试题/Redis.md"
+      },
+      {
+        "link": "Redis#15. Redis 持久化有哪几种方式，怎么选？",
+        "cleanLink": "Redis",
+        "displayText": "面试题：Redis持久化方式",
+        "relativePath": "7. 面试题/Redis.md"
+      },
+      {
+        "link": "AOP#实操二：Spring实现多数据源切换",
+        "cleanLink": "AOP",
+        "displayText": "参考AOP：Spring数据源切换",
+        "relativePath": "6. 轮子/AOP.md"
+      },
+      {
+        "link": "MySQL#6.4 EXPLAIN各列作用",
+        "cleanLink": "MySQL",
+        "displayText": "MySQL中的EXPLAIN各列作用",
+        "relativePath": "1. SQL/MySQL.md"
+      }
+    ]
+  },
+  {
+    "fileName": "分布式事务",
+    "relativePath": "7. 面试题/分布式事务.md",
+    "headings": [
+      {
+        "heading": "1. 分布式事务如何解决？",
+        "level": 1
+      },
+      {
+        "heading": "2. 什么是 CAP 理论 和 BASE 理论",
+        "level": 1
+      },
+      {
+        "heading": "CAP理论",
+        "level": 3
+      },
+      {
+        "heading": "BASE 理论",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "SpringMVC",
+    "relativePath": "7. 面试题/SpringMVC.md",
+    "headings": [
+      {
+        "heading": "1. SpringMVC 处理请求的流程是什么？",
+        "level": 1
+      },
+      {
+        "heading": "2. SpringMVC中的重定向和转发分别是如何实现的？",
+        "level": 2
+      },
+      {
+        "heading": "3. 拦截器原理",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "SpringCloud",
+    "relativePath": "7. 面试题/SpringCloud.md",
+    "headings": [
+      {
+        "heading": "1. SOA、分布式、微服务有什么关系和区别？",
+        "level": 1
+      },
+      {
+        "heading": "2. SpringCloud 核心组件及其作用",
+        "level": 1
+      },
+      {
+        "heading": "3. Spring Cloud 和 Dubbo 有哪些区别？",
+        "level": 1
+      },
+      {
+        "heading": "4. 什么是服务熔断？什么是服务降级？区别是什么？",
+        "level": 1
+      },
+      {
+        "heading": "5. 高并发场景下如何实现系统限流",
+        "level": 1
+      },
+      {
+        "heading": "6. Spring Cloud 各个组件的功能",
+        "level": 1
+      },
+      {
+        "heading": "7. 什么是服务雪崩？什么是服务限流？",
+        "level": 1
+      },
+      {
+        "heading": "8. 介绍下 Nacos 注册中心的核心功能？",
+        "level": 1
+      },
+      {
+        "heading": "9. 谈谈 Nacos 配置中心",
+        "level": 1
+      },
+      {
+        "heading": "10. 服务网关可以做什么？",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "Spring",
+    "relativePath": "7. 面试题/Spring.md",
+    "tags": [
+      "spring",
+      "面试题"
+    ],
+    "headings": [
+      {
+        "heading": "1. Spring 声明式事务原理？",
+        "level": 1
+      },
+      {
+        "heading": "2. Spring 声明式事务哪些场景会失效",
+        "level": 1
+      },
+      {
+        "heading": "3. 单例Bean是单例模式吗？",
+        "level": 1
+      },
+      {
+        "heading": "2. Bean的实例化和Bean的初始化有什么区别？",
+        "level": 1
+      },
+      {
+        "heading": "3. Spring AOP是如何实现的？它和AspectJ有什么区别？",
+        "level": 1
+      },
+      {
+        "heading": "4. Spring中的事务是如何实现的？",
+        "level": 1
+      },
+      {
+        "heading": "5. 你是如何理解Spring事务的传播机制的？底层是如何实现的？",
+        "level": 1
+      },
+      {
+        "heading": "6. Spring中的Bean创建的生命周期有哪些步骤",
+        "level": 1
+      },
+      {
+        "heading": "7. Spring中Bean是线程安全的吗",
+        "level": 1
+      },
+      {
+        "heading": "8. ApplicationContext和BeanFactory有什么区别",
+        "level": 1
+      },
+      {
+        "heading": "9. Spring容器启动流程是怎样的",
+        "level": 1
+      },
+      {
+        "heading": "10. @SpringBootApplication注解有什么用？为什么一定要写它？",
+        "level": 1
+      },
+      {
+        "heading": "11. SpringBoot中的spring.factories文件有什么作用？",
+        "level": 2
+      },
+      {
+        "heading": "12. 你是如何理解SpringBoot中的自动配置的？",
+        "level": 1
+      },
+      {
+        "heading": "13. Spring Boot启动过程中做了哪些事情？",
+        "level": 1
+      },
+      {
+        "heading": "14. SpringMVC处理请求的流程是什么？",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "Redis",
+    "relativePath": "7. 面试题/Redis.md",
+    "tags": [
+      "redis",
+      "面试题"
+    ],
+    "headings": [
+      {
+        "heading": "1. 什么是 Redis？它主要用来什么的？",
+        "level": 1
+      },
+      {
+        "heading": "2. 说说 Redis 的基本数据结构类型",
+        "level": 1
+      },
+      {
+        "heading": "String（字符串）",
+        "level": 2
+      },
+      {
+        "heading": "Hash（哈希）",
+        "level": 2
+      },
+      {
+        "heading": "List（列表）",
+        "level": 2
+      },
+      {
+        "heading": "Set（集合）",
+        "level": 2
+      },
+      {
+        "heading": "有序集合（zset）",
+        "level": 2
+      },
+      {
+        "heading": "3. 说说 Redis 的特殊数据类型",
+        "level": 1
+      },
+      {
+        "heading": "4. Redis 为什么这么快？",
+        "level": 1
+      },
+      {
+        "heading": "原因1：基于内存存储实现",
+        "level": 2
+      },
+      {
+        "heading": "原因2：高效的数据结构",
+        "level": 2
+      },
+      {
+        "heading": "SDS 简单动态字符串",
+        "level": 3
+      },
+      {
+        "heading": "字典",
+        "level": 3
+      },
+      {
+        "heading": "跳跃表",
+        "level": 3
+      },
+      {
+        "heading": "压缩链表",
+        "level": 3
+      },
+      {
+        "heading": "原因3：合理的数据编码",
+        "level": 2
+      },
+      {
+        "heading": "原因4：合理的线程模型",
+        "level": 2
+      },
+      {
+        "heading": "I/O 多路复用",
+        "level": 3
+      },
+      {
+        "heading": "单线程模型",
+        "level": 3
+      },
+      {
+        "heading": "5. 什么是缓存击穿、缓存穿透、缓存雪崩？",
+        "level": 1
+      },
+      {
+        "heading": "缓存穿透",
+        "level": 2
+      },
+      {
+        "heading": "什么是缓存穿透？",
+        "level": 3
+      },
+      {
+        "heading": "如何避免缓存穿透呢？ 一般有三种方法：",
+        "level": 3
+      },
+      {
+        "heading": "缓存雪崩",
+        "level": 2
+      },
+      {
+        "heading": "缓存击穿问题",
+        "level": 2
+      },
+      {
+        "heading": "如何解决缓存击穿？",
+        "level": 2
+      },
+      {
+        "heading": "6. 什么是热 Key 问题，如何解决热 key 问题",
+        "level": 1
+      },
+      {
+        "heading": "什么是热 Key",
+        "level": 2
+      },
+      {
+        "heading": "在日常开发中，如何识别到热点 key 呢？",
+        "level": 2
+      },
+      {
+        "heading": "如何解决热 Key 问题？",
+        "level": 2
+      },
+      {
+        "heading": "7. Redis 过期策略和内存淘汰策略",
+        "level": 1
+      },
+      {
+        "heading": "Redis 过期策略",
+        "level": 2
+      },
+      {
+        "heading": "定时过期",
+        "level": 3
+      },
+      {
+        "heading": "惰性过期",
+        "level": 3
+      },
+      {
+        "heading": "定期过期",
+        "level": 3
+      },
+      {
+        "heading": "Redis 内存淘汰策略",
+        "level": 2
+      },
+      {
+        "heading": "volatile-lru",
+        "level": 3
+      },
+      {
+        "heading": "allkeys-lru",
+        "level": 3
+      },
+      {
+        "heading": "volatile-lfu",
+        "level": 3
+      },
+      {
+        "heading": "allkeys-lfu",
+        "level": 3
+      },
+      {
+        "heading": "volatile-random",
+        "level": 3
+      },
+      {
+        "heading": "allkeys-random",
+        "level": 3
+      },
+      {
+        "heading": "volatile-ttl",
+        "level": 3
+      },
+      {
+        "heading": "noeviction",
+        "level": 3
+      },
+      {
+        "heading": "8. Redis 的 Hash 冲突怎么办？",
+        "level": 1
+      },
+      {
+        "heading": "9. 在生成 RDB 期间，Redis 可以同时处理写请求么？",
+        "level": 1
+      },
+      {
+        "heading": "10. 布隆过滤器",
+        "level": 1
+      },
+      {
+        "heading": "布隆过滤器是什么呢？",
+        "level": 2
+      },
+      {
+        "heading": "布隆过滤器原理是？",
+        "level": 2
+      },
+      {
+        "heading": "11. Redis的key和value可以存储的最大值分别是多少？",
+        "level": 1
+      },
+      {
+        "heading": "12. 怎么利用Redis实现数据的去重？",
+        "level": 1
+      },
+      {
+        "heading": "13. Redis 什么时候需要序列化？Redis序列化的方式有哪些？",
+        "level": 1
+      },
+      {
+        "heading": "14. 说一下 Raft 算法？",
+        "level": 1
+      },
+      {
+        "heading": "15. Redis 持久化有哪几种方式，怎么选？",
+        "level": 1
+      },
+      {
+        "heading": "15.1 AOF 持久化",
+        "level": 2
+      },
+      {
+        "heading": "AOF 优点",
+        "level": 3
+      },
+      {
+        "heading": "AOF 缺点",
+        "level": 3
+      },
+      {
+        "heading": "15.2 RDB 持久化",
+        "level": 2
+      },
+      {
+        "heading": "RDB 优点",
+        "level": 2
+      },
+      {
+        "heading": "RDB 缺点",
+        "level": 2
+      },
+      {
+        "heading": "15.3 如何选择 RDB 和 AOF",
+        "level": 2
+      },
+      {
+        "heading": "16. Redis 主从同步是怎样的过程？",
+        "level": 1
+      },
+      {
+        "heading": "附录",
+        "level": 1
+      },
+      {
+        "heading": "1. 什么是跳跃表？",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "#^4adc6f",
+        "relativePath": "7. 面试题/Redis.md",
+        "cleanLink": "Redis",
+        "displayText": "附录-什么是跳跃表"
+      },
+      {
+        "link": "Redis#^9edeb7",
+        "cleanLink": "Redis",
+        "displayText": "布隆过滤器笔记",
+        "relativePath": "4. Redis/Redis.md"
+      },
+      {
+        "link": "Redis#6.6 复制原理和工作流程",
+        "cleanLink": "Redis",
+        "displayText": "复制原理和工作流程",
+        "relativePath": "4. Redis/Redis.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "【面经】",
+        "link": "Redis#4. Redis 为什么这么快？",
+        "relativePath": "7. 面试题/【面经】.md",
+        "cleanLink": "Redis",
+        "displayText": "面试题：Redis为什么这么快"
+      },
+      {
+        "fileName": "【面经】",
+        "link": "Redis#15. Redis 持久化有哪几种方式，怎么选？",
+        "relativePath": "7. 面试题/【面经】.md",
+        "cleanLink": "Redis",
+        "displayText": "面试题：Redis持久化方式"
+      }
+    ]
+  },
+  {
+    "fileName": "RabbitMQ",
+    "relativePath": "7. 面试题/RabbitMQ.md",
+    "headings": [
+      {
+        "heading": "1. 什么是消息队列？",
+        "level": 1
+      },
+      {
+        "heading": "2. 消息队列有哪些使用场景",
+        "level": 1
+      },
+      {
+        "heading": "2.1 应用解耦",
+        "level": 2
+      },
+      {
+        "heading": "2.2 流量削峰",
+        "level": 2
+      },
+      {
+        "heading": "2.3 异步处理",
+        "level": 2
+      },
+      {
+        "heading": "3. 消息队列如何解决消息丢失问题？",
+        "level": 1
+      },
+      {
+        "heading": "生产者保证不丢消息",
+        "level": 2
+      },
+      {
+        "heading": "存储端不丢消息",
+        "level": 2
+      },
+      {
+        "heading": "消费阶段不丢消息",
+        "level": 2
+      },
+      {
+        "heading": "4. 消息队列如何保证消息的顺序性",
+        "level": 1
+      },
+      {
+        "heading": "5. 消息队列有可能发生重复消费，如何避免，如何做到幂等？",
+        "level": 1
+      },
+      {
+        "heading": "6. 如何处理消息队列的消息积压问题",
+        "level": 1
+      },
+      {
+        "heading": "7. 消息队列技术选型，Kafka 还是 RocketMQ，还是 RabbitMQ",
+        "level": 1
+      },
+      {
+        "heading": "8. 消息中间件如何做到高可用",
+        "level": 1
+      },
+      {
+        "heading": "9. 如何保证数据一致性，事务消息如何实现",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "MySQL",
+    "relativePath": "7. 面试题/MySQL.md",
+    "headings": [
+      {
+        "heading": "1. 什么时候索引会失效?",
+        "level": 1
+      },
+      {
+        "heading": "1. 未按照索引字段的顺序，从左到右匹配时，索引失效（部分或者全部）",
+        "level": 2
+      },
+      {
+        "heading": "2. 在索引上使用mysql内置函数，索引失效",
+        "level": 2
+      },
+      {
+        "heading": "3. like以通配符%开头使索引失效",
+        "level": 2
+      },
+      {
+        "heading": "4. 类型转换使索引失效",
+        "level": 2
+      },
+      {
+        "heading": "5. 范围条件右边的列索引失效",
+        "level": 2
+      },
+      {
+        "heading": "6. 类型转换导致索引失效",
+        "level": 2
+      },
+      {
+        "heading": "7. 计算导致索引失效",
+        "level": 2
+      },
+      {
+        "heading": "8. 不等于(!= 或者<>)索引失效",
+        "level": 2
+      },
+      {
+        "heading": "9. is null 可以使用索引，is not null / not like 无法使用索引",
+        "level": 2
+      },
+      {
+        "heading": "10. OR 前后存在非索引的列，索引失效",
+        "level": 2
+      },
+      {
+        "heading": "11. 若使用全表扫描要比使用索引快，则不使用索引",
+        "level": 2
+      },
+      {
+        "heading": "2. 索引不适合哪些场景",
+        "level": 1
+      },
+      {
+        "heading": "3. 索引的一些潜规则",
+        "level": 1
+      },
+      {
+        "heading": "解释一下覆盖索引？",
+        "level": 2
+      },
+      {
+        "heading": "什么是回表？",
+        "level": 2
+      },
+      {
+        "heading": "索引数据结构（B+树）",
+        "level": 2
+      },
+      {
+        "heading": "为什么选择B+树？",
+        "level": 3
+      },
+      {
+        "heading": "为什么B+树只有四层 / B+树的存储能力如何？为何说一般查找行记录，最多只需1~3次磁盘IO？",
+        "level": 3
+      },
+      {
+        "heading": "解释一下最左前缀原则",
+        "level": 2
+      },
+      {
+        "heading": "解释一下索引下推",
+        "level": 2
+      },
+      {
+        "heading": "4. MySQL遇到过死锁问题吗？如何解决？",
+        "level": 1
+      },
+      {
+        "heading": "5. 日常工作中你是怎么优化 SQL 的？",
+        "level": 1
+      },
+      {
+        "heading": "6. 说说分库与分表的设计",
+        "level": 1
+      },
+      {
+        "heading": "7. InnoDB 与 MyISAM 的区别",
+        "level": 1
+      },
+      {
+        "heading": "8. MySQL索引为什么要用 B+树？",
+        "level": 1
+      },
+      {
+        "heading": "9. 聚集索引与非聚集索引的区别",
+        "level": 1
+      },
+      {
+        "heading": "10. limit 1000000, 10 加载很慢的话，如何解决？",
+        "level": 1
+      },
+      {
+        "heading": "11. 如何选择合适的分布式主键方案呢？",
+        "level": 1
+      },
+      {
+        "heading": "12. 解释一下事务的ACID？",
+        "level": 1
+      },
+      {
+        "heading": "12. 事务的隔离级别有哪些？MySQL 的默认隔离级别是什么？",
+        "level": 1
+      },
+      {
+        "heading": "13. 什么是脏写、脏读、不可重复读、幻读？",
+        "level": 1
+      },
+      {
+        "heading": "14. 在高并发情况下，如何做到安全的修改同一行数据？",
+        "level": 1
+      },
+      {
+        "heading": "15. 解释一下数据库的乐观锁和悲观锁",
+        "level": 1
+      },
+      {
+        "heading": "16. SQL 优化的一般步骤是什么，怎么看执行计划（explain）",
+        "level": 1
+      },
+      {
+        "heading": "17. select for update 有什么含义，会锁表还是锁行还是其他？",
+        "level": 1
+      },
+      {
+        "heading": "18. 事务 ACID 特性的实现思想",
+        "level": 1
+      },
+      {
+        "heading": "19. 如何写 sql 能够有效的使用到复合索引",
+        "level": 1
+      },
+      {
+        "heading": "20. mysql 中 in 与 exists 的区别",
+        "level": 1
+      },
+      {
+        "heading": "21. 数据库自增主键可能遇到什么问题",
+        "level": 1
+      },
+      {
+        "heading": "22. MVCC 熟悉吗，它的底层原理？",
+        "level": 1
+      },
+      {
+        "heading": "23. MYSQL 的主从延迟如何解决？",
+        "level": 1
+      },
+      {
+        "heading": "主从复制的原理",
+        "level": 2
+      },
+      {
+        "heading": "主从同步的延迟的原因",
+        "level": 2
+      },
+      {
+        "heading": "主从同步延迟的解决办法",
+        "level": 2
+      },
+      {
+        "heading": "24. 说一下大表查询的优化方案",
+        "level": 1
+      },
+      {
+        "heading": "25. 什么是数据库连接池?为什么需要数据库连接池呢?",
+        "level": 1
+      },
+      {
+        "heading": "26. 一条 SQL 语句在 MySQL 中如何执行的？",
+        "level": 1
+      },
+      {
+        "heading": "27. InnoDB 引擎中的索引策略，了解过吗？",
+        "level": 1
+      },
+      {
+        "heading": "28. 一条 sql 执行过长的时间，你如何优化，从哪些方面入手？",
+        "level": 1
+      },
+      {
+        "heading": "29. Blob 和 text 有什么区别？",
+        "level": 1
+      },
+      {
+        "heading": "30. mysql 里记录货币用什么字段类型比较好？",
+        "level": 1
+      },
+      {
+        "heading": "31. Mysql 中有哪几种锁，列举一下？",
+        "level": 1
+      },
+      {
+        "heading": "32. Hash 索引和 B+树区别是什么？你在设计索引是怎么抉择的？",
+        "level": 1
+      },
+      {
+        "heading": "33. mysql 的内连接、左连接、右连接有什么区别？",
+        "level": 1
+      },
+      {
+        "heading": "34. 说说 MySQL 的基础架构图",
+        "level": 1
+      },
+      {
+        "heading": "35. 说一下数据库的三大范式",
+        "level": 1
+      },
+      {
+        "heading": "36. Mysql 的 binlog 有几种录入格式？分别有什么区别？",
+        "level": 1
+      },
+      {
+        "heading": "37. 索引有哪些优缺点？索引有哪几种类型？",
+        "level": 1
+      },
+      {
+        "heading": "索引有哪些优缺点",
+        "level": 2
+      },
+      {
+        "heading": "索引有哪几种类型？",
+        "level": 2
+      },
+      {
+        "heading": "38. 创建索引有什么原则呢？",
+        "level": 1
+      },
+      {
+        "heading": "39. 创建索引的三种方式",
+        "level": 1
+      },
+      {
+        "heading": "40. 百万级别或以上的数据，你是如何删除的？",
+        "level": 1
+      },
+      {
+        "heading": "41. 什么是死锁？怎么解决？",
+        "level": 1
+      },
+      {
+        "heading": "42. count(1)、count( * ) 与 count(列名) 的区别？",
+        "level": 1
+      },
+      {
+        "heading": "43. 什么是存储过程？有哪些优缺点？",
+        "level": 1
+      },
+      {
+        "heading": "44. SQL 约束有哪几种呢？",
+        "level": 1
+      },
+      {
+        "heading": "45. varchar(50)中 50 的含义",
+        "level": 1
+      },
+      {
+        "heading": "46. mysql 中 int(20)和 char(20)以及 varchar(20)的区别",
+        "level": 1
+      },
+      {
+        "heading": "47. drop、delete 与 truncate 的区别",
+        "level": 1
+      },
+      {
+        "heading": "48. UNION 与 UNION ALL 的区别？",
+        "level": 1
+      },
+      {
+        "heading": "49. 主键使用自增 ID 还是 UUID，为什么？mysql 自增主键用完了怎么办？",
+        "level": 1
+      },
+      {
+        "heading": "主键使用自增 ID 还是 UUID？",
+        "level": 2
+      },
+      {
+        "heading": "mysql 自增主键用完了怎么办?",
+        "level": 2
+      },
+      {
+        "heading": "50. 你们数据库是否支持 emoji 表情存储，如果不支持，如何操作？",
+        "level": 1
+      },
+      {
+        "heading": "51. 一个 6 亿的表 a，一个 3 亿的表 b，通过外间 tid 关联， 你如何最快的查询出满足条件的第 50000 到第 50200 中的这 200 条数据记录。",
+        "level": 1
+      },
+      {
+        "heading": "52. Innodb 的事务与日志的实现方式",
+        "level": 1
+      },
+      {
+        "heading": "有多少种日志？",
+        "level": 2
+      },
+      {
+        "heading": "日志的存放形式",
+        "level": 2
+      },
+      {
+        "heading": "事务是如何通过日志来实现的",
+        "level": 2
+      },
+      {
+        "heading": "53. 常见的索引结构有？哈希表结构属于哪种场景？",
+        "level": 1
+      },
+      {
+        "heading": "54. 为什么 MySQL 官方默认隔离级别是 RR，而有些大厂选择了 RC 作为默认的隔离级别呢？",
+        "level": 1
+      },
+      {
+        "heading": "55. MySQL 的 B+树的高度怎么计算？",
+        "level": 1
+      },
+      {
+        "heading": "56. # 13. B+树是不是有序？B+树和 B-树的主要区别？B+树索引，二级索引的查找过程?",
+        "level": 1
+      },
+      {
+        "heading": "57. 聊聊 binlog 日志",
+        "level": 1
+      },
+      {
+        "heading": "58. 读写分离的场景下，怎么保证从数据库读到最新的数据？",
+        "level": 1
+      },
+      {
+        "heading": "59. 如何保证 MySQL 数据不丢？",
+        "level": 1
+      },
+      {
+        "heading": "59.1 binlog 日志",
+        "level": 2
+      },
+      {
+        "heading": "59.2 redo log 日志",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "MySQL#2. 索引失效案例",
+        "cleanLink": "MySQL",
+        "displayText": "参考：什么时候索引会失效？",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#8.1 什么是覆盖索引？",
+        "cleanLink": "MySQL",
+        "displayText": "什么是覆盖索引？",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#2. 二级索引（辅助索引、非聚簇索引）",
+        "cleanLink": "MySQL",
+        "displayText": "非聚簇索引",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#3.4 InnoDB的B+树索引的注意事项",
+        "cleanLink": "MySQL",
+        "displayText": "B+树的注意事项",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#10. 索引下推",
+        "cleanLink": "MySQL",
+        "displayText": "参考索引下推",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "#^16956b",
+        "relativePath": "7. 面试题/MySQL.md",
+        "cleanLink": "MySQL",
+        "displayText": "覆盖索引"
+      },
+      {
+        "link": "#^2f185b",
+        "relativePath": "7. 面试题/MySQL.md",
+        "cleanLink": "MySQL",
+        "displayText": "哪些情况下索引会失效？"
+      },
+      {
+        "link": "MySQL#12.1 EXISTS 和 IN 的区分",
+        "cleanLink": "MySQL",
+        "displayText": "参考：in 和 exist 到底该用谁？",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#4.3 分库分表",
+        "cleanLink": "MySQL",
+        "displayText": "参考：分库分表",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#1. 什么是MVCC",
+        "cleanLink": "MySQL",
+        "displayText": "MVCC(多版本并发控制)",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#1.1 索引的分类",
+        "cleanLink": "MySQL",
+        "displayText": "全文索引",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#2. 查看系统性能参数（ShOW STATUS命令）",
+        "cleanLink": "MySQL",
+        "displayText": "SHOW STATUS 命令",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#3. 统计SQL的查询成本: last_query_cost",
+        "cleanLink": "MySQL",
+        "displayText": "last_query_cost",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#4. 定位执行慢的 SQL：慢查询日志",
+        "cleanLink": "MySQL",
+        "displayText": "慢查询日志",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#6. 分析查询语句：EXPLAIN",
+        "cleanLink": "MySQL",
+        "displayText": "EXPLAIN",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#12.1 EXISTS 和 IN 的区分",
+        "cleanLink": "MySQL",
+        "displayText": "参考：in 和 exist 到底该用谁？",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#1. 什么是MVCC",
+        "cleanLink": "MySQL",
+        "displayText": "参考MVCC",
+        "relativePath": "1. SQL/MySQL.md"
+      },
+      {
+        "link": "MySQL#3. 锁的不同角度分类",
+        "cleanLink": "MySQL",
+        "displayText": "参考：锁",
+        "relativePath": "1. SQL/MySQL.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Java",
+    "relativePath": "7. 面试题/Java.md",
+    "tags": [
+      "java",
+      "面试题"
+    ],
+    "headings": [
+      {
+        "heading": "1. `equals` 与 `==` 的区别",
+        "level": 1
+      },
+      {
+        "heading": "2. final，finally，finalize 的区别",
+        "level": 1
+      },
+      {
+        "heading": "3. 重载和重写的区别",
+        "level": 1
+      },
+      {
+        "heading": "4. 两个对象的 hashCode()相同，则 equals()是否也一定为 true？",
+        "level": 1
+      },
+      {
+        "heading": "5. 抽象类和接口有什么区别",
+        "level": 1
+      },
+      {
+        "heading": "6. BIO、NIO、AIO 有什么区别？",
+        "level": 1
+      },
+      {
+        "heading": "7. String，StringBuffer，StringBuilder 的区别",
+        "level": 1
+      },
+      {
+        "heading": "8. JAVA 中的几种基本数据类型是什么，各自占用多少字节",
+        "level": 1
+      },
+      {
+        "heading": "9. Comparator 与 Comparable 有什么区别？",
+        "level": 1
+      },
+      {
+        "heading": "10. String 类能被继承吗，为什么？",
+        "level": 1
+      },
+      {
+        "heading": "11. 说说 Java 中多态的实现原理",
+        "level": 1
+      },
+      {
+        "heading": "12. 在 jdk1.5 中，引入了泛型，泛型的存在是用来解决什么问题。",
+        "level": 1
+      },
+      {
+        "heading": "13. int 和 Integer 有什么区别，还有 Integer 缓存的实现",
+        "level": 1
+      },
+      {
+        "heading": "14. 说说反射的用途及实现原理，Java 获取反射的三种方法",
+        "level": 1
+      },
+      {
+        "heading": "15. 面向对象的特征",
+        "level": 1
+      },
+      {
+        "heading": "16. &和&&的区别",
+        "level": 1
+      },
+      {
+        "heading": "17. Java 中 IO 流分为几种？",
+        "level": 1
+      },
+      {
+        "heading": "18. 讲讲类的实例化顺序，比如父类静态数据，构造函数， 子类静态数据，构造函数。",
+        "level": 1
+      },
+      {
+        "heading": "19. Java 创建对象有几种方式",
+        "level": 1
+      },
+      {
+        "heading": "20. 如何将 GB2312 编码的字符串转换为 ISO-8859-1 编码的字符串呢？",
+        "level": 1
+      },
+      {
+        "heading": "21. Java 语言是如何处理异常的，关键字throws、throw、try、catch、finally 怎么使用？",
+        "level": 1
+      },
+      {
+        "heading": "22. 静态内部类与非静态内部类有什么区别",
+        "level": 1
+      },
+      {
+        "heading": "23. String s 与 new String 与有什么区别",
+        "level": 1
+      },
+      {
+        "heading": "24. 反射中，Class.forName 和 ClassLoader 的区别",
+        "level": 1
+      },
+      {
+        "heading": "25. JDK 动态代理与 cglib 实现的区别",
+        "level": 1
+      },
+      {
+        "heading": "26. 深拷贝和浅拷贝区别",
+        "level": 1
+      },
+      {
+        "heading": "27. JDK 和 JRE 有什么区别？",
+        "level": 1
+      },
+      {
+        "heading": "28. String 类的常用方法都有那些呢？",
+        "level": 1
+      },
+      {
+        "heading": "29. 什么是值传递和引用传递？",
+        "level": 1
+      },
+      {
+        "heading": "30. 可以在 static 环境中访问非 static 变量吗？",
+        "level": 1
+      },
+      {
+        "heading": "31. Java 支持多继承么，为什么？",
+        "level": 1
+      },
+      {
+        "heading": "32. 用最有效率的方法计算 2 乘以 8？",
+        "level": 1
+      },
+      {
+        "heading": "33. char 型变量中能否存贮一个中文汉字？",
+        "level": 1
+      },
+      {
+        "heading": "34. 如何实现对象克隆？",
+        "level": 1
+      },
+      {
+        "heading": "35. object 中定义了哪些方法？",
+        "level": 1
+      },
+      {
+        "heading": "36. hashCode 的作用是什么？",
+        "level": 1
+      },
+      {
+        "heading": "37. for-each 与常规 for 循环的效率对比",
+        "level": 1
+      },
+      {
+        "heading": "38. 访问修饰符 public，private，protected 以及 default 的区别？",
+        "level": 1
+      },
+      {
+        "heading": "39. 谈谈 final 在 java 中的作用？",
+        "level": 1
+      },
+      {
+        "heading": "40. java 中的 Math.round(-1.5) 等于多少呢？",
+        "level": 1
+      },
+      {
+        "heading": "41. String 属于基础的数据类型吗？",
+        "level": 1
+      },
+      {
+        "heading": "42. 如何将字符串反转呢？",
+        "level": 1
+      },
+      {
+        "heading": "43. 在自己的代码中，如果创建一个 java.lang.String 类， 这个类是否可以被类加载器加载？为什么？",
+        "level": 1
+      },
+      {
+        "heading": "44. 被 final 修饰的类可以被 Spring 代理吗？",
+        "level": 1
+      },
+      {
+        "heading": "45. 谈谈你对 java.lang.Object 对象中 hashCode 和 equals 方法的理解。在什么场景下需要重新实现这两个方法。",
+        "level": 1
+      },
+      {
+        "heading": "46. 什么是序列化，怎么序列化，反序列呢？",
+        "level": 1
+      },
+      {
+        "heading": "47. java8 的新特性",
+        "level": 1
+      },
+      {
+        "heading": "48. 匿名内部类是什么？如何访问在其外面定义的变量呢？",
+        "level": 1
+      },
+      {
+        "heading": "49. break 和 continue 有什么区别？",
+        "level": 1
+      },
+      {
+        "heading": "50. String s = \"Hello\"; s = s + \" world!\" 这两行代码执行后，原始的 String 对象中的内容是否会改变？",
+        "level": 1
+      },
+      {
+        "heading": "51. String s=\"a\"+\"b\"+\"c\"+\"d\" 创建了几个对象？",
+        "level": 1
+      },
+      {
+        "heading": "52. try-catch-finally-return 执行顺序",
+        "level": 1
+      },
+      {
+        "heading": "53. Java 7 新的 try-with-resources 语句，平时有使用吗？",
+        "level": 1
+      },
+      {
+        "heading": "54. 简述一下面向对象的”六原则一法则”。",
+        "level": 1
+      },
+      {
+        "heading": "55. switch 是否能作用在 byte 上，是否能作用在 long 上，是否能作用在 String 上？",
+        "level": 1
+      },
+      {
+        "heading": "56. 数组有没有 length() 方法？String 有没有 length() 方法？",
+        "level": 1
+      },
+      {
+        "heading": "57. 是否可以从一个静态（static）方法内部发出对非静态（non-static）方法的调用？",
+        "level": 1
+      },
+      {
+        "heading": "58. String s = new String(\"jay\") 创建了几个字符串对象？",
+        "level": 1
+      },
+      {
+        "heading": "59. this 和 super 关键字的作用",
+        "level": 1
+      },
+      {
+        "heading": "60. 我们能将 int 强制转换为 byte 类型的变量吗？如果该值大于 byte 类型的范围，将会出现什么现象？",
+        "level": 1
+      },
+      {
+        "heading": "61. float f=3.4 正确吗？",
+        "level": 1
+      },
+      {
+        "heading": "62. 接口可否继承接口？抽象类是否可实现接口？抽象类是否可继承实体类？",
+        "level": 1
+      },
+      {
+        "heading": "63. JDK 7 有哪些新特性",
+        "level": 1
+      },
+      {
+        "heading": "64. HashMap 是怎样实现的？为什么要用红黑树，而不是二叉树？HashMap 是线程安全的吗？如何保证安全？",
+        "level": 1
+      },
+      {
+        "heading": "64.1 HashMap 是怎样实现的？",
+        "level": 2
+      },
+      {
+        "heading": "64.2 为什么要用红黑树，为什么不用二叉树？为什么不用平衡二叉树？",
+        "level": 2
+      },
+      {
+        "heading": "64.3 HashMap 是线程安全的嘛？如何保证安全？",
+        "level": 1
+      },
+      {
+        "heading": "65. HashMap 原理？",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "#^098ecf",
+        "relativePath": "7. 面试题/Java.md",
+        "cleanLink": "Java",
+        "displayText": "final 在 java 中的作用"
+      }
+    ]
+  },
+  {
+    "fileName": "MQ消息队列",
+    "relativePath": "7. 面试题/MQ消息队列.md",
+    "tags": [
+      "mq",
+      "消息队列",
+      "面试题"
+    ]
+  },
+  {
+    "fileName": "Linux",
+    "relativePath": "7. 面试题/Linux.md",
+    "tags": [
+      "linux",
+      "面试题"
+    ],
+    "headings": [
+      {
+        "heading": "什么是零拷贝？说一说你对零拷贝的理解？",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "EasyExcel",
+    "relativePath": "6. 轮子/EasyExcel.md",
+    "headings": [
+      {
+        "heading": "POM 依赖",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "文件分割、合并",
+    "relativePath": "6. 轮子/文件分割、合并.md"
+  },
+  {
+    "fileName": "分布式事务",
+    "relativePath": "6. 轮子/分布式事务.md"
+  },
+  {
+    "fileName": "计算Java对象占用的内存大小",
+    "relativePath": "6. 轮子/其他/计算Java对象占用的内存大小.md",
+    "backlinks": [
+      {
+        "fileName": "Redis",
+        "link": "计算Java对象占用的内存大小",
+        "relativePath": "4. Redis/Redis.md"
+      }
+    ]
+  },
+  {
+    "fileName": "集成WebSocket",
+    "relativePath": "6. 轮子/WebSocket/集成WebSocket.md",
+    "headings": [
+      {
+        "heading": "1. 编码",
+        "level": 1
+      },
+      {
+        "heading": "WebSocketConfig",
+        "level": 2
+      },
+      {
+        "heading": "WebSocketServer",
+        "level": 2
+      },
+      {
+        "heading": "WebSocketSchedule",
+        "level": 2
+      },
+      {
+        "heading": "主启动类",
+        "level": 2
+      },
+      {
+        "heading": "代码效果",
+        "level": 2
+      },
+      {
+        "heading": "拓展",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "集成Swagger",
+    "relativePath": "6. 轮子/Swagger/集成Swagger.md"
+  },
+  {
+    "fileName": "自定义RestTemplate",
+    "relativePath": "6. 轮子/Redis/自定义RestTemplate.md"
+  },
+  {
+    "fileName": "Mybatis-Generator",
+    "relativePath": "6. 轮子/Mybatis/Mybatis-Generator.md",
+    "headings": [
+      {
+        "heading": "POM",
+        "level": 1
+      },
+      {
+        "heading": "resources/generator/application.properties",
+        "level": 1
+      },
+      {
+        "heading": "resources/generator/generatorConfig.xml",
+        "level": 1
+      },
+      {
+        "heading": "点击插件运行",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "IDEA 快捷键",
+    "relativePath": "6. 轮子/IDEA 快捷键.md",
+    "headings": [
+      {
+        "heading": "类中搜索指定的方法",
+        "level": 3
+      },
+      {
+        "heading": "全局折叠/展开代码",
+        "level": 3
+      },
+      {
+        "heading": "全局",
+        "level": 4
+      },
+      {
+        "heading": "全局折叠代码",
+        "level": 5
+      },
+      {
+        "heading": "全局展开代码",
+        "level": 5
+      },
+      {
+        "heading": "局部",
+        "level": 4
+      },
+      {
+        "heading": "指定代码被块代码覆盖（if、try catch...）",
+        "level": 3
+      },
+      {
+        "heading": "快速将代码抽象为方法",
+        "level": 3
+      },
+      {
+        "heading": "查看抽象类其子类的实现",
+        "level": 3
+      },
+      {
+        "heading": "回溯上一步操作",
+        "level": 3
+      },
+      {
+        "heading": "回溯下一步操作",
+        "level": 3
+      },
+      {
+        "heading": "查看某个方法的调用链关系",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "AOP",
+    "relativePath": "6. 轮子/AOP.md",
+    "headings": [
+      {
+        "heading": "实操一： AOP 记录接口访问日志",
+        "level": 1
+      },
+      {
+        "heading": "实操二：Spring实现多数据源切换",
+        "level": 1
+      },
+      {
+        "heading": "总体流程",
+        "level": 2
+      },
+      {
+        "heading": "代码实现",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "【面经】",
+        "link": "AOP#实操二：Spring实现多数据源切换",
+        "relativePath": "7. 面试题/【面经】.md",
+        "cleanLink": "AOP",
+        "displayText": "参考AOP：Spring数据源切换"
+      }
+    ]
+  },
+  {
+    "fileName": "分布式事务",
+    "relativePath": "5. 分布式事务/分布式事务.md",
+    "tags": [
+      "分布式相关理论",
+      "分布式事务",
+      "2pc",
+      "3pc",
+      "ttc",
+      "saga事务",
+      "本地事务表",
+      "mq事务消息",
+      "最大努力通知"
+    ],
+    "headings": [
+      {
+        "heading": "1 两阶段提交（2PC）",
+        "level": 1
+      },
+      {
+        "heading": "1.1 两个阶段",
+        "level": 2
+      },
+      {
+        "heading": "准备阶段",
+        "level": 3
+      },
+      {
+        "heading": "提交阶段",
+        "level": 3
+      },
+      {
+        "heading": "1.2 2PC存在的问题",
+        "level": 2
+      },
+      {
+        "heading": "2 三阶段提交（3PC）",
+        "level": 1
+      },
+      {
+        "heading": "2.1 三个阶段",
+        "level": 2
+      },
+      {
+        "heading": "阶段一",
+        "level": 3
+      },
+      {
+        "heading": "阶段二",
+        "level": 3
+      },
+      {
+        "heading": "阶段三",
+        "level": 3
+      },
+      {
+        "heading": "2.2 3PC缺点",
+        "level": 2
+      },
+      {
+        "heading": "3 TTC",
+        "level": 1
+      },
+      {
+        "heading": "3.1 什么是TCC",
+        "level": 2
+      },
+      {
+        "heading": "3.2 TCC的执行流程",
+        "level": 2
+      },
+      {
+        "heading": "3.3 TCC如何解决了2PC的问题呢？",
+        "level": 2
+      },
+      {
+        "heading": "3.4 TCC如何保证最终一致性",
+        "level": 2
+      },
+      {
+        "heading": "3.5 TCC的注意事项",
+        "level": 2
+      },
+      {
+        "heading": "3.6 TCC方案的优缺点",
+        "level": 2
+      },
+      {
+        "heading": "3.7 TTC例子",
+        "level": 2
+      },
+      {
+        "heading": "4 Saga事务",
+        "level": 1
+      },
+      {
+        "heading": "4.1 什么是Saga",
+        "level": 2
+      },
+      {
+        "heading": "4.2 处理流程",
+        "level": 2
+      },
+      {
+        "heading": "4.3 Saga恢复策略",
+        "level": 2
+      },
+      {
+        "heading": "4.4 Saga事务两种不同的实现方式",
+        "level": 2
+      },
+      {
+        "heading": "命令协调",
+        "level": 3
+      },
+      {
+        "heading": "事件编排",
+        "level": 3
+      },
+      {
+        "heading": "命令协调 & 事件编排的优缺点",
+        "level": 3
+      },
+      {
+        "heading": "5 本地消息表",
+        "level": 1
+      },
+      {
+        "heading": "5.1 什么是本地消息表",
+        "level": 2
+      },
+      {
+        "heading": "5.2 本地消息表执行流程",
+        "level": 2
+      },
+      {
+        "heading": "本地消息表的优缺点",
+        "level": 2
+      },
+      {
+        "heading": "6 最大努力通知（非可靠消息，定期校对）",
+        "level": 1
+      },
+      {
+        "heading": "6.1 什么事最大努力通知？",
+        "level": 2
+      },
+      {
+        "heading": "最大努力通知解决方案",
+        "level": 4
+      },
+      {
+        "heading": "7 个个方案使用场景总结",
+        "level": 1
+      },
+      {
+        "heading": "附录",
+        "level": 1
+      },
+      {
+        "heading": "XA协议",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "#^dd1f05",
+        "relativePath": "5. 分布式事务/分布式事务.md",
+        "cleanLink": "分布式事务",
+        "displayText": "什么是XA协议？"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Seata",
+        "link": "分布式事务",
+        "relativePath": "5. 分布式事务/Seata.md",
+        "displayText": "分布式事务中常见的几种理论模型"
+      }
+    ]
+  },
+  {
+    "fileName": "Seata",
+    "relativePath": "5. 分布式事务/Seata.md",
+    "tags": [
+      "springcloud",
+      "springcloudalibaba",
+      "分布式事务"
+    ],
+    "headings": [
+      {
+        "heading": "什么是Seata",
+        "level": 1
+      },
+      {
+        "heading": "整体机制",
+        "level": 1
+      },
+      {
+        "heading": "读写隔离",
+        "level": 1
+      },
+      {
+        "heading": "写隔离",
+        "level": 2
+      },
+      {
+        "heading": "读隔离",
+        "level": 2
+      },
+      {
+        "heading": "工作机制",
+        "level": 1
+      },
+      {
+        "heading": "一阶段",
+        "level": 2
+      },
+      {
+        "heading": "二阶段-回滚",
+        "level": 2
+      },
+      {
+        "heading": "二阶段-提交",
+        "level": 2
+      },
+      {
+        "heading": "Seata中四种模式",
+        "level": 1
+      },
+      {
+        "heading": "Seata TCC 模式",
+        "level": 2
+      },
+      {
+        "heading": "Seata Saga 模式",
+        "level": 2
+      },
+      {
+        "heading": "适用场景",
+        "level": 3
+      },
+      {
+        "heading": "优势",
+        "level": 3
+      },
+      {
+        "heading": "缺点",
+        "level": 3
+      },
+      {
+        "heading": "Seata XA模式",
+        "level": 2
+      },
+      {
+        "heading": "Seata AT模式",
+        "level": 2
+      },
+      {
+        "heading": "附录",
+        "level": 1
+      },
+      {
+        "heading": "回滚日志表",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "分布式事务",
+        "displayText": "分布式事务中常见的几种理论模型",
+        "relativePath": "5. 分布式事务/分布式事务.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Redis",
+    "relativePath": "4. Redis/Redis.md",
+    "tags": [
+      "redis"
+    ],
+    "headings": [
+      {
+        "heading": "1. Redis 10大数据类型（待补充）",
+        "level": 1
+      },
+      {
+        "heading": "1. String",
+        "level": 2
+      },
+      {
+        "heading": "1.2 Bitmap",
+        "level": 2
+      },
+      {
+        "heading": "1.3 Bitfield",
+        "level": 2
+      },
+      {
+        "heading": "1.4 Hash",
+        "level": 2
+      },
+      {
+        "heading": "1.5 List",
+        "level": 2
+      },
+      {
+        "heading": "1.6.Set",
+        "level": 2
+      },
+      {
+        "heading": "1.7 Sorted Set",
+        "level": 2
+      },
+      {
+        "heading": "1.8 Geospatial",
+        "level": 2
+      },
+      {
+        "heading": "1.9 Hyperlog",
+        "level": 2
+      },
+      {
+        "heading": "1.10 Stream",
+        "level": 2
+      },
+      {
+        "heading": "一览",
+        "level": 2
+      },
+      {
+        "heading": "2 Redis持久化",
+        "level": 1
+      },
+      {
+        "heading": "2.1 RDB（Redis Database）",
+        "level": 2
+      },
+      {
+        "heading": "2.1.1 是什么？",
+        "level": 3
+      },
+      {
+        "heading": "2.1.2 能干嘛？",
+        "level": 3
+      },
+      {
+        "heading": "2.1.3 Redis6 VS Redis7",
+        "level": 3
+      },
+      {
+        "heading": "2.1.4 触发方式",
+        "level": 3
+      },
+      {
+        "heading": "2.1.4.1 自动触发 RDB",
+        "level": 4
+      },
+      {
+        "heading": "2.1.4.2 手动触发 RDB",
+        "level": 4
+      },
+      {
+        "heading": "save",
+        "level": 5
+      },
+      {
+        "heading": "bgsave（默认）",
+        "level": 5
+      },
+      {
+        "heading": "2.1.4.3 LASTSAVE",
+        "level": 4
+      },
+      {
+        "heading": "2.1.5 RDB 优点",
+        "level": 3
+      },
+      {
+        "heading": "2.1.6 RDB 缺点",
+        "level": 3
+      },
+      {
+        "heading": "2.1.7 如何修复 dump.rdb 文件",
+        "level": 3
+      },
+      {
+        "heading": "2.1.8 哪些情况会触发 RDB 文件",
+        "level": 3
+      },
+      {
+        "heading": "2.1.9 如何禁用快照",
+        "level": 3
+      },
+      {
+        "heading": "方式一：命令",
+        "level": 4
+      },
+      {
+        "heading": "方式二：配置文件",
+        "level": 4
+      },
+      {
+        "heading": "2.1.10 RDB优化配置项详解",
+        "level": 3
+      },
+      {
+        "heading": "2.1. 11 总结",
+        "level": 3
+      },
+      {
+        "heading": "2.2 AOF（Append Only File）",
+        "level": 2
+      },
+      {
+        "heading": "2.2.1 是什么？",
+        "level": 3
+      },
+      {
+        "heading": "2.2.2 AOF 持久化工作流程",
+        "level": 3
+      },
+      {
+        "heading": "2.2.3 三种写回策略",
+        "level": 3
+      },
+      {
+        "heading": "Always",
+        "level": 4
+      },
+      {
+        "heading": "everysec",
+        "level": 4
+      },
+      {
+        "heading": "no",
+        "level": 4
+      },
+      {
+        "heading": "2.2.4 AOF 配置",
+        "level": 3
+      },
+      {
+        "heading": "2.2.4.1 如何开启 AOF",
+        "level": 4
+      },
+      {
+        "heading": "2.2.4.2 配置写回策略",
+        "level": 4
+      },
+      {
+        "heading": "2.2.4.3 配置保存路径",
+        "level": 4
+      },
+      {
+        "heading": "2.2.4.4 AOF 文件保存名",
+        "level": 4
+      },
+      {
+        "heading": "2.2.5 恢复",
+        "level": 3
+      },
+      {
+        "heading": "2.2.5.2 正常恢复",
+        "level": 4
+      },
+      {
+        "heading": "2.2.5.2 异常恢复",
+        "level": 4
+      },
+      {
+        "heading": "2.2.6 AOF优势",
+        "level": 3
+      },
+      {
+        "heading": "2.2.7 AOF劣势",
+        "level": 3
+      },
+      {
+        "heading": "2.2.8 AOF重写机制",
+        "level": 3
+      },
+      {
+        "heading": "2.2.8.1 AOF重写机制是什么？",
+        "level": 4
+      },
+      {
+        "heading": "2.2.8.2 触发机制",
+        "level": 4
+      },
+      {
+        "heading": "2.2.8.3 AOF重写原理",
+        "level": 4
+      },
+      {
+        "heading": "2.2.9 总结",
+        "level": 3
+      },
+      {
+        "heading": "2.3 RDB-AOF混合持久化",
+        "level": 2
+      },
+      {
+        "heading": "2.3.1 数据恢复顺序和加载流程",
+        "level": 3
+      },
+      {
+        "heading": "2.3.2 RDB 与 AOF 如何选择",
+        "level": 3
+      },
+      {
+        "heading": "2.3.3 【推荐方式】同时开启两种持久化方式",
+        "level": 3
+      },
+      {
+        "heading": "2.3.3.1 原因",
+        "level": 4
+      },
+      {
+        "heading": "2.3.3.1 开启方式",
+        "level": 4
+      },
+      {
+        "heading": "2.4 纯缓存模式",
+        "level": 2
+      },
+      {
+        "heading": "3 Redis 事务",
+        "level": 1
+      },
+      {
+        "heading": "3.1 什么是事务？",
+        "level": 2
+      },
+      {
+        "heading": "3.2 使用事务",
+        "level": 2
+      },
+      {
+        "heading": "3.3 Redis事务 VS 数据库事务",
+        "level": 2
+      },
+      {
+        "heading": "3.4 watch监控",
+        "level": 2
+      },
+      {
+        "heading": "4 Redis 管道",
+        "level": 1
+      },
+      {
+        "heading": "4.1 为什么需要管道？",
+        "level": 2
+      },
+      {
+        "heading": "4.1 什么是管道？",
+        "level": 2
+      },
+      {
+        "heading": "4.2 管道的使用",
+        "level": 2
+      },
+      {
+        "heading": "4.3 总结",
+        "level": 2
+      },
+      {
+        "heading": "4.3.1 Pipeline 与原生批量命令对比",
+        "level": 3
+      },
+      {
+        "heading": "4.3.2 Pipeline 与事务",
+        "level": 3
+      },
+      {
+        "heading": "4.3.3 使用Pipeline注意事项",
+        "level": 3
+      },
+      {
+        "heading": "5 Redis 发布订阅",
+        "level": 1
+      },
+      {
+        "heading": "5.1 什么是发布订阅",
+        "level": 2
+      },
+      {
+        "heading": "5.2 常用命令",
+        "level": 2
+      },
+      {
+        "heading": "5.3 发布/订阅缺点",
+        "level": 2
+      },
+      {
+        "heading": "6 Redis 复制（Replica）",
+        "level": 1
+      },
+      {
+        "heading": "6.1 定义",
+        "level": 2
+      },
+      {
+        "heading": "6.2 作用",
+        "level": 2
+      },
+      {
+        "heading": "6.3 基本操作命令",
+        "level": 2
+      },
+      {
+        "heading": "6.4 配置主从复制",
+        "level": 2
+      },
+      {
+        "heading": "6.5 主从复制问题解答",
+        "level": 2
+      },
+      {
+        "heading": "1. 从机可以执行写命令吗？",
+        "level": 3
+      },
+      {
+        "heading": "2. 主机shutdown后情况如何？从机是否会变为主机？",
+        "level": 3
+      },
+      {
+        "heading": "3. 主机shutdown后，重启后主从关系还在吗?从机还能否顺利复制？",
+        "level": 3
+      },
+      {
+        "heading": "4. 某台从机down后, master继续，从机重启后它能跟上大部队吗？",
+        "level": 3
+      },
+      {
+        "heading": "6.6 复制原理和工作流程",
+        "level": 2
+      },
+      {
+        "heading": "6.7 复制的缺点",
+        "level": 2
+      },
+      {
+        "heading": "7 Redis 哨兵（Sentinel）",
+        "level": 1
+      },
+      {
+        "heading": "7.1 什么是哨兵？",
+        "level": 2
+      },
+      {
+        "heading": "7.2 哨兵能干嘛？",
+        "level": 2
+      },
+      {
+        "heading": "7.3 配置哨兵",
+        "level": 2
+      },
+      {
+        "heading": "7.4 启动哨兵",
+        "level": 2
+      },
+      {
+        "heading": "7.5 哨兵运行流程和选举原理",
+        "level": 2
+      },
+      {
+        "heading": "7.5.1 步骤一：判断是否为主观下线（Subjectively Down，简称SDOWN）",
+        "level": 3
+      },
+      {
+        "heading": "7.5.2 步骤二：判断是否为客观下线（Objectively Down，简称ODOWN）：",
+        "level": 3
+      },
+      {
+        "heading": "7.5.3 步骤三：选举出领导者哨兵",
+        "level": 3
+      },
+      {
+        "heading": "7.5.4 步骤四：由领导者哨兵推动故障切换流程并选出一个新master",
+        "level": 3
+      },
+      {
+        "heading": "7.6 哨兵使用建议",
+        "level": 2
+      },
+      {
+        "heading": "8 Redis 集群（cluster）",
+        "level": 1
+      },
+      {
+        "heading": "8.1 什么是集群",
+        "level": 2
+      },
+      {
+        "heading": "8.2 集群能干嘛",
+        "level": 2
+      },
+      {
+        "heading": "8.3 集群算法-分片-槽位slot",
+        "level": 2
+      },
+      {
+        "heading": "8.3.1 什么是槽位",
+        "level": 3
+      },
+      {
+        "heading": "8.3.2 redis 集群的分片",
+        "level": 3
+      },
+      {
+        "heading": "8.3.3 槽位与分片的优势",
+        "level": 3
+      },
+      {
+        "heading": "8.3.4 三种分区方法（为什么选择哈希槽分区？）",
+        "level": 3
+      },
+      {
+        "heading": "8.3.4.1 哈希取余分区",
+        "level": 4
+      },
+      {
+        "heading": "优点",
+        "level": 5
+      },
+      {
+        "heading": "缺点",
+        "level": 5
+      },
+      {
+        "heading": "8.3.4.2 一致性哈希算法分区",
+        "level": 4
+      },
+      {
+        "heading": "如何实现？",
+        "level": 5
+      },
+      {
+        "heading": "1. 算法构建一致性哈希环",
+        "level": 6
+      },
+      {
+        "heading": "redis服务器ip节点映射",
+        "level": 6
+      },
+      {
+        "heading": "3. key映射到服务器的落键规则",
+        "level": 6
+      },
+      {
+        "heading": "优点",
+        "level": 5
+      },
+      {
+        "heading": "缺点",
+        "level": 5
+      },
+      {
+        "heading": "8.3.4.2 哈希槽分区（重点）",
+        "level": 4
+      },
+      {
+        "heading": "1. 为什么会出现哈希槽分区",
+        "level": 5
+      },
+      {
+        "heading": "2. 有多少个哈希槽",
+        "level": 5
+      },
+      {
+        "heading": "3. 为什么redis集群的最大槽数是16384个（经典面试题）？",
+        "level": 5
+      },
+      {
+        "heading": "4. 哈希槽分区是如何实现的？",
+        "level": 5
+      },
+      {
+        "heading": "8.4 配置集群",
+        "level": 2
+      },
+      {
+        "heading": "9 SpringBoot集成Redis",
+        "level": 1
+      },
+      {
+        "heading": "9.1 集成Jedis",
+        "level": 2
+      },
+      {
+        "heading": "9.2 集成Lettuce",
+        "level": 2
+      },
+      {
+        "heading": "9.3 Jedis和Lettuce的区别",
+        "level": 2
+      },
+      {
+        "heading": "9.4 集成RestTemplate",
+        "level": 2
+      },
+      {
+        "heading": "单机Redis",
+        "level": 3
+      },
+      {
+        "heading": "POM",
+        "level": 4
+      },
+      {
+        "heading": "RedisConfig",
+        "level": 4
+      },
+      {
+        "heading": "PROPERTIES",
+        "level": 4
+      },
+      {
+        "heading": "集群",
+        "level": 3
+      },
+      {
+        "heading": "PROPERTIES",
+        "level": 4
+      },
+      {
+        "heading": "【 高阶篇】",
+        "level": 1
+      },
+      {
+        "heading": "10 Redis单线程 VS 多线程",
+        "level": 1
+      },
+      {
+        "heading": "10.1 Redis是单线程吗？",
+        "level": 2
+      },
+      {
+        "heading": "10.2 Redis为什么选择单线程？",
+        "level": 2
+      },
+      {
+        "heading": "10.3 为什么在Redis 4.0之后引入了多线程？",
+        "level": 2
+      },
+      {
+        "heading": "10.4 Redis6/7的多线程特性",
+        "level": 2
+      },
+      {
+        "heading": "Redis中主线程与IO线程怎么协作完成请求处理的？",
+        "level": 4
+      },
+      {
+        "heading": "Unix网络编程中的五种IO模型",
+        "level": 4
+      },
+      {
+        "heading": "IO多路复用",
+        "level": 5
+      },
+      {
+        "heading": "定义",
+        "level": 6
+      },
+      {
+        "heading": "通过场景理解IO多路复用与epoll",
+        "level": 6
+      },
+      {
+        "heading": "再次理解IO多路复用模型",
+        "level": 6
+      },
+      {
+        "heading": "文件描述符（FD，或句柄）",
+        "level": 6
+      },
+      {
+        "heading": "总结",
+        "level": 6
+      },
+      {
+        "heading": "10.5 Redis为什么这么快？",
+        "level": 2
+      },
+      {
+        "heading": "10.6 Redis7默认是否开启了多线程？",
+        "level": 2
+      },
+      {
+        "heading": "11 BigKey",
+        "level": 1
+      },
+      {
+        "heading": "11.1 MoreKey案例",
+        "level": 2
+      },
+      {
+        "heading": "1. 大批量往redis里面插入2000W测试数据key",
+        "level": 3
+      },
+      {
+        "heading": "2. 真实生产案例新闻",
+        "level": 3
+      },
+      {
+        "heading": "3. 不用 keys * 避免卡顿，那应该用什么？",
+        "level": 3
+      },
+      {
+        "heading": "11.2 BigKey案例",
+        "level": 2
+      },
+      {
+        "heading": "11.2.1 多大算BigKey？",
+        "level": 3
+      },
+      {
+        "heading": "11.2.2 BigKey有哪些危害？",
+        "level": 3
+      },
+      {
+        "heading": "11.2.3 如何发现BigKey？",
+        "level": 3
+      },
+      {
+        "heading": "1. redis-cli --bigkeys",
+        "level": 5
+      },
+      {
+        "heading": "2. memory usage",
+        "level": 5
+      },
+      {
+        "heading": "11.2.4 如何删除BigKey？",
+        "level": 3
+      },
+      {
+        "heading": "11.2.5 BigKey生产调优",
+        "level": 3
+      },
+      {
+        "heading": "11.3 面试题",
+        "level": 3
+      },
+      {
+        "heading": "12 缓存双写一致性之更新策略探讨",
+        "level": 1
+      },
+      {
+        "heading": "12.1 如何在高并发情况下实现缓存双写？",
+        "level": 2
+      },
+      {
+        "heading": "12.2 数据库和缓存一致性的4种策略",
+        "level": 2
+      },
+      {
+        "heading": "12.2.1 先更新数据库，再更新缓存",
+        "level": 3
+      },
+      {
+        "heading": "1. 异常问题1",
+        "level": 4
+      },
+      {
+        "heading": "2. 异常问题2",
+        "level": 4
+      },
+      {
+        "heading": "12.2.2 先更新缓存，再更新数据库",
+        "level": 3
+      },
+      {
+        "heading": "12.2.3 先删除缓存，再更新数据库",
+        "level": 3
+      },
+      {
+        "heading": "延迟双删",
+        "level": 4
+      },
+      {
+        "heading": "什么是延迟双删？",
+        "level": 5
+      },
+      {
+        "heading": "延迟双删面试题",
+        "level": 5
+      },
+      {
+        "heading": "12.2.4【折中方法】先更新数据库，再删除缓存",
+        "level": 3
+      },
+      {
+        "heading": "12.2.5 总结",
+        "level": 3
+      },
+      {
+        "heading": "13 Redis与MySQL数据双写一致性工程落地案例（Canal）",
+        "level": 1
+      },
+      {
+        "heading": "13.1 简介",
+        "level": 2
+      },
+      {
+        "heading": "13.2 实战",
+        "level": 2
+      },
+      {
+        "heading": "1. 配置MySQL",
+        "level": 3
+      },
+      {
+        "heading": "2. 配置Canal服务端",
+        "level": 3
+      },
+      {
+        "heading": "3. 启动Canal服务器",
+        "level": 3
+      },
+      {
+        "heading": "4. Canal客户端编写",
+        "level": 3
+      },
+      {
+        "heading": "14 Bitmap / Hyperloglog / GEO 实战",
+        "level": 1
+      },
+      {
+        "heading": "14.1 Hyperloglog",
+        "level": 2
+      },
+      {
+        "heading": "14.2 GEO",
+        "level": 2
+      },
+      {
+        "heading": "14.3 Bitmap",
+        "level": 2
+      },
+      {
+        "heading": "15 布隆过滤器",
+        "level": 1
+      },
+      {
+        "heading": "15.1 布隆过滤器是什么？",
+        "level": 2
+      },
+      {
+        "heading": "15.2 布隆过滤器原理",
+        "level": 2
+      },
+      {
+        "heading": "15.3 总结",
+        "level": 2
+      },
+      {
+        "heading": "15.4 布隆过滤器适用场景",
+        "level": 2
+      },
+      {
+        "heading": "15.5 实战",
+        "level": 2
+      },
+      {
+        "heading": "15.6 布隆过滤器的优缺点",
+        "level": 2
+      },
+      {
+        "heading": "16 缓存预热+缓存雪崩+缓存击穿+缓存穿透",
+        "level": 1
+      },
+      {
+        "heading": "16.1 缓存预热",
+        "level": 2
+      },
+      {
+        "heading": "16.2 缓存雪崩",
+        "level": 2
+      },
+      {
+        "heading": "16.3 缓存穿透",
+        "level": 2
+      },
+      {
+        "heading": "16.3.1 定义",
+        "level": 3
+      },
+      {
+        "heading": "16.3.2 如何解决？",
+        "level": 3
+      },
+      {
+        "heading": "方式一：将 空对象/缺省值 塞入缓存",
+        "level": 4
+      },
+      {
+        "heading": "Google布隆过滤器Guava解决缓存穿透",
+        "level": 4
+      },
+      {
+        "heading": "方式二：Guava布隆过滤器实现白名单",
+        "level": 5
+      },
+      {
+        "heading": "Guava实现白名单",
+        "level": 5
+      },
+      {
+        "heading": "16.4 缓存击穿",
+        "level": 2
+      },
+      {
+        "heading": "16.4.1 定义",
+        "level": 3
+      },
+      {
+        "heading": "16.4.2 如何解决？",
+        "level": 3
+      },
+      {
+        "heading": "16.4.3 如何产生的缓存击穿？",
+        "level": 3
+      },
+      {
+        "heading": "16.5 总结",
+        "level": 2
+      },
+      {
+        "heading": "17 手写Redis分布式锁",
+        "level": 1
+      },
+      {
+        "heading": "17.2 为什么需要分布式锁？",
+        "level": 2
+      },
+      {
+        "heading": "17.2.1 给程序加普通锁",
+        "level": 3
+      },
+      {
+        "heading": "17.2.2 不完美的Redis的分布式锁（一）",
+        "level": 3
+      },
+      {
+        "heading": "17.2.3 不完美的分布式锁（二）",
+        "level": 3
+      },
+      {
+        "heading": "17.2.4 不完美的分布式锁（三）",
+        "level": 3
+      },
+      {
+        "heading": "17.2.5 不完美的分布式锁（四）",
+        "level": 3
+      },
+      {
+        "heading": "17.2.6 不完美的分布式锁（五）",
+        "level": 3
+      },
+      {
+        "heading": "17.2.7 不完整的分布式锁（六）",
+        "level": 3
+      },
+      {
+        "heading": "18 Redlock算法和底层源码分析",
+        "level": 1
+      },
+      {
+        "heading": "18.1 为什么需要Redlock红锁？",
+        "level": 2
+      },
+      {
+        "heading": "18.2 什么是Redlock？",
+        "level": 2
+      },
+      {
+        "heading": "18.3 Redisson：RedissonLock",
+        "level": 2
+      },
+      {
+        "heading": "18.4 红锁原理",
+        "level": 2
+      },
+      {
+        "heading": "18.5 多重锁",
+        "level": 2
+      },
+      {
+        "heading": "19 Redis的缓存过期淘汰策略",
+        "level": 1
+      },
+      {
+        "heading": "19.1 Redis内存满了怎么办？",
+        "level": 2
+      },
+      {
+        "heading": "19.2 三种不同的删除策略",
+        "level": 2
+      },
+      {
+        "heading": "1. 立即删除",
+        "level": 3
+      },
+      {
+        "heading": "2. 惰性删除",
+        "level": 3
+      },
+      {
+        "heading": "3. 定期删除",
+        "level": 3
+      },
+      {
+        "heading": "19.3 Redis的缓存淘汰策略",
+        "level": 2
+      },
+      {
+        "heading": "19.3.1 LRU与LFU算法",
+        "level": 3
+      },
+      {
+        "heading": "19.3.2 Redis7中的8种缓存淘汰策略",
+        "level": 3
+      },
+      {
+        "heading": "19.3.3 Redis缓存淘汰配置性能建议",
+        "level": 3
+      },
+      {
+        "heading": "20 Redis 经典五大类型源码及底层实现（略）",
+        "level": 1
+      },
+      {
+        "heading": "21 Redis为什么快？高性能设计之epoll和IO多路复用深度解析",
+        "level": 1
+      },
+      {
+        "heading": "22.1 同步与异步 ｜ 阻塞与非阻塞",
+        "level": 2
+      },
+      {
+        "heading": "1. 同步与异步",
+        "level": 3
+      },
+      {
+        "heading": "2. 阻塞与非阻塞",
+        "level": 3
+      },
+      {
+        "heading": "3. 四种组合方式",
+        "level": 3
+      },
+      {
+        "heading": "21.2 为什么要使用IO多路复用？",
+        "level": 2
+      },
+      {
+        "heading": "22.2 IO多路复用模型",
+        "level": 2
+      },
+      {
+        "heading": "22.2.1 什么是IO多路复用模型？",
+        "level": 3
+      },
+      {
+        "heading": "22.2.2 Redis单线程如何处理那么多并发客户端连接？Redis为什么单线程？Redis为什么这么快？",
+        "level": 3
+      },
+      {
+        "heading": "附录",
+        "level": 1
+      },
+      {
+        "heading": "1. 什么是虚假唤醒？",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Redis#16. Redis 主从同步是怎样的过程？",
+        "cleanLink": "Redis",
+        "displayText": "16. Redis 主从同步是怎样的过程？",
+        "relativePath": "7. 面试题/Redis.md"
+      },
+      {
+        "link": "#^68c477",
+        "relativePath": "4. Redis/Redis.md",
+        "cleanLink": "Redis",
+        "displayText": "客观下线"
+      },
+      {
+        "link": "Redis#说一下Raft算法？",
+        "cleanLink": "Redis",
+        "displayText": "RAFT算法",
+        "relativePath": "7. 面试题/Redis.md"
+      },
+      {
+        "link": "Redis#说一下Raft算法？",
+        "cleanLink": "Redis",
+        "displayText": "RAFT算法",
+        "relativePath": "7. 面试题/Redis.md"
+      },
+      {
+        "link": "#^28dbcc",
+        "relativePath": "4. Redis/Redis.md",
+        "cleanLink": "Redis",
+        "displayText": "IO多路复用"
+      },
+      {
+        "link": "#^c19157",
+        "relativePath": "4. Redis/Redis.md",
+        "cleanLink": "Redis",
+        "displayText": "文件句柄"
+      },
+      {
+        "link": "#^c19157",
+        "relativePath": "4. Redis/Redis.md",
+        "cleanLink": "Redis",
+        "displayText": "文件句柄"
+      },
+      {
+        "link": "#^28dbcc",
+        "relativePath": "4. Redis/Redis.md",
+        "cleanLink": "Redis",
+        "displayText": "IO多路复用"
+      },
+      {
+        "link": "#^6774d4",
+        "relativePath": "4. Redis/Redis.md",
+        "cleanLink": "Redis",
+        "displayText": "12KB内存"
+      },
+      {
+        "link": "#^533ed8",
+        "relativePath": "4. Redis/Redis.md",
+        "cleanLink": "Redis",
+        "displayText": "布隆过滤器"
+      },
+      {
+        "link": "#^056182",
+        "relativePath": "4. Redis/Redis.md",
+        "cleanLink": "Redis",
+        "displayText": "误判概率"
+      },
+      {
+        "link": "#^36542c",
+        "relativePath": "4. Redis/Redis.md",
+        "cleanLink": "Redis",
+        "displayText": "布隆过滤器"
+      },
+      {
+        "link": "计算Java对象占用的内存大小",
+        "relativePath": "6. 轮子/其他/计算Java对象占用的内存大小.md"
+      },
+      {
+        "link": "#^7fc5f4",
+        "relativePath": "4. Redis/Redis.md",
+        "cleanLink": "Redis",
+        "displayText": "Redlock"
+      }
+    ]
+  },
+  {
+    "fileName": "JUC",
+    "relativePath": "3. 多线程/JUC.md",
+    "tags": [
+      "juc",
+      "高并发"
+    ],
+    "headings": [
+      {
+        "heading": "1 进程与线程",
+        "level": 1
+      },
+      {
+        "heading": "1.1 进程与线程",
+        "level": 2
+      },
+      {
+        "heading": "进程",
+        "level": 3
+      },
+      {
+        "heading": "线程",
+        "level": 3
+      },
+      {
+        "heading": "进程与线程的对比",
+        "level": 3
+      },
+      {
+        "heading": "1.2 并行与并发",
+        "level": 2
+      },
+      {
+        "heading": "并发",
+        "level": 3
+      },
+      {
+        "heading": "并行",
+        "level": 3
+      },
+      {
+        "heading": "2 Java线程",
+        "level": 1
+      },
+      {
+        "heading": "2.1 创建和运行线程",
+        "level": 2
+      },
+      {
+        "heading": "方法一：new Thread()",
+        "level": 3
+      },
+      {
+        "heading": "方法二：new Thread(Runnable runnable)",
+        "level": 3
+      },
+      {
+        "heading": "方法三 FutureTask",
+        "level": 3
+      },
+      {
+        "heading": "2.2 线程运行的原理",
+        "level": 2
+      },
+      {
+        "heading": "栈与栈帧",
+        "level": 3
+      },
+      {
+        "heading": "举个例子1：单线程",
+        "level": 4
+      },
+      {
+        "heading": "举个例子2：多线程",
+        "level": 4
+      },
+      {
+        "heading": "上下文切换",
+        "level": 3
+      },
+      {
+        "heading": "2.3 线程常见方法",
+        "level": 2
+      },
+      {
+        "heading": "2.4 start 与 run",
+        "level": 2
+      },
+      {
+        "heading": "2.5 sleep 与 yield",
+        "level": 2
+      },
+      {
+        "heading": "2.6 线程优先级",
+        "level": 2
+      },
+      {
+        "heading": "2.7 join 方法",
+        "level": 2
+      },
+      {
+        "heading": "2.8 interrupt 方法详解",
+        "level": 2
+      },
+      {
+        "heading": "打断 sleep，wait，join 的线程",
+        "level": 3
+      },
+      {
+        "heading": "打断正常运行的线程",
+        "level": 3
+      },
+      {
+        "heading": "两阶段终止模式",
+        "level": 3
+      },
+      {
+        "heading": "打断 park 线程",
+        "level": 3
+      },
+      {
+        "heading": "2.9 不推荐的方法",
+        "level": 2
+      },
+      {
+        "heading": "2.10 主线程与守护线程",
+        "level": 2
+      },
+      {
+        "heading": "2.11 线程的五种状态（操作系统层面）",
+        "level": 2
+      },
+      {
+        "heading": "2.12 线程的六种状态（Java API层面）",
+        "level": 2
+      },
+      {
+        "heading": "3 共享模型之管程",
+        "level": 1
+      },
+      {
+        "heading": "3.1 多线程下共享变量带来的问题",
+        "level": 2
+      },
+      {
+        "heading": "1 问题分析",
+        "level": 3
+      },
+      {
+        "heading": "2 临界区（Critical Section）",
+        "level": 3
+      },
+      {
+        "heading": "3 竞态条件（Race Condition）",
+        "level": 3
+      },
+      {
+        "heading": "3.2 synchronized  解决方案",
+        "level": 2
+      },
+      {
+        "heading": "3.3 方法上的 synchronized",
+        "level": 2
+      },
+      {
+        "heading": "synchronized 修饰非静态方法",
+        "level": 3
+      },
+      {
+        "heading": "synchronized 修饰静态方法",
+        "level": 3
+      },
+      {
+        "heading": "线程八锁",
+        "level": 3
+      },
+      {
+        "heading": "3.4 变量的线程安全分析",
+        "level": 2
+      },
+      {
+        "heading": "1 成员变量与静态变量是否线程安全？",
+        "level": 3
+      },
+      {
+        "heading": "2 局部变量是否线程安全？",
+        "level": 3
+      },
+      {
+        "heading": "3 局部变量线程安全分析",
+        "level": 3
+      },
+      {
+        "heading": "局部变量引用安全分析",
+        "level": 4
+      },
+      {
+        "heading": "局部变量暴露引用安全分析",
+        "level": 4
+      },
+      {
+        "heading": "4 常见的线程安全类",
+        "level": 3
+      },
+      {
+        "heading": "线程安全类方法的组合",
+        "level": 4
+      },
+      {
+        "heading": "不可变类线程安全性",
+        "level": 4
+      },
+      {
+        "heading": "3.5 Monitor 概念",
+        "level": 2
+      },
+      {
+        "heading": "Java 对象头",
+        "level": 3
+      },
+      {
+        "heading": "Monitor 机制",
+        "level": 3
+      },
+      {
+        "heading": "3.6 synchronized 进阶原理",
+        "level": 2
+      },
+      {
+        "heading": "小故事",
+        "level": 3
+      },
+      {
+        "heading": "1 轻量级锁",
+        "level": 3
+      },
+      {
+        "heading": "2 锁膨胀",
+        "level": 3
+      },
+      {
+        "heading": "3 自旋优化",
+        "level": 3
+      },
+      {
+        "heading": "4 偏向锁",
+        "level": 3
+      },
+      {
+        "heading": "偏向状态",
+        "level": 4
+      },
+      {
+        "heading": "撤销偏向锁",
+        "level": 4
+      },
+      {
+        "heading": "调用对象 hashcode 方法撤销偏向状态",
+        "level": 5
+      },
+      {
+        "heading": "其他线程使用对象撤销偏向状态",
+        "level": 5
+      },
+      {
+        "heading": "调用 wait/notify 撤销偏向状态",
+        "level": 5
+      },
+      {
+        "heading": "批量重偏向",
+        "level": 4
+      },
+      {
+        "heading": "批量撤销",
+        "level": 4
+      },
+      {
+        "heading": "3.7 wait & notify",
+        "level": 2
+      },
+      {
+        "heading": "小故事：为什么需要 wait",
+        "level": 3
+      },
+      {
+        "heading": "wait & notify 原理",
+        "level": 3
+      },
+      {
+        "heading": "API 介绍",
+        "level": 3
+      },
+      {
+        "heading": "notify() 与 notifyAll()",
+        "level": 4
+      },
+      {
+        "heading": "wait() 与 wait(long n)",
+        "level": 4
+      },
+      {
+        "heading": "wait 与 notify 正确用法",
+        "level": 3
+      },
+      {
+        "heading": "sleep(long n) 和 wait(long n) 的区别",
+        "level": 4
+      },
+      {
+        "heading": "实战",
+        "level": 4
+      },
+      {
+        "heading": "优化实战1",
+        "level": 4
+      },
+      {
+        "heading": "正确使用 notify 和 wait 的套路",
+        "level": 4
+      },
+      {
+        "heading": "拓展补充：保护性暂停模式",
+        "level": 3
+      },
+      {
+        "heading": "拓展补充：生产者/消费者模式",
+        "level": 3
+      },
+      {
+        "heading": "3.8 Park & Unpark",
+        "level": 2
+      },
+      {
+        "heading": "基本使用",
+        "level": 3
+      },
+      {
+        "heading": "特点",
+        "level": 3
+      },
+      {
+        "heading": "原理之 park & unpark",
+        "level": 3
+      },
+      {
+        "heading": "3.9 重新理解线程状态转换",
+        "level": 2
+      },
+      {
+        "heading": "情况一：NEW --> RUNNABLE",
+        "level": 3
+      },
+      {
+        "heading": "情况二：RUNNABLE <--> WAITING",
+        "level": 3
+      },
+      {
+        "heading": "情况三：RUNNABLE <--> WAITING",
+        "level": 3
+      },
+      {
+        "heading": "情况四：RUNNABLE <--> WAITING",
+        "level": 3
+      },
+      {
+        "heading": "情况五：RUNNABLE <--> TIMED_WAITING",
+        "level": 3
+      },
+      {
+        "heading": "情况六：RUNNABLE <--> TIMED_WAITING",
+        "level": 3
+      },
+      {
+        "heading": "情况七：RUNNABLE <--> TIMED_WAITING",
+        "level": 3
+      },
+      {
+        "heading": "情况八：RUNNABLE <--> TIMED_WAITING",
+        "level": 3
+      },
+      {
+        "heading": "情况九：RUNNABLE <--> BLOCKED",
+        "level": 3
+      },
+      {
+        "heading": "情况十：RUNNABLE <--> TERMINATED",
+        "level": 3
+      },
+      {
+        "heading": "3.10 多把锁",
+        "level": 2
+      },
+      {
+        "heading": "多把不相干的锁",
+        "level": 3
+      },
+      {
+        "heading": "3.11 线程的活跃性",
+        "level": 2
+      },
+      {
+        "heading": "1 死锁",
+        "level": 3
+      },
+      {
+        "heading": "复现死锁",
+        "level": 4
+      },
+      {
+        "heading": "定位死锁",
+        "level": 4
+      },
+      {
+        "heading": "哲学家就餐问题",
+        "level": 4
+      },
+      {
+        "heading": "代码实现",
+        "level": 5
+      },
+      {
+        "heading": "输出结果",
+        "level": 5
+      },
+      {
+        "heading": "jconsole 结果分析",
+        "level": 5
+      },
+      {
+        "heading": "2 活锁",
+        "level": 3
+      },
+      {
+        "heading": "3 饥饿",
+        "level": 3
+      },
+      {
+        "heading": "复现饥饿",
+        "level": 4
+      },
+      {
+        "heading": "分析结果",
+        "level": 4
+      },
+      {
+        "heading": "3.12 ReentrantLock",
+        "level": 2
+      },
+      {
+        "heading": "基本语法",
+        "level": 3
+      },
+      {
+        "heading": "可重入",
+        "level": 3
+      },
+      {
+        "heading": "tryLock()：可打断（被动，需要其他线程打断）",
+        "level": 3
+      },
+      {
+        "heading": "锁超时（主动，线程自己释放锁）",
+        "level": 3
+      },
+      {
+        "heading": "解决哲学家就餐问题中的死锁",
+        "level": 4
+      },
+      {
+        "heading": "公平锁（ReentrantLock默认为不公平锁）",
+        "level": 3
+      },
+      {
+        "heading": "条件变量",
+        "level": 3
+      },
+      {
+        "heading": "使用流程",
+        "level": 4
+      },
+      {
+        "heading": "4 共享模型之内存",
+        "level": 1
+      },
+      {
+        "heading": "4.1 Java 内存模型（JMM）",
+        "level": 2
+      },
+      {
+        "heading": "4.2 可见性",
+        "level": 2
+      },
+      {
+        "heading": "退不出的循环",
+        "level": 3
+      },
+      {
+        "heading": "现象",
+        "level": 4
+      },
+      {
+        "heading": "原因",
+        "level": 4
+      },
+      {
+        "heading": "解决方法",
+        "level": 4
+      },
+      {
+        "heading": "可见性 VS 原子性",
+        "level": 4
+      },
+      {
+        "heading": "拓展思考",
+        "level": 4
+      },
+      {
+        "heading": "拓展学习：终止模式之两阶段终止模式",
+        "level": 4
+      },
+      {
+        "heading": "4.3 有序性",
+        "level": 2
+      },
+      {
+        "heading": "指令重排序所引起的问题",
+        "level": 3
+      },
+      {
+        "heading": "诡异的结果",
+        "level": 4
+      },
+      {
+        "heading": "验证诡异的结果",
+        "level": 4
+      },
+      {
+        "heading": "禁用重排序",
+        "level": 4
+      },
+      {
+        "heading": "volatile 原理",
+        "level": 3
+      },
+      {
+        "heading": "1 如何保证可见性",
+        "level": 4
+      },
+      {
+        "heading": "写屏障（sfence）",
+        "level": 5
+      },
+      {
+        "heading": "读屏障（lfence）",
+        "level": 5
+      },
+      {
+        "heading": "2 如何保证有序性",
+        "level": 4
+      },
+      {
+        "heading": "写屏障",
+        "level": 5
+      },
+      {
+        "heading": "读屏障",
+        "level": 5
+      },
+      {
+        "heading": "double-checked locking 问题",
+        "level": 4
+      },
+      {
+        "heading": "double-checked locking 解决",
+        "level": 4
+      },
+      {
+        "heading": "happens-before",
+        "level": 4
+      },
+      {
+        "heading": "习题",
+        "level": 4
+      },
+      {
+        "heading": "balking 模式习题",
+        "level": 5
+      },
+      {
+        "heading": "线程安全单例习题",
+        "level": 5
+      },
+      {
+        "heading": "实现1",
+        "level": 6
+      },
+      {
+        "heading": "实现2",
+        "level": 6
+      },
+      {
+        "heading": "实现3",
+        "level": 6
+      },
+      {
+        "heading": "实现4",
+        "level": 6
+      },
+      {
+        "heading": "实现5",
+        "level": 6
+      },
+      {
+        "heading": "5 共享模型之无锁",
+        "level": 1
+      },
+      {
+        "heading": "本章内容",
+        "level": 2
+      },
+      {
+        "heading": "5.1 问题提出",
+        "level": 2
+      },
+      {
+        "heading": "为什么不安全？",
+        "level": 3
+      },
+      {
+        "heading": "如何解决？",
+        "level": 3
+      },
+      {
+        "heading": "5.2 CAS 与 volatile",
+        "level": 2
+      },
+      {
+        "heading": "CAS",
+        "level": 3
+      },
+      {
+        "heading": "volatile",
+        "level": 3
+      },
+      {
+        "heading": "为什么无锁效率高？",
+        "level": 3
+      },
+      {
+        "heading": "CAS 特点",
+        "level": 3
+      },
+      {
+        "heading": "5.3 原子整数",
+        "level": 2
+      },
+      {
+        "heading": "尝试自己实现一个 updateAndGet()",
+        "level": 3
+      },
+      {
+        "heading": "updateAndGet()原理",
+        "level": 3
+      },
+      {
+        "heading": "5.4 原子引用",
+        "level": 2
+      },
+      {
+        "heading": "AtomicReference",
+        "level": 3
+      },
+      {
+        "heading": "关于 ABA 问题以及解决",
+        "level": 3
+      },
+      {
+        "heading": "ABA 问题",
+        "level": 4
+      },
+      {
+        "heading": "AtomicStampedReference",
+        "level": 3
+      },
+      {
+        "heading": "AtomicMarkableReference",
+        "level": 3
+      },
+      {
+        "heading": "5.5 原子数组",
+        "level": 2
+      },
+      {
+        "heading": "不安全的数组",
+        "level": 3
+      },
+      {
+        "heading": "安全的数组（AtomicIntegerArray）",
+        "level": 3
+      },
+      {
+        "heading": "5.6 字段更新器",
+        "level": 2
+      },
+      {
+        "heading": "5.7 原子累加器",
+        "level": 2
+      },
+      {
+        "heading": "累加器性能比较",
+        "level": 3
+      },
+      {
+        "heading": "源码之LongAdder",
+        "level": 3
+      },
+      {
+        "heading": "原理之伪共享",
+        "level": 3
+      },
+      {
+        "heading": "CPU缓存",
+        "level": 4
+      },
+      {
+        "heading": "5.8 Unsafe",
+        "level": 2
+      },
+      {
+        "heading": "概述",
+        "level": 3
+      },
+      {
+        "heading": "Unsafe CAS 操作",
+        "level": 3
+      },
+      {
+        "heading": "Example",
+        "level": 4
+      },
+      {
+        "heading": "实战：使用自定义的 AtomicData 实现线程安全的原子整数",
+        "level": 4
+      },
+      {
+        "heading": "6 共享模型之不可变",
+        "level": 1
+      },
+      {
+        "heading": "本章内容",
+        "level": 2
+      },
+      {
+        "heading": "6.1 日期转换的问题",
+        "level": 2
+      },
+      {
+        "heading": "SimpleDateFormat 导致的线程不安全",
+        "level": 3
+      },
+      {
+        "heading": "解决方法一：改用 DateTimeFormatter 类（不可变设计）",
+        "level": 3
+      },
+      {
+        "heading": "解决方法二：采用锁",
+        "level": 3
+      },
+      {
+        "heading": "6.2 不可变的设计",
+        "level": 2
+      },
+      {
+        "heading": "final 的使用",
+        "level": 3
+      },
+      {
+        "heading": "保护性拷贝",
+        "level": 3
+      },
+      {
+        "heading": "模式之享元",
+        "level": 3
+      },
+      {
+        "heading": "6.3 final 原理",
+        "level": 2
+      },
+      {
+        "heading": "设置 final 变量的原理",
+        "level": 3
+      },
+      {
+        "heading": "获取 final 变量的原理",
+        "level": 3
+      },
+      {
+        "heading": "未被 final 修饰的变量",
+        "level": 4
+      },
+      {
+        "heading": "使用 final 修饰的变量",
+        "level": 4
+      },
+      {
+        "heading": "7.3 无状态",
+        "level": 2
+      },
+      {
+        "heading": "8 共享模型之工具",
+        "level": 1
+      },
+      {
+        "heading": "8.1 线程池",
+        "level": 2
+      },
+      {
+        "heading": "1 自定义线程池",
+        "level": 3
+      },
+      {
+        "heading": "简易版本的线程池",
+        "level": 4
+      },
+      {
+        "heading": "带有超时等待的线程池",
+        "level": 4
+      },
+      {
+        "heading": "带有淘汰策略的线程池",
+        "level": 4
+      },
+      {
+        "heading": "死等策略",
+        "level": 5
+      },
+      {
+        "heading": "带超时的等待",
+        "level": 5
+      },
+      {
+        "heading": "放弃任务执行",
+        "level": 5
+      },
+      {
+        "heading": "抛出异常",
+        "level": 5
+      },
+      {
+        "heading": "让调用者自己执行任务",
+        "level": 5
+      },
+      {
+        "heading": "全部源码",
+        "level": 5
+      },
+      {
+        "heading": "2 ThreadPoolExecutor",
+        "level": 3
+      },
+      {
+        "heading": "线程池状态",
+        "level": 4
+      },
+      {
+        "heading": "构造方法",
+        "level": 4
+      },
+      {
+        "heading": "工作方式",
+        "level": 4
+      },
+      {
+        "heading": "线程池工厂方法",
+        "level": 4
+      },
+      {
+        "heading": "newFixedThreadPool",
+        "level": 5
+      },
+      {
+        "heading": "newCacheThreadPool",
+        "level": 5
+      },
+      {
+        "heading": "newSingleThreadExecutor",
+        "level": 5
+      },
+      {
+        "heading": "提交任务",
+        "level": 4
+      },
+      {
+        "heading": "submit 方法",
+        "level": 5
+      },
+      {
+        "heading": "invokeAll 方法",
+        "level": 5
+      },
+      {
+        "heading": "invokeAny 方法",
+        "level": 5
+      },
+      {
+        "heading": "关闭线程池",
+        "level": 4
+      },
+      {
+        "heading": "shutdown 方法",
+        "level": 5
+      },
+      {
+        "heading": "shutdownNow 方法",
+        "level": 5
+      },
+      {
+        "heading": "isShutdown 方法",
+        "level": 5
+      },
+      {
+        "heading": "isTerminated 方法",
+        "level": 5
+      },
+      {
+        "heading": "awaitTermination 方法",
+        "level": 5
+      },
+      {
+        "heading": "创建多大的线程池合适？",
+        "level": 4
+      },
+      {
+        "heading": "任务调度线程池",
+        "level": 4
+      },
+      {
+        "heading": "Timer",
+        "level": 5
+      },
+      {
+        "heading": "缺点1：Timer前一个任务的延迟会影响后面的任务执行",
+        "level": 6
+      },
+      {
+        "heading": "缺点2：Timer前一个任务若发生异常，那么会阻断后面的任务执行",
+        "level": 6
+      },
+      {
+        "heading": "newScheduledThreadPool",
+        "level": 5
+      },
+      {
+        "heading": "优点1：不会因为前一个任务而导致后面的任务延迟执行",
+        "level": 6
+      },
+      {
+        "heading": "优点2：不会因为前一个任务抛出异常导致后面的任务中断",
+        "level": 6
+      },
+      {
+        "heading": "处理异常",
+        "level": 6
+      },
+      {
+        "heading": "定时执行任务",
+        "level": 6
+      },
+      {
+        "heading": "Tomcat 线程池",
+        "level": 4
+      },
+      {
+        "heading": "execute 方法",
+        "level": 5
+      },
+      {
+        "heading": "TaskQueue 方法",
+        "level": 5
+      },
+      {
+        "heading": "线程池配置-Connector",
+        "level": 5
+      },
+      {
+        "heading": "Executor 线程配置",
+        "level": 5
+      },
+      {
+        "heading": "3 Fork/Join",
+        "level": 3
+      },
+      {
+        "heading": "1 概念",
+        "level": 4
+      },
+      {
+        "heading": "使用",
+        "level": 4
+      },
+      {
+        "heading": "改进",
+        "level": 4
+      },
+      {
+        "heading": "8.2 JUC",
+        "level": 2
+      },
+      {
+        "heading": "AQS 原理",
+        "level": 3
+      },
+      {
+        "heading": "概述",
+        "level": 4
+      },
+      {
+        "heading": "实现不可重入锁",
+        "level": 4
+      },
+      {
+        "heading": "ReentrantLock 原理",
+        "level": 3
+      },
+      {
+        "heading": "非公平锁实现原理",
+        "level": 4
+      },
+      {
+        "heading": "加锁流程",
+        "level": 5
+      },
+      {
+        "heading": "三个步骤",
+        "level": 6
+      },
+      {
+        "heading": "没有竞争时",
+        "level": 6
+      },
+      {
+        "heading": "第一个竞争出现时",
+        "level": 6
+      },
+      {
+        "heading": "加锁源码",
+        "level": 5
+      },
+      {
+        "heading": "解锁流程",
+        "level": 5
+      },
+      {
+        "heading": "解锁源码",
+        "level": 5
+      },
+      {
+        "heading": "可重入原理",
+        "level": 4
+      },
+      {
+        "heading": "nonfairTryAcquire",
+        "level": 5
+      },
+      {
+        "heading": "tryRelease",
+        "level": 5
+      },
+      {
+        "heading": "可打断原理",
+        "level": 4
+      },
+      {
+        "heading": "不可打断模式",
+        "level": 5
+      },
+      {
+        "heading": "可打断模式",
+        "level": 5
+      },
+      {
+        "heading": "公平锁实现原理",
+        "level": 4
+      },
+      {
+        "heading": "条件变量实现原理",
+        "level": 4
+      },
+      {
+        "heading": "await 流程",
+        "level": 5
+      },
+      {
+        "heading": "await 源码",
+        "level": 5
+      },
+      {
+        "heading": "signal 流程",
+        "level": 5
+      },
+      {
+        "heading": "signal 源码",
+        "level": 5
+      },
+      {
+        "heading": "读写锁",
+        "level": 3
+      },
+      {
+        "heading": "ReentrantReadWriteLock",
+        "level": 4
+      },
+      {
+        "heading": "验证",
+        "level": 5
+      },
+      {
+        "heading": "注意事项",
+        "level": 5
+      },
+      {
+        "heading": "读写锁原理",
+        "level": 5
+      },
+      {
+        "heading": "图解流程",
+        "level": 6
+      },
+      {
+        "heading": "以 [t1] w.lock，[t2] r.lock 为例",
+        "level": 6
+      },
+      {
+        "heading": "以 [t3] r.lock，[t4] w.lock 为例",
+        "level": 6
+      },
+      {
+        "heading": "[t1] w.unlock",
+        "level": 6
+      },
+      {
+        "heading": "以 [t2] r.unlock，[t3] r.unlock 为例",
+        "level": 6
+      },
+      {
+        "heading": "StampedLock",
+        "level": 4
+      },
+      {
+        "heading": "加解读锁",
+        "level": 5
+      },
+      {
+        "heading": "加解写锁",
+        "level": 5
+      },
+      {
+        "heading": "使用",
+        "level": 5
+      },
+      {
+        "heading": "注意",
+        "level": 5
+      },
+      {
+        "heading": "Semaphore",
+        "level": 3
+      },
+      {
+        "heading": "Semaphore 应用",
+        "level": 4
+      },
+      {
+        "heading": "用 Semaphore 优化[[#自定义实现简易数据库连接池]]",
+        "level": 4
+      },
+      {
+        "heading": "Semaphore 原理",
+        "level": 4
+      },
+      {
+        "heading": "CountdownLatch",
+        "level": 3
+      },
+      {
+        "heading": "使用场景",
+        "level": 4
+      },
+      {
+        "heading": "基本使用",
+        "level": 4
+      },
+      {
+        "heading": "线程池中使用 CountDownLatch",
+        "level": 4
+      },
+      {
+        "heading": "实战：游戏全部玩家准备后进行游戏",
+        "level": 4
+      },
+      {
+        "heading": "实战：收集物流、商品信息后，一次性输出",
+        "level": 4
+      },
+      {
+        "heading": "CyclicBarrier",
+        "level": 3
+      },
+      {
+        "heading": "基本使用",
+        "level": 4
+      },
+      {
+        "heading": "CyclicBarrier 与 CountdownLatch 的区别",
+        "level": 4
+      },
+      {
+        "heading": "线程安全集合类概述",
+        "level": 3
+      },
+      {
+        "heading": "ConcurrentHashMap（JDK 8）",
+        "level": 3
+      },
+      {
+        "heading": "死链",
+        "level": 4
+      },
+      {
+        "heading": "重要属性和内部类",
+        "level": 4
+      },
+      {
+        "heading": "重要方法",
+        "level": 4
+      },
+      {
+        "heading": "构造器",
+        "level": 4
+      },
+      {
+        "heading": "get 流程",
+        "level": 4
+      },
+      {
+        "heading": "put 流程",
+        "level": 4
+      },
+      {
+        "heading": "size 计算流程",
+        "level": 4
+      },
+      {
+        "heading": "LinkedBlockingQueue 原理",
+        "level": 3
+      },
+      {
+        "heading": "结构",
+        "level": 4
+      },
+      {
+        "heading": "基本的入队与出队",
+        "level": 4
+      },
+      {
+        "heading": "入队",
+        "level": 5
+      },
+      {
+        "heading": "出队",
+        "level": 5
+      },
+      {
+        "heading": "加锁分析",
+        "level": 4
+      },
+      {
+        "heading": "put 操作",
+        "level": 5
+      },
+      {
+        "heading": "take 操作",
+        "level": 5
+      },
+      {
+        "heading": "LinkedBlockingQueue 与 ArrayBlockingQueue 的性能比较",
+        "level": 4
+      },
+      {
+        "heading": "ConcurrentLinkedQueue 原理",
+        "level": 3
+      },
+      {
+        "heading": "CopyOnWriteArrayList（JDK 11）",
+        "level": 3
+      },
+      {
+        "heading": "add 方法",
+        "level": 4
+      },
+      {
+        "heading": "使用场景",
+        "level": 4
+      },
+      {
+        "heading": "get 弱一致性",
+        "level": 4
+      },
+      {
+        "heading": "迭代器弱一致性",
+        "level": 4
+      },
+      {
+        "heading": "多线程模式",
+        "level": 1
+      },
+      {
+        "heading": "同步模式之保护性暂停",
+        "level": 2
+      },
+      {
+        "heading": "定义",
+        "level": 3
+      },
+      {
+        "heading": "实现",
+        "level": 3
+      },
+      {
+        "heading": "拓展1：带有超时时间的等待",
+        "level": 3
+      },
+      {
+        "heading": "Thread.join() 原理",
+        "level": 3
+      },
+      {
+        "heading": "拓展2",
+        "level": 3
+      },
+      {
+        "heading": "异步模式之生产者/消费者",
+        "level": 2
+      },
+      {
+        "heading": "实现",
+        "level": 3
+      },
+      {
+        "heading": "同步模式之顺序控制",
+        "level": 2
+      },
+      {
+        "heading": "固定运行顺序",
+        "level": 3
+      },
+      {
+        "heading": "wait & notify",
+        "level": 4
+      },
+      {
+        "heading": "ReentrantLock（await & signal）",
+        "level": 4
+      },
+      {
+        "heading": "park & unpark",
+        "level": 4
+      },
+      {
+        "heading": "交替输出",
+        "level": 3
+      },
+      {
+        "heading": "synchronized",
+        "level": 4
+      },
+      {
+        "heading": "await & signal",
+        "level": 4
+      },
+      {
+        "heading": "park & unpark",
+        "level": 4
+      },
+      {
+        "heading": "终止模式之两阶段终止模式（Two Phase Termination）",
+        "level": 2
+      },
+      {
+        "heading": "如何优雅的终止一个线程的运行？",
+        "level": 3
+      },
+      {
+        "heading": "错误的思路",
+        "level": 3
+      },
+      {
+        "heading": "正确思路（volatile）",
+        "level": 3
+      },
+      {
+        "heading": "同步模式之 Balking",
+        "level": 2
+      },
+      {
+        "heading": "异步模式之工作线程",
+        "level": 2
+      },
+      {
+        "heading": "1 定义",
+        "level": 3
+      },
+      {
+        "heading": "2 饥饿",
+        "level": 3
+      },
+      {
+        "heading": "3 解决饥饿",
+        "level": 3
+      },
+      {
+        "heading": "4 创建多大的线程池合适？",
+        "level": 3
+      },
+      {
+        "heading": "1 CPU 密集型运算",
+        "level": 4
+      },
+      {
+        "heading": "2 I/O 密集型运算",
+        "level": 4
+      },
+      {
+        "heading": "附录",
+        "level": 1
+      },
+      {
+        "heading": "park()",
+        "level": 2
+      },
+      {
+        "heading": "park() 与 unpark()",
+        "level": 3
+      },
+      {
+        "heading": "park() / unpark() 实现的伪代码",
+        "level": 4
+      },
+      {
+        "heading": "park/unpark的实验",
+        "level": 4
+      },
+      {
+        "heading": "interrupt() 与 park()",
+        "level": 3
+      },
+      {
+        "heading": "interrupt() 实现的伪代码",
+        "level": 4
+      },
+      {
+        "heading": "interrupt()实验",
+        "level": 4
+      },
+      {
+        "heading": "Monitor 上锁 / 释放锁过程分析",
+        "level": 2
+      },
+      {
+        "heading": "CPU执行指令",
+        "level": 2
+      },
+      {
+        "heading": "鱼罐头的故事",
+        "level": 3
+      },
+      {
+        "heading": "CPU指令重排优化",
+        "level": 3
+      },
+      {
+        "heading": "支持流水线的处理器",
+        "level": 3
+      },
+      {
+        "heading": "GOF-享元模式",
+        "level": 2
+      },
+      {
+        "heading": "定义",
+        "level": 3
+      },
+      {
+        "heading": "体现",
+        "level": 3
+      },
+      {
+        "heading": "包装类",
+        "level": 4
+      },
+      {
+        "heading": "String串池",
+        "level": 4
+      },
+      {
+        "heading": "BigDecimal BigInteger",
+        "level": 4
+      },
+      {
+        "heading": "自定义实现简易数据库连接池",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "#^4eaca8",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "参考附录park()相关的所有知识"
+      },
+      {
+        "link": "#栈与栈帧",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "参考栈帧"
+      },
+      {
+        "link": " 释放锁过程分析",
+        "displayText": "参考 ObjectMonitor.cpp 上锁 / 释放锁过程",
+        "relativePath": "3. 多线程/JUC.md"
+      },
+      {
+        "link": "#^2360e5",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "参考锁重入时进行CAS操作"
+      },
+      {
+        "link": "#^ff3123",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "回忆下对象头格式"
+      },
+      {
+        "link": "#同步模式之保护性暂停",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "同步模式之保护性暂停"
+      },
+      {
+        "link": "消费者",
+        "displayText": "异步模式之生产者/消费者",
+        "relativePath": "3. 多线程/JUC.md"
+      },
+      {
+        "link": "#park()",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "park()"
+      },
+      {
+        "link": "#1 死锁",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "死锁"
+      },
+      {
+        "link": "#哲学家就餐问题",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "哲学家就餐问题"
+      },
+      {
+        "link": "#终止模式之两阶段终止模式（Two Phase Termination）",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "终止模式之两阶段终止模式（Two Phase Termination）"
+      },
+      {
+        "link": "#CPU执行指令",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "CPU执行指令"
+      },
+      {
+        "link": "#2 如何保证有序性",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "volatile如何保证有序性"
+      },
+      {
+        "link": "#double-checked locking 解决",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "double-checked locking 解决"
+      },
+      {
+        "link": "#double-checked locking 问题",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "double-checked locking 问题"
+      },
+      {
+        "link": "#double-checked locking 解决",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "double-checked locking 解决"
+      },
+      {
+        "link": "#GOF-享元模式",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "参考：GOF-享元模式"
+      },
+      {
+        "link": "#volatile 原理",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "volatile 原理"
+      },
+      {
+        "link": "#4 创建多大的线程池合适？",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "创建多大的线程池合适？"
+      },
+      {
+        "link": "#缺点1：Timer前一个任务的延迟会影响后面的任务执行",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "Timer任务执行过久导致的延迟"
+      },
+      {
+        "link": "多线程#11. 聊聊 AQS？",
+        "cleanLink": "多线程",
+        "displayText": "面试题：聊聊AQS",
+        "relativePath": "7. 面试题/多线程.md"
+      },
+      {
+        "link": "#非公平锁实现原理",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "非公平锁"
+      },
+      {
+        "link": "#模式之享元",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "模式之享元"
+      },
+      {
+        "link": "#自定义实现简易数据库连接池",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "自定义实现简易数据库连接池"
+      },
+      {
+        "link": "#模式之享元",
+        "relativePath": "3. 多线程/JUC.md",
+        "cleanLink": "JUC",
+        "displayText": "享元模式"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "多线程",
+        "link": "JUC#CyclicBarrier 与 CountdownLatch 的区别",
+        "relativePath": "7. 面试题/多线程.md",
+        "cleanLink": "JUC",
+        "displayText": "参考JUC-CountdownLatch 与 CyclicBarrier 的区别"
+      }
+    ]
+  },
+  {
+    "fileName": "Spring Security",
+    "relativePath": "2. Spring/Spring Security.md",
+    "headings": [
+      {
+        "heading": "第一章 权限管理",
+        "level": 1
+      },
+      {
+        "heading": "权限管理",
+        "level": 2
+      },
+      {
+        "heading": "认证",
+        "level": 3
+      },
+      {
+        "heading": "授权",
+        "level": 3
+      },
+      {
+        "heading": "解决方案",
+        "level": 3
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "官方定义",
+        "level": 3
+      },
+      {
+        "heading": "历史",
+        "level": 3
+      },
+      {
+        "heading": "整体架构",
+        "level": 2
+      },
+      {
+        "heading": "认证",
+        "level": 3
+      },
+      {
+        "heading": "AuthenticationManager",
+        "level": 4
+      },
+      {
+        "heading": "Authentication",
+        "level": 4
+      },
+      {
+        "heading": "SecurityContextHolder",
+        "level": 4
+      },
+      {
+        "heading": "授权",
+        "level": 3
+      },
+      {
+        "heading": "AccessDecisionManager",
+        "level": 4
+      },
+      {
+        "heading": "AccessDecisionVoter",
+        "level": 4
+      },
+      {
+        "heading": "ConfigAttribute",
+        "level": 4
+      },
+      {
+        "heading": "第二章 环境搭建",
+        "level": 1
+      },
+      {
+        "heading": "环境搭建",
+        "level": 2
+      },
+      {
+        "heading": "创建项目",
+        "level": 3
+      },
+      {
+        "heading": "启动项目进行测试",
+        "level": 3
+      },
+      {
+        "heading": "整合 Spring Security",
+        "level": 3
+      },
+      {
+        "heading": "实现原理",
+        "level": 3
+      },
+      {
+        "heading": "Security Filters",
+        "level": 3
+      },
+      {
+        "heading": "SpringBootWebSecurityConfiguration",
+        "level": 3
+      },
+      {
+        "heading": "流程分析",
+        "level": 3
+      },
+      {
+        "heading": "默认用户生成",
+        "level": 3
+      },
+      {
+        "heading": "UserDetailService",
+        "level": 3
+      },
+      {
+        "heading": "UserDetailServiceAutoConfigutation",
+        "level": 3
+      },
+      {
+        "heading": "总结",
+        "level": 3
+      },
+      {
+        "heading": "第三章 认证原理&自定义认证",
+        "level": 1
+      },
+      {
+        "heading": "自定义资源权限规则",
+        "level": 2
+      },
+      {
+        "heading": "自定义登录界面",
+        "level": 2
+      },
+      {
+        "heading": "自定义登录成功处理",
+        "level": 2
+      },
+      {
+        "heading": "显示登录失败信息",
+        "level": 2
+      },
+      {
+        "heading": "自定义登录失败处理",
+        "level": 2
+      },
+      {
+        "heading": "注销登录",
+        "level": 2
+      },
+      {
+        "heading": "登录用户数据获取",
+        "level": 2
+      },
+      {
+        "heading": "SecurityContextHolder",
+        "level": 3
+      },
+      {
+        "heading": "SecurityContextHolderStrategy",
+        "level": 3
+      },
+      {
+        "heading": "代码中获取认证之后用户数据",
+        "level": 3
+      },
+      {
+        "heading": "多线程情况下获取用户数据",
+        "level": 3
+      },
+      {
+        "heading": "页面上获取用户信息",
+        "level": 3
+      },
+      {
+        "heading": "自定义认证数据源",
+        "level": 2
+      },
+      {
+        "heading": "认证流程分析",
+        "level": 3
+      },
+      {
+        "heading": "三者关系",
+        "level": 3
+      },
+      {
+        "heading": "配置全局 AuthenticationManager",
+        "level": 3
+      },
+      {
+        "heading": "自定义内存数据源",
+        "level": 3
+      },
+      {
+        "heading": "自定义数据库数据源",
+        "level": 3
+      },
+      {
+        "heading": "添加认证验证码",
+        "level": 2
+      },
+      {
+        "heading": "配置验证码",
+        "level": 3
+      },
+      {
+        "heading": "添加验证码",
+        "level": 2
+      },
+      {
+        "heading": "配置验证码",
+        "level": 3
+      },
+      {
+        "heading": "传统 web 开发",
+        "level": 4
+      },
+      {
+        "heading": "前后端分离开发",
+        "level": 4
+      },
+      {
+        "heading": "第四章 密码加密",
+        "level": 1
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "加密意义",
+        "level": 3
+      },
+      {
+        "heading": "常见方案",
+        "level": 3
+      },
+      {
+        "heading": "Hash 算法",
+        "level": 4
+      },
+      {
+        "heading": "单向自适应函数",
+        "level": 4
+      },
+      {
+        "heading": "PasswordEncoder",
+        "level": 2
+      },
+      {
+        "heading": "DelegatingPasswordEncoder",
+        "level": 2
+      },
+      {
+        "heading": "DelegatingPasswordEncoder源码",
+        "level": 4
+      },
+      {
+        "heading": "PasswordEncoderFactories",
+        "level": 4
+      },
+      {
+        "heading": "如何使用 PasswordEncoder",
+        "level": 2
+      },
+      {
+        "heading": "密码加密实战",
+        "level": 2
+      },
+      {
+        "heading": "密码自动升级",
+        "level": 2
+      },
+      {
+        "heading": "第五章 RememberMe",
+        "level": 1
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "基本使用",
+        "level": 2
+      },
+      {
+        "heading": "开启记住我",
+        "level": 3
+      },
+      {
+        "heading": "使用记住我",
+        "level": 3
+      },
+      {
+        "heading": "原理分析",
+        "level": 2
+      },
+      {
+        "heading": "RememberMeAuthenticationFilter",
+        "level": 3
+      },
+      {
+        "heading": "RememberMeServices",
+        "level": 3
+      },
+      {
+        "heading": "TokenBasedRememberMeServices",
+        "level": 3
+      },
+      {
+        "heading": "总结",
+        "level": 3
+      },
+      {
+        "heading": "内存令牌",
+        "level": 2
+      },
+      {
+        "heading": "PersistentTokenBasedRememberMeServices",
+        "level": 3
+      },
+      {
+        "heading": "使用内存中令牌实现",
+        "level": 3
+      },
+      {
+        "heading": "持久化令牌",
+        "level": 2
+      },
+      {
+        "heading": "自定义记住我",
+        "level": 2
+      },
+      {
+        "heading": "查看记住我源码",
+        "level": 3
+      },
+      {
+        "heading": "传统 web 开发记住我实现",
+        "level": 3
+      },
+      {
+        "heading": "前后端分离开发实现记住我",
+        "level": 3
+      },
+      {
+        "heading": "第六章 会话管理",
+        "level": 1
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "会话并发管理",
+        "level": 2
+      },
+      {
+        "heading": "简介",
+        "level": 3
+      },
+      {
+        "heading": "开启会话管理",
+        "level": 3
+      },
+      {
+        "heading": "测试会话管理",
+        "level": 3
+      },
+      {
+        "heading": "会话失效处理",
+        "level": 2
+      },
+      {
+        "heading": "传统 web 开发处理",
+        "level": 3
+      },
+      {
+        "heading": "前后端分离开发处理",
+        "level": 3
+      },
+      {
+        "heading": "禁止再次登录",
+        "level": 2
+      },
+      {
+        "heading": "集群下会话共享",
+        "level": 2
+      },
+      {
+        "heading": "实战",
+        "level": 3
+      },
+      {
+        "heading": "测试",
+        "level": 4
+      },
+      {
+        "heading": "第七章 CSRF漏洞保护",
+        "level": 1
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "CSRF攻击演示",
+        "level": 2
+      },
+      {
+        "heading": "创建银行应用",
+        "level": 3
+      },
+      {
+        "heading": "创建恶意攻击应用",
+        "level": 3
+      },
+      {
+        "heading": "测试",
+        "level": 3
+      },
+      {
+        "heading": "CSRF 防御",
+        "level": 2
+      },
+      {
+        "heading": "令牌同步模式",
+        "level": 3
+      },
+      {
+        "heading": "测试恶意应用是否还能进行转账",
+        "level": 4
+      },
+      {
+        "heading": "传统web开发使用CSRF",
+        "level": 2
+      },
+      {
+        "heading": "前后端分离使用 CSRF",
+        "level": 2
+      },
+      {
+        "heading": "第八章 跨域",
+        "level": 1
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "什么是CORS",
+        "level": 2
+      },
+      {
+        "heading": "简单请求",
+        "level": 3
+      },
+      {
+        "heading": "非简单请求",
+        "level": 3
+      },
+      {
+        "heading": "Spring 跨域解决方案",
+        "level": 2
+      },
+      {
+        "heading": "@CrossOrigin",
+        "level": 3
+      },
+      {
+        "heading": "addCrosMapping",
+        "level": 3
+      },
+      {
+        "heading": "CrosFilter",
+        "level": 3
+      },
+      {
+        "heading": "Spring Security 跨域解决方案",
+        "level": 2
+      },
+      {
+        "heading": "原理分析",
+        "level": 3
+      },
+      {
+        "heading": "解决方案",
+        "level": 3
+      },
+      {
+        "heading": "第九章 异常处理",
+        "level": 1
+      },
+      {
+        "heading": "异常体系",
+        "level": 2
+      },
+      {
+        "heading": "自定义异常处理配置",
+        "level": 2
+      },
+      {
+        "heading": "第十章 授权",
+        "level": 1
+      },
+      {
+        "heading": "认证",
+        "level": 2
+      },
+      {
+        "heading": "授权",
+        "level": 2
+      },
+      {
+        "heading": "授权核心概念",
+        "level": 2
+      },
+      {
+        "heading": "权限管理策略",
+        "level": 2
+      },
+      {
+        "heading": "基于URL权限管理",
+        "level": 2
+      },
+      {
+        "heading": "权限表达式",
+        "level": 3
+      },
+      {
+        "heading": "基于方法权限管理",
+        "level": 2
+      },
+      {
+        "heading": "@EnableGlobalMethodSecurity",
+        "level": 3
+      },
+      {
+        "heading": "基本用法",
+        "level": 3
+      },
+      {
+        "heading": "原理分析",
+        "level": 2
+      },
+      {
+        "heading": "源码分析",
+        "level": 2
+      },
+      {
+        "heading": "实战",
+        "level": 2
+      },
+      {
+        "heading": "第十一章 OAuth2",
+        "level": 1
+      },
+      {
+        "heading": "OAuth2 简介",
+        "level": 2
+      },
+      {
+        "heading": "OAuth2 授权总体流程",
+        "level": 2
+      },
+      {
+        "heading": "四种授权模式",
+        "level": 2
+      },
+      {
+        "heading": "授权码模式",
+        "level": 3
+      },
+      {
+        "heading": "简化模式",
+        "level": 3
+      },
+      {
+        "heading": "密码模式",
+        "level": 3
+      },
+      {
+        "heading": "客户端模式",
+        "level": 3
+      },
+      {
+        "heading": "OAuth2 标准接口",
+        "level": 2
+      },
+      {
+        "heading": "Github授权登陆",
+        "level": 2
+      },
+      {
+        "heading": "Github创建OAuth应用",
+        "level": 3
+      },
+      {
+        "heading": "项目开发",
+        "level": 3
+      },
+      {
+        "heading": "Spring Security OAuth2",
+        "level": 2
+      },
+      {
+        "heading": "授权、资源服务器",
+        "level": 2
+      },
+      {
+        "heading": "授权服务器搭建",
+        "level": 3
+      },
+      {
+        "heading": "2. 基于数据库客户端和令牌存储",
+        "level": 3
+      },
+      {
+        "heading": "资源服务器搭建",
+        "level": 3
+      },
+      {
+        "heading": "JWT",
+        "level": 2
+      },
+      {
+        "heading": "授权服务器颁发JWT令牌",
+        "level": 3
+      },
+      {
+        "heading": "使用JWT令牌资源服务器",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "2. CSS",
+    "relativePath": "15. 前端/前端三剑客/2. CSS.md",
+    "headings": [
+      {
+        "heading": "1. CSS 简介",
+        "level": 1
+      },
+      {
+        "heading": "1.1 CSS 语法规范",
+        "level": 1
+      },
+      {
+        "heading": "1.1 CSS 代码风格",
+        "level": 2
+      },
+      {
+        "heading": "2. CSS 基础选择器",
+        "level": 1
+      },
+      {
+        "heading": "2.1 CSS 选择器的作用",
+        "level": 2
+      },
+      {
+        "heading": "2.2 选择器分类",
+        "level": 2
+      },
+      {
+        "heading": "2.3 标签选择器",
+        "level": 2
+      },
+      {
+        "heading": "2.4 类选择器",
+        "level": 2
+      },
+      {
+        "heading": "2.4.1 简单使用",
+        "level": 3
+      },
+      {
+        "heading": "2.4.2 类选择器-多类名",
+        "level": 3
+      },
+      {
+        "heading": "2.5 id选择器",
+        "level": 2
+      },
+      {
+        "heading": "2.5.1 基本使用",
+        "level": 3
+      },
+      {
+        "heading": "2.5.2 id选择器和类选择器的区别",
+        "level": 3
+      },
+      {
+        "heading": "2.6 通配符选择器",
+        "level": 2
+      },
+      {
+        "heading": "2.7 基础选择器总结",
+        "level": 2
+      },
+      {
+        "heading": "3. CSS 字体属性",
+        "level": 1
+      },
+      {
+        "heading": "3.1 字体系列",
+        "level": 2
+      },
+      {
+        "heading": "3.2 字体大小",
+        "level": 2
+      },
+      {
+        "heading": "3.3 字体粗细",
+        "level": 2
+      },
+      {
+        "heading": "3.4 文字样式",
+        "level": 2
+      },
+      {
+        "heading": "3.5 字体复合属性",
+        "level": 2
+      },
+      {
+        "heading": "3.6 字体属性总结",
+        "level": 2
+      },
+      {
+        "heading": "4. CSS 文本属性",
+        "level": 1
+      },
+      {
+        "heading": "4.1 文本颜色",
+        "level": 2
+      },
+      {
+        "heading": "4.2 对齐文本",
+        "level": 2
+      },
+      {
+        "heading": "4.3 装饰文本",
+        "level": 2
+      },
+      {
+        "heading": "4. 文本缩紧",
+        "level": 2
+      },
+      {
+        "heading": "4.5 行间距",
+        "level": 2
+      },
+      {
+        "heading": "4.6 文本属性总结",
+        "level": 2
+      },
+      {
+        "heading": "5. CSS 引入方式",
+        "level": 2
+      },
+      {
+        "heading": "5.1 CSS 的三种样式表",
+        "level": 2
+      },
+      {
+        "heading": "5.2 内部样式表",
+        "level": 2
+      },
+      {
+        "heading": "5.3 行内样式表",
+        "level": 2
+      },
+      {
+        "heading": "5.4 外部样式表",
+        "level": 2
+      },
+      {
+        "heading": "5.5 CSS 引入方式总结",
+        "level": 2
+      },
+      {
+        "heading": "5. Emmet 语法",
+        "level": 1
+      },
+      {
+        "heading": "5.1 快速生成HTML语法结构",
+        "level": 2
+      },
+      {
+        "heading": "5.2 快速生成CSS样式语法",
+        "level": 2
+      },
+      {
+        "heading": "6. CSS 复合选择器",
+        "level": 1
+      },
+      {
+        "heading": "6.1 后代选择器",
+        "level": 2
+      },
+      {
+        "heading": "6.2 子选择器",
+        "level": 2
+      },
+      {
+        "heading": "6.3 并集选择器",
+        "level": 2
+      },
+      {
+        "heading": "6.4 伪类选择器",
+        "level": 2
+      },
+      {
+        "heading": "6.5 :focus 伪类选择器",
+        "level": 2
+      },
+      {
+        "heading": "6.6 复合选择器总结",
+        "level": 2
+      },
+      {
+        "heading": "7. CSS 的元素显示模式",
+        "level": 1
+      },
+      {
+        "heading": "7.1 什么是元素显示模式",
+        "level": 2
+      },
+      {
+        "heading": "7.2 块元素",
+        "level": 2
+      },
+      {
+        "heading": "7.3 行内元素",
+        "level": 2
+      },
+      {
+        "heading": "7.4 行内块元素",
+        "level": 2
+      },
+      {
+        "heading": "7.5 元素显示模式总结",
+        "level": 2
+      },
+      {
+        "heading": "7.6 元素显示模式转换",
+        "level": 2
+      },
+      {
+        "heading": "7.7 单行文字垂直居中代码",
+        "level": 2
+      },
+      {
+        "heading": "8. CSS 背景",
+        "level": 1
+      },
+      {
+        "heading": "8.1 背景颜色",
+        "level": 2
+      },
+      {
+        "heading": "8.2 背景图片",
+        "level": 2
+      },
+      {
+        "heading": "8.3 背景平铺",
+        "level": 2
+      },
+      {
+        "heading": "8.4 背景图片位置",
+        "level": 2
+      },
+      {
+        "heading": "8.5 背景图像固定（背景附着）",
+        "level": 2
+      },
+      {
+        "heading": "8.6 背景复合写法",
+        "level": 2
+      },
+      {
+        "heading": "8.7 背景色半透明",
+        "level": 2
+      },
+      {
+        "heading": "8.8 背景总结",
+        "level": 2
+      },
+      {
+        "heading": "9. CSS 三大特性",
+        "level": 1
+      },
+      {
+        "heading": "9.1 层叠性",
+        "level": 2
+      },
+      {
+        "heading": "9.2 继承性",
+        "level": 2
+      },
+      {
+        "heading": "9.3 优先级",
+        "level": 2
+      },
+      {
+        "heading": "10. CSS 盒子模型",
+        "level": 1
+      },
+      {
+        "heading": "10.1 盒子模型",
+        "level": 2
+      },
+      {
+        "heading": "10.2 盒子模型（Box Model）组成",
+        "level": 3
+      },
+      {
+        "heading": "10.3 边框（border）",
+        "level": 2
+      },
+      {
+        "heading": "10.3.1 表格的细线边框",
+        "level": 3
+      },
+      {
+        "heading": "10.3.2 边框会影响盒子的实际大小",
+        "level": 3
+      },
+      {
+        "heading": "10.4 内边距（padding）",
+        "level": 2
+      },
+      {
+        "heading": "10.4.1 为什么要使用 padding ？",
+        "level": 3
+      },
+      {
+        "heading": "10.4.2 padding 影响盒子大小",
+        "level": 3
+      },
+      {
+        "heading": "10.5 外边距（margin）",
+        "level": 2
+      },
+      {
+        "heading": "10.5.1 外边距典型应用",
+        "level": 3
+      },
+      {
+        "heading": "12.5.2 嵌套块元素垂直外边距的塌陷",
+        "level": 3
+      },
+      {
+        "heading": "12.5.3 清除内外边距",
+        "level": 3
+      },
+      {
+        "heading": "11. 圆角边框",
+        "level": 1
+      },
+      {
+        "heading": "12. 盒子阴影",
+        "level": 1
+      },
+      {
+        "heading": "13. 文字阴影",
+        "level": 1
+      },
+      {
+        "heading": "14. 浮动",
+        "level": 1
+      },
+      {
+        "heading": "14.1 浮动",
+        "level": 2
+      },
+      {
+        "heading": "14.1.1 传统网页布局的三种方式",
+        "level": 3
+      },
+      {
+        "heading": "14.1.2 标准流（普通流/文档流）",
+        "level": 3
+      },
+      {
+        "heading": "14.1.3 为什么需要浮动？",
+        "level": 3
+      },
+      {
+        "heading": "14.1.4 什么是浮动？",
+        "level": 3
+      },
+      {
+        "heading": "14.1.5 浮动特性",
+        "level": 3
+      },
+      {
+        "heading": "1. 浮动元素会脱离标准流，浮动的盒子不再保留原先的位置",
+        "level": 4
+      },
+      {
+        "heading": "2. 浮动的元素会一行内显并且元素顶部对齐",
+        "level": 4
+      },
+      {
+        "heading": "3. 浮动的元素会具有行内块元素的特性",
+        "level": 4
+      },
+      {
+        "heading": "14.1.6 浮动元素经常和标准流父级搭配使用",
+        "level": 3
+      },
+      {
+        "heading": "14.2 常见的网页布局",
+        "level": 2
+      },
+      {
+        "heading": "14.2.1 常见的网页布局",
+        "level": 3
+      },
+      {
+        "heading": "14.2.2 浮动布局的注意点",
+        "level": 3
+      },
+      {
+        "heading": "14.3 清除浮动",
+        "level": 2
+      },
+      {
+        "heading": "14.3.1 为什么需要清除浮动？",
+        "level": 3
+      },
+      {
+        "heading": "14.3.2 清除浮动本质",
+        "level": 3
+      },
+      {
+        "heading": "14.3.3 清除浮动方法",
+        "level": 3
+      },
+      {
+        "heading": "14.3.4.1 清除浮动-额外标签法",
+        "level": 4
+      },
+      {
+        "heading": "14.3.4.2 清除浮动-父级增加 overflow",
+        "level": 4
+      },
+      {
+        "heading": "14.3.4.3 清除浮动- :after 伪元素法",
+        "level": 4
+      },
+      {
+        "heading": "14.3.4.4 清除浮动-双伪元素清除浮动",
+        "level": 4
+      },
+      {
+        "heading": "14.5 学成在线案例",
+        "level": 2
+      },
+      {
+        "heading": "14.5.1 第一步：确定版心",
+        "level": 3
+      },
+      {
+        "heading": "14.5.2 第二步：头部制作",
+        "level": 3
+      },
+      {
+        "heading": "14.5.2.1 版心盒子",
+        "level": 4
+      },
+      {
+        "heading": "14.5.2.2 盒子 logo",
+        "level": 4
+      },
+      {
+        "heading": "14.5.2.3 nav 导航栏",
+        "level": 4
+      },
+      {
+        "heading": "14.5.2.4 search 搜索框",
+        "level": 4
+      },
+      {
+        "heading": "14.5.2.5 user 个人信息",
+        "level": 4
+      },
+      {
+        "heading": "14.5.3 第三步：banner 制作",
+        "level": 3
+      },
+      {
+        "heading": "14.5.3.1 banner区域",
+        "level": 4
+      },
+      {
+        "heading": "14.5.3.2 版心区域",
+        "level": 4
+      },
+      {
+        "heading": "14.5.3.3 侧导航栏区域",
+        "level": 4
+      },
+      {
+        "heading": "14.5.3.4 我的课程表",
+        "level": 4
+      },
+      {
+        "heading": "14.5.4 精品推荐小模块",
+        "level": 3
+      },
+      {
+        "heading": "14.5.4.1 精品推荐区域",
+        "level": 4
+      },
+      {
+        "heading": "14.5.4.2 标题区",
+        "level": 4
+      },
+      {
+        "heading": "14.5.4.3 课程区",
+        "level": 4
+      },
+      {
+        "heading": "14.5.4.4 修改兴趣区",
+        "level": 4
+      },
+      {
+        "heading": "14.5.5 核心内容区域",
+        "level": 3
+      },
+      {
+        "heading": "14.5.5.1 box-hd 模块",
+        "level": 4
+      },
+      {
+        "heading": "14.5.5.2 box-bd 模块",
+        "level": 4
+      },
+      {
+        "heading": "14.5.6 footer 模块",
+        "level": 3
+      },
+      {
+        "heading": "14.5.6.1 大盒子",
+        "level": 4
+      },
+      {
+        "heading": "14.5.6.2 版心盒子",
+        "level": 4
+      },
+      {
+        "heading": "14.5.6.3 版权盒子",
+        "level": 4
+      },
+      {
+        "heading": "14.5.6.4 链接盒子",
+        "level": 4
+      },
+      {
+        "heading": "15. 定位",
+        "level": 1
+      },
+      {
+        "heading": "15.1 为什么需要定位？",
+        "level": 2
+      },
+      {
+        "heading": "15.2 定位组成",
+        "level": 2
+      },
+      {
+        "heading": "15.2.1 定位模式",
+        "level": 3
+      },
+      {
+        "heading": "15.2.2 边偏移",
+        "level": 3
+      },
+      {
+        "heading": "15.3 定位模式",
+        "level": 2
+      },
+      {
+        "heading": "15.3.1 静态定位 static",
+        "level": 3
+      },
+      {
+        "heading": "15.3.2 相对定位 relative",
+        "level": 3
+      },
+      {
+        "heading": "15.3.3 绝对定位 absolute",
+        "level": 3
+      },
+      {
+        "heading": "15.3.4 固定定位 fixed",
+        "level": 3
+      },
+      {
+        "heading": "15.3.5 粘性定位 sticky",
+        "level": 3
+      },
+      {
+        "heading": "15.3.6 粘性定位 sticky",
+        "level": 3
+      },
+      {
+        "heading": "15.3.7 子绝父相的由来",
+        "level": 3
+      },
+      {
+        "heading": "15.4 定位叠放次序",
+        "level": 2
+      },
+      {
+        "heading": "15.5 定位的拓展",
+        "level": 2
+      },
+      {
+        "heading": "1. 绝对定位的盒子居中",
+        "level": 3
+      },
+      {
+        "heading": "2. 定位特殊性",
+        "level": 3
+      },
+      {
+        "heading": "3. 脱标的盒子不会触发外边距塌陷",
+        "level": 3
+      },
+      {
+        "heading": "4. 绝对定位（固定定位）会完全压住盒子",
+        "level": 3
+      },
+      {
+        "heading": "16. 元素的显示与隐藏",
+        "level": 1
+      },
+      {
+        "heading": "16.1 display 属性",
+        "level": 2
+      },
+      {
+        "heading": "16.2 visibility 可见性",
+        "level": 2
+      },
+      {
+        "heading": "16.3 overflow 溢出隐藏",
+        "level": 2
+      },
+      {
+        "heading": "16.4 显示与隐藏总结",
+        "level": 2
+      },
+      {
+        "heading": "17. 精灵图",
+        "level": 1
+      },
+      {
+        "heading": "17.1 为什么需要精灵图？",
+        "level": 2
+      },
+      {
+        "heading": "17.2 精灵图的使用",
+        "level": 2
+      },
+      {
+        "heading": "18. 字体图标",
+        "level": 2
+      },
+      {
+        "heading": "18.1 字体图标的产生",
+        "level": 2
+      },
+      {
+        "heading": "18.2 字体图标的优点",
+        "level": 2
+      },
+      {
+        "heading": "18.3 下载字体图标",
+        "level": 2
+      },
+      {
+        "heading": "18.4 引用字体图标",
+        "level": 2
+      },
+      {
+        "heading": "18.5 使用字体",
+        "level": 2
+      },
+      {
+        "heading": "18.6 字体图标的追加",
+        "level": 2
+      },
+      {
+        "heading": "19. CSS 三角图标",
+        "level": 1
+      },
+      {
+        "heading": "19.1 自定义CSS三角图标",
+        "level": 2
+      },
+      {
+        "heading": "19.2 实现下拉框箭头效果",
+        "level": 2
+      },
+      {
+        "heading": "20. CSS 用户界面样式",
+        "level": 2
+      },
+      {
+        "heading": "20.1 什么是界面样式",
+        "level": 2
+      },
+      {
+        "heading": "20.2 鼠标样式 cursor",
+        "level": 2
+      },
+      {
+        "heading": "20.3 轮廓线 outline",
+        "level": 2
+      },
+      {
+        "heading": "20.4 防止拖拽文本域 resize",
+        "level": 2
+      },
+      {
+        "heading": "21. vertical-align 属性应用",
+        "level": 1
+      },
+      {
+        "heading": "21.1 图片、表单和文字对齐",
+        "level": 2
+      },
+      {
+        "heading": "21.2 解决图片地步默认空白缝隙的问题",
+        "level": 2
+      },
+      {
+        "heading": "22. 溢出的文字省略号显示",
+        "level": 1
+      },
+      {
+        "heading": "22.1 单行文本溢出",
+        "level": 2
+      },
+      {
+        "heading": "22.2 多行文本溢出显示省略号",
+        "level": 2
+      },
+      {
+        "heading": "23. 常见布局技巧",
+        "level": 1
+      },
+      {
+        "heading": "23.1 margin 负值的运用",
+        "level": 2
+      },
+      {
+        "heading": "23.2 文字围绕浮动元素",
+        "level": 2
+      },
+      {
+        "heading": "23.3 行内快巧妙运用",
+        "level": 2
+      },
+      {
+        "heading": "23.4 CSS三角强化",
+        "level": 2
+      },
+      {
+        "heading": "24. CSS 初始化",
+        "level": 1
+      },
+      {
+        "heading": "25. CSS3 的新特性",
+        "level": 1
+      },
+      {
+        "heading": "25.1 CSS3 的现状",
+        "level": 2
+      },
+      {
+        "heading": "25.2 CSS3 新增选择器",
+        "level": 2
+      },
+      {
+        "heading": "25.2.1 属性选择器",
+        "level": 3
+      },
+      {
+        "heading": "25.2.2 结构伪类选择器",
+        "level": 3
+      },
+      {
+        "heading": "功能强大的 `E:nth-child(n)`",
+        "level": 4
+      },
+      {
+        "heading": "功能强大的 `E:nth-of-type(n)`",
+        "level": 4
+      },
+      {
+        "heading": "`E:nth-child(n)` 和 `E:nth-of-type(n)` 的区别",
+        "level": 4
+      },
+      {
+        "heading": "小结",
+        "level": 4
+      },
+      {
+        "heading": "25.2.3 伪元素选择器",
+        "level": 3
+      },
+      {
+        "heading": "伪元素选择器使用场景1：伪元素字体图标",
+        "level": 4
+      },
+      {
+        "heading": "伪元素选择器使用场景2：仿土豆视频隐藏遮罩效果",
+        "level": 4
+      },
+      {
+        "heading": "伪元素选择器使用场景3：伪元素清除浮动",
+        "level": 4
+      },
+      {
+        "heading": "25.3 CSS3 盒子模型",
+        "level": 2
+      },
+      {
+        "heading": "25.4 CSS3 滤镜 filter",
+        "level": 2
+      },
+      {
+        "heading": "25.5 CSS3 calc 函数",
+        "level": 2
+      },
+      {
+        "heading": "25.6 CSS3 过渡",
+        "level": 2
+      },
+      {
+        "heading": "26. 实战：品优购",
+        "level": 1
+      },
+      {
+        "heading": "26.1 目录结构",
+        "level": 2
+      },
+      {
+        "heading": "26.2 CSS 构建",
+        "level": 2
+      },
+      {
+        "heading": "26.3 网站 favicon 图标",
+        "level": 2
+      },
+      {
+        "heading": "附录",
+        "level": 1
+      },
+      {
+        "heading": "1. 去除列表列表小圆点、 数字",
+        "level": 2
+      },
+      {
+        "heading": "2. CSS 属性书写顺序",
+        "level": 2
+      },
+      {
+        "heading": "3. 页面布局整体思路",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "#^b1644b",
+        "relativePath": "15. 前端/前端三剑客/2. CSS.md",
+        "cleanLink": "2. CSS",
+        "displayText": "CSS 属性书写顺序"
+      },
+      {
+        "link": "#^aa57bd",
+        "relativePath": "15. 前端/前端三剑客/2. CSS.md",
+        "cleanLink": "2. CSS",
+        "displayText": "页面布局整体思路"
+      },
+      {
+        "link": "#^f568e1",
+        "relativePath": "15. 前端/前端三剑客/2. CSS.md",
+        "cleanLink": "2. CSS",
+        "displayText": "自定义三角形图标"
+      },
+      {
+        "link": "#^1b40b5",
+        "relativePath": "15. 前端/前端三剑客/2. CSS.md",
+        "cleanLink": "2. CSS",
+        "displayText": "E:nth-child(n)"
+      }
+    ]
+  },
+  {
+    "fileName": "1. HTML",
+    "relativePath": "15. 前端/前端三剑客/1. HTML.md",
+    "headings": [
+      {
+        "heading": "1. 网页",
+        "level": 1
+      },
+      {
+        "heading": "1.1 什么是网页？",
+        "level": 2
+      },
+      {
+        "heading": "1.2 什么是HTML",
+        "level": 2
+      },
+      {
+        "heading": "2. 浏览器",
+        "level": 1
+      },
+      {
+        "heading": "浏览器内核",
+        "level": 2
+      },
+      {
+        "heading": "3. Web标准",
+        "level": 1
+      },
+      {
+        "heading": "3.1 为什么需要Web标准",
+        "level": 2
+      },
+      {
+        "heading": "3.2 Web 标准的构成",
+        "level": 2
+      },
+      {
+        "heading": "4. HTML 语法规范",
+        "level": 1
+      },
+      {
+        "heading": "4.1 基本语法概述",
+        "level": 2
+      },
+      {
+        "heading": "4.2 标签关系",
+        "level": 2
+      },
+      {
+        "heading": "5. HTML基本结构标签",
+        "level": 1
+      },
+      {
+        "heading": "5.1 第一个HTML网页",
+        "level": 2
+      },
+      {
+        "heading": "5.2 第一个HTML",
+        "level": 2
+      },
+      {
+        "heading": "5.3 基本结构标签总结",
+        "level": 2
+      },
+      {
+        "heading": "5.4 文档类型声明标签",
+        "level": 2
+      },
+      {
+        "heading": "5.5 lang语言种类",
+        "level": 2
+      },
+      {
+        "heading": "6. HTML 常用标签",
+        "level": 1
+      },
+      {
+        "heading": "6.1 标签语义",
+        "level": 2
+      },
+      {
+        "heading": "6.2 标题标签 `<h1> - <h6>`",
+        "level": 2
+      },
+      {
+        "heading": "6.3 段落标签",
+        "level": 2
+      },
+      {
+        "heading": "6.3 换行标签",
+        "level": 2
+      },
+      {
+        "heading": "6.4 文本格式化标签",
+        "level": 2
+      },
+      {
+        "heading": "6.5 `<div>` 和 `<span>` 标签",
+        "level": 2
+      },
+      {
+        "heading": "6.6 图像标签和路径",
+        "level": 2
+      },
+      {
+        "heading": "6.7 超链接标签",
+        "level": 2
+      },
+      {
+        "heading": "6.7.1 超链接语法格式",
+        "level": 3
+      },
+      {
+        "heading": "6.7.2 链接分类",
+        "level": 3
+      },
+      {
+        "heading": "6.8 注释",
+        "level": 2
+      },
+      {
+        "heading": "6.9 特殊字符",
+        "level": 2
+      },
+      {
+        "heading": "6.10 表格标签",
+        "level": 2
+      },
+      {
+        "heading": "6.10.1 表格的主要作用",
+        "level": 3
+      },
+      {
+        "heading": "6.10.2 表格的基本语法",
+        "level": 3
+      },
+      {
+        "heading": "6.10.3 表头单元格标签",
+        "level": 3
+      },
+      {
+        "heading": "6.10.4 表格属性",
+        "level": 3
+      },
+      {
+        "heading": "6.10.5 合并单元格",
+        "level": 3
+      },
+      {
+        "heading": "6.11 列表标签",
+        "level": 2
+      },
+      {
+        "heading": "6.11.1 无序列表",
+        "level": 3
+      },
+      {
+        "heading": "6.11.2 有序列表",
+        "level": 3
+      },
+      {
+        "heading": "6.11.3 自定义列表",
+        "level": 3
+      },
+      {
+        "heading": "6.12 表单标签",
+        "level": 2
+      },
+      {
+        "heading": "6.12.1 表单域",
+        "level": 3
+      },
+      {
+        "heading": "6.12.2 表单控件（表单元素）",
+        "level": 3
+      },
+      {
+        "heading": "6.12.2.1 `<input>` 表单元素",
+        "level": 4
+      },
+      {
+        "heading": "6.12.2.2 `<label>` 标签",
+        "level": 4
+      },
+      {
+        "heading": "6.12.2.3 `<select>` 标签",
+        "level": 4
+      },
+      {
+        "heading": "6.12.2.4 `<textarea>` 标签",
+        "level": 4
+      },
+      {
+        "heading": "7. HTML5新特性",
+        "level": 1
+      },
+      {
+        "heading": "7.1 HTML5 新增的语义化标签",
+        "level": 2
+      },
+      {
+        "heading": "7.2 HTML5 新增的多媒体标签",
+        "level": 2
+      },
+      {
+        "heading": "1. 视频 `<video>`",
+        "level": 3
+      },
+      {
+        "heading": "2. 音频 `<audio>`",
+        "level": 3
+      },
+      {
+        "heading": "3. 多媒体标签总结",
+        "level": 3
+      },
+      {
+        "heading": "7.3 HTML5 新增的 input 类型",
+        "level": 2
+      },
+      {
+        "heading": "7.4 HTML5 新增的表单属性",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Hadoop",
+    "relativePath": "14. 分布式文件存储系统/Hadoop.md",
+    "tags": [
+      "todo"
+    ]
+  },
+  {
+    "fileName": "FastDFS",
+    "relativePath": "14. 分布式文件存储系统/FastDFS.md",
+    "tags": [
+      "todo"
+    ],
+    "headings": [
+      {
+        "heading": "一.简介",
+        "level": 1
+      },
+      {
+        "heading": "1.1 描述",
+        "level": 2
+      },
+      {
+        "heading": "1.2 优缺点",
+        "level": 2
+      },
+      {
+        "heading": "1.3 常见术语",
+        "level": 2
+      },
+      {
+        "heading": "1.4 目录结构",
+        "level": 2
+      },
+      {
+        "heading": "1.5 FastDFS安装",
+        "level": 2
+      },
+      {
+        "heading": "2. Java集成FastDFS",
+        "level": 1
+      },
+      {
+        "heading": "3. SpringBoot集成FastDFS",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "MDC",
+    "relativePath": "13. 分布式全流程日志追踪/MDC.md",
+    "headings": [
+      {
+        "heading": "简单的解决思路",
+        "level": 1
+      },
+      {
+        "heading": "MDC 介绍",
+        "level": 1
+      },
+      {
+        "heading": "初步实现",
+        "level": 1
+      },
+      {
+        "heading": "支持线程池跟踪",
+        "level": 1
+      },
+      {
+        "heading": "下游服务使用相同 traceId",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "Zabbix",
+    "relativePath": "12. 分布式监控/Zabbix.md",
+    "tags": [
+      "todo"
+    ]
+  },
+  {
+    "fileName": "Maven手动导入依赖包",
+    "relativePath": "11. Maven/Maven手动导入依赖包.md"
+  },
+  {
+    "fileName": "责任链模式",
+    "relativePath": "10. 设计模式/责任链模式.md",
+    "headings": [
+      {
+        "heading": "业务场景",
+        "level": 1
+      },
+      {
+        "heading": "一般写法",
+        "level": 1
+      },
+      {
+        "heading": "使用责任链模式定义",
+        "level": 1
+      },
+      {
+        "heading": "采用责任链模式",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "责任链模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "观察者模式",
+    "relativePath": "10. 设计模式/观察者模式.md",
+    "headings": [
+      {
+        "heading": "业务场景",
+        "level": 1
+      },
+      {
+        "heading": "观察者模式定义",
+        "level": 1
+      },
+      {
+        "heading": "使用观察者模式",
+        "level": 1
+      },
+      {
+        "heading": "简易的观察者模式DEMO",
+        "level": 1
+      },
+      {
+        "heading": "EventBus 实战",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "观察者模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "策略模式",
+    "relativePath": "10. 设计模式/策略模式.md",
+    "headings": [
+      {
+        "heading": "业务场景",
+        "level": 1
+      },
+      {
+        "heading": "普通写法",
+        "level": 1
+      },
+      {
+        "heading": "采用策略模式",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "策略模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "模版模式",
+    "relativePath": "10. 设计模式/模版模式.md",
+    "headings": [
+      {
+        "heading": "业务场景",
+        "level": 1
+      },
+      {
+        "heading": "普通写法",
+        "level": 1
+      },
+      {
+        "heading": "使用模版模式",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "模版模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "工厂模式",
+    "relativePath": "10. 设计模式/工厂模式.md",
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "工厂模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "单例模式",
+    "relativePath": "10. 设计模式/单例模式.md",
+    "headings": [
+      {
+        "heading": "业务场景",
+        "level": 1
+      },
+      {
+        "heading": "单例模式的经典写法",
+        "level": 1
+      },
+      {
+        "heading": "1.懒汉模式",
+        "level": 2
+      },
+      {
+        "heading": "2. 饿汉模式",
+        "level": 2
+      },
+      {
+        "heading": "3. 双重校验锁",
+        "level": 2
+      },
+      {
+        "heading": "4. 静态内部类",
+        "level": 2
+      },
+      {
+        "heading": "5. 枚举",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "单例模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "MySQL",
+    "relativePath": "1. SQL/MySQL.md",
+    "headings": [
+      {
+        "heading": "第04章_逻辑架构",
+        "level": 1
+      },
+      {
+        "heading": "1. 逻辑架构剖析",
+        "level": 2
+      },
+      {
+        "heading": "1.1 服务器处理客户端请求",
+        "level": 3
+      },
+      {
+        "heading": "1.2 Connectors",
+        "level": 3
+      },
+      {
+        "heading": "1.3 第一层：连接层",
+        "level": 3
+      },
+      {
+        "heading": "1.4 第二层：服务层",
+        "level": 3
+      },
+      {
+        "heading": "1.5 第三层：引擎层",
+        "level": 3
+      },
+      {
+        "heading": "1.6 存储层",
+        "level": 3
+      },
+      {
+        "heading": "1.7 小结",
+        "level": 3
+      },
+      {
+        "heading": "2. SQL执行流程",
+        "level": 2
+      },
+      {
+        "heading": "2.1 MySQL中的SQL执行流程",
+        "level": 3
+      },
+      {
+        "heading": "2.2 MySQL8中SQL执行原理",
+        "level": 3
+      },
+      {
+        "heading": "1) 确认profiling是否开启",
+        "level": 4
+      },
+      {
+        "heading": "2) 多次执行相同SQL查询",
+        "level": 4
+      },
+      {
+        "heading": "3) 查看profiles",
+        "level": 4
+      },
+      {
+        "heading": "4) 查看profile",
+        "level": 4
+      },
+      {
+        "heading": "2.3 MySQL5.7中SQL执行原理",
+        "level": 3
+      },
+      {
+        "heading": "1) 配置文件中开启查询缓存",
+        "level": 4
+      },
+      {
+        "heading": "2) 重启mysql服务",
+        "level": 4
+      },
+      {
+        "heading": "3) 开启查询执行计划",
+        "level": 4
+      },
+      {
+        "heading": "4) 执行语句两次：",
+        "level": 4
+      },
+      {
+        "heading": "5) 查看profiles",
+        "level": 4
+      },
+      {
+        "heading": "6) 查看profile",
+        "level": 4
+      },
+      {
+        "heading": "2.4 SQL语法顺序",
+        "level": 3
+      },
+      {
+        "heading": "3. 数据库缓冲池（buffer pool）",
+        "level": 2
+      },
+      {
+        "heading": "3.1 缓冲池 vs 查询缓存",
+        "level": 3
+      },
+      {
+        "heading": "1) 缓冲池（Buffer Pool）",
+        "level": 4
+      },
+      {
+        "heading": "2) 查询缓存",
+        "level": 4
+      },
+      {
+        "heading": "3.2 缓冲池如何读取数据",
+        "level": 3
+      },
+      {
+        "heading": "3.3 查看/设置缓冲池的大小",
+        "level": 3
+      },
+      {
+        "heading": "3.4 多个Buffer Pool实例",
+        "level": 3
+      },
+      {
+        "heading": "3.5 引申问题",
+        "level": 3
+      },
+      {
+        "heading": "第05章_存储引擎",
+        "level": 1
+      },
+      {
+        "heading": "1. 查看存储引擎",
+        "level": 2
+      },
+      {
+        "heading": "2. 设置系统默认的存储引擎",
+        "level": 2
+      },
+      {
+        "heading": "3. 设置表的存储引擎",
+        "level": 2
+      },
+      {
+        "heading": "3.1 创建表时指定存储引擎",
+        "level": 3
+      },
+      {
+        "heading": "3.2 修改表的存储引擎",
+        "level": 3
+      },
+      {
+        "heading": "4. 引擎介绍",
+        "level": 2
+      },
+      {
+        "heading": "4.1 InnoDB 引擎：具备外键支持功能的事务存储引擎",
+        "level": 3
+      },
+      {
+        "heading": "4.2 MyISAM 引擎：主要的非事务处理存储引擎",
+        "level": 3
+      },
+      {
+        "heading": "4.3 Archive 引擎：用于数据存档",
+        "level": 3
+      },
+      {
+        "heading": "4.4 Blackhole 引擎：丢弃写操作，读操作会返回空内容",
+        "level": 3
+      },
+      {
+        "heading": "4.5 CSV 引擎：存储数据时，以逗号分隔各个数据项",
+        "level": 3
+      },
+      {
+        "heading": "4.6 Memory 引擎：置于内存的表",
+        "level": 3
+      },
+      {
+        "heading": "4.7 Federated 引擎：访问远程表",
+        "level": 3
+      },
+      {
+        "heading": "4.8 Merge引擎：管理多个MyISAM表构成的表集合",
+        "level": 3
+      },
+      {
+        "heading": "4.9 NDB引擎：MySQL集群专用存储引擎",
+        "level": 3
+      },
+      {
+        "heading": "4.10 引擎对比",
+        "level": 3
+      },
+      {
+        "heading": "5. MyISAM和InnoDB",
+        "level": 2
+      },
+      {
+        "heading": "第06章_索引的数据结构",
+        "level": 1
+      },
+      {
+        "heading": "1. 为什么使用索引",
+        "level": 2
+      },
+      {
+        "heading": "2. 索引及其优缺点",
+        "level": 2
+      },
+      {
+        "heading": "2.1 索引概述",
+        "level": 3
+      },
+      {
+        "heading": "2.2 优点",
+        "level": 3
+      },
+      {
+        "heading": "2.3 缺点",
+        "level": 3
+      },
+      {
+        "heading": "3. InnoDB中索引的推演",
+        "level": 2
+      },
+      {
+        "heading": "3.1 索引之前的查找",
+        "level": 3
+      },
+      {
+        "heading": "1. 在一个页中的查找",
+        "level": 4
+      },
+      {
+        "heading": "2. 在很多页中查找",
+        "level": 4
+      },
+      {
+        "heading": "3.2 设计索引",
+        "level": 3
+      },
+      {
+        "heading": "1. 一个简单的索引设计方案",
+        "level": 4
+      },
+      {
+        "heading": "2. InnoDB中的索引方案",
+        "level": 4
+      },
+      {
+        "heading": "① 迭代1次：目录项纪录的页",
+        "level": 4
+      },
+      {
+        "heading": "② 迭代2次：多个目录项纪录的页",
+        "level": 4
+      },
+      {
+        "heading": "③ 迭代3次：目录项记录页的目录页",
+        "level": 4
+      },
+      {
+        "heading": "④ B+Tree",
+        "level": 4
+      },
+      {
+        "heading": "3.3 常见索引概念",
+        "level": 3
+      },
+      {
+        "heading": "1. 聚簇索引",
+        "level": 4
+      },
+      {
+        "heading": "2. 二级索引（辅助索引、非聚簇索引）",
+        "level": 4
+      },
+      {
+        "heading": "3.联合索引",
+        "level": 4
+      },
+      {
+        "heading": "3.4 InnoDB的B+树索引的注意事项",
+        "level": 3
+      },
+      {
+        "heading": "1、根页面位置万年不动",
+        "level": 4
+      },
+      {
+        "heading": "2、内节点中目录项记录的唯一性",
+        "level": 4
+      },
+      {
+        "heading": "3. 一个页面最少存储 2 条记录",
+        "level": 4
+      },
+      {
+        "heading": "4. MyISAM中的索引方案",
+        "level": 2
+      },
+      {
+        "heading": "4.1 MyISAM索引的原理",
+        "level": 3
+      },
+      {
+        "heading": "4.2 MyISAM 与 InnoDB对比",
+        "level": 3
+      },
+      {
+        "heading": "5. 索引的代价",
+        "level": 2
+      },
+      {
+        "heading": "6. MySQL数据结构选择的合理性",
+        "level": 2
+      },
+      {
+        "heading": "6.1 全表查询",
+        "level": 3
+      },
+      {
+        "heading": "6.2 Hash查询",
+        "level": 3
+      },
+      {
+        "heading": "6.3 二叉搜索树",
+        "level": 3
+      },
+      {
+        "heading": "6.4 AVL树（平衡二叉树）",
+        "level": 3
+      },
+      {
+        "heading": "6.5 B-Tree",
+        "level": 3
+      },
+      {
+        "heading": "6.6 B+Tree",
+        "level": 3
+      },
+      {
+        "heading": "6.7 R树（作为了解）",
+        "level": 3
+      },
+      {
+        "heading": "6.8 小结",
+        "level": 3
+      },
+      {
+        "heading": "附录：算法的时间复杂度",
+        "level": 3
+      },
+      {
+        "heading": "第07章_InnoDB数据存储结构",
+        "level": 1
+      },
+      {
+        "heading": "1. 数据库的存储结构：页",
+        "level": 2
+      },
+      {
+        "heading": "1.1 磁盘与内存交互基本单位：页",
+        "level": 3
+      },
+      {
+        "heading": "1.2 页结构概述",
+        "level": 3
+      },
+      {
+        "heading": "1.3 页的大小",
+        "level": 3
+      },
+      {
+        "heading": "1.4 页的上层结构",
+        "level": 3
+      },
+      {
+        "heading": "2. 页的内部结构",
+        "level": 2
+      },
+      {
+        "heading": "第一部分：File Header (文件头部) 和 File Trailer (文件尾部)",
+        "level": 3
+      },
+      {
+        "heading": "第二部分：User Records (用户记录)、最大最小记录、Free Space (空闲空间)",
+        "level": 3
+      },
+      {
+        "heading": "第三部分：Page Directory (页目录) 和 Page Header (页面头部)",
+        "level": 3
+      },
+      {
+        "heading": "2.3 从数据库页的角度看B+树如何查询",
+        "level": 3
+      },
+      {
+        "heading": "B+树是如何进行记录检索的？",
+        "level": 4
+      },
+      {
+        "heading": "普通索引和唯一索引在查询效率上有什么不同？",
+        "level": 4
+      },
+      {
+        "heading": "3. InnoDB行格式 (或记录格式)",
+        "level": 2
+      },
+      {
+        "heading": "COMPACT行格式",
+        "level": 3
+      },
+      {
+        "heading": "Dynamic和Compressed行格式",
+        "level": 3
+      },
+      {
+        "heading": "行溢出",
+        "level": 4
+      },
+      {
+        "heading": "Dynamic和Compressed行格式",
+        "level": 4
+      },
+      {
+        "heading": "Redundant行格式",
+        "level": 4
+      },
+      {
+        "heading": "4. 区、段与碎片区",
+        "level": 2
+      },
+      {
+        "heading": "4.1 为什么要有区？",
+        "level": 3
+      },
+      {
+        "heading": "4.2 为什么要有段？",
+        "level": 3
+      },
+      {
+        "heading": "4.3 为什么要有碎片区？",
+        "level": 3
+      },
+      {
+        "heading": "4.4 区的分类",
+        "level": 3
+      },
+      {
+        "heading": "5. 表空间",
+        "level": 2
+      },
+      {
+        "heading": "5.1 独立表空间",
+        "level": 3
+      },
+      {
+        "heading": "5.2 系统表空间",
+        "level": 3
+      },
+      {
+        "heading": "附录：数据页加载的三种方式",
+        "level": 2
+      },
+      {
+        "heading": "第08章_索引的创建与设计原则",
+        "level": 1
+      },
+      {
+        "heading": "1. 索引的声明与使用",
+        "level": 2
+      },
+      {
+        "heading": "1.1 索引的分类",
+        "level": 3
+      },
+      {
+        "heading": "1.2 创建索引",
+        "level": 3
+      },
+      {
+        "heading": "1. 创建表的时候创建索引",
+        "level": 4
+      },
+      {
+        "heading": "2. 在已经存在的表上创建索引",
+        "level": 4
+      },
+      {
+        "heading": "1.3 删除索引",
+        "level": 3
+      },
+      {
+        "heading": "2. MySQL8.0索引新特性",
+        "level": 2
+      },
+      {
+        "heading": "2.1 支持降序索引",
+        "level": 3
+      },
+      {
+        "heading": "2.2 隐藏索引",
+        "level": 3
+      },
+      {
+        "heading": "3. 索引的设计原则",
+        "level": 2
+      },
+      {
+        "heading": "3.1 数据准备",
+        "level": 3
+      },
+      {
+        "heading": "3.2 哪些情况适合创建索引",
+        "level": 3
+      },
+      {
+        "heading": "1. 字段的数值有唯一性的限制",
+        "level": 4
+      },
+      {
+        "heading": "2. 频繁作为 WHERE 查询条件的字段",
+        "level": 4
+      },
+      {
+        "heading": "3. 经常 GROUP BY 和 ORDER BY 的列",
+        "level": 4
+      },
+      {
+        "heading": "4. UPDATE、DELETE 的 WHERE 条件列",
+        "level": 4
+      },
+      {
+        "heading": "5. DISTINCT 字段需要创建索引",
+        "level": 4
+      },
+      {
+        "heading": "6. 多表 JOIN 连接操作时，创建索引注意事项",
+        "level": 4
+      },
+      {
+        "heading": "7. 使用列的类型小的创建索引",
+        "level": 4
+      },
+      {
+        "heading": "8. 使用字符串前缀创建索引",
+        "level": 4
+      },
+      {
+        "heading": "9. 区分度高(散列性高)的列适合作为索引",
+        "level": 4
+      },
+      {
+        "heading": "10. 使用最频繁的列放到联合索引的左侧",
+        "level": 4
+      },
+      {
+        "heading": "11. 在多个字段都要创建索引的情况下，联合索引优于单值索引",
+        "level": 4
+      },
+      {
+        "heading": "3.3 限制索引的数目",
+        "level": 3
+      },
+      {
+        "heading": "3.4 哪些情况不适合创建索引",
+        "level": 3
+      },
+      {
+        "heading": "1. 在where中使用不到的字段，不要设置索引",
+        "level": 4
+      },
+      {
+        "heading": "2. 数据量小的表最好不要使用索引",
+        "level": 4
+      },
+      {
+        "heading": "3. 有大量重复数据的列上不要建立索引",
+        "level": 4
+      },
+      {
+        "heading": "4. 避免对经常更新的表创建过多的索引",
+        "level": 4
+      },
+      {
+        "heading": "5. 不建议用无序的值作为索引",
+        "level": 4
+      },
+      {
+        "heading": "6. 删除不再使用或者很少使用的索引",
+        "level": 4
+      },
+      {
+        "heading": "7. 不要定义夯余或重复的索引",
+        "level": 4
+      },
+      {
+        "heading": "第09章_性能分析工具的使用",
+        "level": 1
+      },
+      {
+        "heading": "1. 数据库服务器的优化步骤",
+        "level": 2
+      },
+      {
+        "heading": "2. 查看系统性能参数（ShOW STATUS命令）",
+        "level": 2
+      },
+      {
+        "heading": "3. 统计SQL的查询成本: last_query_cost",
+        "level": 2
+      },
+      {
+        "heading": "4. 定位执行慢的 SQL：慢查询日志",
+        "level": 2
+      },
+      {
+        "heading": "4.1 开启慢查询日志参数",
+        "level": 3
+      },
+      {
+        "heading": "4.2 查看慢查询数目",
+        "level": 3
+      },
+      {
+        "heading": "4.3 案例演示",
+        "level": 3
+      },
+      {
+        "heading": "4.4 测试及分析",
+        "level": 3
+      },
+      {
+        "heading": "4.5 慢查询日志分析工具：mysqldumpslow",
+        "level": 3
+      },
+      {
+        "heading": "4.6 关闭慢查询日志",
+        "level": 3
+      },
+      {
+        "heading": "4.7 删除慢查询日志",
+        "level": 3
+      },
+      {
+        "heading": "5. 查看 SQL 执行成本：SHOW PROFILE",
+        "level": 2
+      },
+      {
+        "heading": "6. 分析查询语句：EXPLAIN",
+        "level": 2
+      },
+      {
+        "heading": "6.1 概述",
+        "level": 3
+      },
+      {
+        "heading": "6.2 基本语法",
+        "level": 3
+      },
+      {
+        "heading": "6.3 数据准备",
+        "level": 3
+      },
+      {
+        "heading": "6.4 EXPLAIN各列作用",
+        "level": 3
+      },
+      {
+        "heading": "1. table",
+        "level": 4
+      },
+      {
+        "heading": "2. id",
+        "level": 4
+      },
+      {
+        "heading": "3. select_type",
+        "level": 4
+      },
+      {
+        "heading": "4. partitions (可略)",
+        "level": 4
+      },
+      {
+        "heading": "5. type ☆",
+        "level": 4
+      },
+      {
+        "heading": "6. possible_keys 和 key",
+        "level": 4
+      },
+      {
+        "heading": "7. key_len ☆",
+        "level": 4
+      },
+      {
+        "heading": "8. ref",
+        "level": 4
+      },
+      {
+        "heading": "9. rows ☆",
+        "level": 4
+      },
+      {
+        "heading": "10. filtered",
+        "level": 4
+      },
+      {
+        "heading": "11. Extra ☆",
+        "level": 4
+      },
+      {
+        "heading": "12. 小结",
+        "level": 4
+      },
+      {
+        "heading": "7. EXPLAIN的进一步使用",
+        "level": 2
+      },
+      {
+        "heading": "7.1 EXPLAIN四种输出格式",
+        "level": 3
+      },
+      {
+        "heading": "1. 传统格式",
+        "level": 4
+      },
+      {
+        "heading": "2. JSON格式",
+        "level": 4
+      },
+      {
+        "heading": "3. TREE格式",
+        "level": 4
+      },
+      {
+        "heading": "4. 可视化输出",
+        "level": 4
+      },
+      {
+        "heading": "7.2 SHOW WARNINGS的使用",
+        "level": 3
+      },
+      {
+        "heading": "8. 分析优化器执行计划：trace",
+        "level": 2
+      },
+      {
+        "heading": "9. MySQL监控分析视图-sys schema",
+        "level": 2
+      },
+      {
+        "heading": "9.1 Sys schema视图摘要",
+        "level": 3
+      },
+      {
+        "heading": "9.2 Sys schema视图使用场景",
+        "level": 3
+      },
+      {
+        "heading": "10. 小结",
+        "level": 2
+      },
+      {
+        "heading": "第10章_索引优化与查询优化",
+        "level": 1
+      },
+      {
+        "heading": "1. 数据准备",
+        "level": 2
+      },
+      {
+        "heading": "2. 索引失效案例",
+        "level": 2
+      },
+      {
+        "heading": "2.1 全值匹配我最爱",
+        "level": 3
+      },
+      {
+        "heading": "2.2 最佳左前缀法则",
+        "level": 3
+      },
+      {
+        "heading": "2.3 主键插入顺序",
+        "level": 3
+      },
+      {
+        "heading": "2.4 计算、函数、类型转换(自动或手动)导致索引失效",
+        "level": 3
+      },
+      {
+        "heading": "2.5 类型转换导致索引失效",
+        "level": 3
+      },
+      {
+        "heading": "2.6 范围条件右边的列索引失效",
+        "level": 3
+      },
+      {
+        "heading": "2.7 不等于(!= 或者<>)索引失效",
+        "level": 3
+      },
+      {
+        "heading": "2.8 is null可以使用索引，is not null无法使用索引",
+        "level": 3
+      },
+      {
+        "heading": "2.9 like以通配符%开头索引失效",
+        "level": 3
+      },
+      {
+        "heading": "2.10 OR 前后存在非索引的列，索引失效",
+        "level": 3
+      },
+      {
+        "heading": "2.11 数据库和表的字符集统一使用utf8mb4",
+        "level": 3
+      },
+      {
+        "heading": "2.12 练习及一般性建议",
+        "level": 3
+      },
+      {
+        "heading": "3. 关联查询优化",
+        "level": 2
+      },
+      {
+        "heading": "3.1 数据准备",
+        "level": 3
+      },
+      {
+        "heading": "3.2 采用左外连接",
+        "level": 3
+      },
+      {
+        "heading": "3.3 采用内连接",
+        "level": 3
+      },
+      {
+        "heading": "3.4 join语句原理",
+        "level": 3
+      },
+      {
+        "heading": "1. 驱动表和被驱动表",
+        "level": 4
+      },
+      {
+        "heading": "2. Simple Nested-Loop Join (简单嵌套循环连接)",
+        "level": 4
+      },
+      {
+        "heading": "3. Index Nested-Loop Join （索引嵌套循环连接）",
+        "level": 4
+      },
+      {
+        "heading": "4. Block Nested-Loop Join（块嵌套循环连接）",
+        "level": 4
+      },
+      {
+        "heading": "5. Join小结",
+        "level": 4
+      },
+      {
+        "heading": "6. Hash Join",
+        "level": 4
+      },
+      {
+        "heading": "3.5 小结",
+        "level": 3
+      },
+      {
+        "heading": "4. 子查询优化",
+        "level": 2
+      },
+      {
+        "heading": "5. 排序优化",
+        "level": 2
+      },
+      {
+        "heading": "5.1 排序优化",
+        "level": 3
+      },
+      {
+        "heading": "5.2 测试",
+        "level": 3
+      },
+      {
+        "heading": "5.3 案例实战",
+        "level": 3
+      },
+      {
+        "heading": "5.4 filesort算法：双路排序和单路排序",
+        "level": 3
+      },
+      {
+        "heading": "6. GROUP BY优化",
+        "level": 2
+      },
+      {
+        "heading": "7. 优化分页查询",
+        "level": 2
+      },
+      {
+        "heading": "8. 优先考虑覆盖索引",
+        "level": 2
+      },
+      {
+        "heading": "8.1 什么是覆盖索引？",
+        "level": 3
+      },
+      {
+        "heading": "8.2 覆盖索引的利弊",
+        "level": 3
+      },
+      {
+        "heading": "9. 如何给字符串添加索引",
+        "level": 2
+      },
+      {
+        "heading": "9.1 前缀索引",
+        "level": 3
+      },
+      {
+        "heading": "9.2 前缀索引对覆盖索引的影响",
+        "level": 3
+      },
+      {
+        "heading": "10. 索引下推",
+        "level": 2
+      },
+      {
+        "heading": "10.1 使用前后对比",
+        "level": 3
+      },
+      {
+        "heading": "10.2 ICP的开启/关闭",
+        "level": 3
+      },
+      {
+        "heading": "10.3 ICP使用案例",
+        "level": 3
+      },
+      {
+        "heading": "10.4 开启和关闭ICP性能对比",
+        "level": 3
+      },
+      {
+        "heading": "10.5 ICP的使用条件",
+        "level": 3
+      },
+      {
+        "heading": "11. 普通索引 vs 唯一索引",
+        "level": 2
+      },
+      {
+        "heading": "11.1 查询过程",
+        "level": 3
+      },
+      {
+        "heading": "11.2 更新过程",
+        "level": 3
+      },
+      {
+        "heading": "11.3 change buffer的使用场景",
+        "level": 3
+      },
+      {
+        "heading": "12. 其它查询优化策略",
+        "level": 2
+      },
+      {
+        "heading": "12.1 EXISTS 和 IN 的区分",
+        "level": 3
+      },
+      {
+        "heading": "EXIST 关键字",
+        "level": 4
+      },
+      {
+        "heading": "IN 关键字",
+        "level": 4
+      },
+      {
+        "heading": "12.2 COUNT(`*`)与COUNT(具体字段)效率",
+        "level": 3
+      },
+      {
+        "heading": "12.3 关于 `SELECT(*)`",
+        "level": 3
+      },
+      {
+        "heading": "12.4 LIMIT 1 对优化的影响",
+        "level": 3
+      },
+      {
+        "heading": "12.5 多使用COMMIT",
+        "level": 3
+      },
+      {
+        "heading": "13. 淘宝数据库，主键如何设计的？",
+        "level": 2
+      },
+      {
+        "heading": "13.1 自增ID的问题",
+        "level": 3
+      },
+      {
+        "heading": "13.2 业务字段做主键",
+        "level": 3
+      },
+      {
+        "heading": "13.3 淘宝的主键设计",
+        "level": 3
+      },
+      {
+        "heading": "13.4 推荐的主键设计",
+        "level": 3
+      },
+      {
+        "heading": "第11章_数据库的设计规范",
+        "level": 1
+      },
+      {
+        "heading": "1. 为什么需要数据库设计",
+        "level": 2
+      },
+      {
+        "heading": "2. 范 式",
+        "level": 2
+      },
+      {
+        "heading": "2.1 范式简介",
+        "level": 3
+      },
+      {
+        "heading": "2.2 范式都包括哪些",
+        "level": 3
+      },
+      {
+        "heading": "2.3 键和相关属性的概念",
+        "level": 3
+      },
+      {
+        "heading": "2.4 第一范式(1st NF)",
+        "level": 3
+      },
+      {
+        "heading": "2.5 第二范式(2nd NF)",
+        "level": 3
+      },
+      {
+        "heading": "2.6 第三范式(3rd NF)",
+        "level": 3
+      },
+      {
+        "heading": "2.7 小结",
+        "level": 3
+      },
+      {
+        "heading": "3. 反范式化",
+        "level": 2
+      },
+      {
+        "heading": "3.1 概述",
+        "level": 3
+      },
+      {
+        "heading": "3.2 应用举例",
+        "level": 3
+      },
+      {
+        "heading": "3.3 反范式的新问题",
+        "level": 3
+      },
+      {
+        "heading": "3.4 反范式的适用场景",
+        "level": 3
+      },
+      {
+        "heading": "1. 增加冗余字段的建议",
+        "level": 4
+      },
+      {
+        "heading": "2. 历史快照、历史数据的需要",
+        "level": 4
+      },
+      {
+        "heading": "4. BCNF(巴斯范式)",
+        "level": 2
+      },
+      {
+        "heading": "5. 第四范式",
+        "level": 2
+      },
+      {
+        "heading": "6. 第五范式、域键范式",
+        "level": 2
+      },
+      {
+        "heading": "7. 实战案例",
+        "level": 2
+      },
+      {
+        "heading": "7.1 迭代1次：考虑1NF",
+        "level": 3
+      },
+      {
+        "heading": "7.2 迭代2次：考虑2NF",
+        "level": 3
+      },
+      {
+        "heading": "7.3 迭代3次：考虑3NF",
+        "level": 3
+      },
+      {
+        "heading": "7.4 反范式化：业务优先的原则",
+        "level": 3
+      },
+      {
+        "heading": "8. ER模型",
+        "level": 2
+      },
+      {
+        "heading": "8.1 ER模型包括哪些要素？",
+        "level": 3
+      },
+      {
+        "heading": "8.2 关系的类型",
+        "level": 3
+      },
+      {
+        "heading": "8.3 建模分析",
+        "level": 3
+      },
+      {
+        "heading": "8.4 ER 模型的细化",
+        "level": 3
+      },
+      {
+        "heading": "8.5 ER 模型图转换成数据表",
+        "level": 3
+      },
+      {
+        "heading": "1. 一个实体转换成一个数据库",
+        "level": 4
+      },
+      {
+        "heading": "2. 一个多对多的关系转换成一个数据表",
+        "level": 4
+      },
+      {
+        "heading": "3. 通过外键来表达1对多的关系",
+        "level": 4
+      },
+      {
+        "heading": "4. 把属性转换成表的字段",
+        "level": 4
+      },
+      {
+        "heading": "9. 数据表的设计原则",
+        "level": 2
+      },
+      {
+        "heading": "10. 数据库对象编写建议",
+        "level": 2
+      },
+      {
+        "heading": "10.1 关于库",
+        "level": 3
+      },
+      {
+        "heading": "10.2 关于表、列",
+        "level": 3
+      },
+      {
+        "heading": "10.3 关于索引",
+        "level": 3
+      },
+      {
+        "heading": "10.4 SQL编写",
+        "level": 3
+      },
+      {
+        "heading": "11. PowerDesigner的使用",
+        "level": 2
+      },
+      {
+        "heading": "第12章_数据库其它调优策略",
+        "level": 1
+      },
+      {
+        "heading": "1. 数据库调优的措施",
+        "level": 2
+      },
+      {
+        "heading": "1.1 调优的目标",
+        "level": 3
+      },
+      {
+        "heading": "1.2 如何定位调优问题",
+        "level": 3
+      },
+      {
+        "heading": "1.3 调优的维度和步骤",
+        "level": 3
+      },
+      {
+        "heading": "第1步：选择适合的 DBMS",
+        "level": 4
+      },
+      {
+        "heading": "第2步：优化表设计",
+        "level": 4
+      },
+      {
+        "heading": "第3步：优化逻辑查询",
+        "level": 4
+      },
+      {
+        "heading": "第4步：优化物理查询",
+        "level": 4
+      },
+      {
+        "heading": "第5步：使用 Redis 或 Memcached 作为缓存",
+        "level": 4
+      },
+      {
+        "heading": "第6步：库级优化",
+        "level": 4
+      },
+      {
+        "heading": "2. 优化MySQL服务器",
+        "level": 2
+      },
+      {
+        "heading": "2.1 优化服务器硬件",
+        "level": 3
+      },
+      {
+        "heading": "2.2 优化MySQL的参数",
+        "level": 3
+      },
+      {
+        "heading": "3. 优化数据库结构",
+        "level": 2
+      },
+      {
+        "heading": "3.1 拆分表：冷热数据分离",
+        "level": 3
+      },
+      {
+        "heading": "3.2 增加中间表",
+        "level": 3
+      },
+      {
+        "heading": "3.3 增加冗余字段",
+        "level": 3
+      },
+      {
+        "heading": "3.4 优化数据类型",
+        "level": 3
+      },
+      {
+        "heading": "3.5 优化插入记录的速度",
+        "level": 3
+      },
+      {
+        "heading": "3.6 使用非空约束",
+        "level": 3
+      },
+      {
+        "heading": "3.7 分析表、检查表与优化表",
+        "level": 3
+      },
+      {
+        "heading": "1. 分析表",
+        "level": 4
+      },
+      {
+        "heading": "2. 检查表",
+        "level": 4
+      },
+      {
+        "heading": "3. 优化表",
+        "level": 4
+      },
+      {
+        "heading": "3.8 小结",
+        "level": 4
+      },
+      {
+        "heading": "4. 大表优化",
+        "level": 2
+      },
+      {
+        "heading": "4.1 限定查询的范围",
+        "level": 3
+      },
+      {
+        "heading": "4.2 读/写分离",
+        "level": 3
+      },
+      {
+        "heading": "4.3 分库分表",
+        "level": 3
+      },
+      {
+        "heading": "4.3.1 为什么需要分库分表？",
+        "level": 4
+      },
+      {
+        "heading": "为什么需要分库？",
+        "level": 5
+      },
+      {
+        "heading": "为什么需要分表？",
+        "level": 5
+      },
+      {
+        "heading": "4.3.2 垂直拆分",
+        "level": 4
+      },
+      {
+        "heading": "垂直分库",
+        "level": 5
+      },
+      {
+        "heading": "垂直分表",
+        "level": 5
+      },
+      {
+        "heading": "4.3.3 水平拆分",
+        "level": 4
+      },
+      {
+        "heading": "水平分表",
+        "level": 5
+      },
+      {
+        "heading": "水平分库",
+        "level": 5
+      },
+      {
+        "heading": "水平分库的策略",
+        "level": 5
+      },
+      {
+        "heading": "1. range 范围",
+        "level": 5
+      },
+      {
+        "heading": "2. hash取模",
+        "level": 5
+      },
+      {
+        "heading": "3. range + hash 取模混合",
+        "level": 5
+      },
+      {
+        "heading": "4.3.4 什么时候才考虑分库分表呢？",
+        "level": 4
+      },
+      {
+        "heading": "4.3.5 分库分表会导致哪些问题",
+        "level": 4
+      },
+      {
+        "heading": "4.3.6 分库分表中间件",
+        "level": 4
+      },
+      {
+        "heading": "5. 其它调优策略",
+        "level": 2
+      },
+      {
+        "heading": "5.1 服务器语句超时处理",
+        "level": 3
+      },
+      {
+        "heading": "5.2 创建全局通用表空间",
+        "level": 3
+      },
+      {
+        "heading": "5.3 MySQL 8.0新特性：隐藏索引对调优的帮助",
+        "level": 3
+      },
+      {
+        "heading": "第13章_事务基础知识",
+        "level": 1
+      },
+      {
+        "heading": "1. 数据库事务概述",
+        "level": 2
+      },
+      {
+        "heading": "1.1 存储引擎支持情况",
+        "level": 3
+      },
+      {
+        "heading": "1.2 基本概念",
+        "level": 3
+      },
+      {
+        "heading": "1.3 事务的ACID特性",
+        "level": 3
+      },
+      {
+        "heading": "1.4 事务的状态",
+        "level": 3
+      },
+      {
+        "heading": "2. 如何使用事务",
+        "level": 2
+      },
+      {
+        "heading": "2.1 显式事务",
+        "level": 3
+      },
+      {
+        "heading": "2.2 隐式事务",
+        "level": 3
+      },
+      {
+        "heading": "2.3 隐式提交数据的情况",
+        "level": 3
+      },
+      {
+        "heading": "2.4 使用举例1：提交与回滚",
+        "level": 3
+      },
+      {
+        "heading": "2.5 使用举例2：测试不支持事务的engine",
+        "level": 3
+      },
+      {
+        "heading": "2.6 使用举例3：SAVEPOINT",
+        "level": 3
+      },
+      {
+        "heading": "3. 事务隔离级别",
+        "level": 2
+      },
+      {
+        "heading": "3.1 数据准备",
+        "level": 3
+      },
+      {
+        "heading": "3.2 数据并发问题",
+        "level": 3
+      },
+      {
+        "heading": "3.3 SQL中的四种隔离级别",
+        "level": 3
+      },
+      {
+        "heading": "3.4 MySQL支持的四种隔离级别",
+        "level": 3
+      },
+      {
+        "heading": "3.5 如何设置事务的隔离级别",
+        "level": 3
+      },
+      {
+        "heading": "3.6 不同隔离级别举例",
+        "level": 3
+      },
+      {
+        "heading": "4. 事务的常见分类",
+        "level": 2
+      },
+      {
+        "heading": "第14章_MySQL事务日志",
+        "level": 1
+      },
+      {
+        "heading": "1. redo日志",
+        "level": 2
+      },
+      {
+        "heading": "1.1 为什么需要redo日志",
+        "level": 3
+      },
+      {
+        "heading": "1.2 REDO日志的好处、特点",
+        "level": 3
+      },
+      {
+        "heading": "1. 好处",
+        "level": 4
+      },
+      {
+        "heading": "2. 特点",
+        "level": 4
+      },
+      {
+        "heading": "1.3 redo的组成",
+        "level": 3
+      },
+      {
+        "heading": "1.4 redo的整体流程",
+        "level": 3
+      },
+      {
+        "heading": "1.5 redo log的刷盘策略",
+        "level": 3
+      },
+      {
+        "heading": "1.6 不同刷盘策略演示",
+        "level": 3
+      },
+      {
+        "heading": "1. 流程图",
+        "level": 4
+      },
+      {
+        "heading": "2. 举例",
+        "level": 4
+      },
+      {
+        "heading": "1.7 写入redo log buffer 过程",
+        "level": 3
+      },
+      {
+        "heading": "1. 补充概念：Mini-Transaction",
+        "level": 4
+      },
+      {
+        "heading": "2. redo 日志写入log buffer",
+        "level": 4
+      },
+      {
+        "heading": "3. redo log block的结构图",
+        "level": 4
+      },
+      {
+        "heading": "1.8 redo log file",
+        "level": 3
+      },
+      {
+        "heading": "1. 相关参数设置",
+        "level": 4
+      },
+      {
+        "heading": "2. 日志文件组",
+        "level": 4
+      },
+      {
+        "heading": "3. checkpoint",
+        "level": 4
+      },
+      {
+        "heading": "1.9 redo log 小结",
+        "level": 3
+      },
+      {
+        "heading": "2. Undo日志",
+        "level": 2
+      },
+      {
+        "heading": "2.1 如何理解Undo日志",
+        "level": 3
+      },
+      {
+        "heading": "2.2 Undo日志的作用",
+        "level": 3
+      },
+      {
+        "heading": "2.3 undo的存储结构",
+        "level": 3
+      },
+      {
+        "heading": "1. 回滚段与undo页",
+        "level": 4
+      },
+      {
+        "heading": "2. 回滚段与事务",
+        "level": 4
+      },
+      {
+        "heading": "3. 回滚段中的数据分类",
+        "level": 4
+      },
+      {
+        "heading": "2.4 undo的类型",
+        "level": 3
+      },
+      {
+        "heading": "2.5 undo log的生命周期",
+        "level": 3
+      },
+      {
+        "heading": "1. 简要生成过程",
+        "level": 4
+      },
+      {
+        "heading": "2. 详细生成过程",
+        "level": 4
+      },
+      {
+        "heading": "3. undo log是如何回滚的",
+        "level": 4
+      },
+      {
+        "heading": "4. undo log的删除",
+        "level": 4
+      },
+      {
+        "heading": "2.6 小结",
+        "level": 3
+      },
+      {
+        "heading": "第15章_锁",
+        "level": 1
+      },
+      {
+        "heading": "1. 概述",
+        "level": 2
+      },
+      {
+        "heading": "2. MySQL并发事务访问相同记录",
+        "level": 2
+      },
+      {
+        "heading": "2.1 读-读情况",
+        "level": 3
+      },
+      {
+        "heading": "2.2 写-写情况",
+        "level": 3
+      },
+      {
+        "heading": "2.3 读-写或写-读情况",
+        "level": 3
+      },
+      {
+        "heading": "2.4 并发问题的解决方案",
+        "level": 3
+      },
+      {
+        "heading": "3. 锁的不同角度分类",
+        "level": 2
+      },
+      {
+        "heading": "3.1 从数据操作的类型划分：读锁、写锁",
+        "level": 3
+      },
+      {
+        "heading": "1. 锁定读",
+        "level": 4
+      },
+      {
+        "heading": "2. 写操作",
+        "level": 4
+      },
+      {
+        "heading": "3.2 从数据操作的粒度划分：表级锁、页级锁、行锁",
+        "level": 3
+      },
+      {
+        "heading": "1. 表锁（Table Lock）",
+        "level": 4
+      },
+      {
+        "heading": "① 表级别的S锁、X锁",
+        "level": 5
+      },
+      {
+        "heading": "② 意向锁 （intention lock）",
+        "level": 5
+      },
+      {
+        "heading": "③ 自增锁（AUTO-INC锁）",
+        "level": 5
+      },
+      {
+        "heading": "④ 元数据锁（MDL锁）",
+        "level": 5
+      },
+      {
+        "heading": "2. InnoDB中的行锁",
+        "level": 4
+      },
+      {
+        "heading": "① 记录锁（Record Locks）",
+        "level": 5
+      },
+      {
+        "heading": "② 间隙锁（Gap Locks）",
+        "level": 5
+      },
+      {
+        "heading": "③ 临键锁（Next-Key Locks）",
+        "level": 5
+      },
+      {
+        "heading": "3. 页锁",
+        "level": 4
+      },
+      {
+        "heading": "3.3 从对待锁的态度划分：乐观锁、悲观锁",
+        "level": 3
+      },
+      {
+        "heading": "1. 悲观锁（Pessimistic Locking）",
+        "level": 4
+      },
+      {
+        "heading": "2. 乐观锁（Optimistic Locking）",
+        "level": 4
+      },
+      {
+        "heading": "3. 两种锁的适用场景",
+        "level": 4
+      },
+      {
+        "heading": "3.4 按加锁的方式划分：显式锁、隐式锁",
+        "level": 3
+      },
+      {
+        "heading": "1. 隐式锁",
+        "level": 4
+      },
+      {
+        "heading": "2. 显式锁",
+        "level": 4
+      },
+      {
+        "heading": "3.5 其它锁之：全局锁",
+        "level": 3
+      },
+      {
+        "heading": "3.6 其它锁之：死锁",
+        "level": 3
+      },
+      {
+        "heading": "1. 概念",
+        "level": 4
+      },
+      {
+        "heading": "2. 产生死锁的必要条件",
+        "level": 4
+      },
+      {
+        "heading": "3. 如何处理死锁",
+        "level": 4
+      },
+      {
+        "heading": "4. 如何避免死锁",
+        "level": 4
+      },
+      {
+        "heading": "4. 锁的内部结构",
+        "level": 2
+      },
+      {
+        "heading": "5. 锁监控",
+        "level": 2
+      },
+      {
+        "heading": "6. 附录",
+        "level": 2
+      },
+      {
+        "heading": "第16章_多版本并发控制",
+        "level": 1
+      },
+      {
+        "heading": "1. 什么是MVCC",
+        "level": 2
+      },
+      {
+        "heading": "2. 快照读与当前读",
+        "level": 2
+      },
+      {
+        "heading": "2.1 快照读",
+        "level": 3
+      },
+      {
+        "heading": "2.2 当前读",
+        "level": 3
+      },
+      {
+        "heading": "3. 复习",
+        "level": 2
+      },
+      {
+        "heading": "3.1 再谈隔离级别",
+        "level": 3
+      },
+      {
+        "heading": "3.2 隐藏字段、Undo Log版本链",
+        "level": 3
+      },
+      {
+        "heading": "4. MVCC实现原理之ReadView",
+        "level": 2
+      },
+      {
+        "heading": "4.1 什么是ReadView",
+        "level": 3
+      },
+      {
+        "heading": "4.2 设计思路",
+        "level": 3
+      },
+      {
+        "heading": "4.3 ReadView的规则",
+        "level": 3
+      },
+      {
+        "heading": "4.4 MVCC整体操作流程",
+        "level": 3
+      },
+      {
+        "heading": "5. 举例说明",
+        "level": 2
+      },
+      {
+        "heading": "5.1 READ COMMITTED隔离级别下",
+        "level": 3
+      },
+      {
+        "heading": "5.2 REPEATABLE READ隔离级别下",
+        "level": 3
+      },
+      {
+        "heading": "5.3 如何解决幻读",
+        "level": 3
+      },
+      {
+        "heading": "6. 总结",
+        "level": 2
+      },
+      {
+        "heading": "第17章_其他数据库日志",
+        "level": 1
+      },
+      {
+        "heading": "1. MySQL支持的日志",
+        "level": 2
+      },
+      {
+        "heading": "1.1 日志类型",
+        "level": 3
+      },
+      {
+        "heading": "1.2 日志的弊端",
+        "level": 3
+      },
+      {
+        "heading": "2. 慢查询日志(slow query log)",
+        "level": 2
+      },
+      {
+        "heading": "3. 通用查询日志(general query log)",
+        "level": 2
+      },
+      {
+        "heading": "3.1 问题场景",
+        "level": 3
+      },
+      {
+        "heading": "3.2 查看当前状态",
+        "level": 3
+      },
+      {
+        "heading": "3.3 启动日志",
+        "level": 3
+      },
+      {
+        "heading": "3.4 查看日志",
+        "level": 3
+      },
+      {
+        "heading": "3.5 停止日志",
+        "level": 3
+      },
+      {
+        "heading": "3.6 删除 或 刷新日志",
+        "level": 3
+      },
+      {
+        "heading": "4. 错误日志(error log)",
+        "level": 2
+      },
+      {
+        "heading": "4.1 启动日志",
+        "level": 3
+      },
+      {
+        "heading": "4.2 查看日志",
+        "level": 3
+      },
+      {
+        "heading": "4.3 删除 或 刷新日志",
+        "level": 3
+      },
+      {
+        "heading": "4.4 MySQL 8.0 新特性",
+        "level": 3
+      },
+      {
+        "heading": "5. 二进制日志(bin log)",
+        "level": 2
+      },
+      {
+        "heading": "5.1 查看默认情况![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230209184201.png)",
+        "level": 3
+      },
+      {
+        "heading": "5.2 日志参数设置",
+        "level": 3
+      },
+      {
+        "heading": "5.3 查看日志",
+        "level": 3
+      },
+      {
+        "heading": "5.4 使用日志恢复数据",
+        "level": 3
+      },
+      {
+        "heading": "5.5 删除二进制日志",
+        "level": 3
+      },
+      {
+        "heading": "5.6 其它场景",
+        "level": 3
+      },
+      {
+        "heading": "6. 再谈二进制日志(binlog)",
+        "level": 2
+      },
+      {
+        "heading": "6.1 写入机制",
+        "level": 3
+      },
+      {
+        "heading": "6.2 binlog与redolog对比",
+        "level": 3
+      },
+      {
+        "heading": "6.3 两阶段提交",
+        "level": 3
+      },
+      {
+        "heading": "7. 中继日志(relay log)",
+        "level": 2
+      },
+      {
+        "heading": "7.1 介绍",
+        "level": 3
+      },
+      {
+        "heading": "7.2 查看中继日志",
+        "level": 3
+      },
+      {
+        "heading": "7.3 恢复的典型错误",
+        "level": 3
+      },
+      {
+        "heading": "第18章_主从复制",
+        "level": 1
+      },
+      {
+        "heading": "1. 主从复制概述",
+        "level": 2
+      },
+      {
+        "heading": "1.1 如何提升数据库并发能力",
+        "level": 3
+      },
+      {
+        "heading": "1.2 主从复制的作用",
+        "level": 3
+      },
+      {
+        "heading": "2. 主从复制的原理",
+        "level": 2
+      },
+      {
+        "heading": "2.1 原理剖析",
+        "level": 3
+      },
+      {
+        "heading": "2.2 复制的基本原则",
+        "level": 3
+      },
+      {
+        "heading": "3. 一主一从架构搭建",
+        "level": 2
+      },
+      {
+        "heading": "3.1 准备工作",
+        "level": 3
+      },
+      {
+        "heading": "3.2 主机配置文件",
+        "level": 3
+      },
+      {
+        "heading": "3.3 从机配置文件",
+        "level": 3
+      },
+      {
+        "heading": "3.4 主机：建立账户并授权",
+        "level": 3
+      },
+      {
+        "heading": "3.5 从机：配置需要复制的主机",
+        "level": 3
+      },
+      {
+        "heading": "3.6 测试",
+        "level": 3
+      },
+      {
+        "heading": "3.7 停止主从同步",
+        "level": 3
+      },
+      {
+        "heading": "3.8 后续",
+        "level": 3
+      },
+      {
+        "heading": "4. 同步数据一致性问题",
+        "level": 2
+      },
+      {
+        "heading": "4.1 理解主从延迟问题",
+        "level": 3
+      },
+      {
+        "heading": "4.2 主从延迟问题原因",
+        "level": 3
+      },
+      {
+        "heading": "4.3 如何减少主从延迟",
+        "level": 3
+      },
+      {
+        "heading": "4.4 如何解决一致性问题",
+        "level": 3
+      },
+      {
+        "heading": "方法 1：异步复制",
+        "level": 4
+      },
+      {
+        "heading": "方法 2：半同步复制",
+        "level": 4
+      },
+      {
+        "heading": "方法 3：组复制",
+        "level": 4
+      },
+      {
+        "heading": "5. 知识延伸",
+        "level": 2
+      },
+      {
+        "heading": "第19章_数据库备份与恢复",
+        "level": 1
+      },
+      {
+        "heading": "1. 物理备份与逻辑备份",
+        "level": 2
+      },
+      {
+        "heading": "2. mysqldump实现逻辑备份",
+        "level": 2
+      },
+      {
+        "heading": "2.1 备份一个数据库",
+        "level": 3
+      },
+      {
+        "heading": "2.2 备份全部数据库",
+        "level": 3
+      },
+      {
+        "heading": "2.3 备份部分数据库",
+        "level": 3
+      },
+      {
+        "heading": "2.4 备份部分表",
+        "level": 3
+      },
+      {
+        "heading": "2.5 备份单表的部分数据",
+        "level": 3
+      },
+      {
+        "heading": "2.6 排除某些表的备份",
+        "level": 3
+      },
+      {
+        "heading": "2.7 只备份结构或只备份数据",
+        "level": 3
+      },
+      {
+        "heading": "2.8 备份中包含存储过程、函数、事件",
+        "level": 3
+      },
+      {
+        "heading": "2.9 mysqldump常用选项",
+        "level": 3
+      },
+      {
+        "heading": "3. mysql命令恢复数据",
+        "level": 2
+      },
+      {
+        "heading": "3.1 单库备份中恢复单库",
+        "level": 3
+      },
+      {
+        "heading": "3.2 全量备份恢复",
+        "level": 3
+      },
+      {
+        "heading": "3.3 全量备份恢复",
+        "level": 3
+      },
+      {
+        "heading": "3.4 从单库备份中恢复单表",
+        "level": 3
+      },
+      {
+        "heading": "4. 物理备份：直接复制整个数据库",
+        "level": 2
+      },
+      {
+        "heading": "5. 物理恢复：直接复制到数据库目录",
+        "level": 2
+      },
+      {
+        "heading": "6. 表的导出与导入",
+        "level": 2
+      },
+      {
+        "heading": "6.1 表的导出",
+        "level": 3
+      },
+      {
+        "heading": "1. 使用SELECT…INTO OUTFILE导出文本文件",
+        "level": 4
+      },
+      {
+        "heading": "2. 使用mysqldump命令导出文本文件",
+        "level": 4
+      },
+      {
+        "heading": "3. 使用mysql命令导出文本文件",
+        "level": 4
+      },
+      {
+        "heading": "6.2 表的导入",
+        "level": 3
+      },
+      {
+        "heading": "1. 使用LOAD DATA INFILE方式导入文本文件",
+        "level": 4
+      },
+      {
+        "heading": "2. 使用mysqlimport方式导入文本文件",
+        "level": 4
+      },
+      {
+        "heading": "7. 数据库迁移",
+        "level": 2
+      },
+      {
+        "heading": "7.1 概述",
+        "level": 3
+      },
+      {
+        "heading": "7.2 迁移方案",
+        "level": 3
+      },
+      {
+        "heading": "7.3 迁移注意点",
+        "level": 3
+      },
+      {
+        "heading": "7.4 迁移小结",
+        "level": 3
+      },
+      {
+        "heading": "8. 删库了不敢跑，能干点啥？",
+        "level": 2
+      },
+      {
+        "heading": "8.1 delete：误删行",
+        "level": 3
+      },
+      {
+        "heading": "8.2 truncate/drop ：误删库/表",
+        "level": 3
+      },
+      {
+        "heading": "8.3 预防使用truncate/drop误删库/表",
+        "level": 3
+      },
+      {
+        "heading": "8.4 rm：误删MySQL实例",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "#^6cd15a",
+        "relativePath": "1. SQL/MySQL.md",
+        "cleanLink": "MySQL",
+        "displayText": "COMPACT行格式"
+      },
+      {
+        "link": "#^51c3cd",
+        "relativePath": "1. SQL/MySQL.md",
+        "cleanLink": "MySQL",
+        "displayText": "页目录"
+      },
+      {
+        "link": "#^7def54",
+        "relativePath": "1. SQL/MySQL.md",
+        "cleanLink": "MySQL",
+        "displayText": "^7def54"
+      },
+      {
+        "link": "#^f37748",
+        "relativePath": "1. SQL/MySQL.md",
+        "cleanLink": "MySQL",
+        "displayText": "^f37748"
+      },
+      {
+        "link": "#^ec46a1",
+        "relativePath": "1. SQL/MySQL.md",
+        "cleanLink": "MySQL",
+        "displayText": "^ec46a1"
+      },
+      {
+        "link": "#^dd3dd6",
+        "relativePath": "1. SQL/MySQL.md",
+        "cleanLink": "MySQL",
+        "displayText": "^dd3dd6"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "【面经】",
+        "link": "MySQL#6.4 EXPLAIN各列作用",
+        "relativePath": "7. 面试题/【面经】.md",
+        "cleanLink": "MySQL",
+        "displayText": "MySQL中的EXPLAIN各列作用"
+      }
+    ]
+  }
+]
