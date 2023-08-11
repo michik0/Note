@@ -469,7 +469,7 @@ settings:
         title: set modal header title
         title.zh: 设置面板标题
         type: variable-text
-        default: "'maple 0.6.12'"
+        default: "'maple 0.6.13'"
     -
         id: setting-group-title
         title: add style for left navigation group title
@@ -5480,7 +5480,7 @@ body.modal-header:not(.is-mobile) .modal-container .mod-settings {
 }
 
 body.modal-header:not(.is-mobile) .modal-container .mod-settings::before {
-  content: var(--setting-header-title, "maple 0.6.12");
+  content: var(--setting-header-title, "maple 0.6.13");
   position: absolute;
   left: 50%;
   top: var(--size-4-6);
@@ -5868,99 +5868,99 @@ body.outline-enable .workspace-leaf-content[data-type=outline] .view-content .ou
 }
 
 /* ====== 滚动条 ====== */
-body.scrollbar-hide ::-webkit-scrollbar {
-  display: none;
-}
-
 @property --scrollbar-color {
   syntax: "<color>";
   inherits: true;
   initial-value: rgba(0, 0, 0, 0);
 }
 
-/* ! overflow: overlay 已废弃, 详见 https://developer.mozilla.org/en-US/docs/Web/CSS/overflow#values */
+/* ! overflow: overlay 已废弃, Chrome >= 114 后等价于 overflow: auto */
 /* 使用 @property: https://stackoverflow.com/a/74050413/20058211 */
 /* 使用 -webkit-text-fill-color: https://stackoverflow.com/a/46304690/20058211 */
-body:not(.is-mobile, .scrollbar-hide).scrollbar-gutter-overlay :is(.vertical-tab-header, .vertical-tab-content, .nav-files-container, .workspace-leaf-content:not([data-type*=graph], [data-type*=pdf]) .view-content, .search-result-container, .git-view-body, .suggestion-container .suggestion, .prompt-results, .community-modal-search-results-wrapper, .community-modal-info, .modal:not(.mod-settings, .mod-community-theme, .mod-community-plugin), .tag-container, .backlink-pane, .markdown-source-view .cm-scroller, .markdown-preview-view, .workspace-leaf-content[data-type=calendar] .view-content, .janitor-scan-results, .excalidraw-wrapper :is(.App-menu .Stack .Island.App-menu__left, .scrollbar), .excalidraw-contextMenuContainer .popover, .kanban-plugin__board, .kanban-plugin__lane-items, .kanban-plugin__autocomplete) {
+body:not(.is-mobile).scrollbar-gutter-overlay :is(.vertical-tab-header, .vertical-tab-content, .nav-files-container, .workspace-leaf-content:not([data-type*=graph], [data-type*=pdf]) .view-content, .search-result-container, .git-view-body, .suggestion-container .suggestion, .prompt-results, .community-modal-search-results-wrapper, .community-modal-info, .modal:not(.mod-settings, .mod-community-theme, .mod-community-plugin), .tag-container, .backlink-pane, .markdown-source-view .cm-scroller, .markdown-preview-view, .workspace-leaf-content[data-type=calendar] .view-content, .janitor-scan-results, .excalidraw-wrapper :is(.App-menu .Stack .Island.App-menu__left, .scrollbar), .excalidraw-contextMenuContainer .popover, .kanban-plugin__board, .kanban-plugin__lane-items, .kanban-plugin__autocomplete) {
   overflow-y: overlay !important;
 }
 
-body:not(.is-mobile, .scrollbar-hide).scrollbar-gutter-overlay .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container,
-body:not(.is-mobile, .scrollbar-hide).scrollbar-gutter-overlay .markdown-embed-content .markdown-rendered,
-body:not(.is-mobile, .scrollbar-hide).scrollbar-gutter-overlay pre code {
+body:not(.is-mobile).scrollbar-gutter-overlay .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container,
+body:not(.is-mobile).scrollbar-gutter-overlay .markdown-embed-content .markdown-rendered,
+body:not(.is-mobile).scrollbar-gutter-overlay pre code {
   overflow-x: overlay !important;
 }
 
-body:not(.is-mobile, .scrollbar-hide).scrollbar-gutter-reserve {
+body:not(.is-mobile).scrollbar-gutter-reserve {
   --setting-scrollbar-gutter: stable;
 }
 
-body:not(.is-mobile, .scrollbar-hide).scrollbar-hover-accent {
+body:not(.is-mobile).scrollbar-hover-accent {
   --setting-scrollbar-hover: hsla(var(--color-accent-hsl), 40%);
 }
 
-body:not(.is-mobile, .scrollbar-hide).scrollbar-hover-expand ::-webkit-scrollbar-thumb:hover,
-body:not(.is-mobile, .scrollbar-hide).scrollbar-hover-expand ::-webkit-scrollbar-thumb:active {
+body:not(.is-mobile).scrollbar-hover-expand ::-webkit-scrollbar-thumb:hover,
+body:not(.is-mobile).scrollbar-hover-expand ::-webkit-scrollbar-thumb:active {
   border-width: var(--size-2-1) !important;
 }
 
-body:not(.is-mobile, .scrollbar-hide) ::-webkit-scrollbar {
+body:not(.is-mobile) ::-webkit-scrollbar {
   width: var(--size-4-3) !important;
   height: var(--size-4-3) !important;
   background-color: transparent !important;
 }
 
-body:not(.is-mobile, .scrollbar-hide) ::-webkit-scrollbar-track {
+body:not(.is-mobile) ::-webkit-scrollbar-track {
   background-color: transparent !important;
   box-shadow: none !important;
 }
 
-body:not(.is-mobile, .scrollbar-hide) ::-webkit-scrollbar-thumb {
+body:not(.is-mobile) ::-webkit-scrollbar-thumb {
   border-radius: var(--size-2-3) !important;
   border: 3.6px solid transparent !important;
   background-color: var(--scrollbar-color) !important;
 }
 
-body:not(.is-mobile, .scrollbar-hide) ::-webkit-scrollbar-thumb:hover {
+body:not(.is-mobile) ::-webkit-scrollbar-thumb:hover {
   --scrollbar-color: var(--setting-scrollbar-hover);
 }
 
-body:not(.is-mobile, .scrollbar-hide) ::-webkit-scrollbar-thumb:active {
+body:not(.is-mobile) ::-webkit-scrollbar-thumb:active {
   --scrollbar-color: hsla(var(--color-accent-hsl), 64%);
 }
 
-body:not(.is-mobile, .scrollbar-hide).scrollbar-movein-animation-disable {
+body:not(.is-mobile).scrollbar-movein-animation-disable {
   --scrollbar-color: hsla(var(--color-accent-hsl), 24%);
 }
 
-body:not(.is-mobile, .scrollbar-hide):not(.scrollbar-movein-animation-disable) :is(.vertical-tab-header, .vertical-tab-content, .nav-files-container, .workspace-leaf-content:not([data-type*=graph], [data-type*=pdf]) .view-content, .search-result-container, .git-view-body, .suggestion-container .suggestion, .prompt-results, .community-modal-search-results-wrapper, .community-modal-info, .modal:not(.mod-settings, .mod-community-theme, .mod-community-plugin), .tag-container, .backlink-pane, .markdown-source-view .cm-scroller, .markdown-preview-view, .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container, .markdown-embed-content .markdown-rendered, pre code, .workspace-leaf-content[data-type=calendar] .view-content, .janitor-scan-results, .excalidraw-wrapper :is(.App-menu .Stack .Island.App-menu__left, .scrollbar), .excalidraw-contextMenuContainer .popover, .kanban-plugin__board, .kanban-plugin__lane-items, .kanban-plugin__autocomplete) {
+body:not(.is-mobile):not(.scrollbar-movein-animation-disable) :is(.vertical-tab-header, .vertical-tab-content, .nav-files-container, .workspace-leaf-content:not([data-type*=graph], [data-type*=pdf]) .view-content, .search-result-container, .git-view-body, .suggestion-container .suggestion, .prompt-results, .community-modal-search-results-wrapper, .community-modal-info, .modal:not(.mod-settings, .mod-community-theme, .mod-community-plugin), .tag-container, .backlink-pane, .markdown-source-view .cm-scroller, .markdown-preview-view, .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container, .markdown-embed-content .markdown-rendered, pre code, .workspace-leaf-content[data-type=calendar] .view-content, .janitor-scan-results, .excalidraw-wrapper :is(.App-menu .Stack .Island.App-menu__left, .scrollbar), .excalidraw-contextMenuContainer .popover, .kanban-plugin__board, .kanban-plugin__lane-items, .kanban-plugin__autocomplete) {
   transition: --scrollbar-color var(--animation);
   scrollbar-gutter: var(--setting-scrollbar-gutter, initial);
 }
 
-body:not(.is-mobile, .scrollbar-hide):not(.scrollbar-movein-animation-disable) :is(.vertical-tab-header, .vertical-tab-content, .nav-files-container, .workspace-leaf-content:not([data-type*=graph], [data-type*=pdf]) .view-content, .search-result-container, .git-view-body, .suggestion-container .suggestion, .prompt-results, .community-modal-search-results-wrapper, .community-modal-info, .modal:not(.mod-settings, .mod-community-theme, .mod-community-plugin), .tag-container, .backlink-pane, .markdown-source-view .cm-scroller, .markdown-preview-view, .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container, .markdown-embed-content .markdown-rendered, pre code, .workspace-leaf-content[data-type=calendar] .view-content, .janitor-scan-results, .excalidraw-wrapper :is(.App-menu .Stack .Island.App-menu__left, .scrollbar), .excalidraw-contextMenuContainer .popover, .kanban-plugin__board, .kanban-plugin__lane-items, .kanban-plugin__autocomplete):hover {
+body:not(.is-mobile):not(.scrollbar-movein-animation-disable) :is(.vertical-tab-header, .vertical-tab-content, .nav-files-container, .workspace-leaf-content:not([data-type*=graph], [data-type*=pdf]) .view-content, .search-result-container, .git-view-body, .suggestion-container .suggestion, .prompt-results, .community-modal-search-results-wrapper, .community-modal-info, .modal:not(.mod-settings, .mod-community-theme, .mod-community-plugin), .tag-container, .backlink-pane, .markdown-source-view .cm-scroller, .markdown-preview-view, .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container, .markdown-embed-content .markdown-rendered, pre code, .workspace-leaf-content[data-type=calendar] .view-content, .janitor-scan-results, .excalidraw-wrapper :is(.App-menu .Stack .Island.App-menu__left, .scrollbar), .excalidraw-contextMenuContainer .popover, .kanban-plugin__board, .kanban-plugin__lane-items, .kanban-plugin__autocomplete):hover {
   --scrollbar-color: hsla(var(--color-accent-hsl), 24%);
 }
 
-body:not(.is-mobile, .scrollbar-hide):not(.scrollbar-movein-animation-disable) textarea {
+body:not(.is-mobile):not(.scrollbar-movein-animation-disable) textarea {
   color: transparent;
   transition: color var(--animation);
   -webkit-text-fill-color: var(--text-normal);
 }
 
-body:not(.is-mobile, .scrollbar-hide):not(.scrollbar-movein-animation-disable) textarea:hover {
+body:not(.is-mobile):not(.scrollbar-movein-animation-disable) textarea:hover {
   color: hsla(var(--color-accent-hsl), 24%);
 }
 
-body:not(.is-mobile, .scrollbar-hide):not(.scrollbar-movein-animation-disable) textarea * {
+body:not(.is-mobile):not(.scrollbar-movein-animation-disable) textarea * {
   -webkit-text-fill-color: initial;
 }
 
-body:not(.is-mobile, .scrollbar-hide):not(.scrollbar-movein-animation-disable) textarea::-webkit-scrollbar-thumb {
+body:not(.is-mobile):not(.scrollbar-movein-animation-disable) textarea::-webkit-scrollbar-thumb {
   box-shadow: 0 0 0 10px inset;
   border-width: 3.2px;
   background-clip: content-box;
   background-color: transparent !important;
+}
+
+body.scrollbar-hide :not([style="overflow-x: auto;"])::-webkit-scrollbar {
+  display: none !important;
 }
 
 /* ====== 标签 ====== */

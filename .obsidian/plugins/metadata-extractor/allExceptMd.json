@@ -103,16 +103,6 @@
   ],
   "nonMdFiles": [
     {
-      "name": "Bpm-Def20230325150621.zip",
-      "basename": "Bpm-Def20230325150621",
-      "relativePath": "Bpm-Def20230325150621.zip"
-    },
-    {
-      "name": "Form-CustomQuery-20230323151130.zip",
-      "basename": "Form-CustomQuery-20230323151130",
-      "relativePath": "Form-CustomQuery-20230323151130.zip"
-    },
-    {
       "name": "WebSocketConfig.java",
       "basename": "WebSocketConfig",
       "relativePath": "WebSocketConfig.java"
@@ -131,11 +121,6 @@
       "name": "generatorConfig.xml",
       "basename": "generatorConfig",
       "relativePath": "generatorConfig.xml"
-    },
-    {
-      "name": "系统自定义业务管理列表_20230323155844.zip",
-      "basename": "系统自定义业务管理列表_20230323155844",
-      "relativePath": "系统自定义业务管理列表_20230323155844.zip"
     }
   ]
 }

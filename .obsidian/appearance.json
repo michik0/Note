@@ -1,11 +1,13 @@
 {
-  "accentColor": "",
+  "accentColor": "#3884ff",
   "theme": "obsidian",
   "textFontFamily": "Apple Braille",
   "interfaceFontFamily": "Apple Braille",
   "monospaceFontFamily": "Apple Braille",
-  "baseFontSize": 16,
-  "cssTheme": "Maple",
+  "baseFontSize": 15,
+  "cssTheme": "GitHub Theme",
   "baseFontSizeAction": false,
-  "translucency": true
+  "translucency": false,
+  "showViewHeader": true,
+  "nativeMenus": true
 }

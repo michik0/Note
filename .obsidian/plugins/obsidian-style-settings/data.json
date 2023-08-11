@@ -63,11 +63,14 @@
   "maple-editor@@heading-h5-underline": false,
   "maple-editor@@heading-h6-underline": false,
   "maple-editor@@table-colorful": true,
-  "maple-workspace@@bg-enable": "bg-static",
+  "maple-workspace@@bg-enable": "bg-default",
   "maple-editor@@line-indicator-disable": true,
   "maple-editor@@font-maple": true,
   "maple-editor@@setting-editor-width": 1000,
   "maple-editor@@setting-line-height": 1.7,
   "maple-basic@@setting-accent-h-dark": 207,
-  "maple-basic@@setting-accent-h-light": 40
+  "maple-basic@@setting-accent-h-light": 40,
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-frappe",
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-teal"
 }

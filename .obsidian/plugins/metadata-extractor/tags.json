@@ -26,9 +26,9 @@
       "7. 面试题/数据结构.md",
       "7. 面试题/Spring.md",
       "7. 面试题/Redis.md",
-      "7. 面试题/Java.md",
       "7. 面试题/MQ消息队列.md",
-      "7. 面试题/Linux.md"
+      "7. 面试题/Linux.md",
+      "7. 面试题/Java.md"
     ]
   },
   {
@@ -61,13 +61,6 @@
     ]
   },
   {
-    "tag": "java",
-    "tagCount": 1,
-    "relativePaths": [
-      "7. 面试题/Java.md"
-    ]
-  },
-  {
     "tag": "mq",
     "tagCount": 1,
     "relativePaths": [
@@ -86,6 +79,13 @@
     "tagCount": 1,
     "relativePaths": [
       "7. 面试题/Linux.md"
+    ]
+  },
+  {
+    "tag": "java",
+    "tagCount": 1,
+    "relativePaths": [
+      "7. 面试题/Java.md"
     ]
   },
   {
