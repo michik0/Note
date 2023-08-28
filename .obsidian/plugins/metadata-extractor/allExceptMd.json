@@ -69,6 +69,18 @@
       "relativePath": "15. 前端/前端三剑客"
     },
     {
+      "name": "异常处理类",
+      "relativePath": "9. RUOYI/异常处理类"
+    },
+    {
+      "name": "框架",
+      "relativePath": "9. RUOYI/框架"
+    },
+    {
+      "name": "注解",
+      "relativePath": "9. RUOYI/注解"
+    },
+    {
       "name": "Mybatis",
       "relativePath": "6. 轮子/Mybatis"
     },
@@ -87,18 +99,6 @@
     {
       "name": "其他",
       "relativePath": "6. 轮子/其他"
-    },
-    {
-      "name": "异常处理类",
-      "relativePath": "9. RUOYI/异常处理类"
-    },
-    {
-      "name": "框架",
-      "relativePath": "9. RUOYI/框架"
-    },
-    {
-      "name": "注解",
-      "relativePath": "9. RUOYI/注解"
     }
   ],
   "nonMdFiles": [

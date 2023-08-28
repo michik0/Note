@@ -31,22 +31,23 @@ public class Constants {
 ```
 
 ```java
-import org.slf4j.MDC;
-
-public class TraceInterceptor extends HandlerInterceptorAdapter {
-    @Override
-    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
-        // "traceId"
-        MDC.put(Constants.LOG_TRACE_ID, TraceLogUtils.getTraceId());
-        return true;
-    }
+@Slf4j  
+@Component  
+public class TraceInterceptor implements HandlerInterceptor {  
+	@Override  
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {  
+	String uuid = UUID.randomUUID().toString();  
+	log.info("记录请求 uuid -> {}", uuid);  
+	MDC.put(Constants.LOG_TRACE_ID, uuid);  
+	return true;  
+	}  
 }
 ```
 
 2. 然后在日志配置xml文件中添加traceId打印：
 
 ```xml
-<property name="normal-pattern" value="[%p][%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ,Asia/Shanghai}][%X{traceid}][%15.15t][%c:%L] %msg%n"/>
+<pattern>[%X{trace_id}]-%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{30} - %msg%n</pattern>
 ```
 
 **但是仅仅这样的改造在实际使用过程中会遇到以下问题：**
@@ -56,72 +57,92 @@ public class TraceInterceptor extends HandlerInterceptorAdapter {
 
 # 支持线程池跟踪
 
-MDC使用的 `InheritableThreadLocal` 只是在线程被创建时继承，但是线程池中的线程是复用的，后续请求使用已有的线程将打印出之前请求的traceId。这时候就需要对线程池进行一定的包装，在线程在执行时读取之前保存的MDC内容。不仅自身业务会用到线程池，spring项目也使用到了很多线程池，比如@Async异步调用，zookeeper线程池、kafka线程池等。不管是哪种线程池都大都支持传入指定的线程池实现，拿@Async举例：
+在线程在执行时读取之前保存的MDC内容。不仅自身业务会用到线程池，spring项目也使用到了很多线程池，比如@Async异步调用，zookeeper线程池、kafka线程池等。不管是哪种线程池都大都支持传入指定的线程池实现，拿@Async举例：
+
+## Executor
 
 ```java
-@Bean("SpExecutor")
-public Executor getAsyncExecutor() {
-    // 对线程池进行包装，使之支持traceId透传
-    ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor() {
-        @Override
-        public <T> Future<T> submit(Callable<T> task) {
-	        // 传入线程池之前先复制当前线程的MDC
-            return super.submit(ThreadMdcUtil.wrap(task, MDC.getCopyOfContextMap()));
-        }
-        @Override
-        public void execute(Runnable task) {
-            super.execute(ThreadMdcUtil.wrap(task, MDC.getCopyOfContextMap()));
-        }
-    };
-    executor.setCorePoolSize(config.getPoolCoreSize());
-    ... // 其他配置
-    executor.initialize();
-    return executor;
-}
-
-public static <T> Callable<T> wrap(final Callable<T> callable, final Map<String, String> context) {
-    return new Callable<T>() {
-        @Override
-        public T call() throws Exception {
-	        // 实际执行前导入对应请求的MDC副本
-            if (context == null) {
-                MDC.clear();
-            } else {
-                MDC.setContextMap(context);
-            }
-	        if (MDC.get(Constants.LOG_TRACE_ID) == null) {
-	            MDC.put(Constants.LOG_TRACE_ID, TraceLogUtils.getTraceId());
-	        }
-            try {
-                return callable.call();
-            } finally {
-                MDC.clear();
-            }
-        }
-    };
+@EnableAsync  
+@Configuration  
+public class ThreadPoolConfig {  
+	  
+	@Bean("commonExecutor")  
+	public Executor getAsyncExecutor() {  
+		ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();  
+		// 装饰器：在执行任务前进行TRACE_ID设置
+		executor.setTaskDecorator(new MdcDecorator());  
+		//设置核心线程数  
+		executor.setCorePoolSize(5);  
+		//设置最大线程数  
+		executor.setMaxPoolSize(5);  
+		//除核心线程外的线程存活时间  
+		executor.setKeepAliveSeconds(60);  
+		//如果传入值大于0，底层队列使用的是LinkedBlockingQueue,否则默认使用SynchronousQueue  
+		executor.setQueueCapacity(1);  
+		//线程名称前缀  
+		executor.setThreadNamePrefix("global-thread-");  
+		//设置拒绝策略  
+		executor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());  
+		return executor;  
+	}  
 }
 ```
 
-ThreadPoolExecutor的包装也类似，注意为了严谨考虑，需要对连接池中的所有调用方法进行封装。
-
-**在ThreadPoolExecutor中有：**
+## MdcDecorator
 
 ```java
-public void execute(Runnable command)
-public <T> Future<T> submit(Callable<T> task)
-public Future<?> submit(Runnable task)
-public <T> Future<T> submit(Runnable task, T result)
+@Slf4j  
+public class MdcDecorator implements TaskDecorator {  
+	@Override  
+	public Runnable decorate(Runnable runnable) {  
+		// 当前请求ThreadLocalMap  
+		Map<String, String> contextMap = MDC.getCopyOfContextMap();  
+		return () -> {  
+			try {  
+				if (contextMap != null) {  
+				// 将当前ThreadLocalMap，复制给线程池中的线程  
+				MDC.setContextMap(contextMap);  
+				}  
+				if (MDC.get(Constants.LOG_TRACE_ID) == null) {  
+				MDC.put(Constants.LOG_TRACE_ID, new String(new byte[1024*1024*5]));  
+				}  
+				runnable.run();  
+				}  
+			finally {  
+				// 【注意】清除 ThreadLocal 中的数据，避免内存泄漏  
+				MDC.clear();  
+			}  
+		};  
+	}  
+}
 ```
 
-**在ThreadPoolTaskExecutor中有：**
+## 性能分析
+
+编写测试类进行测试，测试结果发现如果有清除 MDC 中的数据，JVM堆占用将会少100多M
 
 ```java
-public void execute(Runnable command)
-public void execute(Runnable task, long startTimeout)
-public Future<?> submit(Runnable task)
-public <T> Future<T> submit(Runnable task, T result)
-public <T> ListenableFuture<T> submitListenable(Callable<T> task)
-public ListenableFuture<?> submitListenable(Runnable task)
+@RequestMapping("/test")  
+public void testMDCPool() throws InterruptedException {  
+	for (int i = 0; i < 100; i++) {  
+		log.info("接到请求");  
+		asyncService.test1();  
+		asyncService.test2();  
+		Thread.sleep(500);  
+	}  
+}
+
+@Async("commonExecutor")  
+public void test1() throws InterruptedException {  
+	Thread.sleep(1000);  
+	log.info("async[test1]");  
+}  
+  
+@Async("commonExecutor")  
+public void test2() throws InterruptedException {  
+	Thread.sleep(1000);  
+	log.info("async[test2]");  
+}
 ```
 
 # 下游服务使用相同 traceId

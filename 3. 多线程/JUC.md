@@ -23,8 +23,8 @@
 - 进程基本上相互独立的，而线程存在于进程内，是进程的一个子集。
 - 进程拥有共享的资源，如内存空间等，供其内部的线程共享。
 - 进程间通信较为复杂
-	- 同一台计算机的进程通信称为IPC(Inter-process communication)
-	- 不同计算机之间的进程通信，需要通过网络，并遵守共同的协议，例如HTTP
+  - 同一台计算机的进程通信称为IPC(Inter-process communication)
+  - 不同计算机之间的进程通信，需要通过网络，并遵守共同的协议，例如HTTP
 - 线程通信相对简单，因为它们共享进程内的内存，一个例子是多个线程可以访问同一个共享变量
 - 线程更轻量，线程上下文切换成本一般上要比进程上下文切换低
 
@@ -6183,9 +6183,6 @@ interface RejectPolicy<T> {
 }
 ```
 
-
-
-
 ### 2 ThreadPoolExecutor
 
 ![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230330141519.png)
@@ -6245,7 +6242,7 @@ ThreadPoolExecutor 使用 int 的高 3 位来表示线程池状态，低 29 位�
 
 ![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230330160001.png)
 
-根据这个构造方法，JDK Executors 类中提供了众多工厂方法来创建各种用途的线程池
+根据这个构造方法，JDK **Executors** 类中提供了众多工厂方法来创建各种用途的线程池
 
 #### 线程池工厂方法
 
@@ -10381,7 +10378,7 @@ CPU不总是处于繁忙状态，例如，当你执行业务计算时，这时�
 
 # 附录
 
-## park()
+## 1 park()
 
 ^4eaca8
 
@@ -10548,7 +10545,7 @@ public class test3 {
 }
 ```
 
-## Monitor 上锁 / 释放锁过程分析
+## 2 Monitor 上锁 / 释放锁过程分析
 
 java.lang.Object 类定义了 wait()，notify()，notifyAll() 方法。 这些都是 native方法，底层是C++来实现的。 这些方法的具体实现，依赖一个叫做ObjectMonitor模式实现，这是JVM内部C++实现的机制。
 
@@ -10584,7 +10581,7 @@ _count：线程获取锁的次数。
 
 >具体代码参考 objectMonitor.cpp
 
-## CPU执行指令
+## 3 CPU执行指令
 
 ### 鱼罐头的故事
 
@@ -10647,7 +10644,7 @@ int b=a - 5;  //指令2
 
 
 
-## GOF-享元模式
+## 4 GOF-享元模式
 
 ### 定义
 
