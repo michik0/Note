@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "223e84c27d5bf0b8",
+        "id": "e74935504e760d79",
         "type": "tabs",
         "children": [
           {
-            "id": "bd396168a34206be",
+            "id": "c6772a53827f1ed4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "15. 前端/前端三剑客/3. JavaScript.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -74,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "15. 前端/前端三剑客/3. JavaScript.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "15. 前端/前端三剑客/3. JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "15. 前端/前端三剑客/3. JavaScript.md"
-              }
+              "state": {}
             }
           },
           {
@@ -175,10 +165,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bd396168a34206be",
+  "active": "c6772a53827f1ed4",
   "lastOpenFiles": [
-    "2. Spring/Spring Security.md",
+    "15. 前端/前端三剑客/6. Node.js.md",
     "15. 前端/前端三剑客/3. JavaScript.md",
+    "2. Spring/Spring Security.md",
     "15. 前端/前端三剑客/2. CSS.md",
     "1. SQL/MySQL.md",
     "7. 面试题/MySQL.md",
@@ -210,7 +201,6 @@
     "15. 前端/前端三剑客/108. 父节点.html",
     "6. 轮子/WebSocket/集成WebSocket.md",
     "6. 轮子/树型结构工具类.md",
-    "6. 轮子/Mybatis/Mybatis-Generator.md",
     "15. 前端/前端三剑客/未命名",
     "15. 前端/前端三剑客",
     "未命名 1.canvas",
