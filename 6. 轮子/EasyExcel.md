@@ -36,6 +36,8 @@ public void downloadTemplate(HttpServletResponse response) throws IOException {
     response.setContentType("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
     response.setCharacterEncoding("utf-8");
     String fileName = URLEncoder.encode("提示词模版", "UTF-8").replaceAll("\\+", "%20");
+    // 前端暴露Header中的Content-Disposition属性
+    response.setHeader("Access-Control-Expose-Headers", "Content-Disposition");
     response.setHeader("Content-disposition", "attachment;filename*=utf-8''" + fileName + ".xlsx");
     EasyExcel.write(response.getOutputStream(), AiPromptExcelData.class).sheet("模板").doWrite(data());
 }

@@ -1,5 +1,15 @@
 [
   {
+    "fileName": "README",
+    "relativePath": "README.md",
+    "headings": [
+      {
+        "heading": "Headline",
+        "level": 1
+      }
+    ]
+  },
+  {
     "fileName": "@RequiresPermissions",
     "relativePath": "9. RUOYI/注解/@RequiresPermissions.md",
     "headings": [
@@ -2330,48 +2340,6 @@
     ]
   },
   {
-    "fileName": "HttpServletRequestWrapper",
-    "relativePath": "6. 轮子/HttpServletRequestWrapper.md",
-    "headings": [
-      {
-        "heading": "思考",
-        "level": 2
-      },
-      {
-        "heading": "HttpServletRequestWrapper 介绍",
-        "level": 2
-      },
-      {
-        "heading": "HttpServletRequestWrapper 具体实战",
-        "level": 2
-      },
-      {
-        "heading": "请求头处理",
-        "level": 3
-      },
-      {
-        "heading": "请求头装饰类",
-        "level": 4
-      },
-      {
-        "heading": "请求头过滤器",
-        "level": 4
-      },
-      {
-        "heading": "请求参数处理",
-        "level": 3
-      },
-      {
-        "heading": "请求参数装饰类",
-        "level": 4
-      },
-      {
-        "heading": "请求参数过滤器",
-        "level": 4
-      }
-    ]
-  },
-  {
     "fileName": "树型结构工具类",
     "relativePath": "6. 轮子/树型结构工具类.md"
   },
@@ -2451,6 +2419,28 @@
     "relativePath": "6. 轮子/Redis/自定义RestTemplate.md"
   },
   {
+    "fileName": "Mybatis-Generator",
+    "relativePath": "6. 轮子/Mybatis/Mybatis-Generator.md",
+    "headings": [
+      {
+        "heading": "POM",
+        "level": 1
+      },
+      {
+        "heading": "resources/generator/application.properties",
+        "level": 1
+      },
+      {
+        "heading": "resources/generator/generatorConfig.xml",
+        "level": 1
+      },
+      {
+        "heading": "点击插件运行",
+        "level": 1
+      }
+    ]
+  },
+  {
     "fileName": "IDEA 快捷键",
     "relativePath": "6. 轮子/IDEA 快捷键.md",
     "headings": [
@@ -2505,24 +2495,44 @@
     ]
   },
   {
-    "fileName": "Mybatis-Generator",
-    "relativePath": "6. 轮子/Mybatis/Mybatis-Generator.md",
+    "fileName": "HttpServletRequestWrapper",
+    "relativePath": "6. 轮子/HttpServletRequestWrapper.md",
     "headings": [
       {
-        "heading": "POM",
-        "level": 1
+        "heading": "思考",
+        "level": 2
       },
       {
-        "heading": "resources/generator/application.properties",
-        "level": 1
+        "heading": "HttpServletRequestWrapper 介绍",
+        "level": 2
       },
       {
-        "heading": "resources/generator/generatorConfig.xml",
-        "level": 1
+        "heading": "HttpServletRequestWrapper 具体实战",
+        "level": 2
       },
       {
-        "heading": "点击插件运行",
-        "level": 1
+        "heading": "请求头处理",
+        "level": 3
+      },
+      {
+        "heading": "请求头装饰类",
+        "level": 4
+      },
+      {
+        "heading": "请求头过滤器",
+        "level": 4
+      },
+      {
+        "heading": "请求参数处理",
+        "level": 3
+      },
+      {
+        "heading": "请求参数装饰类",
+        "level": 4
+      },
+      {
+        "heading": "请求参数过滤器",
+        "level": 4
       }
     ]
   },
@@ -6259,6 +6269,10 @@
     ]
   },
   {
+    "fileName": "前端学习路线",
+    "relativePath": "15. 前端/前端三剑客/前端学习路线.md"
+  },
+  {
     "fileName": "5. Ajax",
     "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
     "headings": [
@@ -6311,7 +6325,7 @@
         "level": 2
       },
       {
-        "heading": "2.6 带有请求方式调用",
+        "heading": "2.6 携带请求体调用",
         "level": 2
       },
       {
@@ -6335,6 +6349,154 @@
         "level": 2
       },
       {
+        "heading": "2.10 Axios 请求/响应拦截器",
+        "level": 2
+      },
+      {
+        "heading": "2.10.1 添加拦截器",
+        "level": 3
+      },
+      {
+        "heading": "2.10.2 移除拦截器",
+        "level": 3
+      },
+      {
+        "heading": "2.10.3 具体应用",
+        "level": 3
+      },
+      {
+        "heading": "携带请求头请求 以及 用户身份验证失败后页面跳转",
+        "level": 4
+      },
+      {
+        "heading": "Axios直接接收服务器返回的响应结果",
+        "level": 4
+      },
+      {
+        "heading": "3 XMLHttpRequest（Ajax 原理）",
+        "level": 1
+      },
+      {
+        "heading": "3.1 使用场景",
+        "level": 2
+      },
+      {
+        "heading": "3.2 使用 XMLHttpRequest",
+        "level": 2
+      },
+      {
+        "heading": "3.3 URL参数调用",
+        "level": 2
+      },
+      {
+        "heading": "3.4 携带请求体调用",
+        "level": 2
+      },
+      {
+        "heading": "4 Promise",
+        "level": 1
+      },
+      {
+        "heading": "4.1 使用 Promise",
+        "level": 2
+      },
+      {
+        "heading": "4.2 Promise 三种状态",
+        "level": 2
+      },
+      {
+        "heading": "4.3 封装简易版 Axios",
+        "level": 2
+      },
+      {
+        "heading": "4.4 回调函数地狱问题",
+        "level": 2
+      },
+      {
+        "heading": "4.4.1 回调函数地狱问题缺点",
+        "level": 3
+      },
+      {
+        "heading": "4.4.2 解决方法",
+        "level": 3
+      },
+      {
+        "heading": "4.5 Promise 链式调用",
+        "level": 2
+      },
+      {
+        "heading": "4.5.1 定义",
+        "level": 3
+      },
+      {
+        "heading": "4.5.2 重构函数地狱问题",
+        "level": 3
+      },
+      {
+        "heading": "4.6 Promise.all 静态方法",
+        "level": 2
+      },
+      {
+        "heading": "4.6.1 概念",
+        "level": 3
+      },
+      {
+        "heading": "4.6.2 语法",
+        "level": 3
+      },
+      {
+        "heading": "4.6.3 应用",
+        "level": 3
+      },
+      {
+        "heading": "5 async 和 await 函数",
+        "level": 1
+      },
+      {
+        "heading": "5.1 async",
+        "level": 2
+      },
+      {
+        "heading": "5.2 await",
+        "level": 2
+      },
+      {
+        "heading": "5.3 语法",
+        "level": 2
+      },
+      {
+        "heading": "5.4 应用",
+        "level": 2
+      },
+      {
+        "heading": "6 事件循环",
+        "level": 1
+      },
+      {
+        "heading": "6.1 概念",
+        "level": 2
+      },
+      {
+        "heading": "6.2 执行顺序例子",
+        "level": 2
+      },
+      {
+        "heading": "6.3 注意",
+        "level": 2
+      },
+      {
+        "heading": "7 宏任务与微任务",
+        "level": 1
+      },
+      {
+        "heading": "7.1 定义",
+        "level": 2
+      },
+      {
+        "heading": "7.2 例子",
+        "level": 2
+      },
+      {
         "heading": "附件",
         "level": 1
       },
@@ -6342,11 +6504,51 @@
         "heading": "1 表单元素快速收集插件（`form-serialize` 插件）",
         "level": 2
       }
+    ],
+    "links": [
+      {
+        "link": "#3 Ajax 原理 - XMLHttpRequest",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "XMLHttpRequest"
+      },
+      {
+        "link": "#3 XMLHttpRequest（Ajax 原理）",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "XMLHttpRequest"
+      },
+      {
+        "link": "#4 Promise",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "Promise"
+      },
+      {
+        "link": "#4.5 Promise 链式调用",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "Promise 链式调用"
+      },
+      {
+        "link": "#4.4 回调函数地狱问题",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "回调函数地狱问题"
+      },
+      {
+        "link": "#5 async 和 await 函数",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "async 和 await 函数"
+      },
+      {
+        "link": "3. JavaScript#21.3 JS执行机制",
+        "cleanLink": "3. JavaScript",
+        "displayText": "执行机制",
+        "relativePath": "15. 前端/前端三剑客/3. JavaScript.md"
+      }
     ]
-  },
-  {
-    "fileName": "前端学习路线",
-    "relativePath": "15. 前端/前端三剑客/前端学习路线.md"
   },
   {
     "fileName": "4. 移动端",
@@ -8237,6 +8439,14 @@
       {
         "heading": "6. 放大镜效果",
         "level": 2
+      },
+      {
+        "heading": "获取 `<select>` 标签中所选的元素",
+        "level": 2
+      },
+      {
+        "heading": "富文本编辑器：WangEditor",
+        "level": 2
       }
     ],
     "links": [
@@ -8251,6 +8461,15 @@
         "relativePath": "15. 前端/前端三剑客/3. JavaScript.md",
         "cleanLink": "3. JavaScript",
         "displayText": "构造函数"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "5. Ajax",
+        "link": "3. JavaScript#21.3 JS执行机制",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "3. JavaScript",
+        "displayText": "执行机制"
       }
     ]
   },
