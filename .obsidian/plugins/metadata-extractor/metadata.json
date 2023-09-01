@@ -4,7 +4,7 @@
     "relativePath": "README.md",
     "headings": [
       {
-        "heading": "Headline",
+        "heading": "Note",
         "level": 1
       }
     ]
@@ -863,10 +863,6 @@
     "relativePath": "7. 面试题/【面经】.md",
     "headings": [
       {
-        "heading": "长亮科技（外包）",
-        "level": 1
-      },
-      {
         "heading": "1. 创建线程的几种方式？",
         "level": 2
       },
@@ -921,10 +917,6 @@
       {
         "heading": "9. 什么是CAS？",
         "level": 2
-      },
-      {
-        "heading": "福州康为网络科技有限公司",
-        "level": 1
       },
       {
         "heading": "1. 常用的主要集合类？",

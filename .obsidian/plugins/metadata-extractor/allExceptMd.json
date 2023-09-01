@@ -123,9 +123,14 @@
       "relativePath": "generatorConfig.xml"
     },
     {
-      "name": "index.html",
-      "basename": "index",
-      "relativePath": "index.html"
+      "name": "CNAME",
+      "basename": "CNAME",
+      "relativePath": "CNAME"
+    },
+    {
+      "name": "Obsidian_Note.iml",
+      "basename": "Obsidian_Note",
+      "relativePath": "Obsidian_Note.iml"
     }
   ]
 }
