@@ -128,7 +128,7 @@ Redis会在后台异步进行快照操作，==不阻塞==快照同时还可以�
 
 ### 2.1.7 如何修复 dump.rdb 文件
 
-```shell
+```bash
 redis-check-rdb dump6379.rdb
 ```
 
@@ -143,7 +143,7 @@ redis-check-rdb dump6379.rdb
 
 #### 方式一：命令
 
-```shell
+```bash
 redis-cli config set save ""
 ```
 
@@ -257,7 +257,7 @@ Redis7中的AOF采用了MP（Multi Part）-AOF的设计:
 ![image.png](https://raw.githubusercontent.com/michik0/notes-image/master/20230228201144.png)
 
 进行aof文件修复：
-```shell
+```bash
 redis-check-aof --fix /myredis/appendonlydir/appendonly.aof.1.incr.aof
 ```
 
@@ -609,7 +609,7 @@ sentinel monitor mymaster 192.168.111. 185 6379 2 sentinel auth- pass mymaster 1
 
 执行 `redis-sentinel` 启动哨兵：
 
-```shell
+```bash
 redis-sentinel sentinel.conf --sentinel
 ```
 

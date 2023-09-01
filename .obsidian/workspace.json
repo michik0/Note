@@ -11,8 +11,13 @@
             "id": "ffff06401093f1b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. SQL/MySQL.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "面经",
+                "query": "```mysql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "ada52ccfb4d337aa",
@@ -90,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. SQL/MySQL.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -106,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. SQL/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. SQL/MySQL.md"
+              }
             }
           },
           {
@@ -167,6 +177,12 @@
   },
   "active": "ffff06401093f1b2",
   "lastOpenFiles": [
+    "7. 面试题/MySQL.md",
+    "4. Redis/Redis.md",
+    "7. 面试题/Redis.md",
+    "11. Maven/Maven手动导入依赖包.md",
+    "3. 多线程/JUC.md",
+    "8. MQ/RabbitMQ.md",
     "7. 面试题/【面经】.md",
     "README.md",
     "15. 前端/前端三剑客/5. Ajax.md",
@@ -177,7 +193,6 @@
     "15. 前端/前端三剑客/1. HTML.md",
     "14. 分布式文件存储系统/FastDFS.md",
     "6. 轮子/EasyExcel.md",
-    "3. 多线程/JUC.md",
     "index.html",
     "vendor/themes/vue.css",
     "vendor/themes",
@@ -190,17 +205,12 @@
     "7. 面试题/多线程.md",
     "6. 轮子/Vim.md",
     "6. 轮子/IDEA 快捷键.md",
-    "4. Redis/Redis.md",
     "15. 前端/前端三剑客/108. 父节点.html",
     "6. 轮子/WebSocket/集成WebSocket.md",
     "6. 轮子/树型结构工具类.md",
     "6. 轮子/Mybatis/Mybatis-Generator.md",
     "6. 轮子/过滤器.md",
     "6. 轮子/HttpServletRequestWrapper.md",
-    "12. 分布式监控/Zabbix.md",
-    "6. 轮子/文件分割、合并.md",
-    "6. 轮子/其他/计算Java对象占用的内存大小.md",
-    "6. 轮子/分布式事务.md",
     "15. 前端/前端三剑客/未命名",
     "15. 前端/前端三剑客",
     "未命名 1.canvas",

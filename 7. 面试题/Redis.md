@@ -68,7 +68,7 @@ String 是 Redis 最基础的数据结构类型，它是二进制安全的，可
 
 如下命令就只保留日志前100项
 
-```shell
+```bash
 LPUSH log newest_log
 LTRIM log 0 99
 ```
@@ -79,7 +79,7 @@ LTRIM log 0 99
 
 当给定多个 key 参数时，按参数 key 的先后顺序依次检查各个列表，弹出第一个非空列表的尾部元素。
 
-```shell
+```bash
 redis> LLEN course
 (integer) 0
 

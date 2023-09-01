@@ -2716,7 +2716,7 @@ public static void main(String[] args) {
 
 ```
 
-```shell
+```bash
 > jstack 8937
 
 2023-03-22 19:49:30

@@ -44,7 +44,7 @@ RabbitMQ基于 `AMQP` 协议，`erlang` 语言开发，是部署最广泛的开�
 
 **1. 运行 Docker 命令，启动 RabbitMQ**
 
-```shell
+```bash
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
 ```
 
@@ -52,26 +52,26 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-ma
 
 >创建账号
 
-```shell
+```bash
 rabbitmqctl add_user root 12345678
 ```
 
 >设置用户角色
 
-```shell
+```bash
 rabbitmqctl set_user_tags root administrator
 ```
 
 >设置用户权限
 
-```shell
+```bash
 # rabbitmqctl set_permissions [-p <vhostpath>] <user> <conf> <write> <read>
 rabbitmqctl set_permissions -p "/" root ".*" ".*" ".*"
 ```
 
 >查看用户与角色
 
-```shell
+```bash
 rabbitmqctl list_users
 ```
 
@@ -1593,7 +1593,7 @@ RabbitMQ 插件实现延迟队列
 
 ### 2. 启用插件
 
-```shell
+```bash
 rabbitmq-plugins enable rabbitmq_delayed_message_exchange
 ```
 

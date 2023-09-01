@@ -22,8 +22,8 @@
     "tagCount": 8,
     "relativePaths": [
       "7. 面试题/设计模式.md",
-      "7. 面试题/网络编程.md",
       "7. 面试题/数据结构.md",
+      "7. 面试题/网络编程.md",
       "7. 面试题/Spring.md",
       "7. 面试题/Redis.md",
       "7. 面试题/MQ消息队列.md",
@@ -32,17 +32,17 @@
     ]
   },
   {
-    "tag": "网络编程",
-    "tagCount": 1,
-    "relativePaths": [
-      "7. 面试题/网络编程.md"
-    ]
-  },
-  {
     "tag": "数据结构",
     "tagCount": 1,
     "relativePaths": [
       "7. 面试题/数据结构.md"
+    ]
+  },
+  {
+    "tag": "网络编程",
+    "tagCount": 1,
+    "relativePaths": [
+      "7. 面试题/网络编程.md"
     ]
   },
   {
