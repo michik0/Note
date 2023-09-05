@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5,
-    "collapsed": true
+    "width": 336.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,10 +176,12 @@
   },
   "active": "c8de969a44ffd0ca",
   "lastOpenFiles": [
-    "6. 轮子/EasyExcel.md",
-    "15. 前端/前端三剑客/6. Node.js.md",
-    "15. 前端/前端三剑客/3. JavaScript.md",
+    "webpack.config 1.js",
+    "webpack.config.js",
     "Excalidraw/Drawing 2023-09-02 16.26.38.excalidraw.md",
+    "15. 前端/前端三剑客/6. Node.js.md",
+    "6. 轮子/EasyExcel.md",
+    "15. 前端/前端三剑客/3. JavaScript.md",
     "Excalidraw",
     "15. 前端/前端三剑客/1. HTML.md",
     "15. 前端/前端三剑客/5. Ajax.md",
@@ -212,8 +212,6 @@
     "6. 轮子/Vim.md",
     "6. 轮子/IDEA 快捷键.md",
     "15. 前端/前端三剑客/108. 父节点.html",
-    "6. 轮子/WebSocket/集成WebSocket.md",
-    "15. 前端/前端三剑客/未命名",
     "未命名 1.canvas",
     "未命名.canvas",
     "未命名 3.canvas",

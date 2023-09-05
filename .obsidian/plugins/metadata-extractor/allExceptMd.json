@@ -140,6 +140,16 @@
       "name": "index.html",
       "basename": "index",
       "relativePath": "index.html"
+    },
+    {
+      "name": "webpack.config.js",
+      "basename": "webpack.config",
+      "relativePath": "webpack.config.js"
+    },
+    {
+      "name": "webpack.config 1.js",
+      "basename": "webpack.config 1",
+      "relativePath": "webpack.config 1.js"
     }
   ]
 }
