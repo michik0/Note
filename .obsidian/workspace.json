@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e74935504e760d79",
+        "id": "1c4200c01f13a84f",
         "type": "tabs",
         "children": [
           {
-            "id": "c6772a53827f1ed4",
+            "id": "c8de969a44ffd0ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "15. 前端/前端三剑客/6. Node.js.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "<select",
+                "query": "run build",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,11 +74,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "ada52ccfb4d337aa",
@@ -89,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "15. 前端/前端三剑客/6. Node.js.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "15. 前端/前端三剑客/6. Node.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "15. 前端/前端三剑客/6. Node.js.md"
+              }
             }
           },
           {
@@ -165,10 +176,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c6772a53827f1ed4",
+  "active": "c8de969a44ffd0ca",
   "lastOpenFiles": [
+    "6. 轮子/EasyExcel.md",
     "15. 前端/前端三剑客/6. Node.js.md",
     "15. 前端/前端三剑客/3. JavaScript.md",
+    "Excalidraw/Drawing 2023-09-02 16.26.38.excalidraw.md",
+    "Excalidraw",
+    "15. 前端/前端三剑客/1. HTML.md",
+    "15. 前端/前端三剑客/5. Ajax.md",
+    "15. 前端/前端三剑客/4. 移动端.md",
+    "15. 前端/前端三剑客/前端学习路线.md",
+    "README.md",
     "2. Spring/Spring Security.md",
     "15. 前端/前端三剑客/2. CSS.md",
     "1. SQL/MySQL.md",
@@ -179,30 +198,22 @@
     "3. 多线程/JUC.md",
     "8. MQ/RabbitMQ.md",
     "7. 面试题/【面经】.md",
-    "README.md",
-    "15. 前端/前端三剑客/5. Ajax.md",
     "7. 面试题/Java.md",
     "Obsidian_Note.iml",
     "CNAME",
-    "15. 前端/前端三剑客/1. HTML.md",
     "14. 分布式文件存储系统/FastDFS.md",
-    "6. 轮子/EasyExcel.md",
     "index.html",
     "vendor/themes/vue.css",
     "vendor/themes",
     "vendor/docsify.js",
     "vendor",
-    "15. 前端/前端三剑客/前端学习路线.md",
-    "15. 前端/前端三剑客/4. 移动端.md",
     "13. 分布式全流程日志追踪/MDC.md",
     "7. 面试题/多线程.md",
     "6. 轮子/Vim.md",
     "6. 轮子/IDEA 快捷键.md",
     "15. 前端/前端三剑客/108. 父节点.html",
     "6. 轮子/WebSocket/集成WebSocket.md",
-    "6. 轮子/树型结构工具类.md",
     "15. 前端/前端三剑客/未命名",
-    "15. 前端/前端三剑客",
     "未命名 1.canvas",
     "未命名.canvas",
     "未命名 3.canvas",

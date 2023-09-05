@@ -23,6 +23,9 @@ public class AiPromptExcelData {
     private String title;
     @ExcelProperty("提示词内容")
     private String content;
+    @ExcelProperty(value = "更新时间", converter = LocalDateTimeStringConverter.class)  
+	@DateTimeFormat("yyyy-MM-dd HH:mm:ss")  
+	private LocalDateTime updateTime;
 }
 ```
 
