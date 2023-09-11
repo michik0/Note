@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1c4200c01f13a84f",
+        "id": "e6fef93256e8831f",
         "type": "tabs",
         "children": [
           {
-            "id": "c8de969a44ffd0ca",
+            "id": "81f61f2f049427fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15. 前端/前端三剑客/7. Vue.md",
+                "file": "3. 多线程/JUC.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "run build",
+                "query": "enter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "15. 前端/前端三剑客/7. Vue.md",
+                "file": "3. 多线程/JUC.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "15. 前端/前端三剑客/7. Vue.md",
+                "file": "3. 多线程/JUC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15. 前端/前端三剑客/7. Vue.md"
+                "file": "3. 多线程/JUC.md"
               }
             }
           },
@@ -159,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 336.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,23 +174,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c8de969a44ffd0ca",
+  "active": "81f61f2f049427fa",
   "lastOpenFiles": [
-    "15. 前端/前端三剑客/6. Node.js.md",
     "15. 前端/前端三剑客/7. Vue.md",
+    "未命名.md",
+    "单向数据流.md",
+    "6. 轮子/IDEA 快捷键.md",
+    "15. 前端/前端三剑客/6. Node.js.md",
+    "15. 前端/前端三剑客/4. 移动端.md",
+    "15. 前端/前端三剑客/3. JavaScript.md",
+    "15. 前端/前端三剑客/前端学习路线.md",
+    "15. 前端/前端三剑客/2. CSS.md",
     "webpack.config 1.js",
     "webpack.config.js",
     "Excalidraw/Drawing 2023-09-02 16.26.38.excalidraw.md",
     "6. 轮子/EasyExcel.md",
-    "15. 前端/前端三剑客/3. JavaScript.md",
     "Excalidraw",
     "15. 前端/前端三剑客/1. HTML.md",
     "15. 前端/前端三剑客/5. Ajax.md",
-    "15. 前端/前端三剑客/4. 移动端.md",
-    "15. 前端/前端三剑客/前端学习路线.md",
     "README.md",
     "2. Spring/Spring Security.md",
-    "15. 前端/前端三剑客/2. CSS.md",
     "1. SQL/MySQL.md",
     "7. 面试题/MySQL.md",
     "4. Redis/Redis.md",
@@ -208,9 +212,6 @@
     "vendor/docsify.js",
     "vendor",
     "13. 分布式全流程日志追踪/MDC.md",
-    "7. 面试题/多线程.md",
-    "6. 轮子/Vim.md",
-    "6. 轮子/IDEA 快捷键.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "未命名 3.canvas",
