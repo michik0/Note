@@ -1,23 +1,5 @@
 [
   {
-    "fileName": "未命名",
-    "relativePath": "未命名.md"
-  },
-  {
-    "fileName": "单向数据流",
-    "relativePath": "单向数据流.md"
-  },
-  {
-    "fileName": "README",
-    "relativePath": "README.md",
-    "headings": [
-      {
-        "heading": "Note",
-        "level": 1
-      }
-    ]
-  },
-  {
     "fileName": "@RequiresPermissions",
     "relativePath": "9. RUOYI/注解/@RequiresPermissions.md",
     "headings": [
@@ -118,6 +100,260 @@
       {
         "heading": "例子",
         "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "树型结构工具类",
+    "relativePath": "6. 轮子/树型结构工具类.md"
+  },
+  {
+    "fileName": "文件分割、合并",
+    "relativePath": "6. 轮子/文件分割、合并.md"
+  },
+  {
+    "fileName": "分布式事务",
+    "relativePath": "6. 轮子/分布式事务.md"
+  },
+  {
+    "fileName": "计算Java对象占用的内存大小",
+    "relativePath": "6. 轮子/其他/计算Java对象占用的内存大小.md",
+    "backlinks": [
+      {
+        "fileName": "Redis",
+        "link": "计算Java对象占用的内存大小",
+        "relativePath": "4. Redis/Redis.md"
+      }
+    ]
+  },
+  {
+    "fileName": "集成WebSocket",
+    "relativePath": "6. 轮子/WebSocket/集成WebSocket.md",
+    "headings": [
+      {
+        "heading": "1. 编码",
+        "level": 1
+      },
+      {
+        "heading": "WebSocketConfig",
+        "level": 2
+      },
+      {
+        "heading": "WebSocketServer",
+        "level": 2
+      },
+      {
+        "heading": "WebSocketSchedule",
+        "level": 2
+      },
+      {
+        "heading": "主启动类",
+        "level": 2
+      },
+      {
+        "heading": "代码效果",
+        "level": 2
+      },
+      {
+        "heading": "拓展",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "Vim",
+    "relativePath": "6. 轮子/Vim.md",
+    "headings": [
+      {
+        "heading": "翻半页",
+        "level": 3
+      },
+      {
+        "heading": "翻一页",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "集成Swagger",
+    "relativePath": "6. 轮子/Swagger/集成Swagger.md"
+  },
+  {
+    "fileName": "自定义RestTemplate",
+    "relativePath": "6. 轮子/Redis/自定义RestTemplate.md"
+  },
+  {
+    "fileName": "Mybatis-Generator",
+    "relativePath": "6. 轮子/Mybatis/Mybatis-Generator.md",
+    "headings": [
+      {
+        "heading": "POM",
+        "level": 1
+      },
+      {
+        "heading": "resources/generator/application.properties",
+        "level": 1
+      },
+      {
+        "heading": "resources/generator/generatorConfig.xml",
+        "level": 1
+      },
+      {
+        "heading": "点击插件运行",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "IDEA 快捷键",
+    "relativePath": "6. 轮子/IDEA 快捷键.md",
+    "headings": [
+      {
+        "heading": "类中搜索指定的方法",
+        "level": 3
+      },
+      {
+        "heading": "全局折叠/展开代码",
+        "level": 3
+      },
+      {
+        "heading": "全局",
+        "level": 4
+      },
+      {
+        "heading": "全局折叠代码",
+        "level": 5
+      },
+      {
+        "heading": "全局展开代码",
+        "level": 5
+      },
+      {
+        "heading": "局部",
+        "level": 4
+      },
+      {
+        "heading": "指定代码被块代码覆盖（if、try catch...）",
+        "level": 3
+      },
+      {
+        "heading": "快速将代码抽象为方法",
+        "level": 3
+      },
+      {
+        "heading": "查看抽象类其子类的实现",
+        "level": 3
+      },
+      {
+        "heading": "回溯上一步操作",
+        "level": 3
+      },
+      {
+        "heading": "回溯下一步操作",
+        "level": 3
+      },
+      {
+        "heading": "查看某个方法的调用链关系",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "HttpServletRequestWrapper",
+    "relativePath": "6. 轮子/HttpServletRequestWrapper.md",
+    "headings": [
+      {
+        "heading": "思考",
+        "level": 2
+      },
+      {
+        "heading": "HttpServletRequestWrapper 介绍",
+        "level": 2
+      },
+      {
+        "heading": "HttpServletRequestWrapper 具体实战",
+        "level": 2
+      },
+      {
+        "heading": "请求头处理",
+        "level": 3
+      },
+      {
+        "heading": "请求头装饰类",
+        "level": 4
+      },
+      {
+        "heading": "请求头过滤器",
+        "level": 4
+      },
+      {
+        "heading": "请求参数处理",
+        "level": 3
+      },
+      {
+        "heading": "请求参数装饰类",
+        "level": 4
+      },
+      {
+        "heading": "请求参数过滤器",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "fileName": "EasyExcel",
+    "relativePath": "6. 轮子/EasyExcel.md",
+    "headings": [
+      {
+        "heading": "POM 依赖",
+        "level": 1
+      },
+      {
+        "heading": "EXCEL映射类",
+        "level": 1
+      },
+      {
+        "heading": "Web下载",
+        "level": 1
+      },
+      {
+        "heading": "Excel数据监听器",
+        "level": 1
+      },
+      {
+        "heading": "Web上传",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "AOP",
+    "relativePath": "6. 轮子/AOP.md",
+    "headings": [
+      {
+        "heading": "实操一： AOP 记录接口访问日志",
+        "level": 1
+      },
+      {
+        "heading": "实操二：Spring实现多数据源切换",
+        "level": 1
+      },
+      {
+        "heading": "总体流程",
+        "level": 2
+      },
+      {
+        "heading": "代码实现",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "【面经】",
+        "link": "AOP#实操二：Spring实现多数据源切换",
+        "relativePath": "7. 面试题/【面经】.md",
+        "cleanLink": "AOP",
+        "displayText": "参考AOP：Spring数据源切换"
       }
     ]
   },
@@ -2340,260 +2576,6 @@
     ]
   },
   {
-    "fileName": "树型结构工具类",
-    "relativePath": "6. 轮子/树型结构工具类.md"
-  },
-  {
-    "fileName": "文件分割、合并",
-    "relativePath": "6. 轮子/文件分割、合并.md"
-  },
-  {
-    "fileName": "分布式事务",
-    "relativePath": "6. 轮子/分布式事务.md"
-  },
-  {
-    "fileName": "计算Java对象占用的内存大小",
-    "relativePath": "6. 轮子/其他/计算Java对象占用的内存大小.md",
-    "backlinks": [
-      {
-        "fileName": "Redis",
-        "link": "计算Java对象占用的内存大小",
-        "relativePath": "4. Redis/Redis.md"
-      }
-    ]
-  },
-  {
-    "fileName": "集成WebSocket",
-    "relativePath": "6. 轮子/WebSocket/集成WebSocket.md",
-    "headings": [
-      {
-        "heading": "1. 编码",
-        "level": 1
-      },
-      {
-        "heading": "WebSocketConfig",
-        "level": 2
-      },
-      {
-        "heading": "WebSocketServer",
-        "level": 2
-      },
-      {
-        "heading": "WebSocketSchedule",
-        "level": 2
-      },
-      {
-        "heading": "主启动类",
-        "level": 2
-      },
-      {
-        "heading": "代码效果",
-        "level": 2
-      },
-      {
-        "heading": "拓展",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "Vim",
-    "relativePath": "6. 轮子/Vim.md",
-    "headings": [
-      {
-        "heading": "翻半页",
-        "level": 3
-      },
-      {
-        "heading": "翻一页",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "集成Swagger",
-    "relativePath": "6. 轮子/Swagger/集成Swagger.md"
-  },
-  {
-    "fileName": "自定义RestTemplate",
-    "relativePath": "6. 轮子/Redis/自定义RestTemplate.md"
-  },
-  {
-    "fileName": "Mybatis-Generator",
-    "relativePath": "6. 轮子/Mybatis/Mybatis-Generator.md",
-    "headings": [
-      {
-        "heading": "POM",
-        "level": 1
-      },
-      {
-        "heading": "resources/generator/application.properties",
-        "level": 1
-      },
-      {
-        "heading": "resources/generator/generatorConfig.xml",
-        "level": 1
-      },
-      {
-        "heading": "点击插件运行",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "IDEA 快捷键",
-    "relativePath": "6. 轮子/IDEA 快捷键.md",
-    "headings": [
-      {
-        "heading": "类中搜索指定的方法",
-        "level": 3
-      },
-      {
-        "heading": "全局折叠/展开代码",
-        "level": 3
-      },
-      {
-        "heading": "全局",
-        "level": 4
-      },
-      {
-        "heading": "全局折叠代码",
-        "level": 5
-      },
-      {
-        "heading": "全局展开代码",
-        "level": 5
-      },
-      {
-        "heading": "局部",
-        "level": 4
-      },
-      {
-        "heading": "指定代码被块代码覆盖（if、try catch...）",
-        "level": 3
-      },
-      {
-        "heading": "快速将代码抽象为方法",
-        "level": 3
-      },
-      {
-        "heading": "查看抽象类其子类的实现",
-        "level": 3
-      },
-      {
-        "heading": "回溯上一步操作",
-        "level": 3
-      },
-      {
-        "heading": "回溯下一步操作",
-        "level": 3
-      },
-      {
-        "heading": "查看某个方法的调用链关系",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "HttpServletRequestWrapper",
-    "relativePath": "6. 轮子/HttpServletRequestWrapper.md",
-    "headings": [
-      {
-        "heading": "思考",
-        "level": 2
-      },
-      {
-        "heading": "HttpServletRequestWrapper 介绍",
-        "level": 2
-      },
-      {
-        "heading": "HttpServletRequestWrapper 具体实战",
-        "level": 2
-      },
-      {
-        "heading": "请求头处理",
-        "level": 3
-      },
-      {
-        "heading": "请求头装饰类",
-        "level": 4
-      },
-      {
-        "heading": "请求头过滤器",
-        "level": 4
-      },
-      {
-        "heading": "请求参数处理",
-        "level": 3
-      },
-      {
-        "heading": "请求参数装饰类",
-        "level": 4
-      },
-      {
-        "heading": "请求参数过滤器",
-        "level": 4
-      }
-    ]
-  },
-  {
-    "fileName": "EasyExcel",
-    "relativePath": "6. 轮子/EasyExcel.md",
-    "headings": [
-      {
-        "heading": "POM 依赖",
-        "level": 1
-      },
-      {
-        "heading": "EXCEL映射类",
-        "level": 1
-      },
-      {
-        "heading": "Web下载",
-        "level": 1
-      },
-      {
-        "heading": "Excel数据监听器",
-        "level": 1
-      },
-      {
-        "heading": "Web上传",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "AOP",
-    "relativePath": "6. 轮子/AOP.md",
-    "headings": [
-      {
-        "heading": "实操一： AOP 记录接口访问日志",
-        "level": 1
-      },
-      {
-        "heading": "实操二：Spring实现多数据源切换",
-        "level": 1
-      },
-      {
-        "heading": "总体流程",
-        "level": 2
-      },
-      {
-        "heading": "代码实现",
-        "level": 2
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "【面经】",
-        "link": "AOP#实操二：Spring实现多数据源切换",
-        "relativePath": "7. 面试题/【面经】.md",
-        "cleanLink": "AOP",
-        "displayText": "参考AOP：Spring数据源切换"
-      }
-    ]
-  },
-  {
     "fileName": "分布式事务",
     "relativePath": "5. 分布式事务/分布式事务.md",
     "tags": [
@@ -2865,6 +2847,648 @@
         "link": "分布式事务",
         "displayText": "分布式事务中常见的几种理论模型",
         "relativePath": "5. 分布式事务/分布式事务.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Maven手动导入依赖包",
+    "relativePath": "11. Maven/Maven手动导入依赖包.md"
+  },
+  {
+    "fileName": "Spring Security",
+    "relativePath": "2. Spring/Spring Security.md",
+    "headings": [
+      {
+        "heading": "第一章 权限管理",
+        "level": 1
+      },
+      {
+        "heading": "权限管理",
+        "level": 2
+      },
+      {
+        "heading": "认证",
+        "level": 3
+      },
+      {
+        "heading": "授权",
+        "level": 3
+      },
+      {
+        "heading": "解决方案",
+        "level": 3
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "官方定义",
+        "level": 3
+      },
+      {
+        "heading": "历史",
+        "level": 3
+      },
+      {
+        "heading": "整体架构",
+        "level": 2
+      },
+      {
+        "heading": "认证",
+        "level": 3
+      },
+      {
+        "heading": "AuthenticationManager",
+        "level": 4
+      },
+      {
+        "heading": "Authentication",
+        "level": 4
+      },
+      {
+        "heading": "SecurityContextHolder",
+        "level": 4
+      },
+      {
+        "heading": "授权",
+        "level": 3
+      },
+      {
+        "heading": "AccessDecisionManager",
+        "level": 4
+      },
+      {
+        "heading": "AccessDecisionVoter",
+        "level": 4
+      },
+      {
+        "heading": "ConfigAttribute",
+        "level": 4
+      },
+      {
+        "heading": "第二章 环境搭建",
+        "level": 1
+      },
+      {
+        "heading": "环境搭建",
+        "level": 2
+      },
+      {
+        "heading": "创建项目",
+        "level": 3
+      },
+      {
+        "heading": "启动项目进行测试",
+        "level": 3
+      },
+      {
+        "heading": "整合 Spring Security",
+        "level": 3
+      },
+      {
+        "heading": "实现原理",
+        "level": 3
+      },
+      {
+        "heading": "Security Filters",
+        "level": 3
+      },
+      {
+        "heading": "SpringBootWebSecurityConfiguration",
+        "level": 3
+      },
+      {
+        "heading": "流程分析",
+        "level": 3
+      },
+      {
+        "heading": "默认用户生成",
+        "level": 3
+      },
+      {
+        "heading": "UserDetailService",
+        "level": 3
+      },
+      {
+        "heading": "UserDetailServiceAutoConfigutation",
+        "level": 3
+      },
+      {
+        "heading": "总结",
+        "level": 3
+      },
+      {
+        "heading": "第三章 认证原理&自定义认证",
+        "level": 1
+      },
+      {
+        "heading": "自定义资源权限规则",
+        "level": 2
+      },
+      {
+        "heading": "自定义登录界面",
+        "level": 2
+      },
+      {
+        "heading": "自定义登录成功处理",
+        "level": 2
+      },
+      {
+        "heading": "显示登录失败信息",
+        "level": 2
+      },
+      {
+        "heading": "自定义登录失败处理",
+        "level": 2
+      },
+      {
+        "heading": "注销登录",
+        "level": 2
+      },
+      {
+        "heading": "登录用户数据获取",
+        "level": 2
+      },
+      {
+        "heading": "SecurityContextHolder",
+        "level": 3
+      },
+      {
+        "heading": "SecurityContextHolderStrategy",
+        "level": 3
+      },
+      {
+        "heading": "代码中获取认证之后用户数据",
+        "level": 3
+      },
+      {
+        "heading": "多线程情况下获取用户数据",
+        "level": 3
+      },
+      {
+        "heading": "页面上获取用户信息",
+        "level": 3
+      },
+      {
+        "heading": "自定义认证数据源",
+        "level": 2
+      },
+      {
+        "heading": "认证流程分析",
+        "level": 3
+      },
+      {
+        "heading": "三者关系",
+        "level": 3
+      },
+      {
+        "heading": "配置全局 AuthenticationManager",
+        "level": 3
+      },
+      {
+        "heading": "自定义内存数据源",
+        "level": 3
+      },
+      {
+        "heading": "自定义数据库数据源",
+        "level": 3
+      },
+      {
+        "heading": "添加认证验证码",
+        "level": 2
+      },
+      {
+        "heading": "配置验证码",
+        "level": 3
+      },
+      {
+        "heading": "添加验证码",
+        "level": 2
+      },
+      {
+        "heading": "配置验证码",
+        "level": 3
+      },
+      {
+        "heading": "传统 web 开发",
+        "level": 4
+      },
+      {
+        "heading": "前后端分离开发",
+        "level": 4
+      },
+      {
+        "heading": "第四章 密码加密",
+        "level": 1
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "加密意义",
+        "level": 3
+      },
+      {
+        "heading": "常见方案",
+        "level": 3
+      },
+      {
+        "heading": "Hash 算法",
+        "level": 4
+      },
+      {
+        "heading": "单向自适应函数",
+        "level": 4
+      },
+      {
+        "heading": "PasswordEncoder",
+        "level": 2
+      },
+      {
+        "heading": "DelegatingPasswordEncoder",
+        "level": 2
+      },
+      {
+        "heading": "DelegatingPasswordEncoder源码",
+        "level": 4
+      },
+      {
+        "heading": "PasswordEncoderFactories",
+        "level": 4
+      },
+      {
+        "heading": "如何使用 PasswordEncoder",
+        "level": 2
+      },
+      {
+        "heading": "密码加密实战",
+        "level": 2
+      },
+      {
+        "heading": "密码自动升级",
+        "level": 2
+      },
+      {
+        "heading": "第五章 RememberMe",
+        "level": 1
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "基本使用",
+        "level": 2
+      },
+      {
+        "heading": "开启记住我",
+        "level": 3
+      },
+      {
+        "heading": "使用记住我",
+        "level": 3
+      },
+      {
+        "heading": "原理分析",
+        "level": 2
+      },
+      {
+        "heading": "RememberMeAuthenticationFilter",
+        "level": 3
+      },
+      {
+        "heading": "RememberMeServices",
+        "level": 3
+      },
+      {
+        "heading": "TokenBasedRememberMeServices",
+        "level": 3
+      },
+      {
+        "heading": "总结",
+        "level": 3
+      },
+      {
+        "heading": "内存令牌",
+        "level": 2
+      },
+      {
+        "heading": "PersistentTokenBasedRememberMeServices",
+        "level": 3
+      },
+      {
+        "heading": "使用内存中令牌实现",
+        "level": 3
+      },
+      {
+        "heading": "持久化令牌",
+        "level": 2
+      },
+      {
+        "heading": "自定义记住我",
+        "level": 2
+      },
+      {
+        "heading": "查看记住我源码",
+        "level": 3
+      },
+      {
+        "heading": "传统 web 开发记住我实现",
+        "level": 3
+      },
+      {
+        "heading": "前后端分离开发实现记住我",
+        "level": 3
+      },
+      {
+        "heading": "第六章 会话管理",
+        "level": 1
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "会话并发管理",
+        "level": 2
+      },
+      {
+        "heading": "简介",
+        "level": 3
+      },
+      {
+        "heading": "开启会话管理",
+        "level": 3
+      },
+      {
+        "heading": "测试会话管理",
+        "level": 3
+      },
+      {
+        "heading": "会话失效处理",
+        "level": 2
+      },
+      {
+        "heading": "传统 web 开发处理",
+        "level": 3
+      },
+      {
+        "heading": "前后端分离开发处理",
+        "level": 3
+      },
+      {
+        "heading": "禁止再次登录",
+        "level": 2
+      },
+      {
+        "heading": "集群下会话共享",
+        "level": 2
+      },
+      {
+        "heading": "实战",
+        "level": 3
+      },
+      {
+        "heading": "测试",
+        "level": 4
+      },
+      {
+        "heading": "第七章 CSRF漏洞保护",
+        "level": 1
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "CSRF攻击演示",
+        "level": 2
+      },
+      {
+        "heading": "创建银行应用",
+        "level": 3
+      },
+      {
+        "heading": "创建恶意攻击应用",
+        "level": 3
+      },
+      {
+        "heading": "测试",
+        "level": 3
+      },
+      {
+        "heading": "CSRF 防御",
+        "level": 2
+      },
+      {
+        "heading": "令牌同步模式",
+        "level": 3
+      },
+      {
+        "heading": "测试恶意应用是否还能进行转账",
+        "level": 4
+      },
+      {
+        "heading": "传统web开发使用CSRF",
+        "level": 2
+      },
+      {
+        "heading": "前后端分离使用 CSRF",
+        "level": 2
+      },
+      {
+        "heading": "第八章 跨域",
+        "level": 1
+      },
+      {
+        "heading": "简介",
+        "level": 2
+      },
+      {
+        "heading": "什么是CORS",
+        "level": 2
+      },
+      {
+        "heading": "简单请求",
+        "level": 3
+      },
+      {
+        "heading": "非简单请求",
+        "level": 3
+      },
+      {
+        "heading": "Spring 跨域解决方案",
+        "level": 2
+      },
+      {
+        "heading": "@CrossOrigin",
+        "level": 3
+      },
+      {
+        "heading": "addCrosMapping",
+        "level": 3
+      },
+      {
+        "heading": "CrosFilter",
+        "level": 3
+      },
+      {
+        "heading": "Spring Security 跨域解决方案",
+        "level": 2
+      },
+      {
+        "heading": "原理分析",
+        "level": 3
+      },
+      {
+        "heading": "解决方案",
+        "level": 3
+      },
+      {
+        "heading": "第九章 异常处理",
+        "level": 1
+      },
+      {
+        "heading": "异常体系",
+        "level": 2
+      },
+      {
+        "heading": "自定义异常处理配置",
+        "level": 2
+      },
+      {
+        "heading": "第十章 授权",
+        "level": 1
+      },
+      {
+        "heading": "认证",
+        "level": 2
+      },
+      {
+        "heading": "授权",
+        "level": 2
+      },
+      {
+        "heading": "授权核心概念",
+        "level": 2
+      },
+      {
+        "heading": "权限管理策略",
+        "level": 2
+      },
+      {
+        "heading": "基于URL权限管理",
+        "level": 2
+      },
+      {
+        "heading": "权限表达式",
+        "level": 3
+      },
+      {
+        "heading": "基于方法权限管理",
+        "level": 2
+      },
+      {
+        "heading": "@EnableGlobalMethodSecurity",
+        "level": 3
+      },
+      {
+        "heading": "基本用法",
+        "level": 3
+      },
+      {
+        "heading": "原理分析",
+        "level": 2
+      },
+      {
+        "heading": "源码分析",
+        "level": 2
+      },
+      {
+        "heading": "实战",
+        "level": 2
+      },
+      {
+        "heading": "第十一章 OAuth2",
+        "level": 1
+      },
+      {
+        "heading": "OAuth2 简介",
+        "level": 2
+      },
+      {
+        "heading": "OAuth2 授权总体流程",
+        "level": 2
+      },
+      {
+        "heading": "四种授权模式",
+        "level": 2
+      },
+      {
+        "heading": "授权码模式",
+        "level": 3
+      },
+      {
+        "heading": "简化模式",
+        "level": 3
+      },
+      {
+        "heading": "密码模式",
+        "level": 3
+      },
+      {
+        "heading": "客户端模式",
+        "level": 3
+      },
+      {
+        "heading": "OAuth2 标准接口",
+        "level": 2
+      },
+      {
+        "heading": "Github授权登陆",
+        "level": 2
+      },
+      {
+        "heading": "Github创建OAuth应用",
+        "level": 3
+      },
+      {
+        "heading": "项目开发",
+        "level": 3
+      },
+      {
+        "heading": "Spring Security OAuth2",
+        "level": 2
+      },
+      {
+        "heading": "授权、资源服务器",
+        "level": 2
+      },
+      {
+        "heading": "授权服务器搭建",
+        "level": 3
+      },
+      {
+        "heading": "2. 基于数据库客户端和令牌存储",
+        "level": 3
+      },
+      {
+        "heading": "资源服务器搭建",
+        "level": 3
+      },
+      {
+        "heading": "JWT",
+        "level": 2
+      },
+      {
+        "heading": "授权服务器颁发JWT令牌",
+        "level": 3
+      },
+      {
+        "heading": "使用JWT令牌资源服务器",
+        "level": 3
       }
     ]
   },
@@ -5631,640 +6255,379 @@
     ]
   },
   {
-    "fileName": "Spring Security",
-    "relativePath": "2. Spring/Spring Security.md",
+    "fileName": "Zabbix",
+    "relativePath": "12. 分布式监控/Zabbix.md",
+    "tags": [
+      "todo"
+    ]
+  },
+  {
+    "fileName": "责任链模式",
+    "relativePath": "10. 设计模式/责任链模式.md",
     "headings": [
       {
-        "heading": "第一章 权限管理",
+        "heading": "业务场景",
         "level": 1
       },
       {
-        "heading": "权限管理",
-        "level": 2
-      },
-      {
-        "heading": "认证",
-        "level": 3
-      },
-      {
-        "heading": "授权",
-        "level": 3
-      },
-      {
-        "heading": "解决方案",
-        "level": 3
-      },
-      {
-        "heading": "简介",
-        "level": 2
-      },
-      {
-        "heading": "官方定义",
-        "level": 3
-      },
-      {
-        "heading": "历史",
-        "level": 3
-      },
-      {
-        "heading": "整体架构",
-        "level": 2
-      },
-      {
-        "heading": "认证",
-        "level": 3
-      },
-      {
-        "heading": "AuthenticationManager",
-        "level": 4
-      },
-      {
-        "heading": "Authentication",
-        "level": 4
-      },
-      {
-        "heading": "SecurityContextHolder",
-        "level": 4
-      },
-      {
-        "heading": "授权",
-        "level": 3
-      },
-      {
-        "heading": "AccessDecisionManager",
-        "level": 4
-      },
-      {
-        "heading": "AccessDecisionVoter",
-        "level": 4
-      },
-      {
-        "heading": "ConfigAttribute",
-        "level": 4
-      },
-      {
-        "heading": "第二章 环境搭建",
+        "heading": "一般写法",
         "level": 1
       },
       {
-        "heading": "环境搭建",
-        "level": 2
-      },
-      {
-        "heading": "创建项目",
-        "level": 3
-      },
-      {
-        "heading": "启动项目进行测试",
-        "level": 3
-      },
-      {
-        "heading": "整合 Spring Security",
-        "level": 3
-      },
-      {
-        "heading": "实现原理",
-        "level": 3
-      },
-      {
-        "heading": "Security Filters",
-        "level": 3
-      },
-      {
-        "heading": "SpringBootWebSecurityConfiguration",
-        "level": 3
-      },
-      {
-        "heading": "流程分析",
-        "level": 3
-      },
-      {
-        "heading": "默认用户生成",
-        "level": 3
-      },
-      {
-        "heading": "UserDetailService",
-        "level": 3
-      },
-      {
-        "heading": "UserDetailServiceAutoConfigutation",
-        "level": 3
-      },
-      {
-        "heading": "总结",
-        "level": 3
-      },
-      {
-        "heading": "第三章 认证原理&自定义认证",
+        "heading": "使用责任链模式定义",
         "level": 1
       },
       {
-        "heading": "自定义资源权限规则",
+        "heading": "采用责任链模式",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "责任链模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "观察者模式",
+    "relativePath": "10. 设计模式/观察者模式.md",
+    "headings": [
+      {
+        "heading": "业务场景",
+        "level": 1
+      },
+      {
+        "heading": "观察者模式定义",
+        "level": 1
+      },
+      {
+        "heading": "使用观察者模式",
+        "level": 1
+      },
+      {
+        "heading": "简易的观察者模式DEMO",
+        "level": 1
+      },
+      {
+        "heading": "EventBus 实战",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "观察者模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "策略模式",
+    "relativePath": "10. 设计模式/策略模式.md",
+    "headings": [
+      {
+        "heading": "业务场景",
+        "level": 1
+      },
+      {
+        "heading": "普通写法",
+        "level": 1
+      },
+      {
+        "heading": "采用策略模式",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "策略模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "模版模式",
+    "relativePath": "10. 设计模式/模版模式.md",
+    "headings": [
+      {
+        "heading": "业务场景",
+        "level": 1
+      },
+      {
+        "heading": "普通写法",
+        "level": 1
+      },
+      {
+        "heading": "使用模版模式",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "模版模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "工厂模式",
+    "relativePath": "10. 设计模式/工厂模式.md",
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "工厂模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "单例模式",
+    "relativePath": "10. 设计模式/单例模式.md",
+    "headings": [
+      {
+        "heading": "业务场景",
+        "level": 1
+      },
+      {
+        "heading": "单例模式的经典写法",
+        "level": 1
+      },
+      {
+        "heading": "1.懒汉模式",
         "level": 2
       },
       {
-        "heading": "自定义登录界面",
+        "heading": "2. 饿汉模式",
         "level": 2
       },
       {
-        "heading": "自定义登录成功处理",
+        "heading": "3. 双重校验锁",
         "level": 2
       },
       {
-        "heading": "显示登录失败信息",
+        "heading": "4. 静态内部类",
         "level": 2
       },
       {
-        "heading": "自定义登录失败处理",
+        "heading": "5. 枚举",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "设计模式",
+        "link": "单例模式",
+        "relativePath": "7. 面试题/设计模式.md"
+      }
+    ]
+  },
+  {
+    "fileName": "前端学习路线",
+    "relativePath": "15. 前端/前端三剑客/前端学习路线.md"
+  },
+  {
+    "fileName": "4. 移动端",
+    "relativePath": "15. 前端/前端三剑客/4. 移动端.md",
+    "headings": [
+      {
+        "heading": "1. 移动端基础",
+        "level": 1
+      },
+      {
+        "heading": "2. 视口",
+        "level": 1
+      },
+      {
+        "heading": "2.1 布局视口",
         "level": 2
       },
       {
-        "heading": "注销登录",
+        "heading": "2.2 视觉视口",
         "level": 2
       },
       {
-        "heading": "登录用户数据获取",
+        "heading": "2.3 理想视口",
         "level": 2
       },
       {
-        "heading": "SecurityContextHolder",
-        "level": 3
-      },
-      {
-        "heading": "SecurityContextHolderStrategy",
-        "level": 3
-      },
-      {
-        "heading": "代码中获取认证之后用户数据",
-        "level": 3
-      },
-      {
-        "heading": "多线程情况下获取用户数据",
-        "level": 3
-      },
-      {
-        "heading": "页面上获取用户信息",
-        "level": 3
-      },
-      {
-        "heading": "自定义认证数据源",
+        "heading": "2.4 meta 视口标签",
         "level": 2
       },
       {
-        "heading": "认证流程分析",
-        "level": 3
+        "heading": "3. 二倍图",
+        "level": 1
       },
       {
-        "heading": "三者关系",
-        "level": 3
-      },
-      {
-        "heading": "配置全局 AuthenticationManager",
-        "level": 3
-      },
-      {
-        "heading": "自定义内存数据源",
-        "level": 3
-      },
-      {
-        "heading": "自定义数据库数据源",
-        "level": 3
-      },
-      {
-        "heading": "添加认证验证码",
+        "heading": "3.1 物理像素 & 物理像素比",
         "level": 2
       },
       {
-        "heading": "配置验证码",
-        "level": 3
-      },
-      {
-        "heading": "添加验证码",
+        "heading": "3.2 多倍图",
         "level": 2
       },
       {
-        "heading": "配置验证码",
+        "heading": "3.3 背景缩放 background-size",
+        "level": 2
+      },
+      {
+        "heading": "4. 移动端开发选择",
+        "level": 1
+      },
+      {
+        "heading": "4.1 单独制作移动端页面（主流）",
+        "level": 2
+      },
+      {
+        "heading": "4.2 响应式页面兼容移动端（其次）",
+        "level": 2
+      },
+      {
+        "heading": "5. 移动端技术解决方案",
+        "level": 1
+      },
+      {
+        "heading": "5.1 移动端浏览器",
+        "level": 2
+      },
+      {
+        "heading": "5.2 CSS 初始化",
+        "level": 2
+      },
+      {
+        "heading": "5.3 特殊样式",
+        "level": 2
+      },
+      {
+        "heading": "6. 移动端常见的布局",
+        "level": 1
+      },
+      {
+        "heading": "6.1 流式布局（百分比布局）",
+        "level": 2
+      },
+      {
+        "heading": "6.2 flex 布局",
+        "level": 2
+      },
+      {
+        "heading": "6.2.1 传统布局与flex布局",
         "level": 3
       },
       {
-        "heading": "传统 web 开发",
+        "heading": "6.2.2 初体验",
+        "level": 3
+      },
+      {
+        "heading": "6.2.2 flex布局原理",
+        "level": 3
+      },
+      {
+        "heading": "6.2.3 flex 布局父项常见属性",
+        "level": 3
+      },
+      {
+        "heading": "6.2.3.1 flex-direction：设置主轴的方向",
         "level": 4
       },
       {
-        "heading": "前后端分离开发",
+        "heading": "6.2.3.2 justify-content：设置**主轴**上的子元素排列方式",
         "level": 4
       },
       {
-        "heading": "第四章 密码加密",
-        "level": 1
-      },
-      {
-        "heading": "简介",
-        "level": 2
-      },
-      {
-        "heading": "加密意义",
-        "level": 3
-      },
-      {
-        "heading": "常见方案",
-        "level": 3
-      },
-      {
-        "heading": "Hash 算法",
+        "heading": "6.2.3.3 flex-wrap：设置子元素是否换行",
         "level": 4
       },
       {
-        "heading": "单向自适应函数",
+        "heading": "6.2.3.4 align-items 设置**侧轴**上的子元素排列方式 **（单行）**",
         "level": 4
       },
       {
-        "heading": "PasswordEncoder",
-        "level": 2
-      },
-      {
-        "heading": "DelegatingPasswordEncoder",
-        "level": 2
-      },
-      {
-        "heading": "DelegatingPasswordEncoder源码",
+        "heading": "6.2.3.5 align-content 设置**侧轴**上的子元素的排列方式 **（多行)**",
         "level": 4
       },
       {
-        "heading": "PasswordEncoderFactories",
+        "heading": "6.2.3.6 align-content 和 align-items 区别",
         "level": 4
       },
       {
-        "heading": "如何使用 PasswordEncoder",
-        "level": 2
-      },
-      {
-        "heading": "密码加密实战",
-        "level": 2
-      },
-      {
-        "heading": "密码自动升级",
-        "level": 2
-      },
-      {
-        "heading": "第五章 RememberMe",
-        "level": 1
-      },
-      {
-        "heading": "简介",
-        "level": 2
-      },
-      {
-        "heading": "基本使用",
-        "level": 2
-      },
-      {
-        "heading": "开启记住我",
-        "level": 3
-      },
-      {
-        "heading": "使用记住我",
-        "level": 3
-      },
-      {
-        "heading": "原理分析",
-        "level": 2
-      },
-      {
-        "heading": "RememberMeAuthenticationFilter",
-        "level": 3
-      },
-      {
-        "heading": "RememberMeServices",
-        "level": 3
-      },
-      {
-        "heading": "TokenBasedRememberMeServices",
-        "level": 3
-      },
-      {
-        "heading": "总结",
-        "level": 3
-      },
-      {
-        "heading": "内存令牌",
-        "level": 2
-      },
-      {
-        "heading": "PersistentTokenBasedRememberMeServices",
-        "level": 3
-      },
-      {
-        "heading": "使用内存中令牌实现",
-        "level": 3
-      },
-      {
-        "heading": "持久化令牌",
-        "level": 2
-      },
-      {
-        "heading": "自定义记住我",
-        "level": 2
-      },
-      {
-        "heading": "查看记住我源码",
-        "level": 3
-      },
-      {
-        "heading": "传统 web 开发记住我实现",
-        "level": 3
-      },
-      {
-        "heading": "前后端分离开发实现记住我",
-        "level": 3
-      },
-      {
-        "heading": "第六章 会话管理",
-        "level": 1
-      },
-      {
-        "heading": "简介",
-        "level": 2
-      },
-      {
-        "heading": "会话并发管理",
-        "level": 2
-      },
-      {
-        "heading": "简介",
-        "level": 3
-      },
-      {
-        "heading": "开启会话管理",
-        "level": 3
-      },
-      {
-        "heading": "测试会话管理",
-        "level": 3
-      },
-      {
-        "heading": "会话失效处理",
-        "level": 2
-      },
-      {
-        "heading": "传统 web 开发处理",
-        "level": 3
-      },
-      {
-        "heading": "前后端分离开发处理",
-        "level": 3
-      },
-      {
-        "heading": "禁止再次登录",
-        "level": 2
-      },
-      {
-        "heading": "集群下会话共享",
-        "level": 2
-      },
-      {
-        "heading": "实战",
-        "level": 3
-      },
-      {
-        "heading": "测试",
+        "heading": "6.2.3.7 flex-flow",
         "level": 4
       },
       {
-        "heading": "第七章 CSRF漏洞保护",
-        "level": 1
-      },
-      {
-        "heading": "简介",
-        "level": 2
-      },
-      {
-        "heading": "CSRF攻击演示",
-        "level": 2
-      },
-      {
-        "heading": "创建银行应用",
+        "heading": "6.2.4 flex 布局子项常见属性",
         "level": 3
       },
       {
-        "heading": "创建恶意攻击应用",
-        "level": 3
-      },
-      {
-        "heading": "测试",
-        "level": 3
-      },
-      {
-        "heading": "CSRF 防御",
-        "level": 2
-      },
-      {
-        "heading": "令牌同步模式",
-        "level": 3
-      },
-      {
-        "heading": "测试恶意应用是否还能进行转账",
+        "heading": "6.2.4.1 flex 属性",
         "level": 4
       },
       {
-        "heading": "传统web开发使用CSRF",
-        "level": 2
+        "heading": "6.2.4.2 align-self 属性",
+        "level": 4
       },
       {
-        "heading": "前后端分离使用 CSRF",
-        "level": 2
+        "heading": "6.2.4.3 order 属性",
+        "level": 4
       },
       {
-        "heading": "第八章 跨域",
-        "level": 1
-      },
-      {
-        "heading": "简介",
-        "level": 2
-      },
-      {
-        "heading": "什么是CORS",
-        "level": 2
-      },
-      {
-        "heading": "简单请求",
+        "heading": "6.2.4 携程案例",
         "level": 3
       },
       {
-        "heading": "非简单请求",
+        "heading": "6.3 rem 适配布局",
+        "level": 2
+      },
+      {
+        "heading": "6.3.1 rem 基础",
         "level": 3
       },
       {
-        "heading": "Spring 跨域解决方案",
-        "level": 2
-      },
-      {
-        "heading": "@CrossOrigin",
+        "heading": "6.3.2 媒体查询",
         "level": 3
       },
       {
-        "heading": "addCrosMapping",
+        "heading": "6.3.2.1 什么是媒体查询",
+        "level": 4
+      },
+      {
+        "heading": "6.3.2.2 语法规范",
+        "level": 4
+      },
+      {
+        "heading": "6.3.2.3 案例-修改背景颜色",
+        "level": 4
+      },
+      {
+        "heading": "6.3.2.4 媒体查询+rem实现动态元素大小变化",
+        "level": 4
+      },
+      {
+        "heading": "6.3.3 引入资源",
         "level": 3
       },
       {
-        "heading": "CrosFilter",
+        "heading": "6.3.4 rem 适配方案",
         "level": 3
       },
       {
-        "heading": "Spring Security 跨域解决方案",
-        "level": 2
+        "heading": "6.3.4.1 rem 实际开发适配方案",
+        "level": 4
       },
       {
-        "heading": "原理分析",
-        "level": 3
+        "heading": "6.3.4.2 rem 适配方案技术使用（市场主流）",
+        "level": 4
       },
       {
-        "heading": "解决方案",
-        "level": 3
+        "heading": "6.3.4.3 rem 适配方案1",
+        "level": 4
       },
       {
-        "heading": "第九章 异常处理",
-        "level": 1
-      },
-      {
-        "heading": "异常体系",
-        "level": 2
-      },
-      {
-        "heading": "自定义异常处理配置",
-        "level": 2
-      },
-      {
-        "heading": "第十章 授权",
-        "level": 1
-      },
-      {
-        "heading": "认证",
-        "level": 2
-      },
-      {
-        "heading": "授权",
-        "level": 2
-      },
-      {
-        "heading": "授权核心概念",
-        "level": 2
-      },
-      {
-        "heading": "权限管理策略",
-        "level": 2
-      },
-      {
-        "heading": "基于URL权限管理",
-        "level": 2
-      },
-      {
-        "heading": "权限表达式",
-        "level": 3
-      },
-      {
-        "heading": "基于方法权限管理",
-        "level": 2
-      },
-      {
-        "heading": "@EnableGlobalMethodSecurity",
-        "level": 3
-      },
-      {
-        "heading": "基本用法",
-        "level": 3
-      },
-      {
-        "heading": "原理分析",
-        "level": 2
-      },
-      {
-        "heading": "源码分析",
-        "level": 2
-      },
-      {
-        "heading": "实战",
-        "level": 2
-      },
-      {
-        "heading": "第十一章 OAuth2",
-        "level": 1
-      },
-      {
-        "heading": "OAuth2 简介",
-        "level": 2
-      },
-      {
-        "heading": "OAuth2 授权总体流程",
-        "level": 2
-      },
-      {
-        "heading": "四种授权模式",
-        "level": 2
-      },
-      {
-        "heading": "授权码模式",
-        "level": 3
-      },
-      {
-        "heading": "简化模式",
-        "level": 3
-      },
-      {
-        "heading": "密码模式",
-        "level": 3
-      },
-      {
-        "heading": "客户端模式",
-        "level": 3
-      },
-      {
-        "heading": "OAuth2 标准接口",
-        "level": 2
-      },
-      {
-        "heading": "Github授权登陆",
-        "level": 2
-      },
-      {
-        "heading": "Github创建OAuth应用",
-        "level": 3
-      },
-      {
-        "heading": "项目开发",
-        "level": 3
-      },
-      {
-        "heading": "Spring Security OAuth2",
-        "level": 2
-      },
-      {
-        "heading": "授权、资源服务器",
-        "level": 2
-      },
-      {
-        "heading": "授权服务器搭建",
-        "level": 3
-      },
-      {
-        "heading": "2. 基于数据库客户端和令牌存储",
-        "level": 3
-      },
-      {
-        "heading": "资源服务器搭建",
-        "level": 3
-      },
-      {
-        "heading": "JWT",
-        "level": 2
-      },
-      {
-        "heading": "授权服务器颁发JWT令牌",
-        "level": 3
-      },
-      {
-        "heading": "使用JWT令牌资源服务器",
-        "level": 3
+        "heading": "6.3.4.4 rem 适配方案2（官方github显示已废弃，推荐使用vw）",
+        "level": 4
       }
     ]
   },
@@ -6317,199 +6680,115 @@
         "level": 2
       },
       {
-        "heading": "1.5 Vue 指令",
+        "heading": "2 Vue 指令",
+        "level": 1
+      },
+      {
+        "heading": "2.1 v-html",
         "level": 2
       },
       {
-        "heading": "1.5.1 v-html",
-        "level": 3
+        "heading": "2.2 v-show 与 v-if",
+        "level": 2
       },
       {
-        "heading": "1.5.2 v-show 与 v-if",
+        "heading": "2.2.1 v-show",
         "level": 3
-      },
-      {
-        "heading": "v-show",
-        "level": 4
       },
       {
         "heading": "作用",
-        "level": 5
+        "level": 4
       },
       {
         "heading": "语法",
-        "level": 5
+        "level": 4
       },
       {
         "heading": "使用场景",
-        "level": 5
-      },
-      {
-        "heading": "v-if",
         "level": 4
       },
       {
+        "heading": "2.2.2 v-if",
+        "level": 3
+      },
+      {
         "heading": "作用",
-        "level": 5
+        "level": 4
       },
       {
         "heading": "语法",
-        "level": 5
+        "level": 4
       },
       {
         "heading": "原理",
-        "level": 5
+        "level": 4
       },
       {
         "heading": "场景",
-        "level": 5
+        "level": 4
       },
       {
-        "heading": "1.5.3 v-else 与 v-else-if",
+        "heading": "2.3 v-else 与 v-else-if",
+        "level": 2
+      },
+      {
+        "heading": "2.3.1 作用",
         "level": 3
       },
       {
-        "heading": "作用",
-        "level": 4
-      },
-      {
-        "heading": "语法",
-        "level": 4
-      },
-      {
-        "heading": "1.5.4 v-on",
+        "heading": "2.3.2 语法",
         "level": 3
       },
       {
-        "heading": "作用",
-        "level": 4
+        "heading": "2.4 v-on",
+        "level": 2
       },
       {
-        "heading": "语法",
-        "level": 4
+        "heading": "2.4.1 作用",
+        "level": 3
+      },
+      {
+        "heading": "2.4.2 语法",
+        "level": 3
       },
       {
         "heading": "语法一",
-        "level": 5
+        "level": 4
       },
       {
         "heading": "语法二",
-        "level": 5
+        "level": 4
       },
       {
         "heading": "简写",
-        "level": 5
+        "level": 4
       },
       {
         "heading": "调用传参",
         "level": 4
       },
       {
-        "heading": "1.5.5 v-bind",
-        "level": 3
-      },
-      {
-        "heading": "作用",
-        "level": 4
-      },
-      {
-        "heading": "语法",
-        "level": 4
-      },
-      {
-        "heading": "简写",
-        "level": 4
-      },
-      {
-        "heading": "1.5.6 v-for",
-        "level": 3
-      },
-      {
-        "heading": "作用",
-        "level": 4
-      },
-      {
-        "heading": "语法",
-        "level": 4
-      },
-      {
-        "heading": "v-for 中的 key",
-        "level": 4
-      },
-      {
-        "heading": "为什么需要 key？",
-        "level": 5
-      },
-      {
-        "heading": "作用",
-        "level": 5
-      },
-      {
-        "heading": "语法",
-        "level": 5
-      },
-      {
-        "heading": "注意点",
-        "level": 5
-      },
-      {
-        "heading": "1.5.7 v-model",
-        "level": 3
-      },
-      {
-        "heading": "作用",
-        "level": 4
-      },
-      {
-        "heading": "语法",
-        "level": 4
-      },
-      {
-        "heading": "1.6 指令修饰符",
+        "heading": "2.5 v-bind",
         "level": 2
       },
       {
-        "heading": "1.6.1 按键修饰符",
+        "heading": "2.5.1 作用",
         "level": 3
       },
       {
-        "heading": "`@keyup.enter`：监听键盘回车时间",
-        "level": 4
-      },
-      {
-        "heading": "1.6.2 v-model 修饰符",
+        "heading": "2.5.2 语法",
         "level": 3
       },
       {
-        "heading": "`v-model.trim`：去除首尾空格",
-        "level": 4
-      },
-      {
-        "heading": "`v-model.number`：转数字",
-        "level": 4
-      },
-      {
-        "heading": "1.6.3 事件修饰符",
+        "heading": "2.5.3 简写",
         "level": 3
       },
       {
-        "heading": "`事件名.stop`：阻止冒泡",
-        "level": 4
-      },
-      {
-        "heading": "`事件名.prevent`：阻止默认行为",
-        "level": 4
-      },
-      {
-        "heading": "1.7 v-bind 样式控制的增强",
-        "level": 2
-      },
-      {
-        "heading": "1.7.1 操作 class",
+        "heading": "2.5.4 v-bind 样式控制的增强",
         "level": 3
       },
       {
-        "heading": "语法",
+        "heading": "操作 class",
         "level": 4
       },
       {
@@ -6521,11 +6800,7 @@
         "level": 5
       },
       {
-        "heading": "1.7.2 操作 style",
-        "level": 3
-      },
-      {
-        "heading": "语法",
+        "heading": "操作 style",
         "level": 4
       },
       {
@@ -6533,111 +6808,179 @@
         "level": 4
       },
       {
-        "heading": "1.8 v-model 应用于其他表单元素",
+        "heading": "2.6 v-for",
         "level": 2
       },
       {
-        "heading": "1.9 计算属性",
-        "level": 2
-      },
-      {
-        "heading": "1.9.1 概念",
+        "heading": "2.6.1 作用",
         "level": 3
       },
       {
-        "heading": "1.9.2 语法",
+        "heading": "2.6.2 语法",
         "level": 3
       },
       {
-        "heading": "1.9.3 应用",
+        "heading": "2.6.3 v-for 中的 key",
         "level": 3
       },
       {
-        "heading": "1.9.4 computed 计算属性 与 methods 方法",
-        "level": 3
-      },
-      {
-        "heading": "computed 计算属性",
+        "heading": "为什么需要 key？",
         "level": 4
       },
       {
-        "heading": "methods 方法",
+        "heading": "作用",
         "level": 4
       },
       {
-        "heading": "1.9.5 计算属性完整写法",
-        "level": 3
+        "heading": "语法",
+        "level": 4
       },
       {
-        "heading": "1.10 watch 监听器（监视器）",
+        "heading": "注意点",
+        "level": 4
+      },
+      {
+        "heading": "2.7 v-model",
         "level": 2
       },
       {
-        "heading": "1.10.1 作用",
+        "heading": "2.7.1 作用",
         "level": 3
       },
       {
-        "heading": "1.10.2 语法",
+        "heading": "2.7.2 语法",
         "level": 3
       },
       {
-        "heading": "1.10.3 应用",
+        "heading": "2.7.3 v-model 应用于其他表单元素",
         "level": 3
       },
       {
-        "heading": "1.10.4 完整写法",
-        "level": 3
-      },
-      {
-        "heading": "1.11 Vue 生命周期",
+        "heading": "2.8 指令修饰符",
         "level": 2
       },
       {
-        "heading": "1.11.1 Vue 生命周期函数（钩子函数）",
+        "heading": "2.8.1 按键修饰符",
         "level": 3
       },
       {
-        "heading": "2 工程化开发 & 脚手架 Vue CLI",
+        "heading": "`@keyup.enter`：监听键盘回车时间",
+        "level": 4
+      },
+      {
+        "heading": "2.8.2 v-model 修饰符",
+        "level": 3
+      },
+      {
+        "heading": "`v-model.trim`：去除首尾空格",
+        "level": 4
+      },
+      {
+        "heading": "`v-model.number`：转数字",
+        "level": 4
+      },
+      {
+        "heading": "2.8.3 事件修饰符",
+        "level": 3
+      },
+      {
+        "heading": "`事件名.stop`：阻止冒泡",
+        "level": 4
+      },
+      {
+        "heading": "`事件名.prevent`：阻止默认行为",
+        "level": 4
+      },
+      {
+        "heading": "3 计算属性",
         "level": 1
       },
       {
-        "heading": "2.1 定义",
+        "heading": "3.1 概念",
         "level": 2
       },
       {
-        "heading": "2.2 好处",
+        "heading": "3.2 语法",
         "level": 2
       },
       {
-        "heading": "2.3 搭建步骤",
+        "heading": "3.3 应用",
         "level": 2
       },
       {
-        "heading": "2.4 脚手架目录文件介绍 & 项目运行流程",
+        "heading": "3.4 computed 计算属性 与 methods 方法",
         "level": 2
       },
       {
-        "heading": "3 组件化开发",
+        "heading": "3.5 计算属性完整写法",
+        "level": 2
+      },
+      {
+        "heading": "4 watch 监听器（监视器）",
         "level": 1
       },
       {
-        "heading": "3.1 组件化",
+        "heading": "4.1 作用",
         "level": 2
       },
       {
-        "heading": "3.2 根组件",
+        "heading": "4.2 语法",
         "level": 2
       },
       {
-        "heading": "3.3 单文件组件的三个组成部分",
+        "heading": "4.3 应用",
         "level": 2
       },
       {
-        "heading": "3.4 普通组件的注册使用",
+        "heading": "4.4 完整写法",
         "level": 2
       },
       {
-        "heading": "3.4.1 局部注册",
+        "heading": "5 Vue 生命周期",
+        "level": 1
+      },
+      {
+        "heading": "6 工程化开发 & 脚手架 Vue CLI",
+        "level": 1
+      },
+      {
+        "heading": "6.1 定义",
+        "level": 2
+      },
+      {
+        "heading": "6.2 好处",
+        "level": 2
+      },
+      {
+        "heading": "6.3 搭建步骤",
+        "level": 2
+      },
+      {
+        "heading": "6.4 脚手架目录文件介绍 & 项目运行流程",
+        "level": 2
+      },
+      {
+        "heading": "7 组件化开发",
+        "level": 1
+      },
+      {
+        "heading": "7.1 组件化",
+        "level": 2
+      },
+      {
+        "heading": "7.2 根组件",
+        "level": 2
+      },
+      {
+        "heading": "7.3 单文件组件的三个组成部分",
+        "level": 2
+      },
+      {
+        "heading": "7.4 普通组件的注册使用",
+        "level": 2
+      },
+      {
+        "heading": "7.4.1 局部注册",
         "level": 3
       },
       {
@@ -6653,7 +6996,7 @@
         "level": 5
       },
       {
-        "heading": "3.4.2 全局注册",
+        "heading": "7.4.2 全局注册",
         "level": 3
       },
       {
@@ -6669,71 +7012,63 @@
         "level": 5
       },
       {
-        "heading": "3.5 组件的样式冲突",
+        "heading": "7.5 data 函数",
         "level": 2
       },
       {
-        "heading": "3.6 data 函数",
+        "heading": "8 组件的样式冲突",
+        "level": 1
+      },
+      {
+        "heading": "9 组件通信",
+        "level": 1
+      },
+      {
+        "heading": "9.1 组件关系",
         "level": 2
       },
       {
-        "heading": "3.7 组件通信",
+        "heading": "9.2 通信解决方案",
         "level": 2
       },
       {
-        "heading": "3.7.1 组件关系",
-        "level": 3
-      },
-      {
-        "heading": "3.7.2 通信解决方案",
-        "level": 3
-      },
-      {
-        "heading": "3.7.3 父子通信流程图",
-        "level": 3
-      },
-      {
-        "heading": "父 -> 子",
-        "level": 4
-      },
-      {
-        "heading": "子 -> 父",
-        "level": 4
-      },
-      {
-        "heading": "3.7.4 非父子通信 - event bus 时间总线",
-        "level": 3
-      },
-      {
-        "heading": "步骤",
-        "level": 4
-      },
-      {
-        "heading": "3.7.5 非父子通信 - provide & inject",
-        "level": 3
-      },
-      {
-        "heading": "步骤",
-        "level": 4
-      },
-      {
-        "heading": "3.8 什么是 Prop ？",
+        "heading": "9.3 父子通信流程图",
         "level": 2
       },
       {
-        "heading": "3.8.1 定义",
+        "heading": "9.3.1 父 -> 子",
         "level": 3
       },
       {
-        "heading": "3.8.2 作用",
+        "heading": "9.3.2 子 -> 父",
         "level": 3
       },
       {
-        "heading": "3.8.3 特点",
+        "heading": "9.4 非父子通信 - event bus 时间总线",
+        "level": 2
+      },
+      {
+        "heading": "9.5 非父子通信 - provide & inject",
+        "level": 2
+      },
+      {
+        "heading": "9.6 什么是 Prop ？",
+        "level": 2
+      },
+      {
+        "heading": "9.6.1 定义",
         "level": 3
       },
       {
-        "heading": "3.8.4 props 校验",
+        "heading": "9.6.2 作用",
+        "level": 3
+      },
+      {
+        "heading": "9.6.3 特点",
+        "level": 3
+      },
+      {
+        "heading": "9.6.4 props 校验",
         "level": 3
       },
       {
@@ -6749,7 +7084,7 @@
         "level": 4
       },
       {
-        "heading": "3.8.5 prop 与 data",
+        "heading": "9.6.5 prop 与 data",
         "level": 3
       },
       {
@@ -6761,19 +7096,23 @@
         "level": 4
       },
       {
-        "heading": "3.9 vue-model 原理",
+        "heading": "10 进阶语法",
+        "level": 1
+      },
+      {
+        "heading": "10.1 vue-model 原理",
         "level": 2
       },
       {
-        "heading": "3.9.1 原理",
+        "heading": "10.1.1 原理",
         "level": 3
       },
       {
-        "heading": "3.9.2 作用",
+        "heading": "10.1.2 作用",
         "level": 3
       },
       {
-        "heading": "3.9.3 表单类组件封装 & v-model 简化代码",
+        "heading": "10.1.3 表单类组件封装 & v-model 简化代码",
         "level": 3
       },
       {
@@ -6785,23 +7124,23 @@
         "level": 4
       },
       {
-        "heading": "3.10 .sync 修饰符",
+        "heading": "10.2 .sync 修饰符",
         "level": 2
       },
       {
-        "heading": "3.10.1 作用",
+        "heading": "10.2.1 作用",
         "level": 3
       },
       {
-        "heading": "3.10.2 特点",
+        "heading": "10.2.2 特点",
         "level": 3
       },
       {
-        "heading": "3.10.3 场景",
+        "heading": "10.2.3 场景",
         "level": 3
       },
       {
-        "heading": "3.10.4 语法",
+        "heading": "10.2.4 语法",
         "level": 3
       },
       {
@@ -6813,19 +7152,19 @@
         "level": 4
       },
       {
-        "heading": "3.11 ref 和 $refs",
+        "heading": "10.3 ref 和 $refs",
         "level": 2
       },
       {
-        "heading": "3.11.1 作用",
+        "heading": "10.3.1 作用",
         "level": 3
       },
       {
-        "heading": "3.11.2 特点",
+        "heading": "10.3.2 特点",
         "level": 3
       },
       {
-        "heading": "3.11.3 语法",
+        "heading": "10.3.3 语法",
         "level": 3
       },
       {
@@ -6837,24 +7176,760 @@
         "level": 4
       },
       {
-        "heading": "3.12 Vue 异步更新机制 & $nextTick",
+        "heading": "10.4 Vue 异步更新机制 & $nextTick",
         "level": 2
       },
       {
-        "heading": "3.12.1 问题出现",
+        "heading": "10.4.1 问题出现",
         "level": 3
       },
       {
-        "heading": "问题解决：$nextTick",
+        "heading": "10.4.2 问题解决：$nextTick",
         "level": 3
+      },
+      {
+        "heading": "11 自定义指令",
+        "level": 1
+      },
+      {
+        "heading": "11.1 基本语法（全局 & 局部注册）",
+        "level": 2
+      },
+      {
+        "heading": "11.1.1 注册自定义指令",
+        "level": 3
+      },
+      {
+        "heading": "全局注册",
+        "level": 4
+      },
+      {
+        "heading": "局部注册",
+        "level": 4
+      },
+      {
+        "heading": "11.1.2 使用自定义指令",
+        "level": 3
+      },
+      {
+        "heading": "11.2 指令的值",
+        "level": 2
+      },
+      {
+        "heading": "11.2.1 语法",
+        "level": 3
+      },
+      {
+        "heading": "11.3 v-focus 指令封装",
+        "level": 2
+      },
+      {
+        "heading": "11.4 v-loading 指令封装",
+        "level": 2
+      },
+      {
+        "heading": "11.3.1 本质",
+        "level": 3
+      },
+      {
+        "heading": "11.3.2 实现",
+        "level": 3
+      },
+      {
+        "heading": "12 插槽",
+        "level": 1
+      },
+      {
+        "heading": "12.1 默认插槽",
+        "level": 2
+      },
+      {
+        "heading": "12.1.1 语法",
+        "level": 3
+      },
+      {
+        "heading": "子组件",
+        "level": 4
+      },
+      {
+        "heading": "父组件",
+        "level": 4
+      },
+      {
+        "heading": "12.1.2 例子",
+        "level": 3
+      },
+      {
+        "heading": "12.2 后备内容",
+        "level": 2
+      },
+      {
+        "heading": "12.3 具名插槽",
+        "level": 2
+      },
+      {
+        "heading": "12.3.1 语法",
+        "level": 3
+      },
+      {
+        "heading": "子组件",
+        "level": 4
+      },
+      {
+        "heading": "父组件",
+        "level": 4
+      },
+      {
+        "heading": "12.3.2 应用",
+        "level": 3
+      },
+      {
+        "heading": "12.4 作用域插槽",
+        "level": 2
+      },
+      {
+        "heading": "12.4.1 场景：封装表格组件",
+        "level": 3
+      },
+      {
+        "heading": "12.4.2 语法",
+        "level": 3
+      },
+      {
+        "heading": "子组件",
+        "level": 4
+      },
+      {
+        "heading": "父组件",
+        "level": 4
+      },
+      {
+        "heading": "12.4.3 应用",
+        "level": 3
+      },
+      {
+        "heading": "13 路由入门",
+        "level": 1
+      },
+      {
+        "heading": "13.1 单页应用程序 SPA - Single Page Application",
+        "level": 2
+      },
+      {
+        "heading": "13.2 路由概念",
+        "level": 2
+      },
+      {
+        "heading": "13.3 VueRouter 的基本使用",
+        "level": 2
+      },
+      {
+        "heading": "13.3.1 作用",
+        "level": 3
+      },
+      {
+        "heading": "13.3.2 使用",
+        "level": 3
+      },
+      {
+        "heading": "1. 下载",
+        "level": 4
+      },
+      {
+        "heading": "2. 引入",
+        "level": 4
+      },
+      {
+        "heading": "3. 安装注册",
+        "level": 4
+      },
+      {
+        "heading": "4. 创建路由对象",
+        "level": 4
+      },
+      {
+        "heading": "5. 注入",
+        "level": 4
+      },
+      {
+        "heading": "6. 创建需要的组件（views目录），配置路由规则",
+        "level": 4
+      },
+      {
+        "heading": "7. 配置导航，配置路由出口（路径匹配的组件显示的位置）",
+        "level": 4
+      },
+      {
+        "heading": "13.4 组件目录存放问题",
+        "level": 2
+      },
+      {
+        "heading": "13.4.1 组件分类",
+        "level": 3
+      },
+      {
+        "heading": "13.4.2 为什么需要分开放",
+        "level": 3
+      },
+      {
+        "heading": "14 路由进阶",
+        "level": 1
+      },
+      {
+        "heading": "14.1 路由模块的封装与抽离",
+        "level": 2
+      },
+      {
+        "heading": "14.2 声明式导航",
+        "level": 2
+      },
+      {
+        "heading": "14.2.1 声明式导航",
+        "level": 3
+      },
+      {
+        "heading": "特点",
+        "level": 4
+      },
+      {
+        "heading": "语法",
+        "level": 4
+      },
+      {
+        "heading": "实现高亮",
+        "level": 4
+      },
+      {
+        "heading": "14.2.2 精确匹配 & 模糊匹配",
+        "level": 3
+      },
+      {
+        "heading": "router-link-active：模糊匹配（更加灵活）",
+        "level": 4
+      },
+      {
+        "heading": "router-link-exact-active：精确匹配",
+        "level": 4
+      },
+      {
+        "heading": "14.2.3 自定义高亮类名",
+        "level": 3
+      },
+      {
+        "heading": "14.2.4 声明式导航传参",
+        "level": 3
+      },
+      {
+        "heading": "查询参数传参",
+        "level": 4
+      },
+      {
+        "heading": "源头页面组件传递参数",
+        "level": 5
+      },
+      {
+        "heading": "目标页面组件获取参数",
+        "level": 5
+      },
+      {
+        "heading": "动态路由传参",
+        "level": 4
+      },
+      {
+        "heading": "配置动态路由",
+        "level": 5
+      },
+      {
+        "heading": "源头页面组件传递参数",
+        "level": 5
+      },
+      {
+        "heading": "目标页面组件获取参数",
+        "level": 5
+      },
+      {
+        "heading": "两种传参方式的区别",
+        "level": 4
+      },
+      {
+        "heading": "查询参数传参",
+        "level": 5
+      },
+      {
+        "heading": "动态路由传参",
+        "level": 5
+      },
+      {
+        "heading": "14.3 路由重定向",
+        "level": 2
+      },
+      {
+        "heading": "14.3.1 路由重定向",
+        "level": 3
+      },
+      {
+        "heading": "定义",
+        "level": 4
+      },
+      {
+        "heading": "语法",
+        "level": 4
+      },
+      {
+        "heading": "14.3.2 路由404",
+        "level": 3
+      },
+      {
+        "heading": "作用",
+        "level": 4
+      },
+      {
+        "heading": "位置",
+        "level": 4
+      },
+      {
+        "heading": "语法",
+        "level": 4
+      },
+      {
+        "heading": "14.3.3 路由模式",
+        "level": 3
+      },
+      {
+        "heading": "14.4 编程式导航",
+        "level": 2
+      },
+      {
+        "heading": "14.4.1 编程式导航",
+        "level": 3
+      },
+      {
+        "heading": "1 path 路径跳转",
+        "level": 4
+      },
+      {
+        "heading": "2 path 路径返回",
+        "level": 4
+      },
+      {
+        "heading": "3 name 命名路由跳转（适合 path 路径长的场景）",
+        "level": 4
+      },
+      {
+        "heading": "3.1 定义路由 name",
+        "level": 5
+      },
+      {
+        "heading": "3.2 根据 name 跳转",
+        "level": 5
+      },
+      {
+        "heading": "14.4.2 编程式导航传参",
+        "level": 3
+      },
+      {
+        "heading": "1 path 路径跳转传参",
+        "level": 4
+      },
+      {
+        "heading": "1.1 查询参数传参",
+        "level": 5
+      },
+      {
+        "heading": "1.1.1 源头组件传递参数",
+        "level": 6
+      },
+      {
+        "heading": "1.1.2 目标组件获取值",
+        "level": 6
+      },
+      {
+        "heading": "1.2 动态路由传参",
+        "level": 5
+      },
+      {
+        "heading": "1.2.1 配置动态路由",
+        "level": 6
+      },
+      {
+        "heading": "1.2.2 源头组件传递参数",
+        "level": 6
+      },
+      {
+        "heading": "1.2.3 目标组件获取值",
+        "level": 6
+      },
+      {
+        "heading": "2 name 命名路由跳转传参",
+        "level": 4
+      },
+      {
+        "heading": "2.1 查询参数传参",
+        "level": 5
+      },
+      {
+        "heading": "2.2 动态路由传参",
+        "level": 5
+      },
+      {
+        "heading": "14.5  组件缓存 keep-alive",
+        "level": 2
+      },
+      {
+        "heading": "14.5.1 为什么需要组件缓存？",
+        "level": 3
+      },
+      {
+        "heading": "14.5.2 定义",
+        "level": 3
+      },
+      {
+        "heading": "14.5.3 优点",
+        "level": 3
+      },
+      {
+        "heading": "14.5.4 用法",
+        "level": 3
+      },
+      {
+        "heading": "14.5.5 keep-alive 三个属性",
+        "level": 3
+      },
+      {
+        "heading": "14.5.6 注意",
+        "level": 3
+      },
+      {
+        "heading": "14.6 二级路由",
+        "level": 2
+      },
+      {
+        "heading": "15 自定义创建项目",
+        "level": 1
+      },
+      {
+        "heading": "15.1 步骤",
+        "level": 2
+      },
+      {
+        "heading": "15.2 生成结果",
+        "level": 2
+      },
+      {
+        "heading": "16 ESLint 代码规范",
+        "level": 2
+      },
+      {
+        "heading": "17 Vuex",
+        "level": 1
+      },
+      {
+        "heading": "17.1 定义",
+        "level": 2
+      },
+      {
+        "heading": "17.2 场景",
+        "level": 2
+      },
+      {
+        "heading": "17.3 为什么需要 Vuex",
+        "level": 2
+      },
+      {
+        "heading": "17.4 使用 Vuex",
+        "level": 2
+      },
+      {
+        "heading": "17.4.1 初始化空仓库",
+        "level": 3
+      },
+      {
+        "heading": "1. 安装 Vuex",
+        "level": 4
+      },
+      {
+        "heading": "2. 新建 Vuex 模块文件",
+        "level": 4
+      },
+      {
+        "heading": "3. 创建仓库",
+        "level": 4
+      },
+      {
+        "heading": "4. `main.js` 导入挂载",
+        "level": 4
+      },
+      {
+        "heading": "17.4.2 核心概念：state（提供数据）",
+        "level": 3
+      },
+      {
+        "heading": "17.4.3 获取数据",
+        "level": 3
+      },
+      {
+        "heading": "`<template>` 中获取数据",
+        "level": 4
+      },
+      {
+        "heading": "`<script>` 中获取数据",
+        "level": 4
+      },
+      {
+        "heading": "js 文件中获取数据",
+        "level": 4
+      },
+      {
+        "heading": "17.4.4 辅助函数：mapState（优化 state）",
+        "level": 3
+      },
+      {
+        "heading": "导入 mapState",
+        "level": 4
+      },
+      {
+        "heading": "数组方式引入 state",
+        "level": 4
+      },
+      {
+        "heading": "将 mapState 中的属性展开放到 computed 中",
+        "level": 4
+      },
+      {
+        "heading": "使用 computed 属性",
+        "level": 4
+      },
+      {
+        "heading": "17.4.5 核心概念：mutations（修改数据）",
+        "level": 3
+      },
+      {
+        "heading": "组件中不允许直接修改仓库数据",
+        "level": 4
+      },
+      {
+        "heading": "语法",
+        "level": 4
+      },
+      {
+        "heading": "1. 定义 mutations 对象，对象中存放修改 state 的方法",
+        "level": 5
+      },
+      {
+        "heading": "2. 组件中提交调用 mutations",
+        "level": 5
+      },
+      {
+        "heading": "17.4.6 辅助函数：mapMutations（优化 mutations）",
+        "level": 3
+      },
+      {
+        "heading": "17.4.7 核心概念：actions（处理异步操作）",
+        "level": 3
+      },
+      {
+        "heading": "定义",
+        "level": 4
+      },
+      {
+        "heading": "语法",
+        "level": 4
+      },
+      {
+        "heading": "1. 提供 actions 方法",
+        "level": 5
+      },
+      {
+        "heading": "2. 调用 actions 方法",
+        "level": 5
+      },
+      {
+        "heading": "17.4.8 辅助函数：mapActions（优化 actions）",
+        "level": 3
+      },
+      {
+        "heading": "17.4.9 核心概念：getters（派生 state）",
+        "level": 3
+      },
+      {
+        "heading": "场景",
+        "level": 4
+      },
+      {
+        "heading": "语法",
+        "level": 4
+      },
+      {
+        "heading": "1. 定义 getters",
+        "level": 5
+      },
+      {
+        "heading": "2. 获取 getters 数据",
+        "level": 5
+      },
+      {
+        "heading": "17.4.10 辅助函数：mapGetters（优化 getters）",
+        "level": 3
+      },
+      {
+        "heading": "17.5 进阶语法：模块 module",
+        "level": 2
+      },
+      {
+        "heading": "17.5.1 为什么需要模块",
+        "level": 3
+      },
+      {
+        "heading": "17.5.2 拆分步骤",
+        "level": 3
+      },
+      {
+        "heading": "1. 创建各自模块的js文件",
+        "level": 4
+      },
+      {
+        "heading": "`src/store/modules/user.js`",
+        "level": 5
+      },
+      {
+        "heading": "`src/store/modules/setting.js`",
+        "level": 5
+      },
+      {
+        "heading": "2. `src/store/index.js` 引入子模块",
+        "level": 4
+      },
+      {
+        "heading": "17.5.3 访问子模块 state",
+        "level": 3
+      },
+      {
+        "heading": "语法一：直接通过模块名访问",
+        "level": 4
+      },
+      {
+        "heading": "语法二：通过 mapState 映射",
+        "level": 4
+      },
+      {
+        "heading": "1. 开启命名空间",
+        "level": 5
+      },
+      {
+        "heading": "2. mapState 映射",
+        "level": 5
+      },
+      {
+        "heading": "3. 获取数据",
+        "level": 5
+      },
+      {
+        "heading": "17.5.4 访问子模块 getters",
+        "level": 3
+      },
+      {
+        "heading": "语法一：直接通过模块名访问",
+        "level": 4
+      },
+      {
+        "heading": "语法二：通过 mapGetters 映射",
+        "level": 4
+      },
+      {
+        "heading": "1. 开启命名空间",
+        "level": 5
+      },
+      {
+        "heading": "2. mapGetters 映射",
+        "level": 5
+      },
+      {
+        "heading": "3. 获取数据",
+        "level": 5
+      },
+      {
+        "heading": "17.5.5 调用子模块 mutations",
+        "level": 3
+      },
+      {
+        "heading": "语法一：直接通过模块名调用",
+        "level": 4
+      },
+      {
+        "heading": "语法二：通过 mapMutations 映射",
+        "level": 4
+      },
+      {
+        "heading": "1. 开启命名空间",
+        "level": 5
+      },
+      {
+        "heading": "2. mapMutations 映射",
+        "level": 5
+      },
+      {
+        "heading": "3. 调用方法",
+        "level": 5
+      },
+      {
+        "heading": "17.5.6 调用子模块 actions",
+        "level": 3
+      },
+      {
+        "heading": "语法一：直接通过模块名调用",
+        "level": 4
+      },
+      {
+        "heading": "语法二：通过 mapActions 映射",
+        "level": 4
+      },
+      {
+        "heading": "1. 开启命名空间",
+        "level": 5
+      },
+      {
+        "heading": "2. mapActions 映射",
+        "level": 5
+      },
+      {
+        "heading": "3. 调用方法",
+        "level": 5
       },
       {
         "heading": "附录",
         "level": 1
       },
       {
-        "heading": "Tab栏切换高亮",
+        "heading": "1 Tab栏切换高亮",
         "level": 2
+      },
+      {
+        "heading": "2 Json-server",
+        "level": 2
+      },
+      {
+        "heading": "2.1 定义",
+        "level": 3
+      },
+      {
+        "heading": "2.2 使用步骤",
+        "level": 3
+      },
+      {
+        "heading": "1. 安装",
+        "level": 4
+      },
+      {
+        "heading": "2. 创建 JSON 文件",
+        "level": 4
+      },
+      {
+        "heading": "3. 启动 JSON 服务器",
+        "level": 4
+      },
+      {
+        "heading": "4. 访问 API 地址，获取得到相应的 JSON",
+        "level": 4
       }
     ],
     "links": [
@@ -6871,10 +7946,6 @@
         "displayText": "v-model 简化代码"
       }
     ]
-  },
-  {
-    "fileName": "前端学习路线",
-    "relativePath": "15. 前端/前端三剑客/前端学习路线.md"
   },
   {
     "fileName": "6. Node.js",
@@ -7271,284 +8342,6 @@
         "relativePath": "15. 前端/前端三剑客/6. Node.js.md",
         "cleanLink": "6. Node.js",
         "displayText": "10.5 优化 - 提取 CSS 代码"
-      }
-    ]
-  },
-  {
-    "fileName": "5. Ajax",
-    "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
-    "headings": [
-      {
-        "heading": "1 Ajax",
-        "level": 1
-      },
-      {
-        "heading": "1.1 什么是 Ajax？",
-        "level": 2
-      },
-      {
-        "heading": "1.1.1 概念",
-        "level": 3
-      },
-      {
-        "heading": "1.1.2 作用",
-        "level": 3
-      },
-      {
-        "heading": "1.2 同步和异步",
-        "level": 2
-      },
-      {
-        "heading": "1.3 XML",
-        "level": 2
-      },
-      {
-        "heading": "2 Axios",
-        "level": 1
-      },
-      {
-        "heading": "2.1 Axios定义",
-        "level": 2
-      },
-      {
-        "heading": "2.2 Axios 文件",
-        "level": 2
-      },
-      {
-        "heading": "2.3 Axios 语法",
-        "level": 2
-      },
-      {
-        "heading": "2.4 无参数调用",
-        "level": 2
-      },
-      {
-        "heading": "2.5 URL参数调用",
-        "level": 2
-      },
-      {
-        "heading": "2.6 携带请求体调用",
-        "level": 2
-      },
-      {
-        "heading": "2.6.1 常用的请求方式",
-        "level": 3
-      },
-      {
-        "heading": "2.6.2 调用语法",
-        "level": 3
-      },
-      {
-        "heading": "2.7 Axios错误请求",
-        "level": 2
-      },
-      {
-        "heading": "2.8 案例-图书管理系统",
-        "level": 2
-      },
-      {
-        "heading": "2.9 图片上传",
-        "level": 2
-      },
-      {
-        "heading": "2.10 Axios 请求/响应拦截器",
-        "level": 2
-      },
-      {
-        "heading": "2.10.1 添加拦截器",
-        "level": 3
-      },
-      {
-        "heading": "2.10.2 移除拦截器",
-        "level": 3
-      },
-      {
-        "heading": "2.10.3 具体应用",
-        "level": 3
-      },
-      {
-        "heading": "携带请求头请求 以及 用户身份验证失败后页面跳转",
-        "level": 4
-      },
-      {
-        "heading": "Axios直接接收服务器返回的响应结果",
-        "level": 4
-      },
-      {
-        "heading": "3 XMLHttpRequest（Ajax 原理）",
-        "level": 1
-      },
-      {
-        "heading": "3.1 使用场景",
-        "level": 2
-      },
-      {
-        "heading": "3.2 使用 XMLHttpRequest",
-        "level": 2
-      },
-      {
-        "heading": "3.3 URL参数调用",
-        "level": 2
-      },
-      {
-        "heading": "3.4 携带请求体调用",
-        "level": 2
-      },
-      {
-        "heading": "4 Promise",
-        "level": 1
-      },
-      {
-        "heading": "4.1 使用 Promise",
-        "level": 2
-      },
-      {
-        "heading": "4.2 Promise 三种状态",
-        "level": 2
-      },
-      {
-        "heading": "4.3 封装简易版 Axios",
-        "level": 2
-      },
-      {
-        "heading": "4.4 回调函数地狱问题",
-        "level": 2
-      },
-      {
-        "heading": "4.4.1 回调函数地狱问题缺点",
-        "level": 3
-      },
-      {
-        "heading": "4.4.2 解决方法",
-        "level": 3
-      },
-      {
-        "heading": "4.5 Promise 链式调用",
-        "level": 2
-      },
-      {
-        "heading": "4.5.1 定义",
-        "level": 3
-      },
-      {
-        "heading": "4.5.2 重构函数地狱问题",
-        "level": 3
-      },
-      {
-        "heading": "4.6 Promise.all 静态方法",
-        "level": 2
-      },
-      {
-        "heading": "4.6.1 概念",
-        "level": 3
-      },
-      {
-        "heading": "4.6.2 语法",
-        "level": 3
-      },
-      {
-        "heading": "4.6.3 应用",
-        "level": 3
-      },
-      {
-        "heading": "5 async 和 await 函数",
-        "level": 1
-      },
-      {
-        "heading": "5.1 async",
-        "level": 2
-      },
-      {
-        "heading": "5.2 await",
-        "level": 2
-      },
-      {
-        "heading": "5.3 语法",
-        "level": 2
-      },
-      {
-        "heading": "5.4 应用",
-        "level": 2
-      },
-      {
-        "heading": "6 事件循环",
-        "level": 1
-      },
-      {
-        "heading": "6.1 概念",
-        "level": 2
-      },
-      {
-        "heading": "6.2 执行顺序例子",
-        "level": 2
-      },
-      {
-        "heading": "6.3 注意",
-        "level": 2
-      },
-      {
-        "heading": "7 宏任务与微任务",
-        "level": 1
-      },
-      {
-        "heading": "7.1 定义",
-        "level": 2
-      },
-      {
-        "heading": "7.2 例子",
-        "level": 2
-      },
-      {
-        "heading": "附件",
-        "level": 1
-      },
-      {
-        "heading": "1 表单元素快速收集插件（`form-serialize` 插件）",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "#3 Ajax 原理 - XMLHttpRequest",
-        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
-        "cleanLink": "5. Ajax",
-        "displayText": "XMLHttpRequest"
-      },
-      {
-        "link": "#3 XMLHttpRequest（Ajax 原理）",
-        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
-        "cleanLink": "5. Ajax",
-        "displayText": "XMLHttpRequest"
-      },
-      {
-        "link": "#4 Promise",
-        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
-        "cleanLink": "5. Ajax",
-        "displayText": "Promise"
-      },
-      {
-        "link": "#4.5 Promise 链式调用",
-        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
-        "cleanLink": "5. Ajax",
-        "displayText": "Promise 链式调用"
-      },
-      {
-        "link": "#4.4 回调函数地狱问题",
-        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
-        "cleanLink": "5. Ajax",
-        "displayText": "回调函数地狱问题"
-      },
-      {
-        "link": "#5 async 和 await 函数",
-        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
-        "cleanLink": "5. Ajax",
-        "displayText": "async 和 await 函数"
-      },
-      {
-        "link": "3. JavaScript#21.3 JS执行机制",
-        "cleanLink": "3. JavaScript",
-        "displayText": "执行机制",
-        "relativePath": "15. 前端/前端三剑客/3. JavaScript.md"
       }
     ]
   },
@@ -9278,204 +10071,280 @@
     ]
   },
   {
-    "fileName": "4. 移动端",
-    "relativePath": "15. 前端/前端三剑客/4. 移动端.md",
+    "fileName": "5. Ajax",
+    "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
     "headings": [
       {
-        "heading": "1. 移动端基础",
+        "heading": "1 Ajax",
         "level": 1
       },
       {
-        "heading": "2. 视口",
+        "heading": "1.1 什么是 Ajax？",
+        "level": 2
+      },
+      {
+        "heading": "1.1.1 概念",
+        "level": 3
+      },
+      {
+        "heading": "1.1.2 作用",
+        "level": 3
+      },
+      {
+        "heading": "1.2 同步和异步",
+        "level": 2
+      },
+      {
+        "heading": "1.3 XML",
+        "level": 2
+      },
+      {
+        "heading": "2 Axios",
         "level": 1
       },
       {
-        "heading": "2.1 布局视口",
+        "heading": "2.1 Axios定义",
         "level": 2
       },
       {
-        "heading": "2.2 视觉视口",
+        "heading": "2.2 Axios 文件",
         "level": 2
       },
       {
-        "heading": "2.3 理想视口",
+        "heading": "2.3 Axios 语法",
         "level": 2
       },
       {
-        "heading": "2.4 meta 视口标签",
+        "heading": "2.4 无参数调用",
         "level": 2
       },
       {
-        "heading": "3. 二倍图",
+        "heading": "2.5 URL参数调用",
+        "level": 2
+      },
+      {
+        "heading": "2.6 携带请求体调用",
+        "level": 2
+      },
+      {
+        "heading": "2.6.1 常用的请求方式",
+        "level": 3
+      },
+      {
+        "heading": "2.6.2 调用语法",
+        "level": 3
+      },
+      {
+        "heading": "2.7 Axios错误请求",
+        "level": 2
+      },
+      {
+        "heading": "2.8 案例-图书管理系统",
+        "level": 2
+      },
+      {
+        "heading": "2.9 图片上传",
+        "level": 2
+      },
+      {
+        "heading": "2.10 Axios 请求/响应拦截器",
+        "level": 2
+      },
+      {
+        "heading": "2.10.1 添加拦截器",
+        "level": 3
+      },
+      {
+        "heading": "2.10.2 移除拦截器",
+        "level": 3
+      },
+      {
+        "heading": "2.10.3 具体应用",
+        "level": 3
+      },
+      {
+        "heading": "携带请求头请求 以及 用户身份验证失败后页面跳转",
+        "level": 4
+      },
+      {
+        "heading": "Axios直接接收服务器返回的响应结果",
+        "level": 4
+      },
+      {
+        "heading": "3 XMLHttpRequest（Ajax 原理）",
         "level": 1
       },
       {
-        "heading": "3.1 物理像素 & 物理像素比",
+        "heading": "3.1 使用场景",
         "level": 2
       },
       {
-        "heading": "3.2 多倍图",
+        "heading": "3.2 使用 XMLHttpRequest",
         "level": 2
       },
       {
-        "heading": "3.3 背景缩放 background-size",
+        "heading": "3.3 URL参数调用",
         "level": 2
       },
       {
-        "heading": "4. 移动端开发选择",
+        "heading": "3.4 携带请求体调用",
+        "level": 2
+      },
+      {
+        "heading": "4 Promise",
         "level": 1
       },
       {
-        "heading": "4.1 单独制作移动端页面（主流）",
+        "heading": "4.1 使用 Promise",
         "level": 2
       },
       {
-        "heading": "4.2 响应式页面兼容移动端（其次）",
+        "heading": "4.2 Promise 三种状态",
         "level": 2
       },
       {
-        "heading": "5. 移动端技术解决方案",
+        "heading": "4.3 封装简易版 Axios",
+        "level": 2
+      },
+      {
+        "heading": "4.4 回调函数地狱问题",
+        "level": 2
+      },
+      {
+        "heading": "4.4.1 回调函数地狱问题缺点",
+        "level": 3
+      },
+      {
+        "heading": "4.4.2 解决方法",
+        "level": 3
+      },
+      {
+        "heading": "4.5 Promise 链式调用",
+        "level": 2
+      },
+      {
+        "heading": "4.5.1 定义",
+        "level": 3
+      },
+      {
+        "heading": "4.5.2 重构函数地狱问题",
+        "level": 3
+      },
+      {
+        "heading": "4.6 Promise.all 静态方法",
+        "level": 2
+      },
+      {
+        "heading": "4.6.1 概念",
+        "level": 3
+      },
+      {
+        "heading": "4.6.2 语法",
+        "level": 3
+      },
+      {
+        "heading": "4.6.3 应用",
+        "level": 3
+      },
+      {
+        "heading": "5 async 和 await 函数",
         "level": 1
       },
       {
-        "heading": "5.1 移动端浏览器",
+        "heading": "5.1 async",
         "level": 2
       },
       {
-        "heading": "5.2 CSS 初始化",
+        "heading": "5.2 await",
         "level": 2
       },
       {
-        "heading": "5.3 特殊样式",
+        "heading": "5.3 语法",
         "level": 2
       },
       {
-        "heading": "6. 移动端常见的布局",
+        "heading": "5.4 应用",
+        "level": 2
+      },
+      {
+        "heading": "6 事件循环",
         "level": 1
       },
       {
-        "heading": "6.1 流式布局（百分比布局）",
+        "heading": "6.1 概念",
         "level": 2
       },
       {
-        "heading": "6.2 flex 布局",
+        "heading": "6.2 执行顺序例子",
         "level": 2
       },
       {
-        "heading": "6.2.1 传统布局与flex布局",
-        "level": 3
-      },
-      {
-        "heading": "6.2.2 初体验",
-        "level": 3
-      },
-      {
-        "heading": "6.2.2 flex布局原理",
-        "level": 3
-      },
-      {
-        "heading": "6.2.3 flex 布局父项常见属性",
-        "level": 3
-      },
-      {
-        "heading": "6.2.3.1 flex-direction：设置主轴的方向",
-        "level": 4
-      },
-      {
-        "heading": "6.2.3.2 justify-content：设置**主轴**上的子元素排列方式",
-        "level": 4
-      },
-      {
-        "heading": "6.2.3.3 flex-wrap：设置子元素是否换行",
-        "level": 4
-      },
-      {
-        "heading": "6.2.3.4 align-items 设置**侧轴**上的子元素排列方式 **（单行）**",
-        "level": 4
-      },
-      {
-        "heading": "6.2.3.5 align-content 设置**侧轴**上的子元素的排列方式 **（多行)**",
-        "level": 4
-      },
-      {
-        "heading": "6.2.3.6 align-content 和 align-items 区别",
-        "level": 4
-      },
-      {
-        "heading": "6.2.3.7 flex-flow",
-        "level": 4
-      },
-      {
-        "heading": "6.2.4 flex 布局子项常见属性",
-        "level": 3
-      },
-      {
-        "heading": "6.2.4.1 flex 属性",
-        "level": 4
-      },
-      {
-        "heading": "6.2.4.2 align-self 属性",
-        "level": 4
-      },
-      {
-        "heading": "6.2.4.3 order 属性",
-        "level": 4
-      },
-      {
-        "heading": "6.2.4 携程案例",
-        "level": 3
-      },
-      {
-        "heading": "6.3 rem 适配布局",
+        "heading": "6.3 注意",
         "level": 2
       },
       {
-        "heading": "6.3.1 rem 基础",
-        "level": 3
+        "heading": "7 宏任务与微任务",
+        "level": 1
       },
       {
-        "heading": "6.3.2 媒体查询",
-        "level": 3
+        "heading": "7.1 定义",
+        "level": 2
       },
       {
-        "heading": "6.3.2.1 什么是媒体查询",
-        "level": 4
+        "heading": "7.2 例子",
+        "level": 2
       },
       {
-        "heading": "6.3.2.2 语法规范",
-        "level": 4
+        "heading": "附件",
+        "level": 1
       },
       {
-        "heading": "6.3.2.3 案例-修改背景颜色",
-        "level": 4
+        "heading": "1 表单元素快速收集插件（`form-serialize` 插件）",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "#3 Ajax 原理 - XMLHttpRequest",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "XMLHttpRequest"
       },
       {
-        "heading": "6.3.2.4 媒体查询+rem实现动态元素大小变化",
-        "level": 4
+        "link": "#3 XMLHttpRequest（Ajax 原理）",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "XMLHttpRequest"
       },
       {
-        "heading": "6.3.3 引入资源",
-        "level": 3
+        "link": "#4 Promise",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "Promise"
       },
       {
-        "heading": "6.3.4 rem 适配方案",
-        "level": 3
+        "link": "#4.5 Promise 链式调用",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "Promise 链式调用"
       },
       {
-        "heading": "6.3.4.1 rem 实际开发适配方案",
-        "level": 4
+        "link": "#4.4 回调函数地狱问题",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "回调函数地狱问题"
       },
       {
-        "heading": "6.3.4.2 rem 适配方案技术使用（市场主流）",
-        "level": 4
+        "link": "#5 async 和 await 函数",
+        "relativePath": "15. 前端/前端三剑客/5. Ajax.md",
+        "cleanLink": "5. Ajax",
+        "displayText": "async 和 await 函数"
       },
       {
-        "heading": "6.3.4.3 rem 适配方案1",
-        "level": 4
-      },
-      {
-        "heading": "6.3.4.4 rem 适配方案2（官方github显示已废弃，推荐使用vw）",
-        "level": 4
+        "link": "3. JavaScript#21.3 JS执行机制",
+        "cleanLink": "3. JavaScript",
+        "displayText": "执行机制",
+        "relativePath": "15. 前端/前端三剑客/3. JavaScript.md"
       }
     ]
   },
@@ -10934,181 +11803,6 @@
       {
         "heading": "下游服务使用相同 traceId",
         "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "Zabbix",
-    "relativePath": "12. 分布式监控/Zabbix.md",
-    "tags": [
-      "todo"
-    ]
-  },
-  {
-    "fileName": "Maven手动导入依赖包",
-    "relativePath": "11. Maven/Maven手动导入依赖包.md"
-  },
-  {
-    "fileName": "责任链模式",
-    "relativePath": "10. 设计模式/责任链模式.md",
-    "headings": [
-      {
-        "heading": "业务场景",
-        "level": 1
-      },
-      {
-        "heading": "一般写法",
-        "level": 1
-      },
-      {
-        "heading": "使用责任链模式定义",
-        "level": 1
-      },
-      {
-        "heading": "采用责任链模式",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "设计模式",
-        "link": "责任链模式",
-        "relativePath": "7. 面试题/设计模式.md"
-      }
-    ]
-  },
-  {
-    "fileName": "观察者模式",
-    "relativePath": "10. 设计模式/观察者模式.md",
-    "headings": [
-      {
-        "heading": "业务场景",
-        "level": 1
-      },
-      {
-        "heading": "观察者模式定义",
-        "level": 1
-      },
-      {
-        "heading": "使用观察者模式",
-        "level": 1
-      },
-      {
-        "heading": "简易的观察者模式DEMO",
-        "level": 1
-      },
-      {
-        "heading": "EventBus 实战",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "设计模式",
-        "link": "观察者模式",
-        "relativePath": "7. 面试题/设计模式.md"
-      }
-    ]
-  },
-  {
-    "fileName": "策略模式",
-    "relativePath": "10. 设计模式/策略模式.md",
-    "headings": [
-      {
-        "heading": "业务场景",
-        "level": 1
-      },
-      {
-        "heading": "普通写法",
-        "level": 1
-      },
-      {
-        "heading": "采用策略模式",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "设计模式",
-        "link": "策略模式",
-        "relativePath": "7. 面试题/设计模式.md"
-      }
-    ]
-  },
-  {
-    "fileName": "模版模式",
-    "relativePath": "10. 设计模式/模版模式.md",
-    "headings": [
-      {
-        "heading": "业务场景",
-        "level": 1
-      },
-      {
-        "heading": "普通写法",
-        "level": 1
-      },
-      {
-        "heading": "使用模版模式",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "设计模式",
-        "link": "模版模式",
-        "relativePath": "7. 面试题/设计模式.md"
-      }
-    ]
-  },
-  {
-    "fileName": "工厂模式",
-    "relativePath": "10. 设计模式/工厂模式.md",
-    "backlinks": [
-      {
-        "fileName": "设计模式",
-        "link": "工厂模式",
-        "relativePath": "7. 面试题/设计模式.md"
-      }
-    ]
-  },
-  {
-    "fileName": "单例模式",
-    "relativePath": "10. 设计模式/单例模式.md",
-    "headings": [
-      {
-        "heading": "业务场景",
-        "level": 1
-      },
-      {
-        "heading": "单例模式的经典写法",
-        "level": 1
-      },
-      {
-        "heading": "1.懒汉模式",
-        "level": 2
-      },
-      {
-        "heading": "2. 饿汉模式",
-        "level": 2
-      },
-      {
-        "heading": "3. 双重校验锁",
-        "level": 2
-      },
-      {
-        "heading": "4. 静态内部类",
-        "level": 2
-      },
-      {
-        "heading": "5. 枚举",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "设计模式",
-        "link": "单例模式",
-        "relativePath": "7. 面试题/设计模式.md"
       }
     ]
   },

@@ -5,9 +5,9 @@
     "relativePaths": [
       "8. MQ/RocketMQ.md",
       "8. MQ/Kafka.md",
+      "12. 分布式监控/Zabbix.md",
       "14. 分布式文件存储系统/Hadoop.md",
-      "14. 分布式文件存储系统/FastDFS.md",
-      "12. 分布式监控/Zabbix.md"
+      "14. 分布式文件存储系统/FastDFS.md"
     ]
   },
   {

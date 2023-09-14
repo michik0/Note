@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. 多线程/JUC.md",
+                "file": "15. 前端/前端三剑客/7. Vue.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "enter",
+                "query": "find",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. 多线程/JUC.md",
+                "file": "15. 前端/前端三剑客/7. Vue.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. 多线程/JUC.md",
+                "file": "15. 前端/前端三剑客/7. Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. 多线程/JUC.md"
+                "file": "15. 前端/前端三剑客/7. Vue.md"
               }
             }
           },
@@ -153,14 +153,23 @@
               "type": "reminder-list",
               "state": {}
             }
+          },
+          {
+            "id": "344ba9ca1544dcb6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 336.5,
-    "collapsed": true
+    "width": 451.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,15 +185,18 @@
   },
   "active": "81f61f2f049427fa",
   "lastOpenFiles": [
+    "15. 前端/前端三剑客/3. JavaScript.md",
+    "15. 前端/前端三剑客/2. CSS.md",
     "15. 前端/前端三剑客/7. Vue.md",
-    "未命名.md",
+    "4. Redis/Redis.md",
+    "3. 多线程/JUC.md",
     "单向数据流.md",
+    "README.md",
+    "未命名.md",
     "6. 轮子/IDEA 快捷键.md",
     "15. 前端/前端三剑客/6. Node.js.md",
     "15. 前端/前端三剑客/4. 移动端.md",
-    "15. 前端/前端三剑客/3. JavaScript.md",
     "15. 前端/前端三剑客/前端学习路线.md",
-    "15. 前端/前端三剑客/2. CSS.md",
     "webpack.config 1.js",
     "webpack.config.js",
     "Excalidraw/Drawing 2023-09-02 16.26.38.excalidraw.md",
@@ -192,14 +204,11 @@
     "Excalidraw",
     "15. 前端/前端三剑客/1. HTML.md",
     "15. 前端/前端三剑客/5. Ajax.md",
-    "README.md",
     "2. Spring/Spring Security.md",
     "1. SQL/MySQL.md",
     "7. 面试题/MySQL.md",
-    "4. Redis/Redis.md",
     "7. 面试题/Redis.md",
     "11. Maven/Maven手动导入依赖包.md",
-    "3. 多线程/JUC.md",
     "8. MQ/RabbitMQ.md",
     "7. 面试题/【面经】.md",
     "7. 面试题/Java.md",

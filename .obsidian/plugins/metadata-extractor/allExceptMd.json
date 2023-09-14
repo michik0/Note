@@ -9,18 +9,6 @@
       "relativePath": "1. SQL"
     },
     {
-      "name": "10. 设计模式",
-      "relativePath": "10. 设计模式"
-    },
-    {
-      "name": "11. Maven",
-      "relativePath": "11. Maven"
-    },
-    {
-      "name": "12. 分布式监控",
-      "relativePath": "12. 分布式监控"
-    },
-    {
       "name": "13. 分布式全流程日志追踪",
       "relativePath": "13. 分布式全流程日志追踪"
     },
@@ -33,8 +21,12 @@
       "relativePath": "15. 前端"
     },
     {
-      "name": "2. Spring",
-      "relativePath": "2. Spring"
+      "name": "10. 设计模式",
+      "relativePath": "10. 设计模式"
+    },
+    {
+      "name": "12. 分布式监控",
+      "relativePath": "12. 分布式监控"
     },
     {
       "name": "3. 多线程",
@@ -45,12 +37,16 @@
       "relativePath": "4. Redis"
     },
     {
-      "name": "5. 分布式事务",
-      "relativePath": "5. 分布式事务"
+      "name": "2. Spring",
+      "relativePath": "2. Spring"
     },
     {
-      "name": "6. 轮子",
-      "relativePath": "6. 轮子"
+      "name": "11. Maven",
+      "relativePath": "11. Maven"
+    },
+    {
+      "name": "5. 分布式事务",
+      "relativePath": "5. 分布式事务"
     },
     {
       "name": "7. 面试题",
@@ -59,6 +55,10 @@
     {
       "name": "8. MQ",
       "relativePath": "8. MQ"
+    },
+    {
+      "name": "6. 轮子",
+      "relativePath": "6. 轮子"
     },
     {
       "name": "9. RUOYI",
@@ -108,11 +108,6 @@
       "relativePath": "CNAME"
     },
     {
-      "name": "Obsidian_Note.iml",
-      "basename": "Obsidian_Note",
-      "relativePath": "Obsidian_Note.iml"
-    },
-    {
       "name": "WebSocketConfig.java",
       "basename": "WebSocketConfig",
       "relativePath": "WebSocketConfig.java"
@@ -123,14 +118,14 @@
       "relativePath": "WebSocketSchedule.java"
     },
     {
-      "name": "generatorConfig 1.xml",
-      "basename": "generatorConfig 1",
-      "relativePath": "generatorConfig 1.xml"
-    },
-    {
       "name": "generatorConfig.xml",
       "basename": "generatorConfig",
       "relativePath": "generatorConfig.xml"
+    },
+    {
+      "name": "generatorConfig 1.xml",
+      "basename": "generatorConfig 1",
+      "relativePath": "generatorConfig 1.xml"
     },
     {
       "name": "index.html",
@@ -138,14 +133,19 @@
       "relativePath": "index.html"
     },
     {
+      "name": "webpack.config 1.js",
+      "basename": "webpack.config 1",
+      "relativePath": "webpack.config 1.js"
+    },
+    {
       "name": "webpack.config.js",
       "basename": "webpack.config",
       "relativePath": "webpack.config.js"
     },
     {
-      "name": "webpack.config 1.js",
-      "basename": "webpack.config 1",
-      "relativePath": "webpack.config 1.js"
+      "name": "Obsidian_Note.iml",
+      "basename": "Obsidian_Note",
+      "relativePath": "Obsidian_Note.iml"
     }
   ]
 }
