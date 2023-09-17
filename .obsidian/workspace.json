@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e6fef93256e8831f",
+        "id": "769cefe7db7d751e",
         "type": "tabs",
         "children": [
           {
-            "id": "81f61f2f049427fa",
+            "id": "6e7a5417967ce086",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "find",
+                "query": "v-model",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,7 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 451.5
+    "width": 530.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,11 +183,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "81f61f2f049427fa",
+  "active": "6e7a5417967ce086",
   "lastOpenFiles": [
-    "15. 前端/前端三剑客/3. JavaScript.md",
-    "15. 前端/前端三剑客/2. CSS.md",
+    "vue.config.js",
+    "15. 前端/前端三剑客/前端学习路线.md",
     "15. 前端/前端三剑客/7. Vue.md",
+    "15. 前端/前端三剑客/4. 移动端.md",
+    "15. 前端/前端三剑客/3. JavaScript.md",
+    "15. 前端/前端三剑客/5. Ajax.md",
+    "1. SQL/MySQL.md",
+    "15. 前端/前端三剑客/2. CSS.md",
     "4. Redis/Redis.md",
     "3. 多线程/JUC.md",
     "单向数据流.md",
@@ -195,17 +200,13 @@
     "未命名.md",
     "6. 轮子/IDEA 快捷键.md",
     "15. 前端/前端三剑客/6. Node.js.md",
-    "15. 前端/前端三剑客/4. 移动端.md",
-    "15. 前端/前端三剑客/前端学习路线.md",
     "webpack.config 1.js",
     "webpack.config.js",
     "Excalidraw/Drawing 2023-09-02 16.26.38.excalidraw.md",
     "6. 轮子/EasyExcel.md",
     "Excalidraw",
     "15. 前端/前端三剑客/1. HTML.md",
-    "15. 前端/前端三剑客/5. Ajax.md",
     "2. Spring/Spring Security.md",
-    "1. SQL/MySQL.md",
     "7. 面试题/MySQL.md",
     "7. 面试题/Redis.md",
     "11. Maven/Maven手动导入依赖包.md",
@@ -220,7 +221,6 @@
     "vendor/themes",
     "vendor/docsify.js",
     "vendor",
-    "13. 分布式全流程日志追踪/MDC.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "未命名 3.canvas",

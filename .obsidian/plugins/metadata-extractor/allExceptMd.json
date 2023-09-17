@@ -146,6 +146,11 @@
       "name": "Obsidian_Note.iml",
       "basename": "Obsidian_Note",
       "relativePath": "Obsidian_Note.iml"
+    },
+    {
+      "name": "vue.config.js",
+      "basename": "vue.config",
+      "relativePath": "vue.config.js"
     }
   ]
 }
