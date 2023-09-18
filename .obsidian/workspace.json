@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "ada52ccfb4d337aa",
@@ -169,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 530.5
+    "width": 403.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,6 +186,8 @@
   },
   "active": "6e7a5417967ce086",
   "lastOpenFiles": [
+    "vite.config 1.js",
+    "vite.config.js",
     "vue.config.js",
     "15. 前端/前端三剑客/前端学习路线.md",
     "15. 前端/前端三剑客/7. Vue.md",
@@ -219,8 +222,6 @@
     "index.html",
     "vendor/themes/vue.css",
     "vendor/themes",
-    "vendor/docsify.js",
-    "vendor",
     "未命名 1.canvas",
     "未命名.canvas",
     "未命名 3.canvas",

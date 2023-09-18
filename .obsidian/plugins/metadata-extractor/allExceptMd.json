@@ -151,6 +151,16 @@
       "name": "vue.config.js",
       "basename": "vue.config",
       "relativePath": "vue.config.js"
+    },
+    {
+      "name": "vite.config.js",
+      "basename": "vite.config",
+      "relativePath": "vite.config.js"
+    },
+    {
+      "name": "vite.config 1.js",
+      "basename": "vite.config 1",
+      "relativePath": "vite.config 1.js"
     }
   ]
 }
