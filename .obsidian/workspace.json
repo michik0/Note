@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,16 +183,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "43bb4e85c5531d5f",
+  "active": "6e7a5417967ce086",
   "lastOpenFiles": [
-    "15. 前端/前端三剑客/6. Node.js.md",
+    "未命名.canvas",
     "15. 前端/前端三剑客/5. Ajax.md",
+    "15. 前端/前端三剑客/6. Node.js.md",
     "15. 前端/前端三剑客/7. Vue.md",
     "15. 前端/前端三剑客/2. CSS.md",
     "15. 前端/前端三剑客/3. JavaScript.md",
     "15. 前端/前端三剑客/4. 移动端.md",
     "vite.config 2.js",
-    "未命名.canvas",
     "vite.config 1.js",
     "vite.config.js",
     "vue.config.js",
