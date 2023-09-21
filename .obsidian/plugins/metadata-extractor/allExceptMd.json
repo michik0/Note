@@ -9,24 +9,20 @@
       "relativePath": "1. SQL"
     },
     {
-      "name": "13. 分布式全流程日志追踪",
-      "relativePath": "13. 分布式全流程日志追踪"
+      "name": "10. 设计模式",
+      "relativePath": "10. 设计模式"
     },
     {
       "name": "14. 分布式文件存储系统",
       "relativePath": "14. 分布式文件存储系统"
     },
     {
-      "name": "15. 前端",
-      "relativePath": "15. 前端"
-    },
-    {
-      "name": "10. 设计模式",
-      "relativePath": "10. 设计模式"
-    },
-    {
       "name": "12. 分布式监控",
       "relativePath": "12. 分布式监控"
+    },
+    {
+      "name": "13. 分布式全流程日志追踪",
+      "relativePath": "13. 分布式全流程日志追踪"
     },
     {
       "name": "3. 多线程",
@@ -37,6 +33,14 @@
       "relativePath": "4. Redis"
     },
     {
+      "name": "5. 分布式事务",
+      "relativePath": "5. 分布式事务"
+    },
+    {
+      "name": "6. 轮子",
+      "relativePath": "6. 轮子"
+    },
+    {
       "name": "2. Spring",
       "relativePath": "2. Spring"
     },
@@ -45,28 +49,20 @@
       "relativePath": "11. Maven"
     },
     {
-      "name": "5. 分布式事务",
-      "relativePath": "5. 分布式事务"
-    },
-    {
-      "name": "7. 面试题",
-      "relativePath": "7. 面试题"
-    },
-    {
       "name": "8. MQ",
       "relativePath": "8. MQ"
-    },
-    {
-      "name": "6. 轮子",
-      "relativePath": "6. 轮子"
     },
     {
       "name": "9. RUOYI",
       "relativePath": "9. RUOYI"
     },
     {
-      "name": "前端三剑客",
-      "relativePath": "15. 前端/前端三剑客"
+      "name": "7. 面试题",
+      "relativePath": "7. 面试题"
+    },
+    {
+      "name": "15. 前端",
+      "relativePath": "15. 前端"
     },
     {
       "name": "异常处理类",
@@ -99,14 +95,13 @@
     {
       "name": "其他",
       "relativePath": "6. 轮子/其他"
+    },
+    {
+      "name": "前端三剑客",
+      "relativePath": "15. 前端/前端三剑客"
     }
   ],
   "nonMdFiles": [
-    {
-      "name": "CNAME",
-      "basename": "CNAME",
-      "relativePath": "CNAME"
-    },
     {
       "name": "WebSocketConfig.java",
       "basename": "WebSocketConfig",
@@ -118,29 +113,19 @@
       "relativePath": "WebSocketSchedule.java"
     },
     {
-      "name": "generatorConfig.xml",
-      "basename": "generatorConfig",
-      "relativePath": "generatorConfig.xml"
-    },
-    {
       "name": "generatorConfig 1.xml",
       "basename": "generatorConfig 1",
       "relativePath": "generatorConfig 1.xml"
     },
     {
-      "name": "index.html",
-      "basename": "index",
-      "relativePath": "index.html"
+      "name": "generatorConfig.xml",
+      "basename": "generatorConfig",
+      "relativePath": "generatorConfig.xml"
     },
     {
-      "name": "webpack.config 1.js",
-      "basename": "webpack.config 1",
-      "relativePath": "webpack.config 1.js"
-    },
-    {
-      "name": "webpack.config.js",
-      "basename": "webpack.config",
-      "relativePath": "webpack.config.js"
+      "name": "CNAME",
+      "basename": "CNAME",
+      "relativePath": "CNAME"
     },
     {
       "name": "Obsidian_Note.iml",
@@ -148,9 +133,14 @@
       "relativePath": "Obsidian_Note.iml"
     },
     {
-      "name": "vue.config.js",
-      "basename": "vue.config",
-      "relativePath": "vue.config.js"
+      "name": "index.html",
+      "basename": "index",
+      "relativePath": "index.html"
+    },
+    {
+      "name": "vite.config 1.js",
+      "basename": "vite.config 1",
+      "relativePath": "vite.config 1.js"
     },
     {
       "name": "vite.config.js",
@@ -158,9 +148,29 @@
       "relativePath": "vite.config.js"
     },
     {
-      "name": "vite.config 1.js",
-      "basename": "vite.config 1",
-      "relativePath": "vite.config 1.js"
+      "name": "vite.config 2.js",
+      "basename": "vite.config 2",
+      "relativePath": "vite.config 2.js"
+    },
+    {
+      "name": "webpack.config.js",
+      "basename": "webpack.config",
+      "relativePath": "webpack.config.js"
+    },
+    {
+      "name": "未命名.canvas",
+      "basename": "未命名",
+      "relativePath": "未命名.canvas"
+    },
+    {
+      "name": "webpack.config 1.js",
+      "basename": "webpack.config 1",
+      "relativePath": "webpack.config 1.js"
+    },
+    {
+      "name": "vue.config.js",
+      "basename": "vue.config",
+      "relativePath": "vue.config.js"
     }
   ]
 }

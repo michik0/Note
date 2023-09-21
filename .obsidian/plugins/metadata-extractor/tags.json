@@ -1,13 +1,30 @@
 [
   {
-    "tag": "todo",
-    "tagCount": 5,
+    "tag": "mq",
+    "tagCount": 1,
     "relativePaths": [
-      "8. MQ/RocketMQ.md",
-      "8. MQ/Kafka.md",
-      "12. 分布式监控/Zabbix.md",
-      "14. 分布式文件存储系统/Hadoop.md",
-      "14. 分布式文件存储系统/FastDFS.md"
+      "7. 面试题/MQ消息队列.md"
+    ]
+  },
+  {
+    "tag": "消息队列",
+    "tagCount": 1,
+    "relativePaths": [
+      "7. 面试题/MQ消息队列.md"
+    ]
+  },
+  {
+    "tag": "面试题",
+    "tagCount": 8,
+    "relativePaths": [
+      "7. 面试题/MQ消息队列.md",
+      "7. 面试题/设计模式.md",
+      "7. 面试题/网络编程.md",
+      "7. 面试题/数据结构.md",
+      "7. 面试题/Spring.md",
+      "7. 面试题/Redis.md",
+      "7. 面试题/Linux.md",
+      "7. 面试题/Java.md"
     ]
   },
   {
@@ -15,20 +32,6 @@
     "tagCount": 1,
     "relativePaths": [
       "7. 面试题/设计模式.md"
-    ]
-  },
-  {
-    "tag": "面试题",
-    "tagCount": 8,
-    "relativePaths": [
-      "7. 面试题/设计模式.md",
-      "7. 面试题/网络编程.md",
-      "7. 面试题/数据结构.md",
-      "7. 面试题/Spring.md",
-      "7. 面试题/Redis.md",
-      "7. 面试题/MQ消息队列.md",
-      "7. 面试题/Linux.md",
-      "7. 面试题/Java.md"
     ]
   },
   {
@@ -61,20 +64,6 @@
     ]
   },
   {
-    "tag": "mq",
-    "tagCount": 1,
-    "relativePaths": [
-      "7. 面试题/MQ消息队列.md"
-    ]
-  },
-  {
-    "tag": "消息队列",
-    "tagCount": 1,
-    "relativePaths": [
-      "7. 面试题/MQ消息队列.md"
-    ]
-  },
-  {
     "tag": "linux",
     "tagCount": 1,
     "relativePaths": [
@@ -86,6 +75,17 @@
     "tagCount": 1,
     "relativePaths": [
       "7. 面试题/Java.md"
+    ]
+  },
+  {
+    "tag": "todo",
+    "tagCount": 5,
+    "relativePaths": [
+      "8. MQ/RocketMQ.md",
+      "8. MQ/Kafka.md",
+      "12. 分布式监控/Zabbix.md",
+      "14. 分布式文件存储系统/Hadoop.md",
+      "14. 分布式文件存储系统/FastDFS.md"
     ]
   },
   {

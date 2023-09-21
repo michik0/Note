@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15. 前端/前端三剑客/7. Vue.md",
+                "file": "15. 前端/前端三剑客/5. Ajax.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "v-model",
+                "query": "new Formdata",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "ada52ccfb4d337aa",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "15. 前端/前端三剑客/7. Vue.md",
+                "file": "15. 前端/前端三剑客/5. Ajax.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "15. 前端/前端三剑客/7. Vue.md",
+                "file": "15. 前端/前端三剑客/5. Ajax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15. 前端/前端三剑客/7. Vue.md"
+                "file": "15. 前端/前端三剑客/5. Ajax.md"
               }
             }
           },
@@ -174,35 +174,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true,
       "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "graph:查看关系图谱": true,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "6e7a5417967ce086",
+  "active": "43bb4e85c5531d5f",
   "lastOpenFiles": [
+    "15. 前端/前端三剑客/6. Node.js.md",
+    "15. 前端/前端三剑客/5. Ajax.md",
+    "15. 前端/前端三剑客/7. Vue.md",
+    "15. 前端/前端三剑客/2. CSS.md",
+    "15. 前端/前端三剑客/3. JavaScript.md",
+    "15. 前端/前端三剑客/4. 移动端.md",
+    "vite.config 2.js",
+    "未命名.canvas",
     "vite.config 1.js",
     "vite.config.js",
     "vue.config.js",
     "15. 前端/前端三剑客/前端学习路线.md",
-    "15. 前端/前端三剑客/7. Vue.md",
-    "15. 前端/前端三剑客/4. 移动端.md",
-    "15. 前端/前端三剑客/3. JavaScript.md",
-    "15. 前端/前端三剑客/5. Ajax.md",
     "1. SQL/MySQL.md",
-    "15. 前端/前端三剑客/2. CSS.md",
     "4. Redis/Redis.md",
     "3. 多线程/JUC.md",
     "单向数据流.md",
     "README.md",
     "未命名.md",
     "6. 轮子/IDEA 快捷键.md",
-    "15. 前端/前端三剑客/6. Node.js.md",
     "webpack.config 1.js",
     "webpack.config.js",
     "Excalidraw/Drawing 2023-09-02 16.26.38.excalidraw.md",
@@ -220,10 +222,7 @@
     "CNAME",
     "14. 分布式文件存储系统/FastDFS.md",
     "index.html",
-    "vendor/themes/vue.css",
-    "vendor/themes",
     "未命名 1.canvas",
-    "未命名.canvas",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 4.canvas"
