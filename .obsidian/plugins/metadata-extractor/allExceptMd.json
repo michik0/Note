@@ -95,10 +95,6 @@
     {
       "name": "其他",
       "relativePath": "6. 轮子/其他"
-    },
-    {
-      "name": "前端三剑客",
-      "relativePath": "15. 前端/前端三剑客"
     }
   ],
   "nonMdFiles": [
@@ -136,41 +132,6 @@
       "name": "index.html",
       "basename": "index",
       "relativePath": "index.html"
-    },
-    {
-      "name": "vite.config 1.js",
-      "basename": "vite.config 1",
-      "relativePath": "vite.config 1.js"
-    },
-    {
-      "name": "vite.config.js",
-      "basename": "vite.config",
-      "relativePath": "vite.config.js"
-    },
-    {
-      "name": "vite.config 2.js",
-      "basename": "vite.config 2",
-      "relativePath": "vite.config 2.js"
-    },
-    {
-      "name": "webpack.config.js",
-      "basename": "webpack.config",
-      "relativePath": "webpack.config.js"
-    },
-    {
-      "name": "未命名.canvas",
-      "basename": "未命名",
-      "relativePath": "未命名.canvas"
-    },
-    {
-      "name": "webpack.config 1.js",
-      "basename": "webpack.config 1",
-      "relativePath": "webpack.config 1.js"
-    },
-    {
-      "name": "vue.config.js",
-      "basename": "vue.config",
-      "relativePath": "vue.config.js"
     }
   ]
 }

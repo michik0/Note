@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15. 前端/前端三剑客/5. Ajax.md",
+                "file": "15. 前端/8. TypeScript.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "new Formdata",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,11 +74,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "ada52ccfb4d337aa",
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "15. 前端/前端三剑客/5. Ajax.md",
+                "file": "15. 前端/8. TypeScript.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "15. 前端/前端三剑客/5. Ajax.md",
+                "file": "15. 前端/8. TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15. 前端/前端三剑客/5. Ajax.md"
+                "file": "15. 前端/8. TypeScript.md"
               }
             }
           },
@@ -169,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403.5
+    "width": 294.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,18 +188,20 @@
   },
   "active": "6e7a5417967ce086",
   "lastOpenFiles": [
+    "15. 前端/3. JavaScript.md",
+    "15. 前端/8. TypeScript.md",
+    "15. 前端/1. HTML.md",
+    "15. 前端/2. CSS.md",
+    "15. 前端/5. Ajax.md",
+    "15. 前端/7. Vue.md",
     "未命名.canvas",
-    "15. 前端/前端三剑客/5. Ajax.md",
-    "15. 前端/前端三剑客/6. Node.js.md",
-    "15. 前端/前端三剑客/7. Vue.md",
-    "15. 前端/前端三剑客/2. CSS.md",
-    "15. 前端/前端三剑客/3. JavaScript.md",
-    "15. 前端/前端三剑客/4. 移动端.md",
+    "15. 前端/6. Node.js.md",
+    "15. 前端/4. 移动端.md",
     "vite.config 2.js",
     "vite.config 1.js",
     "vite.config.js",
     "vue.config.js",
-    "15. 前端/前端三剑客/前端学习路线.md",
+    "15. 前端/前端学习路线.md",
     "1. SQL/MySQL.md",
     "4. Redis/Redis.md",
     "3. 多线程/JUC.md",
@@ -209,7 +214,6 @@
     "Excalidraw/Drawing 2023-09-02 16.26.38.excalidraw.md",
     "6. 轮子/EasyExcel.md",
     "Excalidraw",
-    "15. 前端/前端三剑客/1. HTML.md",
     "2. Spring/Spring Security.md",
     "7. 面试题/MySQL.md",
     "7. 面试题/Redis.md",
